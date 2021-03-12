@@ -1,8 +1,8 @@
 module.exports = {
   title: 'Expedia Group Open Source Projects',
   tagline: 'A portal for discovering Expedia Group Open Source projects',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  url: 'https://expediagroup.github.io/',
+  baseUrl: '/open-source-portal/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.png',
