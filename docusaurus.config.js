@@ -3,11 +3,11 @@ module.exports = {
   tagline: 'A portal for discovering Expedia Group Open Source projects',
   url: 'https://expediagroup.github.io/',
   baseUrl: '/open-source-portal/',
+  organizationName: 'ExpediaGroup',
+  projectName: 'open-source-portal',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.png',
-  organizationName: 'ExpediaGroup', // Usually your GitHub org/user name.
-  projectName: 'open-source-portal', // Usually your repo name.
   themeConfig: {
     navbar: {
       logo: {
