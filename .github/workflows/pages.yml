@@ -34,8 +34,16 @@ jobs:
         env:
           USE_SSH: true
           GIT_USER: git
+          GH_READ_PUBLIC_REPOS_TOKEN: ${{ secrets.GH_READ_PUBLIC_REPOS_TOKEN }}
         run: |
           git config --global user.email "actions@github.com"
           git config --global user.name "gh-actions"
+          echo "Installing Node.js modules"
           npm ci
+          echo "Building and pushing json with repositories data"
+          npm run build-repo-data
+          git add static/repos.json
+          git commit -m "Updated repos.json"
+          git push
+          echo "Building and deploying GitHub pages"
           npm run deploy

@@ -4,8 +4,8 @@ const fs = require("fs");
 
 
 const repoNames = [
-    { owner: "ExpediaGroup", name: "apiary" },
     { owner: "ExpediaGroup", name: "beekeeper" },
+    { owner: "ExpediaGroup", name: "apiary" },
     { owner: "ExpediaGroup", name: "catalyst-render" },
     { owner: "ExpediaGroup", name: "catalyst-server" },
     { owner: "ExpediaGroup", name: "dr-shadow" },
@@ -22,7 +22,7 @@ const githubClient = new ApolloClient({
         uri: 'https://api.github.com/graphql',
         fetch,
         headers: {
-            Authorization: `bearer ${process.env.GITHUB_TOKEN}`
+            Authorization: `bearer ${process.env.GH_READ_PUBLIC_REPOS_TOKEN}`
         }
     }),
     cache: new InMemoryCache()
