@@ -41,9 +41,13 @@ jobs:
           npm ci
           echo "Building and pushing json with repositories data:"
           npm run build-repo-data
-          git add static/repos.json
-          git commit -m "Updated repos.json"
-          git push
+          if git diff --quiet; then
+            echo "No changes to repositories data"
+          else
+            git add static/repos.json
+            git commit -m "Updated repos.json"
+            git push
+          fi
       - name: Release to GitHub Pages
         env:
           USE_SSH: true
