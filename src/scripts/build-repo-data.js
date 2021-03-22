@@ -4,8 +4,8 @@ const fs = require("fs");
 
 
 const repoNames = [
-    { owner: "ExpediaGroup", name: "apiary" },
     { owner: "ExpediaGroup", name: "beekeeper" },
+    { owner: "ExpediaGroup", name: "apiary" },
     { owner: "ExpediaGroup", name: "catalyst-render" },
     { owner: "ExpediaGroup", name: "catalyst-server" },
     { owner: "ExpediaGroup", name: "dr-shadow" },
