@@ -5,7 +5,6 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './styles.module.css';
 import repos from '@site/static/repos.json';
 
-const buildHash = "7ba4c2ad-bef9-4e62-898d-fb9c8e157ac4"
 
 function Repositories() {
     return (
@@ -39,8 +38,7 @@ function Home() {
   return (
     <Layout
       title={siteConfig.title}
-      description={siteConfig.tagline}
-      buildHash={buildHash}>
+      description={siteConfig.tagline}>
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
