@@ -1,13 +1,13 @@
 [
   {
-    "name": "beekeeper",
-    "description": "Service for automatically managing and cleaning up unreferenced data",
-    "imageUrl": "https://repository-images.githubusercontent.com/200810412/100eb900-76c4-11eb-991a-1ebaec51af11"
-  },
-  {
     "name": "apiary",
     "description": "Apiary provides modules which can be combined to create a federated cloud data lake",
     "imageUrl": "https://repository-images.githubusercontent.com/128752984/e774bf00-80c6-11eb-88db-337cf4a24fda"
+  },
+  {
+    "name": "beekeeper",
+    "description": "Service for automatically managing and cleaning up unreferenced data",
+    "imageUrl": "https://repository-images.githubusercontent.com/200810412/100eb900-76c4-11eb-991a-1ebaec51af11"
   },
   {
     "name": "catalyst-render",
