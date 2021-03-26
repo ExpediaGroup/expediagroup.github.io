@@ -1,0 +1,38 @@
+/* stylelint-disable docusaurus/copyright-header */
+
+/**
+ * Any CSS included here will be global.
+ */
+
+:root {
+  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary-light: rgb(70, 203, 174);
+  --ifm-color-primary-lighter: rgb(102, 212, 189);
+  --ifm-color-primary-lightest: rgb(146, 224, 208);
+}
+
+/**
+ * Navigation bar
+ */
+.navbar {
+  --ifm-navbar-background-color: rgb(0, 35, 243);
+  --ifm-navbar-item-padding-vertical: 0;
+  --ifm-navbar-link-color: white;
+  --ifm-menu-color: var(--ifm-navbar-link-color);
+}
+.navbar__brand {
+  height: 3rem;
+}
+.navbar__item {
+  font-size: 1.2rem;
+  font-weight: var(--ifm-font-weight-normal);
+}
+.navbar__link {
+  border-right: 1px solid var(--ifm-navbar-link-color);
+}
+.navbar__link:last-child {
+  border-right: none;
+}
+.navbar__toggle {
+  color: var(--ifm-navbar-link-color);
+}

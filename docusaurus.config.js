@@ -9,6 +9,10 @@ module.exports = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.png',
   themeConfig: {
+    colorMode: {
+      defaultMode: 'light',
+      disableSwitch: true
+    },
     navbar: {
       logo: {
         alt: 'EG OSS Logo',
@@ -17,7 +21,17 @@ module.exports = {
       items: [
         {
           href: 'https://github.com/ExpediaGroup',
-          label: 'GitHub',
+          label: 'Projects',
+          position: 'right',
+        },
+        {
+          href: 'https://medium.com/expedia-group-tech',
+          label: 'Tech Blog',
+          position: 'right',
+        },
+        {
+          href: 'https://lifeatexpediagroup.com',
+          label: 'Careers at EG',
           position: 'right',
         }
       ],
@@ -43,11 +57,17 @@ module.exports = {
       '@docusaurus/preset-classic',
       {
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve('./src/css/global.css'),
         },
         docs: false,
         blog: false
       },
     ],
-  ]
+  ],
+  customFields: {
+    heroConfig: {
+      title: 'Powering global travel through a world-class tech platform.',
+      subtitle: 'Peek behind the scenes at our open source projects.'
+    }
+  }
 };
