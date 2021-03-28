@@ -12,7 +12,7 @@
   background-image: url("/img/hero.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  --ifm-hero-text-color: rgb(0, 35, 243);
+  --ifm-hero-text-color: rgb(0, 0, 153);
 }
 
 @media screen and (max-width: 966px) {
@@ -39,4 +39,33 @@
 .featureImage {
   height: 200px;
   width: 200px;
+}
+
+.social {
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 153);
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+.blog {
+}
+
+.careers {
+}
+
+.twitterTimeline {
+}
+
+.twitterText {
+  margin: 0;
+  padding: 0;
+}
+
+.arrowLink {
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+  --ifm-paragraph-margin-bottom: 0;
 }
