@@ -6,7 +6,7 @@ import styles from './styles.module.css';
 import repos from '@site/static/repos.json';
 import TwitterTimeline from './TwitterTimeline';
 
-function Social() {
+function Social({socialLinks}) {
     return (
         <section className={styles.social}>
             <div className="container">
@@ -23,10 +23,10 @@ function Social() {
                     </div>
                     <div className={clsx('col col--4', styles.twitterTimeline)}>
                         <div className="text--center">
-                            <TwitterTimeline/>
+                            <TwitterTimeline twitterLink={socialLinks.twitter}/>
                             <div className={styles.twitterText}>
                                 <p>What we're saying on Twitter</p>
-                                <a className={styles.arrowLink} href="https://twitter.com/ExpediaGroupEng">→</a>
+                                <a className={styles.arrowLink} href={socialLinks.twitter}>→</a>
                             </div>
                         </div>
                     </div>
@@ -65,7 +65,7 @@ function Repository({name, description, imageUrl}) {
 function Home() {
   const context = useDocusaurusContext();
   const {siteConfig} = context;
-  const {heroConfig} = siteConfig.customFields;
+  const {heroConfig, socialLinks} = siteConfig.customFields;
   return (
     <Layout
       title={siteConfig.title}
@@ -78,7 +78,7 @@ function Home() {
       </header>
       <main>
           <Repositories/>
-          <Social/>
+          <Social socialLinks={socialLinks}/>
       </main>
     </Layout>
   );

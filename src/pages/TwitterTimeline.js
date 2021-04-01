@@ -3,9 +3,6 @@ import React, { Component } from 'react';
 class TwitterTimeline extends Component {
     constructor(props) {
         super(props);
-        this.state = {
-            posts: [],
-        };
     }
 
     componentDidMount() {
@@ -22,9 +19,9 @@ class TwitterTimeline extends Component {
             <div>
                 <a
                     class="twitter-timeline"
-                    href="https://twitter.com/ExpediaGroupEng?ref_src=twsrc%5Etfw"
-                    width="320"
-                    data-height="480">
+                    href={this.props.twitterLink}
+                    width="400"
+                    data-height="535">
                     Tweets by ExpediaGroupEng
                 </a>
             </div>

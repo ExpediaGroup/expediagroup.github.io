@@ -68,6 +68,9 @@ module.exports = {
     heroConfig: {
       title: 'Powering global travel through a world-class tech platform.',
       subtitle: 'Peek behind the scenes at our open source projects.'
+    },
+    socialLinks: {
+      twitter: 'https://twitter.com/ExpediaGroupEng'
     }
   }
 };
