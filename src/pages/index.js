@@ -26,7 +26,7 @@ function Social({socialLinks}) {
                             <TwitterTimeline twitterLink={socialLinks.twitter}/>
                             <div className={styles.twitterText}>
                                 <p>What we're saying on Twitter</p>
-                                <a className={styles.arrowLink} href={socialLinks.twitter}>→</a>
+                                <a className={styles.arrowLink} href={socialLinks.twitter} target="_blank">→</a>
                             </div>
                         </div>
                     </div>

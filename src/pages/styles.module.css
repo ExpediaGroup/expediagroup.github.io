@@ -59,9 +59,8 @@
 .twitterTimeline {
 }
 
-.twitterText {
-  margin: 0;
-  padding: 0;
+.twitterText p {
+  margin: 2% 0 0 0;
 }
 
 .arrowLink {
