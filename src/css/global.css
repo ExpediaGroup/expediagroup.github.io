@@ -15,7 +15,7 @@
  * Navigation bar
  */
 .navbar {
-  --ifm-navbar-background-color: rgb(0, 35, 243);
+  --ifm-navbar-background-color: rgb(0, 0, 153);
   --ifm-navbar-item-padding-vertical: 0;
   --ifm-navbar-link-color: white;
   --ifm-menu-color: var(--ifm-navbar-link-color);
@@ -35,4 +35,8 @@
 }
 .navbar__toggle {
   color: var(--ifm-navbar-link-color);
+}
+
+.main-wrapper a {
+  text-decoration: none;
 }
