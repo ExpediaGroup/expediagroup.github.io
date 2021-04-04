@@ -4,8 +4,8 @@ import Layout from '@theme/Layout';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './styles.module.css';
 import repositoriesData from '@site/static/repos.json';
-import Repositories from "./Repositories";
-import Social from "./Social";
+import Repositories from "../components/Repositories";
+import Social from "../components/Social";
 
 function Home() {
   const context = useDocusaurusContext();
