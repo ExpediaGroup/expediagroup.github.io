@@ -1,0 +1,25 @@
+.social {
+    color: white;
+    background-color: var(--expedia-blue);
+    display: flex;
+    align-items: center;
+    padding: 2rem 0;
+    width: 100%;
+}
+
+.blog {
+}
+
+.careers {
+}
+
+.twitterTimeline {
+}
+
+.twitterText p {
+    margin: 2% 0 0 0;
+}
+
+.twitterText svg {
+    fill: white;
+}

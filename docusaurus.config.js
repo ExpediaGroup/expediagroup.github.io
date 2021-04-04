@@ -38,17 +38,6 @@ module.exports = {
     },
     footer: {
       style: 'dark',
-      links: [
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'GitHub',
-              href: 'https://github.com/ExpediaGroup',
-            }
-          ],
-        },
-      ],
       copyright: `Copyright © ${new Date().getFullYear()} Expedia Group. All rights Reserved.`,
     },
   },
@@ -68,6 +57,9 @@ module.exports = {
     heroConfig: {
       title: 'Powering global travel through a world-class tech platform.',
       subtitle: 'Peek behind the scenes at our open source projects.'
+    },
+    repositoriesConfig: {
+      allReposLink: 'https://github.com/ExpediaGroup'
     },
     socialLinks: {
       twitter: 'https://twitter.com/ExpediaGroupEng'

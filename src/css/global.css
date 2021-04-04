@@ -5,17 +5,19 @@
  */
 
 :root {
+  --expedia-blue: rgb(0, 0, 153);
   --ifm-color-primary: #25c2a0;
   --ifm-color-primary-light: rgb(70, 203, 174);
   --ifm-color-primary-lighter: rgb(102, 212, 189);
   --ifm-color-primary-lightest: rgb(146, 224, 208);
+  --ifm-heading-color: var(--expedia-blue);
 }
 
 /**
  * Navigation bar
  */
 .navbar {
-  --ifm-navbar-background-color: rgb(0, 0, 153);
+  --ifm-navbar-background-color: var(--expedia-blue);
   --ifm-navbar-item-padding-vertical: 0;
   --ifm-navbar-link-color: white;
   --ifm-menu-color: var(--ifm-navbar-link-color);
