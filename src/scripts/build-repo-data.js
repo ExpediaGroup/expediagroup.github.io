@@ -32,6 +32,7 @@ const QUERY_REPO_INFO = gql`
       name
       description
       openGraphImageUrl
+      url
     }
   }`
 
@@ -47,7 +48,8 @@ async function fetchAndDumpRepoData() {
     const repoData = await Promise.all(promises).then(results => results.map(result => ({
             name: result.data.repository.name,
             description: result.data.repository.description,
-            imageUrl: result.data.repository.openGraphImageUrl
+            imageUrl: result.data.repository.openGraphImageUrl,
+            repoUrl: result.data.repository.url
         })))
     fs.writeFile("static/repos.json", JSON.stringify(repoData, null, 2), (err) => {
         if (err) {

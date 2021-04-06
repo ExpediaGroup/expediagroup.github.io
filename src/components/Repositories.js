@@ -18,15 +18,17 @@ function Repositories({reposData, reposConfig}) {
     )
 }
 
-function Repository({name, description, imageUrl}) {
+function Repository({name, description, imageUrl, repoUrl}) {
     return (
         <div className={clsx('col col--4', styles.repository)}>
             <div className="text--center">
-                <img className={styles.repositoryImage} src={imageUrl} alt={name} />
+                <a href={repoUrl} target="_blank">
+                    <img className={styles.repositoryImage} src={imageUrl} alt={name} />
+                </a>
             </div>
             <div className={styles.repositoryTitle}>
                 <h3>{name}</h3>
-                <ArrowLink link="#"/>
+                <ArrowLink link={repoUrl}/>
             </div>
             <p className={styles.repositoryDescription}>{description}</p>
         </div>
