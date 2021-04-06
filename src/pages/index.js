@@ -3,69 +3,14 @@ import clsx from 'clsx';
 import Layout from '@theme/Layout';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './styles.module.css';
-import repos from '@site/static/repos.json';
-import TwitterTimeline from './TwitterTimeline';
-
-function Social({socialLinks}) {
-    return (
-        <section className={styles.social}>
-            <div className="container">
-                <div className="row">
-                    <div className={clsx('col col--4', styles.blog)}>
-                        <div className="text--center">
-                            <p>Placeholder for blog</p>
-                        </div>
-                    </div>
-                    <div className={clsx('col col--4', styles.careers)}>
-                        <div className="text--center">
-                            <p>Placeholder for careers</p>
-                        </div>
-                    </div>
-                    <div className={clsx('col col--4', styles.twitterTimeline)}>
-                        <div className="text--center">
-                            <TwitterTimeline twitterLink={socialLinks.twitter}/>
-                            <div className={styles.twitterText}>
-                                <p>What we're saying on Twitter</p>
-                                <a className={styles.arrowLink} href={socialLinks.twitter} target="_blank">→</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    )
-}
-
-function Repositories() {
-    return (
-        <section className={styles.features}>
-            <div className="container">
-                <div className="row">
-                    { repos.map(repo => (
-                        <Repository key={repo.name} {...repo} />
-                    )) }
-                </div>
-            </div>
-        </section>
-    )
-}
-
-function Repository({name, description, imageUrl}) {
-    return (
-        <div className={clsx('col col--4', styles.feature)}>
-            <div className="text--center">
-              <img className={styles.featureImage} src={imageUrl} alt={name} />
-            </div>
-            <h3>{name}</h3>
-            <p>{description}</p>
-        </div>
-    );
-}
+import repositoriesData from '@site/static/repos.json';
+import Repositories from "../components/Repositories";
+import Social from "../components/Social";
 
 function Home() {
   const context = useDocusaurusContext();
   const {siteConfig} = context;
-  const {heroConfig, socialLinks} = siteConfig.customFields;
+  const {heroConfig, repositoriesConfig, socialLinks} = siteConfig.customFields;
   return (
     <Layout
       title={siteConfig.title}
@@ -77,7 +22,7 @@ function Home() {
         </div>
       </header>
       <main>
-          <Repositories/>
+          <Repositories reposData={repositoriesData} reposConfig={repositoriesConfig}/>
           <Social socialLinks={socialLinks}/>
       </main>
     </Layout>

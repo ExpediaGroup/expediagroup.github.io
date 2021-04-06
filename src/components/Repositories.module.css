@@ -1,0 +1,54 @@
+.repositoriesSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.repositoriesContainer {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    width: 100%;
+}
+
+.repository {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.repositoryImage {
+    height: 200px;
+    width: 300px;
+    object-fit: contain;
+    border: 5px solid rgb(88, 223, 184);
+    border-radius: 70% / 100%;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.repositoryTitle h3 {
+    display: inline;
+    margin-right: 10px;
+}
+
+.repositoryTitle svg {
+    fill: var(--expedia-blue);
+}
+
+.repositoryDescription {
+    text-align: center;
+}
+
+.exploreMore {
+    font-size: 1em;
+    --ifm-button-border-color: var(--expedia-blue);
+    --ifm-button-color: var(--expedia-blue);
+    --ifm-button-background-color: white !important;
+    --ifm-button-border-radius: 15% 0 / 100% 0;
+    margin-bottom: 20px;
+}
+
+.exploreMore:hover {
+    --ifm-button-color: var(--ifm-color-primary);
+}
