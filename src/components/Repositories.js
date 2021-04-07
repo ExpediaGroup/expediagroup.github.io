@@ -27,7 +27,9 @@ function Repository({name, description, imageUrl, repoUrl}) {
                 </a>
             </div>
             <div className={styles.repositoryTitle}>
-                <h3>{name}</h3>
+                <a href={repoUrl} target="_blank">
+                    <h3>{name}</h3>
+                </a>
                 <ArrowLink link={repoUrl}/>
             </div>
             <p className={styles.repositoryDescription}>{description}</p>
