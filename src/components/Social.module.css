@@ -7,19 +7,13 @@
     width: 100%;
 }
 
-.blog {
+.social .socialColumn {
+    margin-bottom: 1rem;
 }
 
-.careers {
-}
-
-.twitterTimeline {
-}
-
-.twitterText p {
-    margin: 2% 0 0 0;
-}
-
-.twitterText svg {
-    fill: white;
+.socialBody {
+    background-color: white;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    height: 533px;
 }

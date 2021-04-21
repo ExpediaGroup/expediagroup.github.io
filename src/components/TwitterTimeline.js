@@ -20,7 +20,8 @@ class TwitterTimeline extends Component {
                 <a
                     className="twitter-timeline"
                     href={this.props.twitterLink}
-                    data-height="535">
+                    data-height="535"
+                    data-chrome="noheader nofooter">
                     Tweets by ExpediaGroupEng
                 </a>
             </div>
