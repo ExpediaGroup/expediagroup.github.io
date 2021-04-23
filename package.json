@@ -21,7 +21,8 @@
     "cross-fetch": "^3.0.6",
     "graphql": "^15.5.0",
     "react": "^16.8.4",
-    "react-dom": "^16.8.4"
+    "react-dom": "^16.8.4",
+    "react-script-hook": "^1.3.0"
   },
   "browserslist": {
     "production": [
