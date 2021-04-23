@@ -1,31 +1,38 @@
 import React from "react";
 import styles from "./Social.module.css";
-import clsx from "clsx";
 import TwitterTimeline from "./TwitterTimeline";
-import ArrowLink from "./ArrowLink";
+import Posts from "./Posts";
+import SocialHeader from "./SocialHeader";
+import SocialFooter from "./SocialFooter";
 
 function Social({socialLinks}) {
     return (
         <section className={styles.social}>
             <div className="container">
                 <div className="row">
-                    <div className={clsx('col col--4', styles.blog)}>
-                        <div className="text--center">
-                            <p>Placeholder for blog</p>
-                        </div>
-                    </div>
-                    <div className={clsx('col col--4', styles.careers)}>
-                        <div className="text--center">
-                            <p>Placeholder for careers</p>
-                        </div>
-                    </div>
-                    <div className={clsx('col col--4', styles.twitterTimeline)}>
-                        <div className="text--center">
-                            <TwitterTimeline twitterLink={socialLinks.twitter}/>
-                            <div className={styles.twitterText}>
-                                <p>What we're saying on Twitter</p>
-                                <ArrowLink link={socialLinks.twitter}/>
+                    <div className='col col--4'>
+                        <div className={styles.socialColumn}>
+                            <SocialHeader title="Blog Posts"/>
+                            <div className={styles.socialBody}>
+                                <Posts link={socialLinks.techBlog}/>
                             </div>
+                            <SocialFooter text="Read more stories on our tech blog" link={socialLinks.techBlog}/>
+                        </div>
+                    </div>
+                    <div className='col col--4'>
+                        <div className={styles.socialColumn}>
+                            <SocialHeader title="Our Careers"/>
+                            <div className={styles.socialBody}>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='col col--4'>
+                        <div className={styles.socialColumn}>
+                            <SocialHeader title="Tweets"/>
+                            <div className={styles.socialBody}>
+                                <TwitterTimeline twitterLink={socialLinks.twitter}/>
+                            </div>
+                            <SocialFooter text="What we're saying on Twitter" link={socialLinks.twitter}/>
                         </div>
                     </div>
                 </div>

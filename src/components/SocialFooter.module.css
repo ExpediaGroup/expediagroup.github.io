@@ -1,0 +1,12 @@
+.socialFooter {
+    font-weight: bold;
+    text-align: center;
+}
+
+.socialFooter p {
+    margin: 2% 0 0 0;
+}
+
+.socialFooter svg {
+    fill: white;
+}

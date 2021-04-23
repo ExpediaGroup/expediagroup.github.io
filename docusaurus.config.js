@@ -62,6 +62,7 @@ module.exports = {
       allReposLink: 'https://github.com/ExpediaGroup'
     },
     socialLinks: {
+      techBlog: 'https://medium.com/expedia-group-tech',
       twitter: 'https://twitter.com/ExpediaGroupEng'
     }
   }

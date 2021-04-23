@@ -1,0 +1,17 @@
+.mediumWidget {
+    height: 100%;
+    padding: 3%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.mediumWidgetPosts {
+}
+
+.mediumWidget :global(.medium-widget-article__image) img {
+    max-width: 100px;
+}
+
+.mediumWidget :global(.medium-widget-article__description) {
+    color: black;
+}
