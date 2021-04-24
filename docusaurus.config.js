@@ -1,3 +1,34 @@
+const customFields = {
+  heroConfig: {
+    title: 'Powering global travel through a world-class tech platform.',
+    subtitle: 'Peek behind the scenes at our open source projects.'
+  },
+  repositoriesConfig: {
+    navbarLabel: 'Projects',
+    allReposLink: 'https://github.com/ExpediaGroup',
+    exploreMoreText: 'Explore More Projects'
+  },
+  socialConfig: {
+    blog: {
+      title: 'Blog Posts',
+      navbarLabel: 'Tech Blog',
+      link: 'https://medium.com/expedia-group-tech',
+      footerText: 'Read more stories on our tech blog'
+    },
+    careers: {
+      title: 'Our Careers',
+      navbarLabel: 'Careers at EG',
+      link: 'https://lifeatexpediagroup.com',
+      footerText: 'Explore a career at Expedia Group'
+    },
+    twitter: {
+      title: 'Tweets',
+      link: 'https://twitter.com/ExpediaGroupEng',
+      footerText: "What we're saying on Twitter"
+    }
+  }
+};
+
 module.exports = {
   title: 'Expedia Group Open Source Projects',
   tagline: 'A portal for discovering Expedia Group Open Source projects',
@@ -20,18 +51,18 @@ module.exports = {
       },
       items: [
         {
-          href: 'https://github.com/ExpediaGroup',
-          label: 'Projects',
+          href: customFields.repositoriesConfig.allReposLink,
+          label: customFields.repositoriesConfig.navbarLabel,
           position: 'right',
         },
         {
-          href: 'https://medium.com/expedia-group-tech',
-          label: 'Tech Blog',
+          href: customFields.socialConfig.blog.link,
+          label: customFields.socialConfig.blog.navbarLabel,
           position: 'right',
         },
         {
-          href: 'https://lifeatexpediagroup.com',
-          label: 'Careers at EG',
+          href: customFields.socialConfig.careers.link,
+          label: customFields.socialConfig.careers.navbarLabel,
           position: 'right',
         }
       ],
@@ -53,17 +84,5 @@ module.exports = {
       },
     ],
   ],
-  customFields: {
-    heroConfig: {
-      title: 'Powering global travel through a world-class tech platform.',
-      subtitle: 'Peek behind the scenes at our open source projects.'
-    },
-    repositoriesConfig: {
-      allReposLink: 'https://github.com/ExpediaGroup'
-    },
-    socialLinks: {
-      techBlog: 'https://medium.com/expedia-group-tech',
-      twitter: 'https://twitter.com/ExpediaGroupEng'
-    }
-  }
+  customFields: customFields
 };

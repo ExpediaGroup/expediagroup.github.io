@@ -10,7 +10,7 @@ import Social from "../components/Social";
 function Home() {
   const context = useDocusaurusContext();
   const {siteConfig} = context;
-  const {heroConfig, repositoriesConfig, socialLinks} = siteConfig.customFields;
+  const {heroConfig, repositoriesConfig, socialConfig} = siteConfig.customFields;
   return (
     <Layout
       title={siteConfig.title}
@@ -23,7 +23,7 @@ function Home() {
       </header>
       <main>
           <Repositories reposData={repositoriesData} reposConfig={repositoriesConfig}/>
-          <Social socialLinks={socialLinks}/>
+          <Social socialConfig={socialConfig}/>
       </main>
     </Layout>
   );

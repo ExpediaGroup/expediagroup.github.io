@@ -17,3 +17,8 @@
     border-bottom-right-radius: 5px;
     height: 533px;
 }
+
+.careersImage {
+    object-fit: cover;
+    height: 100%;
+}
