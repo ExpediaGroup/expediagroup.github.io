@@ -10,7 +10,7 @@ function TwitterTimeline({twitterLink}) {
             <a
                 className="twitter-timeline"
                 href={twitterLink}
-                data-height="535"
+                data-height="525"
                 data-chrome="noheader nofooter">
                 <h3>Loading tweets..</h3>
             </a>
