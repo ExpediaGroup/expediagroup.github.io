@@ -13,7 +13,7 @@ function Repositories({reposData, reposConfig}) {
                     )) }
                 </div>
             </div>
-            <ExploreMore link={reposConfig.allReposLink}/>
+            <ExploreMore text={reposConfig.exploreMoreText} link={reposConfig.allReposLink}/>
         </section>
     )
 }
@@ -37,9 +37,9 @@ function Repository({name, description, imageUrl, repoUrl}) {
     );
 }
 
-function ExploreMore({link}) {
+function ExploreMore({text, link}) {
     return (
-        <a className={clsx('button button--primary', styles.exploreMore)} href={link} target="_blank">Explore More Projects</a>
+        <a className={clsx('button button--primary', styles.exploreMore)} href={link} target="_blank">{text}</a>
     );
 }
 

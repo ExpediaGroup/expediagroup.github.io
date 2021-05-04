@@ -1,12 +1,11 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import styles from './Posts.module.css';
+import useScript from 'react-script-hook';
 
 function Posts({link}) {
-    useEffect(() => {
-        const script = document.createElement('script');
-        script.src = "https://medium-widget.pixelpoint.io/widget.js";
-        script.async = true;
-        script.onload = () => {
+    useScript({
+        src: "https://medium-widget.pixelpoint.io/widget.js",
+        onload: () => {
             MediumWidget.Init({
                 renderTo: `.${styles.mediumWidgetPosts}`,
                 params: {
@@ -18,11 +17,12 @@ function Posts({link}) {
                     "ratio": "square"
                 }})
         }
-        document.body.appendChild(script);
-    })
+    });
     return (
         <div className={styles.mediumWidget}>
-            <div className={styles.mediumWidgetPosts}/>
+            <div className={styles.mediumWidgetPosts}>
+                <h3>Loading posts..</h3>
+            </div>
         </div>
     );
 }

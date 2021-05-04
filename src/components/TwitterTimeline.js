@@ -1,32 +1,21 @@
-import React, { Component } from 'react';
+import React from 'react';
+import useScript from "react-script-hook";
 
-class TwitterTimeline extends Component {
-    constructor(props) {
-        super(props);
-    }
-
-    componentDidMount() {
-        const script = document.createElement("script");
-
-        script.src = "https://platform.twitter.com/widgets.js";
-        script.async = true;
-
-        document.body.appendChild(script);
-    }
-
-    render(){
-        return (
-            <div>
-                <a
-                    className="twitter-timeline"
-                    href={this.props.twitterLink}
-                    data-height="535"
-                    data-chrome="noheader nofooter">
-                    Tweets by ExpediaGroupEng
-                </a>
-            </div>
-        )
-    }
+function TwitterTimeline({twitterLink}) {
+    useScript({
+        src: "https://platform.twitter.com/widgets.js"
+    });
+    return (
+        <div>
+            <a
+                className="twitter-timeline"
+                href={twitterLink}
+                data-height="525"
+                data-chrome="noheader nofooter">
+                <h3>Loading tweets..</h3>
+            </a>
+        </div>
+    )
 }
 
 export default TwitterTimeline;

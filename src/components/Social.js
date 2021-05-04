@@ -4,35 +4,46 @@ import TwitterTimeline from "./TwitterTimeline";
 import Posts from "./Posts";
 import SocialHeader from "./SocialHeader";
 import SocialFooter from "./SocialFooter";
+import careersImageUrl from '@site/static/img/careers.jpg';
 
-function Social({socialLinks}) {
+function Social({socialConfig}) {
     return (
         <section className={styles.social}>
             <div className="container">
                 <div className="row">
                     <div className='col col--4'>
                         <div className={styles.socialColumn}>
-                            <SocialHeader title="Blog Posts"/>
-                            <div className={styles.socialBody}>
-                                <Posts link={socialLinks.techBlog}/>
+                            <div className={styles.socialHeaderAndBody}>
+                                <SocialHeader title={socialConfig.blog.title}/>
+                                <div className={styles.socialBody}>
+                                    <Posts link={socialConfig.blog.link}/>
+                                </div>
                             </div>
-                            <SocialFooter text="Read more stories on our tech blog" link={socialLinks.techBlog}/>
+                            <SocialFooter text={socialConfig.blog.footerText} link={socialConfig.blog.link}/>
                         </div>
                     </div>
                     <div className='col col--4'>
                         <div className={styles.socialColumn}>
-                            <SocialHeader title="Our Careers"/>
-                            <div className={styles.socialBody}>
+                            <div className={styles.socialHeaderAndBody}>
+                                <SocialHeader title={socialConfig.careers.title}/>
+                                <div className={styles.socialBody}>
+                                    <a href={socialConfig.careers.link} target="_blank">
+                                        <img className={styles.careersImage} src={careersImageUrl} alt={socialConfig.careers.title}/>
+                                    </a>
+                                </div>
                             </div>
+                            <SocialFooter text={socialConfig.careers.footerText} link={socialConfig.careers.link}/>
                         </div>
                     </div>
                     <div className='col col--4'>
                         <div className={styles.socialColumn}>
-                            <SocialHeader title="Tweets"/>
-                            <div className={styles.socialBody}>
-                                <TwitterTimeline twitterLink={socialLinks.twitter}/>
+                            <div className={styles.socialHeaderAndBody}>
+                                <SocialHeader title={socialConfig.twitter.title}/>
+                                <div className={styles.socialBody}>
+                                    <TwitterTimeline twitterLink={socialConfig.twitter.link}/>
+                                </div>
                             </div>
-                            <SocialFooter text="What we're saying on Twitter" link={socialLinks.twitter}/>
+                            <SocialFooter text={socialConfig.twitter.footerText} link={socialConfig.twitter.link}/>
                         </div>
                     </div>
                 </div>
