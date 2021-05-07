@@ -1,35 +1,5 @@
 [
   {
-    "name": "apiary",
-    "description": "Apiary provides modules which can be combined to create a federated cloud data lake",
-    "imageUrl": "https://repository-images.githubusercontent.com/128752984/e774bf00-80c6-11eb-88db-337cf4a24fda",
-    "repoUrl": "https://github.com/ExpediaGroup/apiary"
-  },
-  {
-    "name": "beekeeper",
-    "description": "Service for automatically managing and cleaning up unreferenced data",
-    "imageUrl": "https://repository-images.githubusercontent.com/200810412/100eb900-76c4-11eb-991a-1ebaec51af11",
-    "repoUrl": "https://github.com/ExpediaGroup/beekeeper"
-  },
-  {
-    "name": "drone-fly",
-    "description": "A service which allows Hive Metastore Listeners to be deployed outside of the Hive Metastore Service",
-    "imageUrl": "https://repository-images.githubusercontent.com/279279234/15f29a00-80c7-11eb-8cb4-11daa9f550e9",
-    "repoUrl": "https://github.com/ExpediaGroup/drone-fly"
-  },
-  {
-    "name": "flyte",
-    "description": "Flyte binds together the tools you use into easily defined, automated workflows",
-    "imageUrl": "https://repository-images.githubusercontent.com/129653023/73858c80-9216-11eb-8c14-f87c97aa8bad",
-    "repoUrl": "https://github.com/ExpediaGroup/flyte"
-  },
-  {
-    "name": "fpsmeter",
-    "description": "Optimized javascript utility for measuring frames per second in a browser environment. Useful for observing end-user client run-time performance without adversly impacting performance.",
-    "imageUrl": "https://avatars.githubusercontent.com/u/38541875?s=400&v=4",
-    "repoUrl": "https://github.com/ExpediaGroup/fpsmeter"
-  },
-  {
     "name": "graphql-kotlin",
     "description": "Libraries for running GraphQL in Kotlin",
     "imageUrl": "https://repository-images.githubusercontent.com/148706161/542afb00-3ebf-11ea-9aec-6bc282c8bd3a",
@@ -42,15 +12,45 @@
     "repoUrl": "https://github.com/ExpediaGroup/jenkins-spock"
   },
   {
+    "name": "stream-registry",
+    "description": "Stream Discovery and Stream Orchestration",
+    "imageUrl": "https://repository-images.githubusercontent.com/159537834/eca8ed80-65c4-11e9-9920-6734cb2355c8",
+    "repoUrl": "https://github.com/ExpediaGroup/stream-registry"
+  },
+  {
+    "name": "flyte",
+    "description": "Flyte binds together the tools you use into easily defined, automated workflows",
+    "imageUrl": "https://repository-images.githubusercontent.com/129653023/73858c80-9216-11eb-8c14-f87c97aa8bad",
+    "repoUrl": "https://github.com/ExpediaGroup/flyte"
+  },
+  {
+    "name": "graphql-component",
+    "description": "Composeable graphql components",
+    "imageUrl": "https://avatars.githubusercontent.com/u/38541875?s=400&v=4",
+    "repoUrl": "https://github.com/ExpediaGroup/graphql-component"
+  },
+  {
     "name": "pitchfork",
     "description": "Convert tracing data between Zipkin and Haystack formats",
     "imageUrl": "https://repository-images.githubusercontent.com/153086272/a8143080-6ea7-11e9-9205-99177e5c524a",
     "repoUrl": "https://github.com/ExpediaGroup/pitchfork"
   },
   {
-    "name": "stream-registry",
-    "description": "Stream Discovery and Stream Orchestration",
-    "imageUrl": "https://repository-images.githubusercontent.com/159537834/eca8ed80-65c4-11e9-9920-6734cb2355c8",
-    "repoUrl": "https://github.com/ExpediaGroup/stream-registry"
+    "name": "beekeeper",
+    "description": "Service for automatically managing and cleaning up unreferenced data",
+    "imageUrl": "https://repository-images.githubusercontent.com/200810412/100eb900-76c4-11eb-991a-1ebaec51af11",
+    "repoUrl": "https://github.com/ExpediaGroup/beekeeper"
+  },
+  {
+    "name": "mittens",
+    "description": "Warm-up routine for http applications over REST and gRPC",
+    "imageUrl": "https://repository-images.githubusercontent.com/211941853/89da5a00-19cd-11ea-979e-6285d41b0a6f",
+    "repoUrl": "https://github.com/ExpediaGroup/mittens"
+  },
+  {
+    "name": "jarviz",
+    "description": "Jarviz is dependency analysis and visualization tool designed for Java applications",
+    "imageUrl": "https://repository-images.githubusercontent.com/244941906/9d8a7f00-9215-11eb-81f8-138cad4ac705",
+    "repoUrl": "https://github.com/ExpediaGroup/jarviz"
   }
 ]
