@@ -1,26 +1,14 @@
-name: GitHub Pages
+name: Build and release site to GitHub Pages
 
 on:
-  pull_request:
-    branches: [main]
   push:
     branches: [main]
+  schedule:
+    # daily build
+    - cron:  '15 8 * * *'
 
 jobs:
-  site-test-build:
-    if: github.event_name == 'pull_request'
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
-        with:
-          node-version: '12.x'
-      - name: Test Build
-        run: |
-          npm ci
-          npm run build
   gh-pages-release:
-    if: github.event_name == 'push'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
