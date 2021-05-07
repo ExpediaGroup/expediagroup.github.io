@@ -1,4 +1,4 @@
-name: Build the site for testing, without releasing
+name: Build site
 
 on:
   pull_request:
