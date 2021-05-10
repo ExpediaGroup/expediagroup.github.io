@@ -4,15 +4,15 @@ const fs = require("fs");
 
 
 const repoNames = [
-    { owner: "ExpediaGroup", name: "apiary" },
-    { owner: "ExpediaGroup", name: "beekeeper" },
-    { owner: "ExpediaGroup", name: "drone-fly" },
-    { owner: "ExpediaGroup", name: "flyte" },
-    { owner: "ExpediaGroup", name: "fpsmeter" },
     { owner: "ExpediaGroup", name: "graphql-kotlin" },
     { owner: "ExpediaGroup", name: "jenkins-spock" },
+    { owner: "ExpediaGroup", name: "stream-registry" },
+    { owner: "ExpediaGroup", name: "flyte" },
+    { owner: "ExpediaGroup", name: "graphql-component" },
     { owner: "ExpediaGroup", name: "pitchfork" },
-    { owner: "ExpediaGroup", name: "stream-registry" }
+    { owner: "ExpediaGroup", name: "beekeeper" },
+    { owner: "ExpediaGroup", name: "mittens" },
+    { owner: "ExpediaGroup", name: "jarviz" }
 ]
 
 const githubClient = new ApolloClient({
