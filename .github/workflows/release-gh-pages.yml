@@ -5,7 +5,7 @@ on:
     branches: [main]
   schedule:
     # daily build
-    - cron:  '15 8 * * *'
+    - cron:  '0 0 * * *'
 
 jobs:
   gh-pages-release:
