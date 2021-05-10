@@ -1,0 +1,18 @@
+name: Build site
+
+on:
+  pull_request:
+    branches: [main]
+
+jobs:
+  site-test-build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '12'
+      - name: Test Build
+        run: |
+          npm ci
+          npm run build
