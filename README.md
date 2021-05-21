@@ -26,7 +26,7 @@ npm start
 This command starts a local development server and open up a browser window.
 Most changes are reflected live without having to restart the server.
 
-## How to contact
+## 👥 How to contact
 
 This project is part of Expedia Group Open Source. If you want to reach out to us, please [raise an issue](https://github.com/ExpediaGroup/open-source-portal/issues)
 on GitHub.
@@ -35,6 +35,10 @@ on GitHub.
 
 Please see info in [RELEASING.md](./RELEASING.md).
 
-## How to contribute
+## ✏️ How to contribute
 
 Please see info in [CONTRIBUTING.md](./CONTRIBUTING.md).
+
+## ⚖️ License
+
+This repository is licensed under the [Apache License, Version 2.0](./LICENSE).
