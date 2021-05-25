@@ -42,3 +42,7 @@ Please see info in [CONTRIBUTING.md](./CONTRIBUTING.md).
 ## ⚖️ License
 
 This repository is licensed under the [Apache License, Version 2.0](./LICENSE).
+
+## Credits
+
+Please see info in [CREDITS.md](./CREDITS.md).
