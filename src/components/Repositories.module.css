@@ -33,6 +33,18 @@ limitations under the License.
     align-items: center;
 }
 
+@media (max-width: 996px) {
+    :global(.row) .repository:global(.col.col--4) {
+        --ifm-col-width: 50%;
+    }
+}
+
+@media (max-width: 600px) {
+    :global(.row) .repository:global(.col.col--4) {
+        --ifm-col-width: 100%;
+    }
+}
+
 .repositoryImage {
     height: 130px;
     width: 200px;
@@ -54,6 +66,8 @@ limitations under the License.
 
 .repositoryDescription {
     text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .exploreMore {
