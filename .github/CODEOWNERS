@@ -1,0 +1,7 @@
+# See https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/about-code-owners
+# as a reference on this file.
+# See https://git-scm.com/docs/gitignore#_pattern_format
+# as a reference on the filepatterns used.
+
+# Global Owners
+*       @ExpediaGroup/oss-portal-admins

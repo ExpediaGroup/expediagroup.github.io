@@ -1,7 +1,13 @@
 # EG Open Source Portal
 
-This website is built using [Docusaurus 2](https://v2.docusaurus.io/).
-You need Node.js v12.21.0 or later. 
+This is the source code for the Expedia Group Open Source portal, a website for discovering EG open source projects.
+See the live version [here](https://expediagroup.github.io/open-source-portal).
+
+## Technologies
+
+This is a statically-rendered website using [Docusaurus v2](https://v2.docusaurus.io/).
+You need Node.js v12.21.0 or later.
+The produced static files are distributed as `GitHub Pages`.
 
 ## Local Development
 
@@ -20,7 +26,23 @@ npm start
 This command starts a local development server and open up a browser window.
 Most changes are reflected live without having to restart the server.
 
-## Release to Github Pages 
+## 👥 How to contact
 
-Any commit to `main` branch will trigger a GitHub Actions workflow that builds and releases
-the site to Github Pages.
+This project is part of Expedia Group Open Source. If you want to reach out to us, please [raise an issue](https://github.com/ExpediaGroup/open-source-portal/issues)
+on GitHub.
+
+## How to release 
+
+Please see info in [RELEASING.md](./RELEASING.md).
+
+## ✏️ How to contribute
+
+Please see info in [CONTRIBUTING.md](./CONTRIBUTING.md).
+
+## ⚖️ License
+
+This repository is licensed under the [Apache License, Version 2.0](./LICENSE).
+
+## Credits
+
+Please see info in [CREDITS.md](./CREDITS.md).
