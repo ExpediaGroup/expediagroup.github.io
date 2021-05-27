@@ -7,4 +7,4 @@ The repositories' info [is fetched using GitHub API](./src/scripts/build-repo-da
 producing a [static JSON file](./static/repos.json).
 
 The built static files are pushed to branch `gh-pages`, which automatically triggers the GitHub Pages deployment, usually
-in few minutes. You can check the history of GitHub Pages deployments [here](https://github.com/ExpediaGroup/open-source-portal/deployments).
+in few minutes. You can check the history of GitHub Pages deployments [here](https://github.com/ExpediaGroup/expediagroup.github.io/deployments).
