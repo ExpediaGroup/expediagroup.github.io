@@ -1,7 +1,7 @@
 # EG Open Source Portal
 
 This is the source code for the Expedia Group Open Source portal, a website for discovering EG open source projects.
-See the live version [here](https://expediagroup.github.io/open-source-portal).
+See the live version [here](https://expediagroup.github.io/).
 
 ## Technologies
 
@@ -28,7 +28,7 @@ Most changes are reflected live without having to restart the server.
 
 ## 👥 How to contact
 
-This project is part of Expedia Group Open Source. If you want to reach out to us, please [raise an issue](https://github.com/ExpediaGroup/open-source-portal/issues)
+This project is part of Expedia Group Open Source. If you want to reach out to us, please [raise an issue](https://github.com/ExpediaGroup/expediagroup.github.io/issues)
 on GitHub.
 
 ## How to release 
