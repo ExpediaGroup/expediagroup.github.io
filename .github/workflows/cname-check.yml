@@ -17,4 +17,4 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Validate content of cname file
-        run: cat static/CNAME | grep potato.expediagroup.com
+        run: cat static/CNAME | grep opensource.expediagroup.com
