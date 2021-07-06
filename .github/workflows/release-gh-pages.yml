@@ -12,12 +12,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+
       - uses: actions/setup-node@v2
         with:
           node-version: '12'
+
       - name: Install Node.js modules
         run: |
           npm ci
+
       - name: Build and push repositories json
         env:
           GITHUB_API_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -32,9 +35,14 @@ jobs:
             git commit -m "Updated repos.json"
             git push
           fi
+
       - name: Build site
         run: |
           npm run build
+
+      - name: Validate content of cname file
+        run: cat CNAME | grep opensource.expediagroup.com
+
       - name: Release to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
