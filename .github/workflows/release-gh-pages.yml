@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          token: ${{ secrets.GITHUB_PAT }}
+          token: ${{ secrets.PAT_GITHUB }}
           persist-credentials: false
 
       - uses: actions/setup-node@v2
