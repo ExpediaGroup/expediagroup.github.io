@@ -33,16 +33,16 @@ on GitHub.
 
 ## How to release 
 
-Please see info in [RELEASING.md](./RELEASING.md).
+Please see info in [RELEASING.md](./RELEASING.md)
 
 ## ✏️ How to contribute
 
-Please see info in [CONTRIBUTING.md](./CONTRIBUTING.md).
+Please see info in [CONTRIBUTING.md](./CONTRIBUTING.md)
 
 ## ⚖️ License
 
-This repository is licensed under the [Apache License, Version 2.0](./LICENSE).
+This repository is licensed under the [Apache License, Version 2.0](./LICENSE)
 
 ## Credits
 
-Please see info in [CREDITS.md](./CREDITS.md).
+Please see info in [CREDITS.md](./CREDITS.md)
