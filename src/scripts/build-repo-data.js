@@ -25,11 +25,10 @@ const repoNames = [
     { owner: "ExpediaGroup", name: "stream-registry" },
     { owner: "ExpediaGroup", name: "flyte" },
     { owner: "ExpediaGroup", name: "graphql-component" },
-    { owner: "ExpediaGroup", name: "pitchfork" },
+    { owner: "ExpediaGroup", name: "bull" },
     { owner: "ExpediaGroup", name: "beekeeper" },
     { owner: "ExpediaGroup", name: "mittens" },
-    { owner: "ExpediaGroup", name: "jarviz" },
-    { owner: "ExpediaGroup", name: "bull" }
+    { owner: "ExpediaGroup", name: "jarviz" }
 ]
 
 const githubClient = new ApolloClient({
