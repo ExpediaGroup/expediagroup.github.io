@@ -12,6 +12,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.EG_GITHUB_TOKEN }}
+          persist-credentials: false
 
       - uses: actions/setup-node@v2
         with:
@@ -22,8 +25,6 @@ jobs:
           npm ci
 
       - name: Build and push repositories json
-        env:
-          GITHUB_API_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config --global user.email "oss@expediagroup.com"
           git config --global user.name "eg-oss-ci"
