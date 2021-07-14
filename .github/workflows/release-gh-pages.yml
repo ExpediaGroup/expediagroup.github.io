@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.PAT_GITHUB }}
 
       - uses: actions/setup-node@v2
         with:
@@ -35,7 +35,7 @@ jobs:
           else
             git add static/repos.json
             git commit -m "Updated repos.json"
-            git push --force
+            git push
           fi
 
       - name: Build site
