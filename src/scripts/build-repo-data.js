@@ -28,7 +28,8 @@ const repoNames = [
     { owner: "ExpediaGroup", name: "pitchfork" },
     { owner: "ExpediaGroup", name: "beekeeper" },
     { owner: "ExpediaGroup", name: "mittens" },
-    { owner: "ExpediaGroup", name: "jarviz" }
+    { owner: "ExpediaGroup", name: "jarviz" },
+    { owner: "ExpediaGroup", name: "bull" }
 ]
 
 const githubClient = new ApolloClient({
