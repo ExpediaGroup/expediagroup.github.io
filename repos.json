@@ -30,10 +30,10 @@
     "repoUrl": "https://github.com/ExpediaGroup/graphql-component"
   },
   {
-    "name": "pitchfork",
-    "description": "Convert tracing data between Zipkin and Haystack formats",
-    "imageUrl": "https://repository-images.githubusercontent.com/153086272/a8143080-6ea7-11e9-9205-99177e5c524a",
-    "repoUrl": "https://github.com/ExpediaGroup/pitchfork"
+    "name": "bull",
+    "description": "BULL - Bean Utils Light Library",
+    "imageUrl": "https://repository-images.githubusercontent.com/166023376/9632dcfb-86af-4a78-b520-53fd7c360648",
+    "repoUrl": "https://github.com/ExpediaGroup/bull"
   },
   {
     "name": "beekeeper",
