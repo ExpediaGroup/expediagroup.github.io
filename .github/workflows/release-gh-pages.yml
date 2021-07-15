@@ -13,6 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
+          # We need a personal access token to be able to push to a protected branch
           token: ${{ secrets.GH_PERSONAL_ACCESS_TOKEN }}
 
       - uses: actions/setup-node@v2
