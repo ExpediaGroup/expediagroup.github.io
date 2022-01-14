@@ -38,7 +38,7 @@ limitations under the License.
   --ifm-navbar-link-color: white;
   --ifm-menu-color: var(--ifm-navbar-link-color);
 }
-.navbar__brand {
+.navbar__logo {
   height: 3rem;
 }
 .navbar__item {
@@ -51,8 +51,18 @@ limitations under the License.
 .navbar__link:last-child {
   border-right: none;
 }
+.navbar__link svg {
+  display: none; /* Hide the navbar icon for external links, see https://github.com/facebook/docusaurus/pull/4949 */
+}
 .navbar__toggle {
   color: var(--ifm-navbar-link-color);
+}
+
+/**
+ * Menu side bar
+ */
+.menu__link svg {
+  display: none; /* Hide the sidebar icon for external links, see https://github.com/facebook/docusaurus/pull/4261 */
 }
 
 .main-wrapper a {
