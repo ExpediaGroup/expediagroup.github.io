@@ -18,6 +18,8 @@ import React from "react";
 import styles from "./Social.module.css";
 import TwitterTimeline from "./TwitterTimeline";
 import Posts from "./Posts";
+import RssPosts from "./RssPosts";
+import postsData from '@site/static/posts.json';
 import SocialHeader from "./SocialHeader";
 import SocialFooter from "./SocialFooter";
 import careersImageUrl from '@site/static/img/careers.jpg';
@@ -32,7 +34,8 @@ function Social({socialConfig}) {
                             <div className={styles.socialHeaderAndBody}>
                                 <SocialHeader title={socialConfig.blog.title}/>
                                 <div className={styles.socialBody}>
-                                    <Posts link={socialConfig.blog.link}/>
+                                    {/* <Posts link={socialConfig.blog.link}/> */}
+                                    <RssPosts postsData={postsData}/>
                                 </div>
                             </div>
                             <SocialFooter text={socialConfig.blog.footerText} link={socialConfig.blog.link}/>
