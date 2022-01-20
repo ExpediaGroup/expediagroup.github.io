@@ -16,13 +16,17 @@ limitations under the License.
 
 const Parser = require('rss-parser');
 const parser = new Parser();
+const moment = require('moment');
 const fs = require("fs");
 
 
 async function fetchAndDumpPosts() {
     const feed = await parser.parseURL('https://medium.com/feed/expedia-group-tech');
     const posts = feed.items.map(item => ({
-        title : item.title
+        title : item.title,
+        creator : item.creator,
+        link : item.link,
+        date : moment(item.isoDate).format('MMM D, YYYY')
     }))
     fs.writeFile("static/posts.json", JSON.stringify(posts, null, 2), (err) => {
         if (err) {

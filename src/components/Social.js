@@ -18,7 +18,7 @@ import React from "react";
 import styles from "./Social.module.css";
 import TwitterTimeline from "./TwitterTimeline";
 import Posts from "./Posts";
-import RssPosts from "./RssPosts";
+import BlogPosts from "./BlogPosts";
 import postsData from '@site/static/posts.json';
 import SocialHeader from "./SocialHeader";
 import SocialFooter from "./SocialFooter";
@@ -35,7 +35,7 @@ function Social({socialConfig}) {
                                 <SocialHeader title={socialConfig.blog.title}/>
                                 <div className={styles.socialBody}>
                                     {/* <Posts link={socialConfig.blog.link}/> */}
-                                    <RssPosts postsData={postsData}/>
+                                    <BlogPosts postsData={postsData}/>
                                 </div>
                             </div>
                             <SocialFooter text={socialConfig.blog.footerText} link={socialConfig.blog.link}/>

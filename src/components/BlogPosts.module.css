@@ -14,25 +14,34 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-import React from 'react';
-import styles from './RssPosts.module.css';
-
-function RssPosts({postsData}) {
-    return (
-        <div className={styles.mediumWidget}>
-            <div className={styles.mediumWidgetPosts}>
-                { postsData.map(post => (
-                    <RssPost key={post.title} post={post}/>
-                )) }
-            </div>
-        </div>
-    );
+.posts {
+    height: 100%;
+    overflow: scroll;
+    color: var(--ifm-font-color-base);
 }
 
-function RssPost({post}) {
-    return (
-        <div>{post.title}</div>
-    );
+.post {
+    border-bottom: 1px solid var(--separation-line-color);
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
 }
 
-export default RssPosts;
+.postHeader {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.postBody {
+    display: flex;
+    font-size: small;
+}
+
+.creator {
+    flex: 2;
+}
+
+.date {
+    color: gray;
+    flex: 1;
+    text-align: right;
+}
