@@ -2,4 +2,5 @@
 
 We would like to give a special thanks to:
 
-* Pixel Point, for providing the free [Medium widget](https://medium-widget.pixelpoint.io/)
+* [Ishan @seefromthesky](https://unsplash.com/@seefromthesky) for the photo on Unsplash
+* [Christina @ wocintechchat.com](https://unsplash.com/@wocintechchat) for the photo on Unsplash
