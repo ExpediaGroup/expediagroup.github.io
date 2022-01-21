@@ -39,6 +39,21 @@ jobs:
             git push
           fi
 
+      - name: Build and push blog posts json
+        env:
+          GITHUB_API_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config --global user.email "oss@expediagroup.com"
+          git config --global user.name "eg-oss-ci"
+          npm run build-posts-data
+          if git diff --quiet; then
+            echo "No changes to blog posts data"
+          else
+            git add static/posts.json
+            git commit -m "Updated posts.json"
+            git push
+          fi
+
       - name: Build site
         run: |
           npm run build
