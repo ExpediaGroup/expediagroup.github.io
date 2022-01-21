@@ -17,10 +17,10 @@ limitations under the License.
 import React from 'react';
 import styles from './BlogPosts.module.css';
 
-function BlogPosts({postsData}) {
+function BlogPosts({posts}) {
     return (
         <div className={styles.posts}>
-            { postsData.map(post => (
+            { posts.map(post => (
                 <BlogPost key={post.title} post={post}/>
             )) }
         </div>
