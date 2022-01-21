@@ -1,5 +1,5 @@
 /*
-Copyright 2021 Expedia, Inc.
+Copyright 2022 Expedia, Inc.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -14,20 +14,34 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-.mediumWidget {
+.posts {
     height: 100%;
-    padding: 3%;
-    overflow-y: scroll;
-    overflow-x: hidden;
+    overflow: scroll;
+    color: var(--ifm-font-color-base);
 }
 
-.mediumWidgetPosts {
+.post {
+    border-bottom: 1px solid var(--separation-line-color);
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
 }
 
-.mediumWidget :global(.medium-widget-article__image) img {
-    max-width: 100px;
+.postHeader {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
 }
 
-.mediumWidget :global(.medium-widget-article__description) {
-    color: black;
+.postBody {
+    display: flex;
+    font-size: small;
+}
+
+.creator {
+    flex: 2;
+}
+
+.date {
+    color: gray;
+    flex: 1;
+    text-align: right;
 }

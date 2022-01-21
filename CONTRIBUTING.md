@@ -20,6 +20,10 @@ where `my-feature` describes what you're working on.
 
 See info in the main [README.md](./README.md) on how to build and start locally.
 
+## Update the changelog
+
+See [CHANGELOG.md](./CHANGELOG.md).
+
 ## Submit Pull Request
 
 Submit a pull request from your fork's branch to the upstream `main` branch, it will be reviewed by the project maintainers.

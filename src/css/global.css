@@ -27,6 +27,7 @@ limitations under the License.
   --ifm-color-primary-lighter: rgb(102, 212, 189);
   --ifm-color-primary-lightest: rgb(146, 224, 208);
   --ifm-heading-color: var(--expedia-blue);
+  --separation-line-color: rgba(15,70,100,.12);
 }
 
 /**

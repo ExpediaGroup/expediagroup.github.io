@@ -15,7 +15,7 @@ limitations under the License.
 */
 
 .socialHeader {
-    border-bottom: 1px solid rgba(15,70,100,.12);
+    border-bottom: 2px solid var(--separation-line-color);
 }
 
 .socialHeader h1 {
