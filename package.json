@@ -18,6 +18,7 @@
     "@docusaurus/core": "^2.0.0-beta.14",
     "@docusaurus/preset-classic": "^2.0.0-beta.14",
     "@mdx-js/react": "^1.6.21",
+    "cheerio": "^1.0.0-rc.10",
     "clsx": "^1.1.1",
     "cross-fetch": "^3.0.6",
     "graphql": "^15.5.0",

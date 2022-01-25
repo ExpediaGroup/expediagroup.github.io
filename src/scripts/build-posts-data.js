@@ -14,38 +14,22 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
+const cheerio = require('cheerio');
 const Parser = require('rss-parser');
+const rssParser = new Parser();
+const MEDIUM_RSS_URL = 'https://medium.com/feed/expedia-group-tech';
 const moment = require('moment');
 const fs = require("fs");
 
-const MEDIUM_RSS_URL = 'https://medium.com/feed/expedia-group-tech';
-const rssParser = new Parser({
-    customFields: {
-        item: [
-            sanitizedField('title'),
-            sanitizedField('dc:creator', 'creator'),
-            sanitizedField('link')
-        ]
-    }
-});
-
-/**
- * Configures a field to be parsed so that its HTML is stripped out.
- * This is a security measure for text-only fields that will be rendered on a web page.
- * The name of the field in the parsed feed will be added the 'Snippet' suffix
- * (see https://github.com/rbren/rss-parser#custom-fields for more info).
- */
-function sanitizedField(sourceFieldName, newFieldName = sourceFieldName) {
-    return [sourceFieldName, newFieldName, {includeSnippet: true}]
-}
 
 async function fetchAndDumpPosts() {
     const feed = await rssParser.parseURL(MEDIUM_RSS_URL);
     const posts = feed.items.map(item => ({
-        title : item.titleSnippet,
-        creator : item.creatorSnippet,
-        link : item.linkSnippet,
+        title : sanitizeText(item.title),
+        creator : sanitizeText(item.creator),
+        link : sanitizeText(item.link),
         date : moment(item.isoDate, moment.ISO_8601).format('MMM D, YYYY'),
+        imageUrl : sanitizeText(parseImageUrl(item['content:encoded'])),
     }))
     fs.writeFile("static/posts.json", JSON.stringify(posts, null, 2), (err) => {
         if (err) {
@@ -55,3 +39,12 @@ async function fetchAndDumpPosts() {
 }
 
 fetchAndDumpPosts()
+
+function parseImageUrl(htmlContent) {
+    const $ = cheerio.load(htmlContent);
+    return $('img:first').attr('src')
+}
+
+function sanitizeText(text) {
+    return text === undefined ? '' : cheerio.load(text).text();
+}

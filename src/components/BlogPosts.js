@@ -30,14 +30,21 @@ function BlogPosts({posts}) {
 function BlogPost({post}) {
     return (
         <div className={styles.post}>
-            <div className={styles.postHeader}>
+            <div className={styles.postImageColumn}>
                 <a href={post.link} target="_blank">
-                    <h4>{post.title}</h4>
+                    <img src={post.imageUrl}/>
                 </a>
             </div>
-            <div className={styles.postBody}>
-                <span className={styles.creator}>{post.creator}</span>
-                <span className={styles.date}>{post.date}</span>
+            <div className={styles.postDetailColumn}>
+                <div className={styles.postTitle}>
+                    <a href={post.link} target="_blank">
+                        <h4>{post.title}</h4>
+                    </a>
+                </div>
+                <div className={styles.postCreationInfo}>
+                    <span className={styles.creator}>{post.creator}</span>
+                    <span className={styles.date}>{post.date}</span>
+                </div>
             </div>
         </div>
     );
