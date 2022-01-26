@@ -6,5 +6,8 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 You should update the version number in the [package.json](./package.json) according to the semantic versioning. 
 
+## 1.2.0
+- Added image to Medium blog posts, parsing the `content:encoded` field of the RSS feed.
+
 ## 1.1.0
 - Switched source of Medium blog posts from Pixel Point widget to RSS feed. It shows: title, link, creator, date.
