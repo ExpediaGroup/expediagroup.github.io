@@ -1,5 +1,11 @@
 [
   {
+    "title": "“Shifting Left”: Empowering Teams with Faster Feedback",
+    "creator": "Dan Adajian",
+    "link": "https://medium.com/expedia-group-tech/shifting-left-empowering-teams-with-faster-feedback-aa3fd67c7af8?source=rss----38998a53046f---4",
+    "date": "Jan 25, 2022"
+  },
+  {
     "title": "Building the Expedia Group Open Source Site",
     "creator": "Francesco Feltrinelli",
     "link": "https://medium.com/expedia-group-tech/building-the-expedia-group-open-source-site-fbdb8764dfe9?source=rss----38998a53046f---4",
@@ -52,11 +58,5 @@
     "creator": "Kunal Sharma",
     "link": "https://medium.com/expedia-group-tech/apache-cassandra-for-real-time-user-analytics-at-expedia-group-4b612bac05a7?source=rss----38998a53046f---4",
     "date": "Nov 9, 2021"
-  },
-  {
-    "title": "Applying the Single Responsibility Principle to a FE/BFF Layered Architecture — Backend Architecture",
-    "creator": "Rafael Torres",
-    "link": "https://medium.com/expedia-group-tech/applying-the-single-responsibility-principle-to-a-fe-bff-layered-architecture-backend-architecture-46e79c42d0cf?source=rss----38998a53046f---4",
-    "date": "Oct 28, 2021"
   }
 ]
