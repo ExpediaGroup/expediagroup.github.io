@@ -14,13 +14,13 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-const cheerio = require('cheerio');
-const Parser = require('rss-parser');
+import cheerio from 'cheerio';
+import Parser from 'rss-parser';
+import moment from 'moment';
+import fs from 'fs';
+
 const rssParser = new Parser();
 const MEDIUM_RSS_URL = 'https://medium.com/feed/expedia-group-tech';
-const moment = require('moment');
-const fs = require("fs");
-
 
 async function fetchAndDumpPosts() {
     const feed = await rssParser.parseURL(MEDIUM_RSS_URL);

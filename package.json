@@ -5,8 +5,8 @@
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
-    "build-posts-data": "node src/scripts/build-posts-data.js",
-    "build-repo-data": "node src/scripts/build-repo-data.js",
+    "build-posts-data": "node src/scripts/build-posts-data.mjs",
+    "build-repo-data": "node src/scripts/build-repo-data.mjs",
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
@@ -14,7 +14,7 @@
     "clear": "docusaurus clear"
   },
   "dependencies": {
-    "@apollo/client": "^3.3.11",
+    "@apollo/client": "^3.5.8",
     "@docusaurus/core": "^2.0.0-beta.14",
     "@docusaurus/preset-classic": "^2.0.0-beta.14",
     "@mdx-js/react": "^1.6.21",

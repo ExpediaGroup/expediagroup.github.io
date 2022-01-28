@@ -14,9 +14,10 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-const {ApolloClient, gql, HttpLink, InMemoryCache} = require("@apollo/client")
-const fetch = require("cross-fetch")
-const fs = require("fs");
+import apolloClient from '@apollo/client';
+const {ApolloClient, gql, HttpLink, InMemoryCache} = apolloClient;
+import fetch from 'cross-fetch';
+import fs from 'fs';
 
 
 const repoNames = [
