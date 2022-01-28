@@ -3,60 +3,70 @@
     "title": "“Shifting Left”: Empowering Teams with Faster Feedback",
     "creator": "Dan Adajian",
     "link": "https://medium.com/expedia-group-tech/shifting-left-empowering-teams-with-faster-feedback-aa3fd67c7af8?source=rss----38998a53046f---4",
-    "date": "Jan 25, 2022"
+    "date": "Jan 25, 2022",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*uZOzkUQYHkLzbbOfQVTfvA.jpeg"
   },
   {
     "title": "Building the Expedia Group Open Source Site",
     "creator": "Francesco Feltrinelli",
     "link": "https://medium.com/expedia-group-tech/building-the-expedia-group-open-source-site-fbdb8764dfe9?source=rss----38998a53046f---4",
-    "date": "Jan 18, 2022"
+    "date": "Jan 18, 2022",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*XNmw39ciTRoGIjCe6TRBTA.png"
   },
   {
     "title": "Lightning Fast Flight Searches on Expedia using Apache Ignite",
     "creator": "rohit goel",
     "link": "https://medium.com/expedia-group-tech/lightening-fast-flight-searches-on-expedia-using-apache-ignite-7c778b9c469d?source=rss----38998a53046f---4",
-    "date": "Jan 11, 2022"
+    "date": "Jan 11, 2022",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*WES_G8nFC0W7JfJrgCv1rg.jpeg"
   },
   {
     "title": "ObservableObject, @Published and Protocols with SwiftUI, UIKit and Cuckoo",
     "creator": "Kari Grooms",
     "link": "https://medium.com/expedia-group-tech/observableobject-published-and-protocols-with-swiftui-uikit-and-cuckoo-cce69a47f08a?source=rss----38998a53046f---4",
-    "date": "Jan 4, 2022"
+    "date": "Jan 4, 2022",
+    "imageUrl": "https://cdn-images-1.medium.com/max/800/1*u4E80O95VylXfXwByVqUNQ.jpeg"
   },
   {
     "title": "2021’s Top 10 Posts on Expedia Group Technology",
     "creator": "Clare Lam",
     "link": "https://medium.com/expedia-group-tech/2021s-top-10-posts-on-expedia-group-technology-3a16f9da0133?source=rss----38998a53046f---4",
-    "date": "Dec 16, 2021"
+    "date": "Dec 16, 2021",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*qqubbiESgVeT-tv6"
   },
   {
     "title": "Lenses in Java",
     "creator": "Vivek Jaiswal",
     "link": "https://medium.com/expedia-group-tech/lenses-in-java-2b18c7d24366?source=rss----38998a53046f---4",
-    "date": "Dec 14, 2021"
+    "date": "Dec 14, 2021",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*aEXbwg_nkIgfW_M6VdCBTw.jpeg"
   },
   {
     "title": "Package by Feature, Not by Layer",
     "creator": "Fred Friis",
     "link": "https://medium.com/expedia-group-tech/package-by-feature-not-by-layer-5ba04a070003?source=rss----38998a53046f---4",
-    "date": "Dec 7, 2021"
+    "date": "Dec 7, 2021",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*aHbcLmRQBp83h1bXJCyLAw.jpeg"
   },
   {
     "title": "Images on the Web: Part 2 — Implementing responsive images",
     "creator": "Jorge Barco",
     "link": "https://medium.com/expedia-group-tech/images-on-web-part-2-implementing-responsive-images-ca1d30f533f8?source=rss----38998a53046f---4",
-    "date": "Nov 30, 2021"
+    "date": "Nov 30, 2021",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*pGv5sOs79wq8d0mi"
   },
   {
     "title": "Lesson Learned from a NLB Connection Timeout",
     "creator": "Jian Li",
     "link": "https://medium.com/expedia-group-tech/lesson-learned-from-a-nlb-connection-timeout-2c672e59e197?source=rss----38998a53046f---4",
-    "date": "Nov 16, 2021"
+    "date": "Nov 16, 2021",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*n6jzWJFbrqN0Ow4g8lXCYg.jpeg"
   },
   {
     "title": "Apache Cassandra for Real Time User Analytics at Expedia Group",
     "creator": "Kunal Sharma",
     "link": "https://medium.com/expedia-group-tech/apache-cassandra-for-real-time-user-analytics-at-expedia-group-4b612bac05a7?source=rss----38998a53046f---4",
-    "date": "Nov 9, 2021"
+    "date": "Nov 9, 2021",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*Ynm8d7dn1SSXA_c6LTjFVg.jpeg"
   }
 ]

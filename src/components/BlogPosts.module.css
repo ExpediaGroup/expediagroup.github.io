@@ -21,27 +21,34 @@ limitations under the License.
 }
 
 .post {
-    border-bottom: 1px solid var(--separation-line-color);
-    margin-left: 0.5rem;
+    display: flex;
+    margin: 1rem 0.5rem 0.5rem;
+}
+
+.postImageColumn {
+    flex: 1;
     margin-right: 0.5rem;
 }
 
-.postHeader {
-    margin-top: 1rem;
-    margin-bottom: 0.5rem;
+.postDetailColumn {
+    flex: 3;
 }
 
-.postBody {
+.postTitle h4 {
+    margin-bottom: 0.2rem;
+}
+
+.postCreationInfo {
     display: flex;
     font-size: small;
 }
 
 .creator {
-    flex: 2;
+    flex: 3;
 }
 
 .date {
     color: gray;
-    flex: 1;
+    flex: 2;
     text-align: right;
 }
