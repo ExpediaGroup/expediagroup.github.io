@@ -14,54 +14,24 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-import apolloClient from '@apollo/client';
-const {ApolloClient, gql, HttpLink, InMemoryCache} = apolloClient;
-import fetch from 'cross-fetch';
+import {queryRepository} from "./github/github-queries.mjs";
 import fs from 'fs';
 
 
-const repoNames = [
-    { owner: "ExpediaGroup", name: "graphql-kotlin" },
-    { owner: "ExpediaGroup", name: "jenkins-spock" },
-    { owner: "ExpediaGroup", name: "stream-registry" },
-    { owner: "ExpediaGroup", name: "flyte" },
-    { owner: "ExpediaGroup", name: "graphql-component" },
-    { owner: "ExpediaGroup", name: "bull" },
-    { owner: "ExpediaGroup", name: "beekeeper" },
-    { owner: "ExpediaGroup", name: "mittens" },
-    { owner: "ExpediaGroup", name: "jarviz" }
+const repositories = [
+    { organization: "ExpediaGroup", name: "graphql-kotlin" },
+    { organization: "ExpediaGroup", name: "jenkins-spock" },
+    { organization: "ExpediaGroup", name: "stream-registry" },
+    { organization: "ExpediaGroup", name: "flyte" },
+    { organization: "ExpediaGroup", name: "graphql-component" },
+    { organization: "ExpediaGroup", name: "bull" },
+    { organization: "ExpediaGroup", name: "beekeeper" },
+    { organization: "ExpediaGroup", name: "mittens" },
+    { organization: "ExpediaGroup", name: "jarviz" }
 ]
 
-const githubClient = new ApolloClient({
-    link: new HttpLink({
-        uri: 'https://api.github.com/graphql',
-        fetch,
-        headers: {
-            Authorization: `bearer ${process.env.GITHUB_API_TOKEN}`
-        }
-    }),
-    cache: new InMemoryCache()
-})
-
-const QUERY_REPO_INFO = gql`
-  query ($owner: String!, $name: String!) {
-    repository(owner: $owner, name: $name) {
-      name
-      description
-      openGraphImageUrl
-      url
-    }
-  }`
-
 async function fetchAndDumpRepoData() {
-    const promises = repoNames.map(props =>
-        githubClient.query({
-            query: QUERY_REPO_INFO,
-            variables: {
-                owner : props.owner,
-                name : props.name
-            }
-        }))
+    const promises = repositories.map(repo => queryRepository(repo.organization, repo.name))
     const repoData = await Promise.all(promises).then(results => results.map(result => ({
             name: result.data.repository.name,
             description: result.data.repository.description,
