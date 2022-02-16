@@ -1,5 +1,12 @@
 [
   {
+    "title": "Safety Considerations When Using Enums in Avro Schemas",
+    "creator": "Elliot West",
+    "link": "https://medium.com/expedia-group-tech/safety-considerations-when-using-enums-in-avro-schemas-82e18baaa081?source=rss----38998a53046f---4",
+    "date": "Feb 15, 2022",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*J0IaOfLZYi1mOVBFCxCNEw.jpeg"
+  },
+  {
     "title": "End-to-End Testing without a UI",
     "creator": "Mannan Mackie",
     "link": "https://medium.com/expedia-group-tech/end-to-end-testing-without-a-ui-3dbda2503132?source=rss----38998a53046f---4",
@@ -61,12 +68,5 @@
     "link": "https://medium.com/expedia-group-tech/images-on-web-part-2-implementing-responsive-images-ca1d30f533f8?source=rss----38998a53046f---4",
     "date": "Nov 30, 2021",
     "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*pGv5sOs79wq8d0mi"
-  },
-  {
-    "title": "Lesson Learned from a NLB Connection Timeout",
-    "creator": "Jian Li",
-    "link": "https://medium.com/expedia-group-tech/lesson-learned-from-a-nlb-connection-timeout-2c672e59e197?source=rss----38998a53046f---4",
-    "date": "Nov 16, 2021",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*n6jzWJFbrqN0Ow4g8lXCYg.jpeg"
   }
 ]
