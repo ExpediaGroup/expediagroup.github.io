@@ -1,5 +1,12 @@
 [
   {
+    "title": "Handling Incompatible Schema Changes with Avro",
+    "creator": "Elliot West",
+    "link": "https://medium.com/expedia-group-tech/handling-incompatible-schema-changes-with-avro-2bc147e26770?source=rss----38998a53046f---4",
+    "date": "Feb 17, 2022",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*f5sYBSN2q5sd0SpKnjpW_w.jpeg"
+  },
+  {
     "title": "Safety Considerations When Using Enums in Avro Schemas",
     "creator": "Elliot West",
     "link": "https://medium.com/expedia-group-tech/safety-considerations-when-using-enums-in-avro-schemas-82e18baaa081?source=rss----38998a53046f---4",
@@ -61,12 +68,5 @@
     "link": "https://medium.com/expedia-group-tech/package-by-feature-not-by-layer-5ba04a070003?source=rss----38998a53046f---4",
     "date": "Dec 7, 2021",
     "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*aHbcLmRQBp83h1bXJCyLAw.jpeg"
-  },
-  {
-    "title": "Images on the Web: Part 2 — Implementing responsive images",
-    "creator": "Jorge Barco",
-    "link": "https://medium.com/expedia-group-tech/images-on-web-part-2-implementing-responsive-images-ca1d30f533f8?source=rss----38998a53046f---4",
-    "date": "Nov 30, 2021",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*pGv5sOs79wq8d0mi"
   }
 ]
