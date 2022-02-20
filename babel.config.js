@@ -15,5 +15,8 @@ limitations under the License.
 */
 
 module.exports = {
-  presets: [require.resolve('@docusaurus/core/lib/babel/preset')],
+  presets: [
+      require.resolve('@docusaurus/core/lib/babel/preset'),
+      '@babel/preset-env'
+  ]
 };

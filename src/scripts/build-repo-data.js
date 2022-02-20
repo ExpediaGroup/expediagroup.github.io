@@ -14,8 +14,8 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-import {queryRepository} from "./github/github-queries.mjs";
-import fs from 'fs';
+const {queryRepository} = require('./github/github-queries.js');
+const fs = require("fs");
 
 
 const repositories = [
@@ -31,13 +31,7 @@ const repositories = [
 ]
 
 async function fetchAndDumpRepoData() {
-    const promises = repositories.map(repo => queryRepository(repo.organization, repo.name))
-    const repoData = await Promise.all(promises).then(results => results.map(result => ({
-            name: result.data.repository.name,
-            description: result.data.repository.description,
-            imageUrl: result.data.repository.openGraphImageUrl,
-            repoUrl: result.data.repository.url
-        })))
+    const repoData = await Promise.all(repositories.map(repo => queryRepository(repo.organization, repo.name)))
     fs.writeFile("static/repos.json", JSON.stringify(repoData, null, 2), (err) => {
         if (err) {
             console.error("Failed to create repo file: ", err)

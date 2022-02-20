@@ -14,9 +14,8 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-import apolloClient from '@apollo/client';
-import fetch from "cross-fetch";
-const {ApolloClient, gql, HttpLink, InMemoryCache} = apolloClient;
+const {ApolloClient, gql, HttpLink, InMemoryCache} = require("@apollo/client")
+const fetch = require("cross-fetch")
 
 const githubClient = new ApolloClient({
     link: new HttpLink({
@@ -39,12 +38,17 @@ const QUERY_REPO_INFO = gql`
     }
   }`
 
-export function queryRepository(orgName, repoName) {
+exports.queryRepository = (orgName, repoName) => {
     return githubClient.query({
         query: QUERY_REPO_INFO,
         variables: {
             owner : orgName,
             name : repoName
         }
-    })
+    }).then(result => ({
+        name: result.data.repository.name,
+        description: result.data.repository.description,
+        imageUrl: result.data.repository.openGraphImageUrl,
+        repoUrl: result.data.repository.url
+    }))
 }
