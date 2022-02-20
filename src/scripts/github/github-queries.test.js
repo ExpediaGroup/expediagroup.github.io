@@ -21,9 +21,6 @@ apolloClientModule.ApolloClient = jest.fn(() => ({
 }));
 const {queryRepository} = require('./github-queries.js')
 
-beforeEach(() => {
-
-});
 
 describe('queryRepository', () => {
     test('delegates to ApolloClient passing the correct org name and repo name', async () => {

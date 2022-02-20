@@ -14,9 +14,13 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-module.exports = {
-  presets: [
-      require.resolve('@docusaurus/core/lib/babel/preset'),
-      '@babel/preset-env'
-  ]
+module.exports = (api) => {
+    const isJest = api.env('test');
+    const presets = [require.resolve('@docusaurus/core/lib/babel/preset')];
+    if (isJest) {
+        presets.push('@babel/preset-env');
+    }
+    return {
+        presets
+    };
 };
