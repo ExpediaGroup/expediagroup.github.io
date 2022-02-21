@@ -19,29 +19,64 @@ const apolloClientMockQuery = jest.fn()
 apolloClientModule.ApolloClient = jest.fn(() => ({
     query: apolloClientMockQuery
 }));
-const {queryRepository} = require('./github-queries.js')
+apolloClientMockQuery.lastCallFirstArg = () => {
+    expect(apolloClientMockQuery).toHaveBeenCalled()
+    return apolloClientMockQuery.mock.calls[0][0]
+}
 
 
 describe('queryRepository', () => {
-    test('delegates to ApolloClient passing the correct org name and repo name', async () => {
-        apolloClientMockQuery.mockResolvedValueOnce({
-            data: {
-                repository: {
-                    name: "test-repo",
-                    description: "test-repo-description",
-                    openGraphImageUrl: "test-image-url",
-                    url: "test-repo-url"
-                }
+    const {queryRepository} = require('./github-queries.js')
+    const ORG = 'test-org'
+    const REPO = 'test-repo'
+    const DESCRIPTION = 'test-description'
+    const IMAGE_URL = 'test-image-url'
+    const REPO_URL = 'test-repo-url'
+    const OK_RESPONSE = {
+        data: {
+            repository: {
+                name: REPO,
+                description: DESCRIPTION,
+                openGraphImageUrl: IMAGE_URL,
+                url: REPO_URL
             }
-        })
+        }
+    }
+    const ERROR_RESPONSE = {
+        error: {
+            message: 'test-error-message'
+        }
+    }
 
-        await queryRepository("org1", "repo1")
+    test('passes the correct organization name and repository name to ApolloClient', async () => {
+        apolloClientMockQuery.mockResolvedValueOnce(OK_RESPONSE)
 
-        expect(apolloClientMockQuery).toHaveBeenCalled()
-        const queryOptions = apolloClientMockQuery.mock.calls[0][0]
-        expect(queryOptions.variables).toStrictEqual({
-            owner : "org1",
-            name : "repo1"
+        await queryRepository(ORG, REPO)
+
+        expect(apolloClientMockQuery.lastCallFirstArg().variables).toStrictEqual({
+            owner : ORG,
+            name : REPO
         })
-    });
-});
+    })
+
+    test('maps fields from ApolloClient successful response', async () => {
+        apolloClientMockQuery.mockResolvedValueOnce(OK_RESPONSE)
+
+        const promise = queryRepository(ORG, REPO)
+
+        await expect(promise).resolves.toStrictEqual({
+            name: REPO,
+            description: DESCRIPTION,
+            imageUrl: IMAGE_URL,
+            repoUrl: REPO_URL
+        })
+    })
+
+    test('forwards the same error received from ApolloClient', async () => {
+        apolloClientMockQuery.mockRejectedValueOnce(ERROR_RESPONSE)
+
+        const promise = queryRepository(ORG, REPO)
+
+        await expect(promise).rejects.toStrictEqual(ERROR_RESPONSE)
+    })
+})
