@@ -47,8 +47,8 @@ exports.queryRepository = (orgName, repoName) => {
         }
     }).then(result => ({
         name: result.data.repository.name,
-        description: result.data.repository.description,
-        imageUrl: result.data.repository.openGraphImageUrl,
+        description: result.data.repository.description || '',
+        imageUrl: result.data.repository.openGraphImageUrl || '',
         repoUrl: result.data.repository.url
     }))
 }

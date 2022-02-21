@@ -59,7 +59,7 @@ describe('queryRepository', () => {
         })
     })
 
-    test('maps fields from ApolloClient successful response', async () => {
+    test('maps fields from ApolloClient response', async () => {
         apolloClientMockQuery.mockResolvedValueOnce(OK_RESPONSE)
 
         const promise = queryRepository(ORG, REPO)
@@ -70,6 +70,22 @@ describe('queryRepository', () => {
             imageUrl: IMAGE_URL,
             repoUrl: REPO_URL
         })
+    })
+
+    test('returns empty description if undefined in ApolloClient response', async () => {
+        apolloClientMockQuery.mockResolvedValueOnce({...OK_RESPONSE, data: { repository: { description: undefined }}})
+
+        const promise = queryRepository(ORG, REPO)
+
+        await expect(promise).resolves.toHaveProperty('description', '')
+    })
+
+    test('returns empty image url if undefined in ApolloClient response', async () => {
+        apolloClientMockQuery.mockResolvedValueOnce({...OK_RESPONSE, data: { repository: { openGraphImageUrl: undefined }}})
+
+        const promise = queryRepository(ORG, REPO)
+
+        await expect(promise).resolves.toHaveProperty('imageUrl', '')
     })
 
     test('forwards the same error received from ApolloClient', async () => {
