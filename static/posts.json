@@ -1,5 +1,12 @@
 [
   {
+    "title": "Practical Schema Evolution with Avro",
+    "creator": "Elliot West",
+    "link": "https://medium.com/expedia-group-tech/practical-schema-evolution-with-avro-c07af8ba1725?source=rss----38998a53046f---4",
+    "date": "Feb 22, 2022",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*DWU2fzubuspKXJm5t_k1Tg.jpeg"
+  },
+  {
     "title": "Handling Incompatible Schema Changes with Avro",
     "creator": "Elliot West",
     "link": "https://medium.com/expedia-group-tech/handling-incompatible-schema-changes-with-avro-2bc147e26770?source=rss----38998a53046f---4",
@@ -61,12 +68,5 @@
     "link": "https://medium.com/expedia-group-tech/lenses-in-java-2b18c7d24366?source=rss----38998a53046f---4",
     "date": "Dec 14, 2021",
     "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*aEXbwg_nkIgfW_M6VdCBTw.jpeg"
-  },
-  {
-    "title": "Package by Feature, Not by Layer",
-    "creator": "Fred Friis",
-    "link": "https://medium.com/expedia-group-tech/package-by-feature-not-by-layer-5ba04a070003?source=rss----38998a53046f---4",
-    "date": "Dec 7, 2021",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*aHbcLmRQBp83h1bXJCyLAw.jpeg"
   }
 ]
