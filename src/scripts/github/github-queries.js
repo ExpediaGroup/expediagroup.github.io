@@ -38,6 +38,27 @@ const QUERY_REPO_INFO = gql`
     }
   }`
 
+/**
+ * @typedef Repository
+ * @property {string} name The repository name.
+ * @property {string} description The repository description. Empty string if not available.
+ * @property {string} imageUrl The url of the social media image for the repository,
+ * see https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/customizing-your-repositorys-social-media-preview.
+ * Empty string if not available.
+ * @property {string} repoUrl The url of the repository.
+ */
+
+/**
+ * @typedef Error
+ * @property {{message: string}} error Error with a message. For more fields see https://www.apollographql.com/docs/react/data/queries/#error
+ */
+
+/**
+ * Fetches some information of a given GitHub repository using GitHub GraphQL API.
+ * @param {string} orgName the name of the GitHub organization
+ * @param {string} repoName the name of the GitHub repository
+ * @returns {Promise<Repository|Error>} a promise resolving to the repo info or rejecting with an error
+ */
 exports.queryRepository = (orgName, repoName) => {
     return githubClient.query({
         query: QUERY_REPO_INFO,
