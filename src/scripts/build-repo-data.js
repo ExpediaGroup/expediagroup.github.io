@@ -14,9 +14,8 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-const {queryRepository} = require('./github/github-queries.js');
-const fs = require("fs");
-
+const {queryRepository} = require('./github/github-queries');
+const {writeJsonFile} = require('./filesystem/fs-utils');
 
 const repositories = [
     { organization: "ExpediaGroup", name: "graphql-kotlin" },
@@ -32,11 +31,7 @@ const repositories = [
 
 async function fetchAndDumpRepoData() {
     const repoData = await Promise.all(repositories.map(repo => queryRepository(repo.organization, repo.name)))
-    fs.writeFile("static/repos.json", JSON.stringify(repoData, null, 2), (err) => {
-        if (err) {
-            console.error("Failed to create repo file: ", err)
-        }
-    });
+    await writeJsonFile("static/repos.json", repoData)
 }
 
 fetchAndDumpRepoData()
