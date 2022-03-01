@@ -16,25 +16,27 @@ limitations under the License.
 
 const fs = require('fs');
 jest.mock('fs', () => require('memfs').fs);
-const path = require('path')
 const {stripIndent} = require('common-tags')
 
 describe('writeJsonFile', () => {
     const {writeJsonFile} = require('./fs-utils.js');
-    const DIR = '/fake/dir'
-    const FILE = path.resolve(DIR, 'test.json')
-    fs.mkdirSync(DIR, {recursive: true})
+    const FILE = '/fake/dir/test.json'
+    const DATA = { foo: 'bar' }
 
-    test('serializes object to JSON and writes it to file system', () => {
-        const data = {
-            foo: 'bar'
-        }
-
-        writeJsonFile(FILE, data)
+    test('serializes object to JSON and writes it to file system', async () => {
+        await writeJsonFile(FILE, DATA)
 
         expect(fs.readFileSync(FILE, 'utf8')).toEqual(stripIndent`
           {
             "foo": "bar"
           }`)
+    })
+
+    test('rejects with an error if file path is null', async () => {
+        await expect(writeJsonFile(null, DATA)).rejects.toThrow(/path.*null/)
+    })
+
+    test('rejects with an error if file path is root dir', async () => {
+        await expect(writeJsonFile('/', DATA)).rejects.toThrow('illegal operation on a directory')
     })
 })

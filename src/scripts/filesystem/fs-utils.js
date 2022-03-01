@@ -14,8 +14,10 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-const fs = require("fs");
+const fsPromises = require("fs").promises;
+const path = require('path')
 
-exports.writeJsonFile = (filePath, data) => {
-    fs.writeFileSync(filePath, JSON.stringify(data, null, 2))
+exports.writeJsonFile = async (filePath, data) => {
+    await fsPromises.mkdir(path.dirname(filePath), {recursive: true})
+    await fsPromises.writeFile(filePath, JSON.stringify(data, null, 2))
 }
