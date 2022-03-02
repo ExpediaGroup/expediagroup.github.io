@@ -17,7 +17,7 @@ limitations under the License.
 const {queryRepository} = require('./github/github-queries');
 const {writeJsonFile} = require('./filesystem/fs-utils');
 
-const repositories = [
+const HOME_PAGE_REPOSITORIES = [
     { organization: "ExpediaGroup", name: "graphql-kotlin" },
     { organization: "ExpediaGroup", name: "jenkins-spock" },
     { organization: "ExpediaGroup", name: "stream-registry" },
@@ -29,9 +29,7 @@ const repositories = [
     { organization: "ExpediaGroup", name: "jarviz" }
 ]
 
-async function fetchAndDumpRepoData() {
+exports.fetchAndDumpRepositories = async (repositories = HOME_PAGE_REPOSITORIES, filePath = 'static/repos.json') => {
     const repoData = await Promise.all(repositories.map(repo => queryRepository(repo.organization, repo.name)))
-    await writeJsonFile("static/repos.json", repoData)
+    await writeJsonFile(filePath, repoData)
 }
-
-fetchAndDumpRepoData()
