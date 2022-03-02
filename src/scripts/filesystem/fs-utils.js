@@ -24,7 +24,7 @@ const {dirname} = require('path')
  * if successful, or rejects with an error.
  * @param {string} path the file path
  * @param {any} data any data that will be serialized to JSON
- * @returns {Promise<void>} promise representing the result of the file creation
+ * @returns {Promise<void|Error>} promise representing the result of the file creation
  */
 exports.writeJsonFile = async (path, data) => {
     await fsPromises.mkdir(dirname(path), {recursive: true})

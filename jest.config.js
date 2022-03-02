@@ -15,6 +15,7 @@ limitations under the License.
 */
 
 const config = {
+    resetMocks: true,
     transformIgnorePatterns: ["/node_modules/(?!(@babel/runtime)/)"]
 };
 

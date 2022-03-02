@@ -20,6 +20,18 @@ where `my-feature` describes what you're working on.
 
 See info in the main [README.md](./README.md) on how to build and start locally.
 
+## Update unit tests
+
+This project uses [Jest](https://jestjs.io/) for unit testing. When contributing, please update or add unit tests as needed.
+
+The naming convention for a file `foo.js` is to put the related unit tests next to it as `foo.test.js`.
+
+Run the unit tests with:
+
+```
+npm run test
+```
+
 ## Update the changelog
 
 See [CHANGELOG.md](./CHANGELOG.md).

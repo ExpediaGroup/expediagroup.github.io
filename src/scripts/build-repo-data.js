@@ -29,6 +29,18 @@ const HOME_PAGE_REPOSITORIES = [
     { organization: "ExpediaGroup", name: "jarviz" }
 ]
 
+/**
+ * @typedef Repository
+ * @property {string} organization The name of the GitHub organization.
+ * @property {string} name The name of the GitHub repository.
+ */
+
+/**
+ * Fetches information about the given GitHub repositories and write it as JSON to the file at the given path.
+ * @param {Repository[]} repositories the repositories to be fetched
+ * @param {string} filePath the json file that will be written
+ * @returns {Promise<void | Error>} a promise resolving to <code>undefined</code> in case of success or rejecting with an error
+ */
 exports.fetchAndDumpRepositories = async (repositories = HOME_PAGE_REPOSITORIES, filePath = 'static/repos.json') => {
     const repoData = await Promise.all(repositories.map(repo => queryRepository(repo.organization, repo.name)))
     await writeJsonFile(filePath, repoData)
