@@ -15,9 +15,9 @@ limitations under the License.
 */
 
 module.exports = (api) => {
-    const isJest = api.env('test');
+    const isJestTest = api.env('test');
     const presets = [require.resolve('@docusaurus/core/lib/babel/preset')];
-    if (isJest) {
+    if (isJestTest) {
         presets.push('@babel/preset-env');
     }
     return {
