@@ -21,8 +21,10 @@ jobs:
           node-version: '14'
 
       - name: Install Node.js modules
-        run: |
-          npm ci
+        run: npm ci
+
+      - name: Run Tests
+        run: npm run test
 
       - name: Build and push repositories json
         env:
@@ -55,8 +57,7 @@ jobs:
           fi
 
       - name: Build site
-        run: |
-          npm run build
+        run: npm run build
 
       - name: Validate content of cname file
         run: cat ./build/CNAME | grep opensource.expediagroup.com
