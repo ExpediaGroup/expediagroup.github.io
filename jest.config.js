@@ -1,5 +1,5 @@
 /*
-Copyright 2021 Expedia, Inc.
+Copyright 2022 Expedia, Inc.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -14,13 +14,9 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-module.exports = (api) => {
-    const isJestTest = api.env('test');
-    const presets = [require.resolve('@docusaurus/core/lib/babel/preset')];
-    if (isJestTest) {
-        presets.push('@babel/preset-env');
-    }
-    return {
-        presets
-    };
+const config = {
+    resetMocks: true,
+    transformIgnorePatterns: ["/node_modules/(?!(@babel/runtime)/)"]
 };
+
+module.exports = config;

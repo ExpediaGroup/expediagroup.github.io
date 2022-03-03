@@ -1,5 +1,5 @@
 /*
-Copyright 2021 Expedia, Inc.
+Copyright 2022 Expedia, Inc.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -14,64 +14,34 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-const {ApolloClient, gql, HttpLink, InMemoryCache} = require("@apollo/client")
-const fetch = require("cross-fetch")
-const fs = require("fs");
+const {queryRepository} = require('./github/github-queries');
+const {writeJsonFile} = require('./filesystem/fs-utils');
 
-
-const repoNames = [
-    { owner: "ExpediaGroup", name: "graphql-kotlin" },
-    { owner: "ExpediaGroup", name: "jenkins-spock" },
-    { owner: "ExpediaGroup", name: "stream-registry" },
-    { owner: "ExpediaGroup", name: "flyte" },
-    { owner: "ExpediaGroup", name: "graphql-component" },
-    { owner: "ExpediaGroup", name: "bull" },
-    { owner: "ExpediaGroup", name: "beekeeper" },
-    { owner: "ExpediaGroup", name: "mittens" },
-    { owner: "ExpediaGroup", name: "jarviz" }
+const HOME_PAGE_REPOSITORIES = [
+    { organization: "ExpediaGroup", name: "graphql-kotlin" },
+    { organization: "ExpediaGroup", name: "jenkins-spock" },
+    { organization: "ExpediaGroup", name: "stream-registry" },
+    { organization: "ExpediaGroup", name: "flyte" },
+    { organization: "ExpediaGroup", name: "graphql-component" },
+    { organization: "ExpediaGroup", name: "bull" },
+    { organization: "ExpediaGroup", name: "beekeeper" },
+    { organization: "ExpediaGroup", name: "mittens" },
+    { organization: "ExpediaGroup", name: "jarviz" }
 ]
 
-const githubClient = new ApolloClient({
-    link: new HttpLink({
-        uri: 'https://api.github.com/graphql',
-        fetch,
-        headers: {
-            Authorization: `bearer ${process.env.GITHUB_API_TOKEN}`
-        }
-    }),
-    cache: new InMemoryCache()
-})
+/**
+ * @typedef Repository
+ * @property {string} organization The name of the GitHub organization.
+ * @property {string} name The name of the GitHub repository.
+ */
 
-const QUERY_REPO_INFO = gql`
-  query ($owner: String!, $name: String!) {
-    repository(owner: $owner, name: $name) {
-      name
-      description
-      openGraphImageUrl
-      url
-    }
-  }`
-
-async function fetchAndDumpRepoData() {
-    const promises = repoNames.map(props =>
-        githubClient.query({
-            query: QUERY_REPO_INFO,
-            variables: {
-                owner : props.owner,
-                name : props.name
-            }
-        }))
-    const repoData = await Promise.all(promises).then(results => results.map(result => ({
-            name: result.data.repository.name,
-            description: result.data.repository.description,
-            imageUrl: result.data.repository.openGraphImageUrl,
-            repoUrl: result.data.repository.url
-        })))
-    fs.writeFile("static/repos.json", JSON.stringify(repoData, null, 2), (err) => {
-        if (err) {
-            console.error("Failed to create repo file: ", err)
-        }
-    });
+/**
+ * Fetches information about the given GitHub repositories and write it as JSON to the file at the given path.
+ * @param {Repository[]} repositories the repositories to be fetched
+ * @param {string} filePath the json file that will be written
+ * @returns {Promise<void | Error>} a promise resolving to <code>undefined</code> in case of success or rejecting with an error
+ */
+exports.fetchAndDumpRepositories = async (repositories = HOME_PAGE_REPOSITORIES, filePath = 'static/repos.json') => {
+    const repoData = await Promise.all(repositories.map(repo => queryRepository(repo.organization, repo.name)))
+    await writeJsonFile(filePath, repoData)
 }
-
-fetchAndDumpRepoData()

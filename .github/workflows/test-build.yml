@@ -12,7 +12,9 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: '14'
+      - name: Install Dependencies
+        run: npm ci
+      - name: Run Tests
+        run: npm run test
       - name: Test Build
-        run: |
-          npm ci
-          npm run build
+        run: npm run build
