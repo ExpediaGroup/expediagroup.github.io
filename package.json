@@ -33,6 +33,7 @@
   "devDependencies": {
     "common-tags": "^1.8.2",
     "jest": "^27.5.1",
+    "jest-each": "^27.5.1",
     "memfs": "^3.4.1"
   },
   "browserslist": {

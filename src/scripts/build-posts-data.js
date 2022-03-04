@@ -14,23 +14,13 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-const cheerio = require('cheerio');
-const Parser = require('rss-parser');
-const rssParser = new Parser();
+const {getMediumPostsFromRss} = require('./posts/medium-posts');
 const MEDIUM_RSS_URL = 'https://medium.com/feed/expedia-group-tech';
-const moment = require('moment');
 const fs = require("fs");
 
 
 async function fetchAndDumpPosts() {
-    const feed = await rssParser.parseURL(MEDIUM_RSS_URL);
-    const posts = feed.items.map(item => ({
-        title : sanitizeText(item.title),
-        creator : sanitizeText(item.creator),
-        link : sanitizeText(item.link),
-        date : moment(item.isoDate, moment.ISO_8601).format('MMM D, YYYY'),
-        imageUrl : sanitizeText(parseImageUrl(item['content:encoded'])),
-    }))
+    const posts = await getMediumPostsFromRss(MEDIUM_RSS_URL);
     fs.writeFile("static/posts.json", JSON.stringify(posts, null, 2), (err) => {
         if (err) {
             console.error("Failed to create posts file: ", err)
@@ -39,12 +29,3 @@ async function fetchAndDumpPosts() {
 }
 
 fetchAndDumpPosts()
-
-function parseImageUrl(htmlContent) {
-    const $ = cheerio.load(htmlContent);
-    return $('img:first').attr('src')
-}
-
-function sanitizeText(text) {
-    return text === undefined ? '' : cheerio.load(text).text();
-}
