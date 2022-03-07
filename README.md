@@ -23,8 +23,20 @@ Then start with:
 npm start
 ```
 
-This command starts a local development server and open up a browser window.
+This command starts a local development server and opens up a browser window.
 Most changes are reflected live without having to restart the server.
+
+Alternatively, you can build the site with:
+
+```console
+npm run build
+```
+
+then serve locally the content of the `build` directory with:
+
+```console
+npm run serve
+```
 
 ## 👥 How to contact
 
