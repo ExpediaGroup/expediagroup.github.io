@@ -15,17 +15,16 @@ limitations under the License.
 */
 
 const {getMediumPostsFromRss} = require('./posts/medium-posts');
-const MEDIUM_RSS_URL = 'https://medium.com/feed/expedia-group-tech';
-const fs = require("fs");
+const EXPEDIA_MEDIUM_RSS_URL = 'https://medium.com/feed/expedia-group-tech';
+const {writeJsonFile} = require("./filesystem/fs-utils");
 
-
-async function fetchAndDumpPosts() {
-    const posts = await getMediumPostsFromRss(MEDIUM_RSS_URL);
-    fs.writeFile("static/posts.json", JSON.stringify(posts, null, 2), (err) => {
-        if (err) {
-            console.error("Failed to create posts file: ", err)
-        }
-    });
+/**
+ * Fetches blog posts from the given Medium RSS feed and write them as JSON to the file at the given path.
+ * @param rssUrl url of the medium.com RSS feed
+ * @param filePath the json file that will be written
+ * @returns {Promise<void|Error>} a promise resolving to <code>undefined</code> in case of success or rejecting with an error
+ */
+exports.fetchAndDumpPosts = async (rssUrl = EXPEDIA_MEDIUM_RSS_URL, filePath = 'static/posts.json') => {
+    const posts = await getMediumPostsFromRss(rssUrl)
+    await writeJsonFile(filePath, posts)
 }
-
-fetchAndDumpPosts()
