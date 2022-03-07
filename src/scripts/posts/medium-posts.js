@@ -19,6 +19,21 @@ const Parser = require('rss-parser');
 const rssParser = new Parser();
 const moment = require('moment');
 
+/**
+ * @typedef BlogPost
+ * @property {string} title The post's title.
+ * @property {string} creator The post's author.
+ * @property {string} link The post's link.
+ * @property {string} date The post's publish date.
+ * @property {string} imageUrl The url for the main post's image.
+ */
+
+/**
+ * Fetch and parse the given medium.com RSS feed to get the list
+ * of last published blog posts.
+ * @param rssUrl url of the Medium RSS feed
+ * @returns {Promise<BlogPost[]|Error>} a promise resolving to the list of posts or rejecting with an error
+ */
 exports.getMediumPostsFromRss = async (rssUrl) => {
     const feed = await rssParser.parseURL(rssUrl);
     return feed?.items?.map(item => ({
@@ -26,11 +41,11 @@ exports.getMediumPostsFromRss = async (rssUrl) => {
         creator: sanitizeText(item.creator),
         link: sanitizeText(item.link),
         date: moment(item.isoDate, moment.ISO_8601).format('MMM D, YYYY'),
-        imageUrl: sanitizeText(parseImageUrl(item['content:encoded'])),
+        imageUrl: sanitizeText(parseFirstImageUrl(item['content:encoded'])),
     })) ?? []
 }
 
-function parseImageUrl(htmlContent) {
+function parseFirstImageUrl(htmlContent) {
     if (htmlContent) {
         const $ = cheerio.load(htmlContent)
         return $('img:first').attr('src')
