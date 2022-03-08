@@ -14,37 +14,17 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-const cheerio = require('cheerio');
-const Parser = require('rss-parser');
-const rssParser = new Parser();
-const MEDIUM_RSS_URL = 'https://medium.com/feed/expedia-group-tech';
-const moment = require('moment');
-const fs = require("fs");
+const {getMediumPostsFromRss} = require('./posts/medium-posts');
+const EXPEDIA_MEDIUM_RSS_URL = 'https://medium.com/feed/expedia-group-tech';
+const {writeJsonFile} = require("./filesystem/fs-utils");
 
-
-async function fetchAndDumpPosts() {
-    const feed = await rssParser.parseURL(MEDIUM_RSS_URL);
-    const posts = feed.items.map(item => ({
-        title : sanitizeText(item.title),
-        creator : sanitizeText(item.creator),
-        link : sanitizeText(item.link),
-        date : moment(item.isoDate, moment.ISO_8601).format('MMM D, YYYY'),
-        imageUrl : sanitizeText(parseImageUrl(item['content:encoded'])),
-    }))
-    fs.writeFile("static/posts.json", JSON.stringify(posts, null, 2), (err) => {
-        if (err) {
-            console.error("Failed to create posts file: ", err)
-        }
-    });
-}
-
-fetchAndDumpPosts()
-
-function parseImageUrl(htmlContent) {
-    const $ = cheerio.load(htmlContent);
-    return $('img:first').attr('src')
-}
-
-function sanitizeText(text) {
-    return text === undefined ? '' : cheerio.load(text).text();
+/**
+ * Fetches blog posts from the given Medium RSS feed and write them as JSON to the file at the given path.
+ * @param rssUrl url of the medium.com RSS feed
+ * @param filePath the json file that will be written
+ * @returns {Promise<void|Error>} a promise resolving to <code>undefined</code> in case of success or rejecting with an error
+ */
+exports.fetchAndDumpPosts = async (rssUrl = EXPEDIA_MEDIUM_RSS_URL, filePath = 'static/posts.json') => {
+    const posts = await getMediumPostsFromRss(rssUrl)
+    await writeJsonFile(filePath, posts)
 }

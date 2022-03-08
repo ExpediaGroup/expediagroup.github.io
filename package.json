@@ -1,11 +1,11 @@
 {
   "name": "expediagroup.github.io",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
-    "build-posts-data": "node src/scripts/build-posts-data.js",
+    "build-posts-data": "run-func src/scripts/build-posts-data.js fetchAndDumpPosts",
     "build-repo-data": "run-func src/scripts/build-repo-data.js fetchAndDumpRepositories",
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
@@ -33,6 +33,7 @@
   "devDependencies": {
     "common-tags": "^1.8.2",
     "jest": "^27.5.1",
+    "jest-each": "^27.5.1",
     "memfs": "^3.4.1"
   },
   "browserslist": {

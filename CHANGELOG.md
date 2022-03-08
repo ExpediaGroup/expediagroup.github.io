@@ -6,6 +6,9 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 You should update the version number in the [package.json](./package.json) according to the semantic versioning. 
 
+## 1.2.2
+- Refactored and added unit tests for `build-posts-data.js`.
+
 ## 1.2.1
 - Refactored and added unit tests for `build-repo-data.js`.
 
