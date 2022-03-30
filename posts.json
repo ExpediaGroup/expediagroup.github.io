@@ -1,5 +1,12 @@
 [
   {
+    "title": "Chaos Engineering at Expedia Group",
+    "creator": "Nikos Katirtzis",
+    "link": "https://medium.com/expedia-group-tech/chaos-engineering-at-expedia-group-e51a0288ee2?source=rss----38998a53046f---4",
+    "date": "Mar 29, 2022",
+    "imageUrl": ""
+  },
+  {
     "title": "Open Source at Expedia Group — Behind the scenes",
     "creator": "Nikos Katirtzis",
     "link": "https://medium.com/expedia-group-tech/open-source-at-expedia-group-behind-the-scenes-ecc7d4480566?source=rss----38998a53046f---4",
@@ -61,12 +68,5 @@
     "link": "https://medium.com/expedia-group-tech/end-to-end-testing-without-a-ui-3dbda2503132?source=rss----38998a53046f---4",
     "date": "Feb 1, 2022",
     "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*jsIClnDWOYqAQnvlmVOw2Q.jpeg"
-  },
-  {
-    "title": "“Shifting Left”: Empowering Teams with Faster Feedback",
-    "creator": "Dan Adajian",
-    "link": "https://medium.com/expedia-group-tech/shifting-left-empowering-teams-with-faster-feedback-aa3fd67c7af8?source=rss----38998a53046f---4",
-    "date": "Jan 25, 2022",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*uZOzkUQYHkLzbbOfQVTfvA.jpeg"
   }
 ]
