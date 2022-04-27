@@ -1,5 +1,12 @@
 [
   {
+    "title": "Delivering with a sense of urgency",
+    "creator": "Paul de Lange",
+    "link": "https://medium.com/expedia-group-tech/delivering-with-a-sense-of-urgency-be58b10c44ec?source=rss----38998a53046f---4",
+    "date": "Apr 26, 2022",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*r63YiDK6GowyBtjGFI_yow.jpeg"
+  },
+  {
     "title": "An Exercise in Software Resiliency on Kubernetes",
     "creator": "Sasidhar Sekar",
     "link": "https://medium.com/expedia-group-tech/an-exercise-in-software-resiliency-on-kubernetes-a241dd1c6f7b?source=rss----38998a53046f---4",
@@ -61,12 +68,5 @@
     "link": "https://medium.com/expedia-group-tech/handling-incompatible-schema-changes-with-avro-2bc147e26770?source=rss----38998a53046f---4",
     "date": "Feb 17, 2022",
     "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*f5sYBSN2q5sd0SpKnjpW_w.jpeg"
-  },
-  {
-    "title": "Safety Considerations When Using Enums in Avro Schemas",
-    "creator": "Elliot West",
-    "link": "https://medium.com/expedia-group-tech/safety-considerations-when-using-enums-in-avro-schemas-82e18baaa081?source=rss----38998a53046f---4",
-    "date": "Feb 15, 2022",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*J0IaOfLZYi1mOVBFCxCNEw.jpeg"
   }
 ]
