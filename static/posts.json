@@ -1,5 +1,12 @@
 [
   {
+    "title": "Software Architectural Patterns in Data Engineering",
+    "creator": "Kunal Sharma",
+    "link": "https://medium.com/expedia-group-tech/software-architectural-patterns-in-data-engineering-5d3bf22106a0?source=rss----38998a53046f---4",
+    "date": "May 24, 2022",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*W7tEmEyyq49JmkZbZmHHeg.jpeg"
+  },
+  {
     "title": "Working around Datadog’s cardinality limitations",
     "creator": "Lorenzo Dell'Arciprete",
     "link": "https://medium.com/expedia-group-tech/working-around-datadogs-cardinality-limitations-be2f9a69612a?source=rss----38998a53046f---4",
@@ -61,12 +68,5 @@
     "link": "https://medium.com/expedia-group-tech/kafka-schema-registry-pem-authentication-bb434f32f99f?source=rss----38998a53046f---4",
     "date": "Feb 24, 2022",
     "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*fAC509cfR5A86a62Z1-Tgg.jpeg"
-  },
-  {
-    "title": "Practical Schema Evolution with Avro",
-    "creator": "Elliot West",
-    "link": "https://medium.com/expedia-group-tech/practical-schema-evolution-with-avro-c07af8ba1725?source=rss----38998a53046f---4",
-    "date": "Feb 22, 2022",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*DWU2fzubuspKXJm5t_k1Tg.jpeg"
   }
 ]
