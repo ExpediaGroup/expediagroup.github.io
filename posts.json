@@ -1,5 +1,12 @@
 [
   {
+    "title": "How Vrbo and Expedia Lodging Prepared for 2022’s Super Bowl LVI",
+    "creator": "Juliette Howland",
+    "link": "https://medium.com/expedia-group-tech/how-vrbo-and-expedia-lodging-prepared-for-2022s-super-bowl-lvi-984e8d4f2faa?source=rss----38998a53046f---4",
+    "date": "May 31, 2022",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*qF-iXwrR3tlD1-u_XXB9bg.jpeg"
+  },
+  {
     "title": "Software Architectural Patterns in Data Engineering",
     "creator": "Kunal Sharma",
     "link": "https://medium.com/expedia-group-tech/software-architectural-patterns-in-data-engineering-5d3bf22106a0?source=rss----38998a53046f---4",
@@ -61,12 +68,5 @@
     "link": "https://medium.com/expedia-group-tech/service-slow-to-retrieve-aws-credentials-ebc02a38e95b?source=rss----38998a53046f---4",
     "date": "Mar 1, 2022",
     "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*XE5R0yw_897tSzm_PUdxew.jpeg"
-  },
-  {
-    "title": "Kafka: Schema Registry PEM authentication",
-    "creator": "Elliot West",
-    "link": "https://medium.com/expedia-group-tech/kafka-schema-registry-pem-authentication-bb434f32f99f?source=rss----38998a53046f---4",
-    "date": "Feb 24, 2022",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*fAC509cfR5A86a62Z1-Tgg.jpeg"
   }
 ]
