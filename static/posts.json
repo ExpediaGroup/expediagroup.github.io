@@ -1,5 +1,12 @@
 [
   {
+    "title": "Asynchronous Testing with Combine Schedulers",
+    "creator": "Francisco José Belchí Martínez",
+    "link": "https://medium.com/expedia-group-tech/asynchronous-testing-with-combine-schedulers-5dc9c45f56dd?source=rss----38998a53046f---4",
+    "date": "Jun 7, 2022",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*l81bif_i58nefp0pwgAw5Q.jpeg"
+  },
+  {
     "title": "How Vrbo and Expedia Lodging Prepared for 2022’s Super Bowl LVI",
     "creator": "Juliette Howland",
     "link": "https://medium.com/expedia-group-tech/how-vrbo-and-expedia-lodging-prepared-for-2022s-super-bowl-lvi-984e8d4f2faa?source=rss----38998a53046f---4",
@@ -61,12 +68,5 @@
     "link": "https://medium.com/expedia-group-tech/crossplane-implementation-integration-with-aws-16f6143644d4?source=rss----38998a53046f---4",
     "date": "Mar 8, 2022",
     "imageUrl": "https://cdn-images-1.medium.com/max/960/0*VzuXnmmwWGdD2Pn7.png"
-  },
-  {
-    "title": "Service Slow to Retrieve AWS Credentials",
-    "creator": "Francesco Feltrinelli",
-    "link": "https://medium.com/expedia-group-tech/service-slow-to-retrieve-aws-credentials-ebc02a38e95b?source=rss----38998a53046f---4",
-    "date": "Mar 1, 2022",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*XE5R0yw_897tSzm_PUdxew.jpeg"
   }
 ]
