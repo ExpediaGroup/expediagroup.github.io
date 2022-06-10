@@ -1,5 +1,12 @@
 [
   {
+    "title": "Lightning Fast Flight Searches on Expedia using Apache Ignite — Part II",
+    "creator": "Bhanu Choudhary",
+    "link": "https://medium.com/expedia-group-tech/lightning-fast-flight-searches-on-expedia-using-apache-ignite-part-ii-7fc7e3bca7f?source=rss----38998a53046f---4",
+    "date": "Jun 9, 2022",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*3_9lmHH0CMVJyA873nrbMg.jpeg"
+  },
+  {
     "title": "Asynchronous Testing with Combine Schedulers",
     "creator": "Francisco José Belchí Martínez",
     "link": "https://medium.com/expedia-group-tech/asynchronous-testing-with-combine-schedulers-5dc9c45f56dd?source=rss----38998a53046f---4",
@@ -61,12 +68,5 @@
     "link": "https://medium.com/expedia-group-tech/dns-prefetch-preconnect-7-tips-tricks-and-pitfalls-82d633c7f210?source=rss----38998a53046f---4",
     "date": "Mar 15, 2022",
     "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*rciiwsDYfo5HPxlM"
-  },
-  {
-    "title": "Crossplane Implementation & Integration with AWS",
-    "creator": "Aditya Jain",
-    "link": "https://medium.com/expedia-group-tech/crossplane-implementation-integration-with-aws-16f6143644d4?source=rss----38998a53046f---4",
-    "date": "Mar 8, 2022",
-    "imageUrl": "https://cdn-images-1.medium.com/max/960/0*VzuXnmmwWGdD2Pn7.png"
   }
 ]
