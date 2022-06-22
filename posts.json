@@ -1,5 +1,12 @@
 [
   {
+    "title": "Managing a federated Kubernetes Cluster using Kubefed v2",
+    "creator": "Aditya Sharma",
+    "link": "https://medium.com/expedia-group-tech/managing-a-federated-kubernetes-cluster-using-kubefed-v2-5f115dbdbe05?source=rss----38998a53046f---4",
+    "date": "Jun 21, 2022",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*5S22_CcU4CH9mZbzwRSg5Q.jpeg"
+  },
+  {
     "title": "Centralizing GraphQL Mock Data to an Internal Route",
     "creator": "Adam Schutte",
     "link": "https://medium.com/expedia-group-tech/centralizing-graphql-mock-data-to-an-internal-route-e17adbe4002f?source=rss----38998a53046f---4",
@@ -61,12 +68,5 @@
     "link": "https://medium.com/expedia-group-tech/chaos-engineering-at-expedia-group-e51a0288ee2?source=rss----38998a53046f---4",
     "date": "Mar 29, 2022",
     "imageUrl": ""
-  },
-  {
-    "title": "Open Source at Expedia Group — Behind the scenes",
-    "creator": "Nikos Katirtzis",
-    "link": "https://medium.com/expedia-group-tech/open-source-at-expedia-group-behind-the-scenes-ecc7d4480566?source=rss----38998a53046f---4",
-    "date": "Mar 22, 2022",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*CqOCYl5P2rbKTRjXDRzfMA.jpeg"
   }
 ]
