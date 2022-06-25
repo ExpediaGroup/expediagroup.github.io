@@ -16,6 +16,10 @@ limitations under the License.
 
 const config = {
     resetMocks: true,
+    transform: {
+        "\\.[jt]sx?$": "babel-jest",
+        ".+\\.(css|styl|less|sass|scss)$": "jest-css-modules-transform"
+    },
     transformIgnorePatterns: ["/node_modules/(?!(@babel/runtime)/)"]
 };
 

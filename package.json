@@ -30,8 +30,10 @@
   "devDependencies": {
     "common-tags": "^1.8.2",
     "jest": "^28.1.0",
+    "jest-css-modules-transform": "^4.4.2",
     "jest-each": "^28.1.0",
-    "memfs": "^3.4.1"
+    "memfs": "^3.4.1",
+    "react-test-renderer": "^16.14.0"
   },
   "browserslist": {
     "production": [
