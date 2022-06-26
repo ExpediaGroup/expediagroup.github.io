@@ -5,7 +5,7 @@ exports[`renders correctly 1`] = `
   className="socialHeader"
 >
   <h1>
-    foo
+    test title
   </h1>
 </div>
 `;

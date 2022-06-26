@@ -1,12 +1,12 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import SocialHeader from './SocialHeader';
+import ArrowLink from './ArrowLink';
 
-const TITLE = 'test title';
+const LINK = 'http://test-link';
 
 it('renders correctly', () => {
     const tree = renderer
-        .create(<SocialHeader title={TITLE}/>)
+        .create(<ArrowLink link={LINK}/>)
         .toJSON();
     expect(tree).toMatchSnapshot();
 });
