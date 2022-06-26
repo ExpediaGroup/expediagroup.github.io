@@ -16,5 +16,11 @@ jobs:
         run: npm ci
       - name: Run Tests
         run: npm run test
+      - name: Test Build Scripts
+        env:
+          GITHUB_API_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          npm run build-repo-data
+          npm run build-posts-data
       - name: Test Build
         run: npm run build
