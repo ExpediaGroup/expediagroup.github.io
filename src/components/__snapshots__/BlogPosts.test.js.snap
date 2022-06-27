@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="posts"
+>
+  <div
+    className="post"
+  >
+    <div
+      className="postImageColumn"
+    >
+      <a
+        href="https://my/post"
+        target="_blank"
+      >
+        <img
+          src="https://my/post/image.jpg"
+        />
+      </a>
+    </div>
+    <div
+      className="postDetailColumn"
+    >
+      <div
+        className="postTitle"
+      >
+        <a
+          href="https://my/post"
+          target="_blank"
+        >
+          <h4>
+            My Post Title
+          </h4>
+        </a>
+      </div>
+      <div
+        className="postCreationInfo"
+      >
+        <span
+          className="creator"
+        >
+          Mary Krismass
+        </span>
+        <span
+          className="date"
+        >
+          Jan 01, 2022
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -16,16 +16,19 @@ limitations under the License.
 
 import React from 'react';
 import renderer from 'react-test-renderer';
-import SocialFooter from './SocialFooter';
+import BlogPosts from './BlogPosts';
 
-jest.mock('./ArrowLink', () => 'ArrowLink');
-
-const LINK = 'http://test-link';
-const TEXT = 'test text';
+const POSTS = [{
+    title: 'My Post Title',
+    creator: 'Mary Krismass',
+    link: 'https://my/post',
+    date: 'Jan 01, 2022',
+    imageUrl: 'https://my/post/image.jpg'
+}];
 
 it('renders correctly', () => {
     const tree = renderer
-        .create(<SocialFooter link={LINK} text={TEXT}/>)
+        .create(<BlogPosts posts={POSTS}/>)
         .toJSON();
     expect(tree).toMatchSnapshot();
 });

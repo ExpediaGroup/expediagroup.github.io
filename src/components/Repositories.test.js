@@ -16,16 +16,24 @@ limitations under the License.
 
 import React from 'react';
 import renderer from 'react-test-renderer';
-import SocialFooter from './SocialFooter';
+import Repositories from './Repositories';
 
 jest.mock('./ArrowLink', () => 'ArrowLink');
 
-const LINK = 'http://test-link';
-const TEXT = 'test text';
+const REPOS_DATA = [{
+    name: 'my-repo',
+    description: 'My repo description',
+    imageUrl: 'https://my/repo/image',
+    repoUrl: 'https://my/repo'
+}];
+const REPOS_CONFIG = {
+    exploreMoreText: 'Explore more',
+    allReposLink: 'https://all/repos'
+}
 
 it('renders correctly', () => {
     const tree = renderer
-        .create(<SocialFooter link={LINK} text={TEXT}/>)
+        .create(<Repositories reposData={REPOS_DATA} reposConfig={REPOS_CONFIG}/>)
         .toJSON();
     expect(tree).toMatchSnapshot();
 });
