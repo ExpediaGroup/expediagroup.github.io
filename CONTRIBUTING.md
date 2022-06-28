@@ -32,6 +32,9 @@ Run the unit tests with:
 npm run test
 ```
 
+Unit tests for React components use [snapshot testing](https://jestjs.io/docs/snapshot-testing), please take a moment
+to learn about this kind of tests and how to use them.
+
 ## Update the changelog
 
 See [CHANGELOG.md](./CHANGELOG.md).
