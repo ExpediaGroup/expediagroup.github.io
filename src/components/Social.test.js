@@ -22,7 +22,7 @@ jest.mock('./TwitterTimeline', () => 'TwitterTimeline');
 jest.mock('./BlogPosts', () => 'BlogPosts');
 jest.mock('./SocialHeader', () => 'SocialHeader');
 jest.mock('./SocialFooter', () => 'SocialFooter');
-jest.mock('@site/static/posts.json', () => '{test-posts}', { virtual: true });
+jest.mock('@site/static/posts.json', () => [], { virtual: true });
 jest.mock('@site/static/img/careers.jpg', () => 'careers-image-url', { virtual: true });
 
 const SOCIAL_CONFIG = {

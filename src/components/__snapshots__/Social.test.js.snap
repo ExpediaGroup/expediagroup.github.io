@@ -26,7 +26,7 @@ exports[`renders correctly 1`] = `
               className="socialBody"
             >
               <BlogPosts
-                posts="{test-posts}"
+                posts={Array []}
               />
             </div>
           </div>
