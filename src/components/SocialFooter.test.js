@@ -14,13 +14,18 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-const config = {
-    resetMocks: true,
-    transform: {
-        "\\.[jt]sx?$": "babel-jest",
-        ".+\\.(css|styl|less|sass|scss)$": "jest-css-modules-transform"
-    },
-    transformIgnorePatterns: ["/node_modules/(?!(@babel/runtime)/)"]
-};
+import React from 'react';
+import renderer from 'react-test-renderer';
+import SocialFooter from './SocialFooter';
 
-module.exports = config;
+jest.mock('./ArrowLink', () => 'ArrowLink');
+
+const LINK = 'http://test-link';
+const TEXT = 'test text';
+
+it('renders correctly', () => {
+    const tree = renderer
+        .create(<SocialFooter link={LINK} text={TEXT}/>)
+        .toJSON();
+    expect(tree).toMatchSnapshot();
+});

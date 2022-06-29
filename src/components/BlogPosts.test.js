@@ -14,13 +14,21 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-const config = {
-    resetMocks: true,
-    transform: {
-        "\\.[jt]sx?$": "babel-jest",
-        ".+\\.(css|styl|less|sass|scss)$": "jest-css-modules-transform"
-    },
-    transformIgnorePatterns: ["/node_modules/(?!(@babel/runtime)/)"]
-};
+import React from 'react';
+import renderer from 'react-test-renderer';
+import BlogPosts from './BlogPosts';
 
-module.exports = config;
+const POSTS = [{
+    title: 'My Post Title',
+    creator: 'Mary Krismass',
+    link: 'https://my/post',
+    date: 'Jan 01, 2022',
+    imageUrl: 'https://my/post/image.jpg'
+}];
+
+it('renders correctly', () => {
+    const tree = renderer
+        .create(<BlogPosts posts={POSTS}/>)
+        .toJSON();
+    expect(tree).toMatchSnapshot();
+});

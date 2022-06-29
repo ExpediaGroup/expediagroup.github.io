@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders a skelethon anchor tag that will be hydrated by Twitter script 1`] = `
+<div>
+  <a
+    className="twitter-timeline"
+    data-chrome="noheader nofooter"
+    data-height="525"
+    href="http://test-twitter-account"
+  >
+    <h3>
+      Loading tweets..
+    </h3>
+  </a>
+</div>
+`;

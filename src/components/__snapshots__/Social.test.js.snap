@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<section
+  className="social"
+>
+  <div
+    className="container"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col col--4"
+      >
+        <div
+          className="socialColumn"
+        >
+          <div
+            className="socialHeaderAndBody"
+          >
+            <SocialHeader
+              title="blog title"
+            />
+            <div
+              className="socialBody"
+            >
+              <BlogPosts
+                posts={Array []}
+              />
+            </div>
+          </div>
+          <SocialFooter
+            link="https://my/blog"
+            text="blog footer"
+          />
+        </div>
+      </div>
+      <div
+        className="col col--4"
+      >
+        <div
+          className="socialColumn"
+        >
+          <div
+            className="socialHeaderAndBody"
+          >
+            <SocialHeader
+              title="careers title"
+            />
+            <div
+              className="socialBody"
+            >
+              <a
+                href="https://my/careers"
+                target="_blank"
+              >
+                <img
+                  alt="careers title"
+                  className="careersImage"
+                  src="careers-image-url"
+                />
+              </a>
+            </div>
+          </div>
+          <SocialFooter
+            link="https://my/careers"
+            text="careers footer"
+          />
+        </div>
+      </div>
+      <div
+        className="col col--4"
+      >
+        <div
+          className="socialColumn"
+        >
+          <div
+            className="socialHeaderAndBody"
+          >
+            <SocialHeader
+              title="twitter title"
+            />
+            <div
+              className="socialBody"
+            >
+              <TwitterTimeline
+                twitterLink="https://my/twitter"
+              />
+            </div>
+          </div>
+          <SocialFooter
+            link="https://my/twitter"
+            text="twitter footer"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+`;
