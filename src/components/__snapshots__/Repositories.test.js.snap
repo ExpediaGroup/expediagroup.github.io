@@ -1,6 +1,65 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders correctly 1`] = `
+exports[`renders all repos 1`] = `
+<section
+  className="repositoriesSection"
+>
+  <div
+    className="container repositoriesContainer"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col col--4 repository"
+      >
+        <div
+          className="text--center"
+        >
+          <a
+            href="https://my/repo"
+            target="_blank"
+          >
+            <img
+              alt="my-repo"
+              className="repositoryImage"
+              src="https://my/repo/image"
+            />
+          </a>
+        </div>
+        <div
+          className="repositoryTitle"
+        >
+          <a
+            href="https://my/repo"
+            target="_blank"
+          >
+            <h3>
+              my-repo
+            </h3>
+          </a>
+          <ArrowLink
+            link="https://my/repo"
+          />
+        </div>
+        <p
+          className="repositoryDescription"
+        >
+          My repo description
+        </p>
+      </div>
+    </div>
+  </div>
+  <a
+    className="button button--primary exploreMore"
+    href="https://github/repos"
+  >
+    Explore on github
+  </a>
+</section>
+`;
+
+exports[`renders featured repos 1`] = `
 <section
   className="repositoriesSection"
 >
@@ -53,7 +112,6 @@ exports[`renders correctly 1`] = `
   <a
     className="button button--primary exploreMore"
     href="https://all/repos"
-    target="_blank"
   >
     Explore more
   </a>

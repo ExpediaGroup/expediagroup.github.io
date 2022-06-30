@@ -1,5 +1,5 @@
 /*
-Copyright 2021 Expedia, Inc.
+Copyright 2022 Expedia, Inc.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -21,8 +21,14 @@ const customFields = {
   },
   repositoriesConfig: {
     navbarLabel: 'Projects',
-    allReposLink: 'https://github.com/ExpediaGroup',
-    exploreMoreText: 'Explore More Projects'
+    githubReposLink: 'https://github.com/ExpediaGroup',
+    exploreMoreText: 'Explore More Projects',
+    exploreOnGithubText: 'Explore more on GitHub',
+    repositoriesPage: {
+      link: '/repositories',
+      title: 'Explore our current open source projects.',
+      subtitle: 'Discover something new.'
+    }
   },
   socialConfig: {
     blog: {
@@ -67,7 +73,7 @@ module.exports = {
       },
       items: [
         {
-          href: customFields.repositoriesConfig.allReposLink,
+          href: customFields.repositoriesConfig.repositoriesPage.link,
           label: customFields.repositoriesConfig.navbarLabel,
           position: 'right',
         },

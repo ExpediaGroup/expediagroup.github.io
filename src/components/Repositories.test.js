@@ -28,10 +28,21 @@ const REPOS_DATA = [{
 }];
 const REPOS_CONFIG = {
     exploreMoreText: 'Explore more',
-    allReposLink: 'https://all/repos'
+    exploreOnGithubText: 'Explore on github',
+    githubReposLink: 'https://github/repos',
+    repositoriesPage: {
+        link: 'https://all/repos'
+    }
 }
 
-it('renders correctly', () => {
+it('renders featured repos', () => {
+    const tree = renderer
+        .create(<Repositories reposData={REPOS_DATA} reposConfig={REPOS_CONFIG} showOnlyFeatured={true}/>)
+        .toJSON();
+    expect(tree).toMatchSnapshot();
+});
+
+it('renders all repos', () => {
     const tree = renderer
         .create(<Repositories reposData={REPOS_DATA} reposConfig={REPOS_CONFIG}/>)
         .toJSON();

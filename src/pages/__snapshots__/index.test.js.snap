@@ -26,6 +26,7 @@ exports[`Home renders correctly 1`] = `
     <Repositories
       reposConfig="fake-repos-config"
       reposData="fake-repos-data"
+      showOnlyFeatured={true}
     />
     <Social
       socialConfig="fake-social-config"

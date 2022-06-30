@@ -38,7 +38,7 @@ function Home() {
         </div>
       </header>
       <main>
-          <Repositories reposData={repositoriesData} reposConfig={repositoriesConfig}/>
+          <Repositories reposData={repositoriesData} reposConfig={repositoriesConfig} showOnlyFeatured={true}/>
           <Social socialConfig={socialConfig}/>
       </main>
     </Layout>

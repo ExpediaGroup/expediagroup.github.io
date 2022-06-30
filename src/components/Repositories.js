@@ -19,7 +19,7 @@ import styles from "./Repositories.module.css";
 import clsx from "clsx";
 import ArrowLink from "./ArrowLink";
 
-function Repositories({reposData, reposConfig}) {
+function Repositories({reposData, reposConfig, showOnlyFeatured = false}) {
     return (
         <section className={styles.repositoriesSection}>
             <div className={clsx('container', styles.repositoriesContainer)}>
@@ -29,7 +29,8 @@ function Repositories({reposData, reposConfig}) {
                     )) }
                 </div>
             </div>
-            <ExploreMore text={reposConfig.exploreMoreText} link={reposConfig.allReposLink}/>
+            <ExploreMore text={showOnlyFeatured ? reposConfig.exploreMoreText : reposConfig.exploreOnGithubText}
+                         link={showOnlyFeatured ? reposConfig.repositoriesPage.link : reposConfig.githubReposLink}/>
         </section>
     )
 }
@@ -55,7 +56,7 @@ function Repository({name, description, imageUrl, repoUrl}) {
 
 function ExploreMore({text, link}) {
     return (
-        <a className={clsx('button button--primary', styles.exploreMore)} href={link} target="_blank">{text}</a>
+        <a className={clsx('button button--primary', styles.exploreMore)} href={link}>{text}</a>
     );
 }
 
