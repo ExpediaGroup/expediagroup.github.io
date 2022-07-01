@@ -4,24 +4,11 @@ exports[`Home renders correctly 1`] = `
 <Layout
   title="site title"
 >
-  <header
-    className="hero hero--primary heroBanner"
-  >
-    <div
-      className="container"
-    >
-      <h1
-        className="hero__title heroTitle"
-      >
-        hero title
-      </h1>
-      <p
-        className="hero__subtitle heroSubtitle"
-      >
-        hero subtitle
-      </p>
-    </div>
-  </header>
+  <HeroBanner
+    imageUrl="/img/hero.jpg"
+    subtitle="hero subtitle"
+    title="hero title"
+  />
   <main>
     <Repositories
       reposConfig="fake-repos-config"

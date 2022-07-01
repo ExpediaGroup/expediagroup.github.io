@@ -1,5 +1,5 @@
 /*
-Copyright 2021 Expedia, Inc.
+Copyright 2022 Expedia, Inc.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -15,10 +15,9 @@ limitations under the License.
 */
 
 import React from 'react';
-import clsx from 'clsx';
 import Layout from '@theme/Layout';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import styles from './styles.module.css';
+import HeroBanner from "../components/HeroBanner";
 import repositoriesData from '@site/static/repos.json';
 import Repositories from "../components/Repositories";
 import Social from "../components/Social";
@@ -31,16 +30,11 @@ function Home() {
     <Layout
       title={siteConfig.title}
       description={siteConfig.tagline}>
-      <header className={clsx('hero hero--primary', styles.heroBanner)}>
-        <div className="container">
-          <h1 className={clsx('hero__title', styles.heroTitle)}>{heroConfig.title}</h1>
-          <p className={clsx('hero__subtitle', styles.heroSubtitle)}>{heroConfig.subtitle}</p>
-        </div>
-      </header>
-      <main>
-          <Repositories reposData={repositoriesData} reposConfig={repositoriesConfig} showOnlyFeatured={true}/>
-          <Social socialConfig={socialConfig}/>
-      </main>
+        <HeroBanner title={heroConfig.title} subtitle={heroConfig.subtitle} imageUrl="/img/hero.jpg"/>
+        <main>
+            <Repositories reposData={repositoriesData} reposConfig={repositoriesConfig} showOnlyFeatured={true}/>
+            <Social socialConfig={socialConfig}/>
+        </main>
     </Layout>
   );
 }

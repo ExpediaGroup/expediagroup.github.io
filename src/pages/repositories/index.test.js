@@ -31,6 +31,7 @@ const DOCUSAURUS_CTX = {
     }
 }
 
+jest.mock('../../components/HeroBanner', () => 'HeroBanner');
 jest.mock('../../components/Repositories', () => 'Repositories');
 jest.mock('@site/static/repos.json', () => 'fake-repos-data', { virtual: true });
 jest.mock('@theme/Layout', () => 'Layout', { virtual: true });

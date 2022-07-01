@@ -14,6 +14,27 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-/**
- * CSS for the repositories page.
- */
+.heroBanner {
+    padding: 6rem 0;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    --ifm-hero-text-color: var(--expedia-blue);
+    --ifm-hero-background-color: white;
+}
+
+@media screen and (max-width: 966px) {
+    .heroBanner {
+        padding: 2rem;
+    }
+}
+
+.heroTitle {
+    font-size: 2rem;
+}
+
+.heroSubtitle {
+    font-size: 2rem;
+}

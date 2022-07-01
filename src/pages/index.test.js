@@ -33,6 +33,7 @@ const DOCUSAURUS_CTX = {
     }
 }
 
+jest.mock('../components/HeroBanner', () => 'HeroBanner');
 jest.mock('../components/Repositories', () => 'Repositories');
 jest.mock('../components/Social', () => 'Social');
 jest.mock('@theme/Layout', () => 'Layout', { virtual: true });

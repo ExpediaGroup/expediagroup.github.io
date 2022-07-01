@@ -17,16 +17,19 @@ limitations under the License.
 import React from 'react';
 import Layout from '@theme/Layout';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import styles from './styles.module.css';
 import repositoriesData from '@site/static/repos.json';
 import Repositories from "../../components/Repositories";
+import HeroBanner from "../../components/HeroBanner";
+
 
 function RepositoriesPage() {
     const {repositoriesConfig} = useDocusaurusContext().siteConfig.customFields;
+    const {repositoriesPage} = repositoriesConfig;
     return (
         <Layout
-            title={repositoriesConfig.repositoriesPage.title}
-            description={repositoriesConfig.repositoriesPage.subtitle}>
+            title={repositoriesPage.title}
+            description={repositoriesPage.subtitle}>
+            <HeroBanner title={repositoriesPage.title} subtitle={repositoriesPage.subtitle}/>
             <main>
                 <Repositories reposData={repositoriesData} reposConfig={repositoriesConfig}/>
             </main>
