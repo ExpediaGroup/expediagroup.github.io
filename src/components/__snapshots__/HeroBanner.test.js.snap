@@ -28,7 +28,7 @@ exports[`renders correctly 1`] = `
 
 exports[`renders correctly without image url 1`] = `
 <header
-  className="hero hero--primary heroBanner"
+  className="hero hero--primary heroBanner imageLess"
   style={
     Object {
       "backgroundImage": "none",

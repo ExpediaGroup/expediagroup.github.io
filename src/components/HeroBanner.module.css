@@ -25,6 +25,10 @@ limitations under the License.
     --ifm-hero-background-color: white;
 }
 
+.imageLess.heroBanner {
+    padding-bottom: 1rem;
+}
+
 @media screen and (max-width: 966px) {
     .heroBanner {
         padding: 2rem;

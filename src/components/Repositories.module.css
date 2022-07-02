@@ -1,5 +1,5 @@
 /*
-Copyright 2021 Expedia, Inc.
+Copyright 2022 Expedia, Inc.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -49,10 +49,15 @@ limitations under the License.
     height: 130px;
     width: 200px;
     object-fit: contain;
-    border: 5px solid rgb(88, 223, 184);
+    --repository-image-border-color: var(--expedia-blue-5);
+    border: 5px solid var(--repository-image-border-color);
     border-radius: 70% / 100%;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
+}
+
+.featuredRepositories .repositoryImage {
+    --repository-image-border-color: var(--expedia-acqua);
 }
 
 .repositoryTitle h3 {

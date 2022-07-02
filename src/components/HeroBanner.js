@@ -20,7 +20,7 @@ import clsx from "clsx";
 
 function HeroBanner({title, subtitle, imageUrl}) {
     return (
-        <header className={clsx('hero hero--primary', styles.heroBanner)}
+        <header className={clsx('hero hero--primary', styles.heroBanner, !imageUrl && styles.imageLess)}
                 style={{backgroundImage: imageUrl ? `url(${imageUrl})` : 'none'}}>
             <div className='container'>
                 <h1 className={clsx('hero__title', styles.heroTitle)}>{title}</h1>

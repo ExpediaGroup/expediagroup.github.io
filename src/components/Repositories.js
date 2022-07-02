@@ -21,7 +21,7 @@ import ArrowLink from "./ArrowLink";
 
 function Repositories({reposData, reposConfig, showOnlyFeatured = false}) {
     return (
-        <section className={styles.repositoriesSection}>
+        <section className={clsx(styles.repositoriesSection, showOnlyFeatured && styles.featuredRepositories)}>
             <div className={clsx('container', styles.repositoriesContainer)}>
                 <div className="row">
                     { reposData

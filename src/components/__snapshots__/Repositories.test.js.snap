@@ -99,7 +99,7 @@ exports[`renders all repos sorting alphabetically 1`] = `
 
 exports[`renders featured repos sorting alphabetically 1`] = `
 <section
-  className="repositoriesSection"
+  className="repositoriesSection featuredRepositories"
 >
   <div
     className="container repositoriesContainer"
