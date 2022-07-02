@@ -17,22 +17,41 @@ limitations under the License.
 const {queryRepository} = require('./github/github-queries');
 const {writeJsonFile} = require('./filesystem/fs-utils');
 
-const HOME_PAGE_REPOSITORIES = [
-    { organization: "ExpediaGroup", name: "graphql-kotlin" },
-    { organization: "ExpediaGroup", name: "jenkins-spock" },
-    { organization: "ExpediaGroup", name: "stream-registry" },
-    { organization: "ExpediaGroup", name: "flyte" },
-    { organization: "ExpediaGroup", name: "graphql-component" },
-    { organization: "ExpediaGroup", name: "bull" },
-    { organization: "ExpediaGroup", name: "beekeeper" },
-    { organization: "ExpediaGroup", name: "mittens" },
-    { organization: "ExpediaGroup", name: "jarviz" }
+const REPOSITORIES = [
+    { organization: "ExpediaGroup", name: "graphql-kotlin",              featured: true },
+    { organization: "ExpediaGroup", name: "jenkins-spock",               featured: true },
+    { organization: "ExpediaGroup", name: "stream-registry",             featured: true },
+    { organization: "ExpediaGroup", name: "flyte",                       featured: true },
+    { organization: "ExpediaGroup", name: "graphql-component",           featured: true },
+    { organization: "ExpediaGroup", name: "bull",                        featured: true },
+    { organization: "ExpediaGroup", name: "beekeeper",                   featured: true },
+    { organization: "ExpediaGroup", name: "mittens",                     featured: true },
+    { organization: "ExpediaGroup", name: "jarviz",                      featured: true },
+    { organization: "ExpediaGroup", name: "cyclotron",                   featured: false },
+    { organization: "ExpediaGroup", name: "styx",                        featured: false },
+    { organization: "ExpediaGroup", name: "waggle-dance",                featured: false },
+    { organization: "ExpediaGroup", name: "adaptive-alerting",           featured: false },
+    { organization: "ExpediaGroup", name: "c3vis",                       featured: false },
+    { organization: "ExpediaGroup", name: "circus-train",                featured: false },
+    { organization: "ExpediaGroup", name: "kubernetes-sidecar-injector", featured: false },
+    { organization: "ExpediaGroup", name: "pitchfork",                   featured: false },
+    { organization: "ExpediaGroup", name: "vsync",                       featured: false },
+    { organization: "ExpediaGroup", name: "beeju",                       featured: false },
+    { organization: "ExpediaGroup", name: "pino-rotating-file",          featured: false },
+    { organization: "ExpediaGroup", name: "javro",                       featured: false },
+    { organization: "ExpediaGroup", name: "datasqueeze",                 featured: false },
+    { organization: "ExpediaGroup", name: "steerage",                    featured: false },
+    { organization: "ExpediaGroup", name: "spinnaker-pipeline-trigger",  featured: false },
+    { organization: "ExpediaGroup", name: "apiary-data-lake",            featured: false },
+    { organization: "ExpediaGroup", name: "molten",                      featured: false },
+    { organization: "ExpediaGroup", name: "github-helpers",              featured: false }
 ]
 
 /**
  * @typedef Repository
  * @property {string} organization The name of the GitHub organization.
  * @property {string} name The name of the GitHub repository.
+ * @property {boolean} featured Whether the repository should be shown in the home page.
  */
 
 /**
@@ -41,7 +60,8 @@ const HOME_PAGE_REPOSITORIES = [
  * @param {string} filePath the json file that will be written
  * @returns {Promise<void | Error>} a promise resolving to <code>undefined</code> in case of success or rejecting with an error
  */
-exports.fetchAndDumpRepositories = async (repositories = HOME_PAGE_REPOSITORIES, filePath = 'static/repos.json') => {
-    const repoData = await Promise.all(repositories.map(repo => queryRepository(repo.organization, repo.name)))
+exports.fetchAndDumpRepositories = async (repositories = REPOSITORIES, filePath = 'static/repos.json') => {
+    const repoData = await Promise.all(repositories.map(repo => queryRepository(repo.organization, repo.name)
+        .then(fetchedRepo => ({...fetchedRepo, featured: repo.featured}))))
     await writeJsonFile(filePath, repoData)
 }
