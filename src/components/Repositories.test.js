@@ -21,10 +21,17 @@ import Repositories from './Repositories';
 jest.mock('./ArrowLink', () => 'ArrowLink');
 
 const REPOS_DATA = [{
-    name: 'my-repo',
-    description: 'My repo description',
-    imageUrl: 'https://my/repo/image',
-    repoUrl: 'https://my/repo'
+    name: 'repo-b',
+    description: 'Repo B description',
+    imageUrl: 'https://repo/b/image',
+    repoUrl: 'https://repo/b',
+    featured: false
+}, {
+    name: 'repo-a',
+    description: 'Repo A description',
+    imageUrl: 'https://repo/a/image',
+    repoUrl: 'https://repo/a',
+    featured: true
 }];
 const REPOS_CONFIG = {
     exploreMoreText: 'Explore more',
@@ -35,14 +42,14 @@ const REPOS_CONFIG = {
     }
 }
 
-it('renders featured repos', () => {
+it('renders featured repos sorting alphabetically', () => {
     const tree = renderer
         .create(<Repositories reposData={REPOS_DATA} reposConfig={REPOS_CONFIG} showOnlyFeatured={true}/>)
         .toJSON();
     expect(tree).toMatchSnapshot();
 });
 
-it('renders all repos', () => {
+it('renders all repos sorting alphabetically', () => {
     const tree = renderer
         .create(<Repositories reposData={REPOS_DATA} reposConfig={REPOS_CONFIG}/>)
         .toJSON();

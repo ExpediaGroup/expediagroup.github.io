@@ -24,9 +24,11 @@ function Repositories({reposData, reposConfig, showOnlyFeatured = false}) {
         <section className={styles.repositoriesSection}>
             <div className={clsx('container', styles.repositoriesContainer)}>
                 <div className="row">
-                    { reposData.map(repo => (
-                        <Repository key={repo.name} {...repo} />
-                    )) }
+                    { reposData
+                        .filter(repo => showOnlyFeatured ? repo.featured : true)
+                        .sort((repo1, repo2) => repo1.name.localeCompare(repo2.name))
+                        .map(repo => (<Repository key={repo.name} {...repo} />))
+                    }
                 </div>
             </div>
             <ExploreMore text={showOnlyFeatured ? reposConfig.exploreMoreText : reposConfig.exploreOnGithubText}
