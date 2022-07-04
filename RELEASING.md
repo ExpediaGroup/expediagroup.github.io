@@ -3,7 +3,8 @@
 Any commit to `main` branch will trigger a [GitHub Actions workflow](./.github/workflows) that builds and releases
 the site to GitHub Pages. The workflow is also automatically scheduled on a daily basis.
 
-The repositories' info [is fetched using GitHub API](./src/scripts/build-repo-data.js) at build time
+The list of repositories that are shown in the Home Page (the "featured" repositories) and in the Repositories Page is hardcoded in this [build script](./src/scripts/build-repo-data.js).
+The information for each listed repository is fetched using GitHub GraphQL API at build time
 producing a [static JSON file](./static/repos.json).
 
 The Medium blog posts [are fetched from the RSS feed](./src/scripts/build-posts-data.js) at build time
