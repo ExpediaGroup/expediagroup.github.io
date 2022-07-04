@@ -19,17 +19,20 @@ import styles from "./Repositories.module.css";
 import clsx from "clsx";
 import ArrowLink from "./ArrowLink";
 
-function Repositories({reposData, reposConfig}) {
+function Repositories({reposData, reposConfig, showOnlyFeatured = false}) {
     return (
-        <section className={styles.repositoriesSection}>
+        <section className={clsx(styles.repositoriesSection, showOnlyFeatured && styles.featuredRepositories)}>
             <div className={clsx('container', styles.repositoriesContainer)}>
                 <div className="row">
-                    { reposData.map(repo => (
-                        <Repository key={repo.name} {...repo} />
-                    )) }
+                    { reposData
+                        .filter(repo => showOnlyFeatured ? repo.featured : true)
+                        .sort((repo1, repo2) => repo1.name.localeCompare(repo2.name))
+                        .map(repo => (<Repository key={repo.name} {...repo} />))
+                    }
                 </div>
             </div>
-            <ExploreMore text={reposConfig.exploreMoreText} link={reposConfig.allReposLink}/>
+            <ExploreMore text={showOnlyFeatured ? reposConfig.exploreMoreText : reposConfig.exploreOnGithubText}
+                         link={showOnlyFeatured ? reposConfig.repositoriesPage.link : reposConfig.githubReposLink}/>
         </section>
     )
 }
@@ -55,7 +58,7 @@ function Repository({name, description, imageUrl, repoUrl}) {
 
 function ExploreMore({text, link}) {
     return (
-        <a className={clsx('button button--primary', styles.exploreMore)} href={link} target="_blank">{text}</a>
+        <a className={clsx('button button--primary', styles.exploreMore)} href={link}>{text}</a>
     );
 }
 

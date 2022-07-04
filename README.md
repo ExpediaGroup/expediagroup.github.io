@@ -45,7 +45,7 @@ on GitHub.
 
 ## 🚅 How to release 
 
-Please see info in [RELEASING.md](./RELEASING.md)
+Please see info in [RELEASING.md](./RELEASING.md). It also describes how repositories and blog posts are fetched.
 
 ## ✏️ How to contribute
 

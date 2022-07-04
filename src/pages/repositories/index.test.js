@@ -16,35 +16,32 @@ limitations under the License.
 
 import React from 'react';
 import renderer from 'react-test-renderer';
-import Home from './index';
+import RepositoriesPage from './index';
 
 const DOCUSAURUS_CTX = {
     siteConfig: {
-        title: 'site title',
-        tagLine: 'site tag line',
         customFields: {
-            heroConfig: {
-                title: 'hero title',
-                subtitle: 'hero subtitle'
-            },
-            repositoriesConfig: 'fake-repos-config',
-            socialConfig: 'fake-social-config'
+            repositoriesConfig: {
+                repositoriesPage: {
+                    title: 'repos page title',
+                    subtitle: 'repos page subtitle'
+                }
+            }
         }
     }
 }
 
-jest.mock('../components/HeroBanner', () => 'HeroBanner');
-jest.mock('../components/Repositories', () => 'Repositories');
-jest.mock('../components/Social', () => 'Social');
-jest.mock('@theme/Layout', () => 'Layout', { virtual: true });
+jest.mock('../../components/HeroBanner', () => 'HeroBanner');
+jest.mock('../../components/Repositories', () => 'Repositories');
 jest.mock('@site/static/repos.json', () => 'fake-repos-data', { virtual: true });
+jest.mock('@theme/Layout', () => 'Layout', { virtual: true });
 jest.mock('@docusaurus/useDocusaurusContext', () => () => DOCUSAURUS_CTX, { virtual: true });
 
 
-describe('Home', () => {
+describe('RepositoriesPage', () => {
     it('renders correctly', () => {
         const tree = renderer
-            .create(<Home/>)
+            .create(<RepositoriesPage/>)
             .toJSON();
         expect(tree).toMatchSnapshot();
     })

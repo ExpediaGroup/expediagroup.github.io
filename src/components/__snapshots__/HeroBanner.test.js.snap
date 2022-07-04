@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<header
+  className="hero hero--primary heroBanner"
+  style={
+    Object {
+      "backgroundImage": "url(my/image/url)",
+    }
+  }
+>
+  <div
+    className="container"
+  >
+    <h1
+      className="hero__title heroTitle"
+    >
+      my title
+    </h1>
+    <p
+      className="hero__subtitle heroSubtitle"
+    >
+      my subtitle
+    </p>
+  </div>
+</header>
+`;
+
+exports[`renders correctly without image url 1`] = `
+<header
+  className="hero hero--primary heroBanner imageLess"
+  style={
+    Object {
+      "backgroundImage": "none",
+    }
+  }
+>
+  <div
+    className="container"
+  >
+    <h1
+      className="hero__title heroTitle"
+    >
+      my title
+    </h1>
+    <p
+      className="hero__subtitle heroSubtitle"
+    >
+      my subtitle
+    </p>
+  </div>
+</header>
+`;

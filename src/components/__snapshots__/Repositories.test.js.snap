@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders correctly 1`] = `
+exports[`renders all repos sorting alphabetically 1`] = `
 <section
   className="repositoriesSection"
 >
@@ -17,13 +17,13 @@ exports[`renders correctly 1`] = `
           className="text--center"
         >
           <a
-            href="https://my/repo"
+            href="https://repo/a"
             target="_blank"
           >
             <img
-              alt="my-repo"
+              alt="repo-a"
               className="repositoryImage"
-              src="https://my/repo/image"
+              src="https://repo/a/image"
             />
           </a>
         </div>
@@ -31,21 +31,118 @@ exports[`renders correctly 1`] = `
           className="repositoryTitle"
         >
           <a
-            href="https://my/repo"
+            href="https://repo/a"
             target="_blank"
           >
             <h3>
-              my-repo
+              repo-a
             </h3>
           </a>
           <ArrowLink
-            link="https://my/repo"
+            link="https://repo/a"
           />
         </div>
         <p
           className="repositoryDescription"
         >
-          My repo description
+          Repo A description
+        </p>
+      </div>
+      <div
+        className="col col--4 repository"
+      >
+        <div
+          className="text--center"
+        >
+          <a
+            href="https://repo/b"
+            target="_blank"
+          >
+            <img
+              alt="repo-b"
+              className="repositoryImage"
+              src="https://repo/b/image"
+            />
+          </a>
+        </div>
+        <div
+          className="repositoryTitle"
+        >
+          <a
+            href="https://repo/b"
+            target="_blank"
+          >
+            <h3>
+              repo-b
+            </h3>
+          </a>
+          <ArrowLink
+            link="https://repo/b"
+          />
+        </div>
+        <p
+          className="repositoryDescription"
+        >
+          Repo B description
+        </p>
+      </div>
+    </div>
+  </div>
+  <a
+    className="button button--primary exploreMore"
+    href="https://github/repos"
+  >
+    Explore on github
+  </a>
+</section>
+`;
+
+exports[`renders featured repos sorting alphabetically 1`] = `
+<section
+  className="repositoriesSection featuredRepositories"
+>
+  <div
+    className="container repositoriesContainer"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col col--4 repository"
+      >
+        <div
+          className="text--center"
+        >
+          <a
+            href="https://repo/a"
+            target="_blank"
+          >
+            <img
+              alt="repo-a"
+              className="repositoryImage"
+              src="https://repo/a/image"
+            />
+          </a>
+        </div>
+        <div
+          className="repositoryTitle"
+        >
+          <a
+            href="https://repo/a"
+            target="_blank"
+          >
+            <h3>
+              repo-a
+            </h3>
+          </a>
+          <ArrowLink
+            link="https://repo/a"
+          />
+        </div>
+        <p
+          className="repositoryDescription"
+        >
+          Repo A description
         </p>
       </div>
     </div>
@@ -53,7 +150,6 @@ exports[`renders correctly 1`] = `
   <a
     className="button button--primary exploreMore"
     href="https://all/repos"
-    target="_blank"
   >
     Explore more
   </a>

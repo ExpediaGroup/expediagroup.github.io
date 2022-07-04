@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RepositoriesPage renders correctly 1`] = `
+<Layout
+  description="repos page subtitle"
+  title="repos page title"
+>
+  <HeroBanner
+    subtitle="repos page subtitle"
+    title="repos page title"
+  />
+  <main>
+    <Repositories
+      reposConfig={
+        Object {
+          "repositoriesPage": Object {
+            "subtitle": "repos page subtitle",
+            "title": "repos page title",
+          },
+        }
+      }
+      reposData="fake-repos-data"
+    />
+  </main>
+</Layout>
+`;
