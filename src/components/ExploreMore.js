@@ -14,20 +14,14 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-.repositoriesSection {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    --repository-image-border-color: var(--expedia-blue-5);
+import React from 'react';
+import styles from './ExploreMore.module.css';
+import clsx from "clsx";
+
+function ExploreMore({text, link}) {
+    return (
+        <a className={clsx('button button--primary', styles.exploreMore)} href={link}>{text}</a>
+    );
 }
 
-.featuredRepositories.repositoriesSection {
-    --repository-image-border-color: var(--expedia-acqua);
-}
-
-.repositoriesContainer {
-    display: flex;
-    align-items: center;
-    margin-top: 2rem;
-    width: 100%;
-}
+export default ExploreMore;

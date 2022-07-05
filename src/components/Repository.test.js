@@ -14,20 +14,20 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-.repositoriesSection {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    --repository-image-border-color: var(--expedia-blue-5);
-}
+import React from 'react';
+import renderer from 'react-test-renderer';
+import Repository from './Repository';
 
-.featuredRepositories.repositoriesSection {
-    --repository-image-border-color: var(--expedia-acqua);
-}
+jest.mock('./ArrowLink', () => 'ArrowLink');
 
-.repositoriesContainer {
-    display: flex;
-    align-items: center;
-    margin-top: 2rem;
-    width: 100%;
-}
+const NAME = 'my-repo';
+const DESCRIPTION = 'my description';
+const IMAGE_URL = 'https://my/repo/image';
+const REPO_URL = 'https://my/repo';
+
+it('renders correctly', () => {
+    const tree = renderer
+        .create(<Repository name={NAME} description={DESCRIPTION} imageUrl={IMAGE_URL} repoUrl={REPO_URL}/>)
+        .toJSON();
+    expect(tree).toMatchSnapshot();
+});

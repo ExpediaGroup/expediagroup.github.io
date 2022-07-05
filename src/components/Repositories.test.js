@@ -19,6 +19,8 @@ import renderer from 'react-test-renderer';
 import Repositories from './Repositories';
 
 jest.mock('./ArrowLink', () => 'ArrowLink');
+jest.mock('./ExploreMore', () => 'ExploreMore');
+jest.mock('./Repository', () => 'Repository');
 
 const REPOS_DATA = [{
     name: 'repo-b',
