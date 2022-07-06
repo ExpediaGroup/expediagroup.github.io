@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders all repos sorting alphabetically 1`] = `
+exports[`renders all repos in a single page sorting alphabetically 1`] = `
 <section
   className="repositoriesSection"
 >
@@ -26,6 +26,40 @@ exports[`renders all repos sorting alphabetically 1`] = `
       />
     </div>
   </div>
+  <Paginator
+    handlePageClick={[Function]}
+    pageCount={1}
+  />
+  <ExploreMore
+    link="https://github/repos"
+    text="Explore on github"
+  />
+</section>
+`;
+
+exports[`renders all repos in multiple pages sorting alphabetically 1`] = `
+<section
+  className="repositoriesSection"
+>
+  <div
+    className="container repositoriesContainer"
+  >
+    <div
+      className="row"
+    >
+      <Repository
+        description="Repo A description"
+        featured={true}
+        imageUrl="https://repo/a/image"
+        name="repo-a"
+        repoUrl="https://repo/a"
+      />
+    </div>
+  </div>
+  <Paginator
+    handlePageClick={[Function]}
+    pageCount={2}
+  />
   <ExploreMore
     link="https://github/repos"
     text="Explore on github"
@@ -52,6 +86,10 @@ exports[`renders featured repos sorting alphabetically 1`] = `
       />
     </div>
   </div>
+  <Paginator
+    handlePageClick={[Function]}
+    pageCount={1}
+  />
   <ExploreMore
     link="https://all/repos"
     text="Explore more"

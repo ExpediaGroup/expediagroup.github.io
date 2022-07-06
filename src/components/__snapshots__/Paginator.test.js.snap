@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`delegates to ReactPaginate if page count is greater than one 1`] = `
+<ReactPaginate
+  breakLabel="..."
+  nextLabel=">"
+  onPageChange={[Function]}
+  pageCount={2}
+  pageRangeDisplayed={3}
+  previousLabel="<"
+/>
+`;
+
+exports[`renders nothing if page count is one 1`] = `null`;
+
+exports[`renders nothing if page count is zero 1`] = `null`;

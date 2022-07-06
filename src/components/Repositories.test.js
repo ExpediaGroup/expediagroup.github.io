@@ -21,6 +21,7 @@ import Repositories from './Repositories';
 jest.mock('./ArrowLink', () => 'ArrowLink');
 jest.mock('./ExploreMore', () => 'ExploreMore');
 jest.mock('./Repository', () => 'Repository');
+jest.mock('./Paginator', () => 'Paginator');
 
 const REPOS_DATA = [{
     name: 'repo-b',
@@ -41,7 +42,8 @@ const REPOS_CONFIG = {
     githubReposLink: 'https://github/repos',
     repositoriesPage: {
         link: 'https://all/repos'
-    }
+    },
+    repositoriesPerPage: 1
 }
 
 it('renders featured repos sorting alphabetically', () => {
@@ -51,9 +53,16 @@ it('renders featured repos sorting alphabetically', () => {
     expect(tree).toMatchSnapshot();
 });
 
-it('renders all repos sorting alphabetically', () => {
+it('renders all repos in a single page sorting alphabetically', () => {
     const tree = renderer
-        .create(<Repositories reposData={REPOS_DATA} reposConfig={REPOS_CONFIG}/>)
+        .create(<Repositories reposData={REPOS_DATA} reposConfig={{...REPOS_CONFIG, repositoriesPerPage : 100}}/>)
+        .toJSON();
+    expect(tree).toMatchSnapshot();
+});
+
+it('renders all repos in multiple pages sorting alphabetically', () => {
+    const tree = renderer
+        .create(<Repositories reposData={REPOS_DATA} reposConfig={{...REPOS_CONFIG, repositoriesPerPage : 1}}/>)
         .toJSON();
     expect(tree).toMatchSnapshot();
 });
