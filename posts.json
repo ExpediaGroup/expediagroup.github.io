@@ -1,5 +1,12 @@
 [
   {
+    "title": "Error Budget Policies in Practice",
+    "creator": "Eric Trang",
+    "link": "https://medium.com/expedia-group-tech/error-budget-policies-in-practice-4c98f56a28c1?source=rss----38998a53046f---4",
+    "date": "Jul 5, 2022",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*dI7DI5ZnSjLPEV0_QY5KLA.jpeg"
+  },
+  {
     "title": "Error Budget Policy Adoption at Expedia Group",
     "creator": "Lasantha Kularatne",
     "link": "https://medium.com/expedia-group-tech/error-budget-policy-adoption-at-expedia-group-7d80d41c4a8b?source=rss----38998a53046f---4",
@@ -61,12 +68,5 @@
     "link": "https://medium.com/expedia-group-tech/delivering-with-a-sense-of-urgency-be58b10c44ec?source=rss----38998a53046f---4",
     "date": "Apr 26, 2022",
     "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*r63YiDK6GowyBtjGFI_yow.jpeg"
-  },
-  {
-    "title": "An Exercise in Software Resiliency on Kubernetes",
-    "creator": "Sasidhar Sekar",
-    "link": "https://medium.com/expedia-group-tech/an-exercise-in-software-resiliency-on-kubernetes-a241dd1c6f7b?source=rss----38998a53046f---4",
-    "date": "Apr 12, 2022",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*9oCGfjHFgcusaQHM"
   }
 ]
