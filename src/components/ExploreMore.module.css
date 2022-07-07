@@ -16,13 +16,13 @@ limitations under the License.
 
 .exploreMore {
     font-size: 1em;
-    --ifm-button-border-color: var(--expedia-blue);
-    --ifm-button-color: var(--expedia-blue);
+    --ifm-button-border-color: var(--anchor-color);
+    --ifm-button-color: var(--anchor-color);
     --ifm-button-background-color: white !important;
     --ifm-button-border-radius: 15% 0 / 100% 0;
     margin-bottom: 20px;
 }
 
 .exploreMore:hover {
-    --ifm-button-color: var(--ifm-color-primary);
+    --ifm-button-color: var(--anchor-hover-color);
 }

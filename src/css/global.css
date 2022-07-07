@@ -30,6 +30,9 @@ limitations under the License.
   --ifm-color-primary-lightest: rgb(146, 224, 208);
   --ifm-heading-color: var(--expedia-blue);
   --separation-line-color: rgba(15,70,100,.12);
+  --anchor-color: var(--expedia-blue);
+  --anchor-hover-color: var(--ifm-color-primary);
+  --anchor-disabled-color: grey;
 }
 
 /**

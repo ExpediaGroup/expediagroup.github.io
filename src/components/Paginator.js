@@ -26,7 +26,8 @@ function Paginator({pageCount, handlePageClick}) {
                            onPageChange={handlePageClick}
                            pageRangeDisplayed={3}
                            pageCount={pageCount}
-                           previousLabel="<"/>
+                           previousLabel="<"
+                           containerClassName={styles.container}/>
     );
 }
 

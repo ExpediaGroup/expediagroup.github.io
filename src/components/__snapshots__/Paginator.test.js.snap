@@ -3,6 +3,7 @@
 exports[`delegates to ReactPaginate if page count is greater than one 1`] = `
 <ReactPaginate
   breakLabel="..."
+  containerClassName="container"
   nextLabel=">"
   onPageChange={[Function]}
   pageCount={2}

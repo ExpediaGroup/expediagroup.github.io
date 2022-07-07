@@ -14,4 +14,30 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
+.container {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 0 1rem;
+}
 
+.container li a {
+    padding: 0.1rem 1rem;
+    cursor: pointer;
+    color: var(--anchor-color);
+    font-size: 1.2em;
+}
+
+.container li a:hover {
+    color: var(--anchor-hover-color);
+}
+
+.container li:global(.selected) a {
+    color: var(--anchor-hover-color);
+    cursor: default;
+}
+
+.container li:global(.disabled) a {
+    color: var(--anchor-disabled-color);
+    cursor: default;
+}
