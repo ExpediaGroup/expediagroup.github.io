@@ -7,6 +7,9 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 You should update the version number in the [package.json](./package.json) according to the semantic versioning,
 then run `npm install`.
 
+## 1.4.0
+- Added pagination to Repositories Page.
+
 ## 1.3.0
 - Added Repositories Page.
 
