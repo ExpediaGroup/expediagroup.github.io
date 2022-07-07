@@ -14,7 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import styles from "./Repositories.module.css";
 import clsx from "clsx";
 import Repository from "./Repository";
@@ -28,10 +28,15 @@ function Repositories({reposData, reposConfig, showOnlyFeatured = false}) {
     const getPageRepos = (page) =>
         allRepos.slice(page * reposConfig.repositoriesPerPage, (page + 1) * reposConfig.repositoriesPerPage);
     const [currentRepos, setCurrentRepos] = useState(getPageRepos(0));
-    const handlePageClick = (event) => setCurrentRepos(getPageRepos(event.selected));
+    const thisElementRef = useRef();
+    const handlePageClick = (event) => {
+        setCurrentRepos(getPageRepos(event.selected));
+        thisElementRef.current.scrollIntoView()
+    };
 
     return (
-        <section className={clsx(styles.repositoriesSection, showOnlyFeatured && styles.featuredRepositories)}>
+        <section ref={thisElementRef}
+                 className={clsx(styles.repositoriesSection, showOnlyFeatured && styles.featuredRepositories)}>
             <CurrentPageRepositories repos={currentRepos}/>
             <Paginator pageCount={pageCount} handlePageClick={handlePageClick}/>
             <ExploreMore text={showOnlyFeatured ? reposConfig.exploreMoreText : reposConfig.exploreOnGithubText}
