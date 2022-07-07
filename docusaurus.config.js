@@ -29,7 +29,7 @@ const customFields = {
       title: 'Explore our current open source projects.',
       subtitle: 'Discover something new.'
     },
-    repositoriesPerPage: 15
+    repositoriesPerPage: 12
   },
   socialConfig: {
     blog: {
