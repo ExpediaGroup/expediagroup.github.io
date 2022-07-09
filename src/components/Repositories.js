@@ -1,5 +1,5 @@
 /*
-Copyright 2021 Expedia, Inc.
+Copyright 2022 Expedia, Inc.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -14,52 +14,45 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-import React from "react";
+import React, { useRef, useState } from "react";
 import styles from "./Repositories.module.css";
 import clsx from "clsx";
-import ArrowLink from "./ArrowLink";
+import Repository from "./Repository";
+import ExploreMore from "./ExploreMore";
+import Paginator from "./Paginator";
 
 function Repositories({reposData, reposConfig, showOnlyFeatured = false}) {
+    const allRepos = reposData.filter(repo => showOnlyFeatured ? repo.featured : true)
+                              .sort((repo1, repo2) => repo1.name.localeCompare(repo2.name));
+    const pageCount = Math.ceil(allRepos.length / reposConfig.repositoriesPerPage);
+    const getPageRepos = (page) =>
+        allRepos.slice(page * reposConfig.repositoriesPerPage, (page + 1) * reposConfig.repositoriesPerPage);
+    const [currentRepos, setCurrentRepos] = useState(getPageRepos(0));
+    const thisElementRef = useRef();
+    const handlePageClick = (event) => {
+        setCurrentRepos(getPageRepos(event.selected));
+        thisElementRef.current.scrollIntoView()
+    };
+
     return (
-        <section className={clsx(styles.repositoriesSection, showOnlyFeatured && styles.featuredRepositories)}>
-            <div className={clsx('container', styles.repositoriesContainer)}>
-                <div className="row">
-                    { reposData
-                        .filter(repo => showOnlyFeatured ? repo.featured : true)
-                        .sort((repo1, repo2) => repo1.name.localeCompare(repo2.name))
-                        .map(repo => (<Repository key={repo.name} {...repo} />))
-                    }
-                </div>
-            </div>
+        <section ref={thisElementRef}
+                 className={clsx(styles.repositoriesSection, showOnlyFeatured && styles.featuredRepositories)}>
+            <CurrentPageRepositories repos={currentRepos}/>
+            <Paginator pageCount={pageCount} handlePageClick={handlePageClick}/>
             <ExploreMore text={showOnlyFeatured ? reposConfig.exploreMoreText : reposConfig.exploreOnGithubText}
                          link={showOnlyFeatured ? reposConfig.repositoriesPage.link : reposConfig.githubReposLink}/>
         </section>
     )
 }
 
-function Repository({name, description, imageUrl, repoUrl}) {
+function CurrentPageRepositories({repos}) {
     return (
-        <div className={clsx('col col--4', styles.repository)}>
-            <div className="text--center">
-                <a href={repoUrl} target="_blank">
-                    <img className={styles.repositoryImage} src={imageUrl} alt={name} />
-                </a>
+        <div className={clsx('container', styles.repositoriesContainer)}>
+            <div className="row">
+                { repos.map(repo => (<Repository key={repo.name} {...repo} />)) }
             </div>
-            <div className={styles.repositoryTitle}>
-                <a href={repoUrl} target="_blank">
-                    <h3>{name}</h3>
-                </a>
-                <ArrowLink link={repoUrl}/>
-            </div>
-            <p className={styles.repositoryDescription}>{description}</p>
         </div>
-    );
-}
-
-function ExploreMore({text, link}) {
-    return (
-        <a className={clsx('button button--primary', styles.exploreMore)} href={link}>{text}</a>
-    );
+    )
 }
 
 export default Repositories;

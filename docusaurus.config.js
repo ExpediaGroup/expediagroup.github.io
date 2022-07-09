@@ -28,7 +28,8 @@ const customFields = {
       link: '/repositories',
       title: 'Explore our current open source projects.',
       subtitle: 'Discover something new.'
-    }
+    },
+    repositoriesPerPage: 12
   },
   socialConfig: {
     blog: {

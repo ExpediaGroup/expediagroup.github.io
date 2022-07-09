@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders all repos sorting alphabetically 1`] = `
+exports[`renders all repos in a single page sorting alphabetically 1`] = `
 <section
   className="repositoriesSection"
 >
@@ -10,90 +10,60 @@ exports[`renders all repos sorting alphabetically 1`] = `
     <div
       className="row"
     >
-      <div
-        className="col col--4 repository"
-      >
-        <div
-          className="text--center"
-        >
-          <a
-            href="https://repo/a"
-            target="_blank"
-          >
-            <img
-              alt="repo-a"
-              className="repositoryImage"
-              src="https://repo/a/image"
-            />
-          </a>
-        </div>
-        <div
-          className="repositoryTitle"
-        >
-          <a
-            href="https://repo/a"
-            target="_blank"
-          >
-            <h3>
-              repo-a
-            </h3>
-          </a>
-          <ArrowLink
-            link="https://repo/a"
-          />
-        </div>
-        <p
-          className="repositoryDescription"
-        >
-          Repo A description
-        </p>
-      </div>
-      <div
-        className="col col--4 repository"
-      >
-        <div
-          className="text--center"
-        >
-          <a
-            href="https://repo/b"
-            target="_blank"
-          >
-            <img
-              alt="repo-b"
-              className="repositoryImage"
-              src="https://repo/b/image"
-            />
-          </a>
-        </div>
-        <div
-          className="repositoryTitle"
-        >
-          <a
-            href="https://repo/b"
-            target="_blank"
-          >
-            <h3>
-              repo-b
-            </h3>
-          </a>
-          <ArrowLink
-            link="https://repo/b"
-          />
-        </div>
-        <p
-          className="repositoryDescription"
-        >
-          Repo B description
-        </p>
-      </div>
+      <Repository
+        description="Repo A description"
+        featured={true}
+        imageUrl="https://repo/a/image"
+        name="repo-a"
+        repoUrl="https://repo/a"
+      />
+      <Repository
+        description="Repo B description"
+        featured={false}
+        imageUrl="https://repo/b/image"
+        name="repo-b"
+        repoUrl="https://repo/b"
+      />
     </div>
   </div>
-  <a
-    className="button button--primary exploreMore"
-    href="https://github/repos"
+  <Paginator
+    handlePageClick={[Function]}
+    pageCount={1}
+  />
+  <ExploreMore
+    link="https://github/repos"
+    text="Explore on github"
+  />
+</section>
+`;
+
+exports[`renders all repos in multiple pages sorting alphabetically 1`] = `
+<section
+  className="repositoriesSection"
+>
+  <div
+    className="container repositoriesContainer"
   >
-    Explore on github
-  </a>
+    <div
+      className="row"
+    >
+      <Repository
+        description="Repo A description"
+        featured={true}
+        imageUrl="https://repo/a/image"
+        name="repo-a"
+        repoUrl="https://repo/a"
+      />
+    </div>
+  </div>
+  <Paginator
+    handlePageClick={[Function]}
+    pageCount={2}
+  />
+  <ExploreMore
+    link="https://github/repos"
+    text="Explore on github"
+  />
 </section>
 `;
 
@@ -107,51 +77,22 @@ exports[`renders featured repos sorting alphabetically 1`] = `
     <div
       className="row"
     >
-      <div
-        className="col col--4 repository"
-      >
-        <div
-          className="text--center"
-        >
-          <a
-            href="https://repo/a"
-            target="_blank"
-          >
-            <img
-              alt="repo-a"
-              className="repositoryImage"
-              src="https://repo/a/image"
-            />
-          </a>
-        </div>
-        <div
-          className="repositoryTitle"
-        >
-          <a
-            href="https://repo/a"
-            target="_blank"
-          >
-            <h3>
-              repo-a
-            </h3>
-          </a>
-          <ArrowLink
-            link="https://repo/a"
-          />
-        </div>
-        <p
-          className="repositoryDescription"
-        >
-          Repo A description
-        </p>
-      </div>
+      <Repository
+        description="Repo A description"
+        featured={true}
+        imageUrl="https://repo/a/image"
+        name="repo-a"
+        repoUrl="https://repo/a"
+      />
     </div>
   </div>
-  <a
-    className="button button--primary exploreMore"
-    href="https://all/repos"
-  >
-    Explore more
-  </a>
+  <Paginator
+    handlePageClick={[Function]}
+    pageCount={1}
+  />
+  <ExploreMore
+    link="https://all/repos"
+    text="Explore more"
+  />
 </section>
 `;

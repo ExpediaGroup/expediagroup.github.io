@@ -14,20 +14,30 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-.repositoriesSection {
+.container {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    --repository-image-border-color: var(--expedia-blue-5);
+    flex-direction: row;
+    list-style-type: none;
+    padding: 0 1rem;
 }
 
-.featuredRepositories.repositoriesSection {
-    --repository-image-border-color: var(--expedia-acqua);
+.container li a {
+    padding: 0.1rem 1rem;
+    cursor: pointer;
+    color: var(--anchor-color);
+    font-size: 1.2em;
 }
 
-.repositoriesContainer {
-    display: flex;
-    align-items: center;
-    margin-top: 2rem;
-    width: 100%;
+.container li a:hover {
+    color: var(--anchor-hover-color);
+}
+
+.container li:global(.selected) a {
+    color: var(--anchor-hover-color);
+    cursor: default;
+}
+
+.container li:global(.disabled) a {
+    color: var(--anchor-disabled-color);
+    cursor: default;
 }

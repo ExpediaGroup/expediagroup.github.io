@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="col col--4 repository"
+>
+  <div
+    className="text--center"
+  >
+    <a
+      href="https://my/repo"
+      target="_blank"
+    >
+      <img
+        alt="my-repo"
+        className="repositoryImage"
+        src="https://my/repo/image"
+      />
+    </a>
+  </div>
+  <div
+    className="repositoryTitle"
+  >
+    <a
+      href="https://my/repo"
+      target="_blank"
+    >
+      <h3>
+        my-repo
+      </h3>
+    </a>
+    <ArrowLink
+      link="https://my/repo"
+    />
+  </div>
+  <p
+    className="repositoryDescription"
+  >
+    my description
+  </p>
+</div>
+`;
