@@ -1,5 +1,12 @@
 [
   {
+    "title": "Onion Architecture",
+    "creator": "Ritesh Kapoor",
+    "link": "https://medium.com/expedia-group-tech/onion-architecture-deed8a554423?source=rss----38998a53046f---4",
+    "date": "Jul 12, 2022",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*h2vnCinMat3lh9ix"
+  },
+  {
     "title": "Error Budget Policies in Practice",
     "creator": "Eric Trang",
     "link": "https://medium.com/expedia-group-tech/error-budget-policies-in-practice-4c98f56a28c1?source=rss----38998a53046f---4",
@@ -61,12 +68,5 @@
     "link": "https://medium.com/expedia-group-tech/working-around-datadogs-cardinality-limitations-be2f9a69612a?source=rss----38998a53046f---4",
     "date": "May 10, 2022",
     "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*PngOUPImGBJkDHuXeisijw.jpeg"
-  },
-  {
-    "title": "Delivering with a sense of urgency",
-    "creator": "Paul de Lange",
-    "link": "https://medium.com/expedia-group-tech/delivering-with-a-sense-of-urgency-be58b10c44ec?source=rss----38998a53046f---4",
-    "date": "Apr 26, 2022",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*r63YiDK6GowyBtjGFI_yow.jpeg"
   }
 ]
