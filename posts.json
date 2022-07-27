@@ -1,5 +1,12 @@
 [
   {
+    "title": "Accelerating NLP Model Inferencing with DistillBERT & ONNX",
+    "creator": "Kumar Abhishek",
+    "link": "https://medium.com/expedia-group-tech/accelerating-nlp-model-inferencing-with-distillbert-onnx-23edd7e187b5?source=rss----38998a53046f---4",
+    "date": "Jul 26, 2022",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*K_qoC4hdNXBZnz2GWm1I0w.jpeg"
+  },
+  {
     "title": "How Expedia Group Platform Engineering Revamped Their Compute Platform",
     "creator": "Vaibhav Chopra",
     "link": "https://medium.com/expedia-group-tech/how-expedia-group-platform-engineering-revamped-their-compute-platform-9ebc1d3144e6?source=rss----38998a53046f---4",
@@ -61,12 +68,5 @@
     "link": "https://medium.com/expedia-group-tech/how-vrbo-and-expedia-lodging-prepared-for-2022s-super-bowl-lvi-984e8d4f2faa?source=rss----38998a53046f---4",
     "date": "May 31, 2022",
     "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*qF-iXwrR3tlD1-u_XXB9bg.jpeg"
-  },
-  {
-    "title": "Software Architectural Patterns in Data Engineering",
-    "creator": "Kunal Sharma",
-    "link": "https://medium.com/expedia-group-tech/software-architectural-patterns-in-data-engineering-5d3bf22106a0?source=rss----38998a53046f---4",
-    "date": "May 24, 2022",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*W7tEmEyyq49JmkZbZmHHeg.jpeg"
   }
 ]
