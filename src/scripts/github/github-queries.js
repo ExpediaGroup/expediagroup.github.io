@@ -38,6 +38,24 @@ const QUERY_REPO_INFO = gql`
     }
   }`
 
+const MAX_REPOSITORIES = 100
+
+const buildQueryForReposByTopic = (orgName, topic) => gql`
+  query {
+    search (first: ${MAX_REPOSITORIES},
+            type: REPOSITORY,
+            query: "org:${orgName} topic:${topic}") {
+      nodes {
+        ... on Repository {
+          name
+          description
+          openGraphImageUrl
+          url
+        }
+      }
+    }
+  }`
+
 /**
  * @typedef Repository
  * @property {string} name The repository name.
@@ -73,3 +91,20 @@ exports.queryRepository = (orgName, repoName) => {
         repoUrl: result.data.repository.url
     }))
 }
+
+/**
+ * Searches all repositories in the given GitHub organization having the given topic, using GitHub GraphQL API.
+ * @param {string} orgName the name of the GitHub organization
+ * @param {string} topic the topic that all repos should have
+ * @returns {Promise<Repository[]|Error>} a promise resolving to the found repos or rejecting with an error
+ */
+ exports.queryRepositoriesByTopic = (orgName, topic) => {
+    return githubClient.query({
+        query: buildQueryForReposByTopic(orgName, topic)
+    }).then(result => result.data.search.nodes.map(repo => ({
+        name: repo.name,
+        description: repo.description || '',
+        imageUrl: repo.openGraphImageUrl || '',
+        repoUrl: repo.url
+    })))
+ }

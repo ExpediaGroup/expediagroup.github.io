@@ -96,3 +96,109 @@ describe('queryRepository', () => {
         await expect(promise).rejects.toStrictEqual(ERROR_RESPONSE)
     })
 })
+
+describe('queryRepositoriesByTopic', () => {
+    const {queryRepositoriesByTopic} = require('./github-queries.js')
+    const ORG = 'test-org'
+    const TOPIC = 'test-topic'
+    const REPO = 'test-repo'
+    const DESCRIPTION = 'test-description'
+    const IMAGE_URL = 'test-image-url'
+    const REPO_URL = 'test-repo-url'
+    const OK_RESPONSE = {
+        data: {
+            search: {
+                nodes: [
+                    {
+                        name: REPO,
+                        description: DESCRIPTION,
+                        openGraphImageUrl: IMAGE_URL,
+                        url: REPO_URL
+                    }
+                ]
+            }
+        }
+    }
+    const ERROR_RESPONSE = {
+        error: {
+            message: 'test-error-message'
+        }
+    }
+
+    test('passes the correct organization name and topic to ApolloClient', async () => {
+        apolloClientMockQuery.mockResolvedValueOnce(OK_RESPONSE)
+
+        await queryRepositoriesByTopic(ORG, TOPIC)
+
+        expect(apolloClientMockQuery).toBeCalledWith(
+            expect.objectContainingString(`org:${ORG} topic:${TOPIC}`)
+        )
+    })
+
+    test('maps fields from ApolloClient response', async () => {
+        apolloClientMockQuery.mockResolvedValueOnce(OK_RESPONSE)
+
+        const promise = queryRepositoriesByTopic(ORG, TOPIC)
+
+        await expect(promise).resolves.toStrictEqual([{
+            name: REPO,
+            description: DESCRIPTION,
+            imageUrl: IMAGE_URL,
+            repoUrl: REPO_URL
+        }])
+    })
+
+    test('returns empty description if undefined in ApolloClient response', async () => {
+        const response = deepClone(OK_RESPONSE)
+        response.data.search.nodes[0].description = undefined
+        apolloClientMockQuery.mockResolvedValueOnce(response)
+
+        const promise = queryRepositoriesByTopic(ORG, TOPIC)
+
+        await expect(promise).resolves.toContainEqual(expect.objectContaining({
+            description: ''
+        }))
+    })
+
+    test('returns empty image url if undefined in ApolloClient response', async () => {
+        const response = deepClone(OK_RESPONSE)
+        response.data.search.nodes[0].openGraphImageUrl = undefined
+        apolloClientMockQuery.mockResolvedValueOnce(response)
+
+        const promise = queryRepositoriesByTopic(ORG, TOPIC)
+
+        await expect(promise).resolves.toContainEqual(expect.objectContaining({
+            imageUrl: ''
+        }))
+    })
+
+    test('forwards the same error received from ApolloClient', async () => {
+        apolloClientMockQuery.mockRejectedValueOnce(ERROR_RESPONSE)
+
+        const promise = queryRepositoriesByTopic(ORG, TOPIC)
+
+        await expect(promise).rejects.toStrictEqual(ERROR_RESPONSE)
+    })
+})
+
+expect.extend({
+    objectContainingString(receivedObj, expectedString) {
+      const pass = JSON.stringify(receivedObj).includes(expectedString)
+  
+      if (pass) {
+        return {
+          message: () => (`expected ${this.utils.printReceived(receivedObj)} not to contain string ${expectedString}`),
+          pass: true
+        }
+      } else {
+        return {
+          message: () => (`expected ${this.utils.printReceived(receivedObj)} to contain string ${expectedString}`),
+          pass: false
+        }
+      }
+    }
+  })
+
+function deepClone(object) {
+    return JSON.parse(JSON.stringify(object))
+}
