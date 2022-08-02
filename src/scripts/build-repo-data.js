@@ -14,7 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-const {queryRepository} = require('./github/github-queries');
+const {queryRepository, queryRepositoriesByTopic} = require('./github/github-queries');
 const {writeJsonFile} = require('./filesystem/fs-utils');
 
 const REPOSITORIES = [
@@ -65,4 +65,28 @@ exports.fetchAndDumpRepositories = async (repositories = REPOSITORIES, filePath 
     const repoData = await Promise.all(repositories.map(repo => queryRepository(repo.organization, repo.name)
         .then(fetchedRepo => ({...fetchedRepo, featured: repo.featured}))))
     await writeJsonFile(filePath, repoData)
+}
+
+const EXPEDIA_ORG = 'ExpediaGroup'
+const TOPIC_FEATURED_REPO = 'oss-portal-featured'
+const TOPIC_LISTED_REPO = 'oss-portal-listed'
+
+/**
+ * Queries the repositories in the Expedia Group GitHub organization and writes them as JSON to the file at the given path.
+ * The repositories are searched by topic:
+ * - {@link TOPIC_LISTED_REPO} if the repo should be shown in the portal
+ * - {@link TOPIC_FEATURED_REPO} if the repo should be particularly highlighted in the portal
+ * @param {string} filePath the json file that will be written
+ * @returns {Promise<void | Error>} a promise resolving to <code>undefined</code> in case of success or rejecting with an error
+ */
+exports.queryAndDumpRepositories = async (organization = EXPEDIA_ORG, filePath = 'static/repos.json') => {
+    const featuredRepos = await queryRepositoriesByTopic(organization, TOPIC_FEATURED_REPO)
+        .then(flagAsFeatured(true))
+    const listedRepos = await queryRepositoriesByTopic(organization, TOPIC_LISTED_REPO)
+        .then(flagAsFeatured(false))
+    await writeJsonFile(filePath, featuredRepos.concat(listedRepos))
+}
+
+function flagAsFeatured(featured) {
+    return (repositories) => repositories.map(repo => ({...repo, featured: featured}))
 }
