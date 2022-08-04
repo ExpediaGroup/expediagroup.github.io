@@ -28,16 +28,6 @@ const githubClient = new ApolloClient({
     cache: new InMemoryCache()
 })
 
-const QUERY_REPO_INFO = gql`
-  query ($owner: String!, $name: String!) {
-    repository(owner: $owner, name: $name) {
-      name
-      description
-      openGraphImageUrl
-      url
-    }
-  }`
-
 const MAX_REPOSITORIES = 100
 
 const buildQueryForReposByTopic = (orgName, topic) => gql`
@@ -70,27 +60,6 @@ const buildQueryForReposByTopic = (orgName, topic) => gql`
  * @typedef Error
  * @property {{message: string}} error Error with a message. For more fields see https://www.apollographql.com/docs/react/data/queries/#error
  */
-
-/**
- * Fetches some information of a given GitHub repository using GitHub GraphQL API.
- * @param {string} orgName the name of the GitHub organization
- * @param {string} repoName the name of the GitHub repository
- * @returns {Promise<Repository|Error>} a promise resolving to the repo info or rejecting with an error
- */
-exports.queryRepository = (orgName, repoName) => {
-    return githubClient.query({
-        query: QUERY_REPO_INFO,
-        variables: {
-            owner : orgName,
-            name : repoName
-        }
-    }).then(result => ({
-        name: result.data.repository.name,
-        description: result.data.repository.description || '',
-        imageUrl: result.data.repository.openGraphImageUrl || '',
-        repoUrl: result.data.repository.url
-    }))
-}
 
 /**
  * Searches all repositories in the given GitHub organization having the given topic, using GitHub GraphQL API.
