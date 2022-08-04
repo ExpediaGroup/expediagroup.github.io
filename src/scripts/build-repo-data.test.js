@@ -28,6 +28,7 @@ const REPO2_FETCHED = {baz: 'qux'}
 const ERROR_MSG = 'error1'
 const TOPIC_FEATURED_REPO = 'oss-portal-featured'
 const TOPIC_LISTED_REPO = 'oss-portal-listed'
+const MAX_FEATURED_REPOS = 13
 
 
 describe('queryAndDumpRepositories', () => {
@@ -36,9 +37,9 @@ describe('queryAndDumpRepositories', () => {
         queryRepositoriesByTopic.mockResolvedValueOnce([REPO1_FETCHED]).mockResolvedValueOnce([])
         writeJsonFile.mockResolvedValueOnce(undefined)
     
-        await queryAndDumpRepositories(ORG, FILE)
+        await queryAndDumpRepositories(ORG, FILE, MAX_FEATURED_REPOS)
     
-        expect(queryRepositoriesByTopic).toHaveBeenNthCalledWith(1, ORG, TOPIC_FEATURED_REPO)
+        expect(queryRepositoriesByTopic).toHaveBeenNthCalledWith(1, ORG, TOPIC_FEATURED_REPO, MAX_FEATURED_REPOS)
         expect(queryRepositoriesByTopic).toHaveBeenNthCalledWith(2, ORG, TOPIC_LISTED_REPO)
         expect(writeJsonFile).toHaveBeenCalledWith(FILE, [{...REPO1_FETCHED, featured: true}])
     })
@@ -49,8 +50,6 @@ describe('queryAndDumpRepositories', () => {
     
         await queryAndDumpRepositories(ORG, FILE)
     
-        expect(queryRepositoriesByTopic).toHaveBeenNthCalledWith(1, ORG, TOPIC_FEATURED_REPO)
-        expect(queryRepositoriesByTopic).toHaveBeenNthCalledWith(2, ORG, TOPIC_LISTED_REPO)
         expect(writeJsonFile).toHaveBeenCalledWith(
             FILE, [{...REPO1_FETCHED, featured: true}, {...REPO2_FETCHED, featured: false}]
         )

@@ -28,11 +28,11 @@ const githubClient = new ApolloClient({
     cache: new InMemoryCache()
 })
 
-const MAX_REPOSITORIES = 100
+const MAX_REPOSITORIES_DEFAULT = 100
 
-const buildQueryForReposByTopic = (orgName, topic) => gql`
+const buildQueryForReposByTopic = (orgName, topic, maxRepos) => gql`
   query {
-    search (first: ${MAX_REPOSITORIES},
+    search (first: ${maxRepos},
             type: REPOSITORY,
             query: "org:${orgName} topic:${topic}") {
       nodes {
@@ -65,11 +65,12 @@ const buildQueryForReposByTopic = (orgName, topic) => gql`
  * Searches all repositories in the given GitHub organization having the given topic, using GitHub GraphQL API.
  * @param {string} orgName the name of the GitHub organization
  * @param {string} topic the topic that all repos should have
+ * @param {number} maxRepos the maximum number of repositories that will be returned. If not provided defaults to {@link MAX_REPOSITORIES_DEFAULT}
  * @returns {Promise<Repository[]|Error>} a promise resolving to the found repos or rejecting with an error
  */
- exports.queryRepositoriesByTopic = (orgName, topic) => {
+ exports.queryRepositoriesByTopic = (orgName, topic, maxRepos = MAX_REPOSITORIES_DEFAULT) => {
     return githubClient.query({
-        query: buildQueryForReposByTopic(orgName, topic)
+        query: buildQueryForReposByTopic(orgName, topic, maxRepos)
     }).then(result => result.data.search.nodes.map(repo => ({
         name: repo.name,
         description: repo.description || '',

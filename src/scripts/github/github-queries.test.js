@@ -25,6 +25,7 @@ describe('queryRepositoriesByTopic', () => {
     const {queryRepositoriesByTopic} = require('./github-queries.js')
     const ORG = 'test-org'
     const TOPIC = 'test-topic'
+    const MAX_REPOS = 27
     const REPO = 'test-repo'
     const DESCRIPTION = 'test-description'
     const IMAGE_URL = 'test-image-url'
@@ -56,6 +57,16 @@ describe('queryRepositoriesByTopic', () => {
 
         expect(apolloClientMockQuery).toBeCalledWith(
             expect.objectContainingString(`org:${ORG} topic:${TOPIC}`)
+        )
+    })
+    
+    test('passes the correct number of max repos to ApolloClient', async () => {
+        apolloClientMockQuery.mockResolvedValueOnce(OK_RESPONSE)
+
+        await queryRepositoriesByTopic(ORG, TOPIC, MAX_REPOS)
+
+        expect(apolloClientMockQuery).toBeCalledWith(
+            expect.objectContainingString(`"value":"${MAX_REPOS}"`)
         )
     })
 
