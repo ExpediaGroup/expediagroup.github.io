@@ -6,7 +6,7 @@
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
     "build-posts-data": "run-func src/scripts/build-posts-data.js fetchAndDumpPosts",
-    "build-repo-data": "run-func src/scripts/build-repo-data.js fetchAndDumpRepositories",
+    "build-repo-data": "run-func src/scripts/build-repo-data.js queryAndDumpRepositories",
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
