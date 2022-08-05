@@ -5,7 +5,7 @@ The repositories that are shown in the portal are fetched with GitHub GraphQL AP
 In particular, repositories are fetched within the `ExpediaGroup` organization by [topic](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/classifying-your-repository-with-topics):
 
 - if the repo has topic `oss-portal-listed` it will be shown in the Repositories Page
-- if the repo has topic `oss-portal-featured` it will be additionally shown in the Home Page
+- if the repo has topic `oss-portal-featured` it will be shown in the Repositories Page and in the Home Page
 
 # How blog posts are fetched
 
