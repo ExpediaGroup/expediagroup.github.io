@@ -28,6 +28,10 @@ const githubClient = new ApolloClient({
     cache: new InMemoryCache()
 })
 
+/**
+ * The default maximum number of fetched repositories.
+ * It is the maximum allowed by GitHub API with a single query.
+ */
 const MAX_REPOSITORIES_DEFAULT = 100
 
 const buildQueryForReposByTopic = (orgName, topic, maxRepos) => gql`
@@ -76,5 +80,5 @@ const buildQueryForReposByTopic = (orgName, topic, maxRepos) => gql`
         description: repo.description || '',
         imageUrl: repo.openGraphImageUrl || '',
         repoUrl: repo.url
-    })))
+    }))).then(repos => repos.sort((repo1, repo2) => repo1.name.localeCompare(repo2.name)))
  }

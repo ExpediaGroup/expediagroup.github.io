@@ -26,24 +26,26 @@ describe('queryRepositoriesByTopic', () => {
     const ORG = 'test-org'
     const TOPIC = 'test-topic'
     const MAX_REPOS = 27
-    const REPO = 'test-repo'
-    const DESCRIPTION = 'test-description'
-    const IMAGE_URL = 'test-image-url'
-    const REPO_URL = 'test-repo-url'
-    const OK_RESPONSE = {
+    const REPO_A = {
+        name: 'repo-a',
+        description: 'description-a',
+        openGraphImageUrl: 'image-a',
+        url: 'url-a'
+    }
+    const REPO_B = {
+        name: 'repo-b',
+        description: 'description-b',
+        openGraphImageUrl: 'image-b',
+        url: 'url-b'
+    }
+    const responseWith = (...repos) => ({
         data: {
             search: {
-                nodes: [
-                    {
-                        name: REPO,
-                        description: DESCRIPTION,
-                        openGraphImageUrl: IMAGE_URL,
-                        url: REPO_URL
-                    }
-                ]
+                nodes: repos
             }
         }
-    }
+    })
+    const EMPTY_RESPONSE = responseWith()
     const ERROR_RESPONSE = {
         error: {
             message: 'test-error-message'
@@ -51,7 +53,7 @@ describe('queryRepositoriesByTopic', () => {
     }
 
     test('passes the correct organization name and topic to ApolloClient', async () => {
-        apolloClientMockQuery.mockResolvedValueOnce(OK_RESPONSE)
+        apolloClientMockQuery.mockResolvedValueOnce(EMPTY_RESPONSE)
 
         await queryRepositoriesByTopic(ORG, TOPIC)
 
@@ -61,7 +63,7 @@ describe('queryRepositoriesByTopic', () => {
     })
     
     test('passes the correct number of max repos to ApolloClient', async () => {
-        apolloClientMockQuery.mockResolvedValueOnce(OK_RESPONSE)
+        apolloClientMockQuery.mockResolvedValueOnce(EMPTY_RESPONSE)
 
         await queryRepositoriesByTopic(ORG, TOPIC, MAX_REPOS)
 
@@ -70,23 +72,28 @@ describe('queryRepositoriesByTopic', () => {
         )
     })
 
-    test('maps fields from ApolloClient response', async () => {
-        apolloClientMockQuery.mockResolvedValueOnce(OK_RESPONSE)
+    test('maps fields from ApolloClient response and sort repos by name', async () => {
+        apolloClientMockQuery.mockResolvedValueOnce(responseWith(REPO_B, REPO_A))
 
         const promise = queryRepositoriesByTopic(ORG, TOPIC)
 
         await expect(promise).resolves.toStrictEqual([{
-            name: REPO,
-            description: DESCRIPTION,
-            imageUrl: IMAGE_URL,
-            repoUrl: REPO_URL
+            name: REPO_A.name,
+            description: REPO_A.description,
+            imageUrl: REPO_A.openGraphImageUrl,
+            repoUrl: REPO_A.url
+        }, {
+            name: REPO_B.name,
+            description: REPO_B.description,
+            imageUrl: REPO_B.openGraphImageUrl,
+            repoUrl: REPO_B.url
         }])
     })
 
     test('returns empty description if undefined in ApolloClient response', async () => {
-        const response = deepClone(OK_RESPONSE)
-        response.data.search.nodes[0].description = undefined
-        apolloClientMockQuery.mockResolvedValueOnce(response)
+        apolloClientMockQuery.mockResolvedValueOnce(responseWith({
+            description: undefined
+        }))
 
         const promise = queryRepositoriesByTopic(ORG, TOPIC)
 
@@ -96,9 +103,9 @@ describe('queryRepositoriesByTopic', () => {
     })
 
     test('returns empty image url if undefined in ApolloClient response', async () => {
-        const response = deepClone(OK_RESPONSE)
-        response.data.search.nodes[0].openGraphImageUrl = undefined
-        apolloClientMockQuery.mockResolvedValueOnce(response)
+        apolloClientMockQuery.mockResolvedValueOnce(responseWith({
+            openGraphImageUrl: undefined
+        }))
 
         const promise = queryRepositoriesByTopic(ORG, TOPIC)
 
@@ -117,6 +124,11 @@ describe('queryRepositoriesByTopic', () => {
 })
 
 expect.extend({
+    /**
+     * Matches any received object whose JSON stringification contains the expected string.
+     * Use this matcher instead of {@link expect.objectContaining} when the structure of the
+     * object is complex and you just need to find a string at any nesting level within it.
+     */
     objectContainingString(receivedObj, expectedString) {
       const pass = JSON.stringify(receivedObj).includes(expectedString)
   
@@ -133,7 +145,3 @@ expect.extend({
       }
     }
   })
-
-function deepClone(object) {
-    return JSON.parse(JSON.stringify(object))
-}
