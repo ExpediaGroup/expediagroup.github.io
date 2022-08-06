@@ -14,55 +14,35 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-const {queryRepository} = require('./github/github-queries');
+const {queryRepositoriesByTopic} = require('./github/github-queries');
 const {writeJsonFile} = require('./filesystem/fs-utils');
 
-const REPOSITORIES = [
-    { organization: "ExpediaGroup", name: "beekeeper",                   featured: true },
-    { organization: "ExpediaGroup", name: "bull",                        featured: true },
-    { organization: "ExpediaGroup", name: "flyte",                       featured: true },
-    { organization: "ExpediaGroup", name: "graphql-component",           featured: true },
-    { organization: "ExpediaGroup", name: "graphql-kotlin",              featured: true },
-    { organization: "ExpediaGroup", name: "jarviz",                      featured: true },
-    { organization: "ExpediaGroup", name: "jenkins-spock",               featured: true },
-    { organization: "ExpediaGroup", name: "mittens",                     featured: true },
-    { organization: "ExpediaGroup", name: "stream-registry",             featured: true },
-    { organization: "ExpediaGroup", name: "catalyst-render",             featured: false },
-    { organization: "ExpediaGroup", name: "catalyst-server",             featured: false },
-    { organization: "ExpediaGroup", name: "cypress-codegen",             featured: false },
-    { organization: "ExpediaGroup", name: "determination",               featured: false },
-    { organization: "ExpediaGroup", name: "flyte-client",                featured: false },
-    { organization: "ExpediaGroup", name: "flyte-jira",                  featured: false },
-    { organization: "ExpediaGroup", name: "flyte-slack",                 featured: false },
-    { organization: "ExpediaGroup", name: "github-helpers",              featured: false },
-    { organization: "ExpediaGroup", name: "github-webhook-proxy",        featured: false },
-    { organization: "ExpediaGroup", name: "insights-explorer",           featured: false },
-    { organization: "ExpediaGroup", name: "kubernetes-sidecar-injector", featured: false },
-    { organization: "ExpediaGroup", name: "overwhelm",                   featured: false },
-    { organization: "ExpediaGroup", name: "package-json-validator",      featured: false },
-    { organization: "ExpediaGroup", name: "parsec",                      featured: false },
-    { organization: "ExpediaGroup", name: "pitchfork",                   featured: false },
-    { organization: "ExpediaGroup", name: "spinnaker-pipeline-trigger",  featured: false },
-    { organization: "ExpediaGroup", name: "steerage",                    featured: false },
-    { organization: "ExpediaGroup", name: "styx",                        featured: false },
-    { organization: "ExpediaGroup", name: "waggle-dance",                featured: false }
-]
+const EXPEDIA_ORG = 'ExpediaGroup'
+const REPOS_FILE = 'static/repos.json'
+const TOPIC_FEATURED_REPO = 'oss-portal-featured'
+const TOPIC_LISTED_REPO = 'oss-portal-listed'
+const MAX_FEATURED_REPOS = 9
 
 /**
- * @typedef Repository
- * @property {string} organization The name of the GitHub organization.
- * @property {string} name The name of the GitHub repository.
- * @property {boolean} featured Whether the repository should be shown in the home page.
- */
-
-/**
- * Fetches information about the given GitHub repositories and write it as JSON to the file at the given path.
- * @param {Repository[]} repositories the repositories to be fetched
- * @param {string} filePath the json file that will be written
+ * Queries the repositories in the Expedia Group GitHub organization and writes them as JSON to the file at the given path.
+ * The repositories are searched by topic:
+ * - {@link TOPIC_LISTED_REPO} if the repo should be shown in the portal
+ * - {@link TOPIC_FEATURED_REPO} if the repo should be particularly highlighted in the portal
+ * @param {string} organization the GitHub organization to query into. Defaults to {@link EXPEDIA_ORG}
+ * @param {string} filePath the json file that will be written. Defaults to {@link REPOS_FILE}
+ * @param {number} maxFeaturedRepos the max number of featured repos to be returned. Defaults to {@link MAX_FEATURED_REPOS}
  * @returns {Promise<void | Error>} a promise resolving to <code>undefined</code> in case of success or rejecting with an error
  */
-exports.fetchAndDumpRepositories = async (repositories = REPOSITORIES, filePath = 'static/repos.json') => {
-    const repoData = await Promise.all(repositories.map(repo => queryRepository(repo.organization, repo.name)
-        .then(fetchedRepo => ({...fetchedRepo, featured: repo.featured}))))
-    await writeJsonFile(filePath, repoData)
+exports.queryAndDumpRepositories = async (organization = EXPEDIA_ORG,
+                                          filePath = REPOS_FILE,
+                                          maxFeaturedRepos = MAX_FEATURED_REPOS) => {
+    const featuredRepos = await queryRepositoriesByTopic(organization, TOPIC_FEATURED_REPO, maxFeaturedRepos)
+        .then(flagAsFeatured(true))
+    const listedRepos = await queryRepositoriesByTopic(organization, TOPIC_LISTED_REPO)
+        .then(flagAsFeatured(false))
+    await writeJsonFile(filePath, featuredRepos.concat(listedRepos))
+}
+
+function flagAsFeatured(featured) {
+    return (repositories) => repositories.map(repo => ({...repo, featured: featured}))
 }

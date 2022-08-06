@@ -19,80 +19,129 @@ const apolloClientMockQuery = jest.fn()
 apolloClientModule.ApolloClient = jest.fn(() => ({
     query: apolloClientMockQuery
 }));
-apolloClientMockQuery.lastCallFirstArg = () => {
-    expect(apolloClientMockQuery).toHaveBeenCalled()
-    return apolloClientMockQuery.mock.calls[0][0]
-}
 
 
-describe('queryRepository', () => {
-    const {queryRepository} = require('./github-queries.js')
+describe('queryRepositoriesByTopic', () => {
+    const {queryRepositoriesByTopic} = require('./github-queries.js')
     const ORG = 'test-org'
-    const REPO = 'test-repo'
-    const DESCRIPTION = 'test-description'
-    const IMAGE_URL = 'test-image-url'
-    const REPO_URL = 'test-repo-url'
-    const OK_RESPONSE = {
+    const TOPIC = 'test-topic'
+    const MAX_REPOS = 27
+    const REPO_A = {
+        name: 'repo-a',
+        description: 'description-a',
+        openGraphImageUrl: 'image-a',
+        url: 'url-a'
+    }
+    const REPO_B = {
+        name: 'repo-b',
+        description: 'description-b',
+        openGraphImageUrl: 'image-b',
+        url: 'url-b'
+    }
+    const responseWith = (...repos) => ({
         data: {
-            repository: {
-                name: REPO,
-                description: DESCRIPTION,
-                openGraphImageUrl: IMAGE_URL,
-                url: REPO_URL
+            search: {
+                nodes: repos
             }
         }
-    }
+    })
+    const EMPTY_RESPONSE = responseWith()
     const ERROR_RESPONSE = {
         error: {
             message: 'test-error-message'
         }
     }
 
-    test('passes the correct organization name and repository name to ApolloClient', async () => {
-        apolloClientMockQuery.mockResolvedValueOnce(OK_RESPONSE)
+    test('passes the correct organization name and topic to ApolloClient', async () => {
+        apolloClientMockQuery.mockResolvedValueOnce(EMPTY_RESPONSE)
 
-        await queryRepository(ORG, REPO)
+        await queryRepositoriesByTopic(ORG, TOPIC)
 
-        expect(apolloClientMockQuery.lastCallFirstArg().variables).toStrictEqual({
-            owner : ORG,
-            name : REPO
-        })
+        expect(apolloClientMockQuery).toBeCalledWith(
+            expect.objectContainingString(`org:${ORG} topic:${TOPIC}`)
+        )
+    })
+    
+    test('passes the correct number of max repos to ApolloClient', async () => {
+        apolloClientMockQuery.mockResolvedValueOnce(EMPTY_RESPONSE)
+
+        await queryRepositoriesByTopic(ORG, TOPIC, MAX_REPOS)
+
+        expect(apolloClientMockQuery).toBeCalledWith(
+            expect.objectContainingString(`"value":"${MAX_REPOS}"`)
+        )
     })
 
-    test('maps fields from ApolloClient response', async () => {
-        apolloClientMockQuery.mockResolvedValueOnce(OK_RESPONSE)
+    test('maps fields from ApolloClient response and sort repos by name', async () => {
+        apolloClientMockQuery.mockResolvedValueOnce(responseWith(REPO_B, REPO_A))
 
-        const promise = queryRepository(ORG, REPO)
+        const promise = queryRepositoriesByTopic(ORG, TOPIC)
 
-        await expect(promise).resolves.toStrictEqual({
-            name: REPO,
-            description: DESCRIPTION,
-            imageUrl: IMAGE_URL,
-            repoUrl: REPO_URL
-        })
+        await expect(promise).resolves.toStrictEqual([{
+            name: REPO_A.name,
+            description: REPO_A.description,
+            imageUrl: REPO_A.openGraphImageUrl,
+            repoUrl: REPO_A.url
+        }, {
+            name: REPO_B.name,
+            description: REPO_B.description,
+            imageUrl: REPO_B.openGraphImageUrl,
+            repoUrl: REPO_B.url
+        }])
     })
 
     test('returns empty description if undefined in ApolloClient response', async () => {
-        apolloClientMockQuery.mockResolvedValueOnce({...OK_RESPONSE, data: { repository: { description: undefined }}})
+        apolloClientMockQuery.mockResolvedValueOnce(responseWith({
+            description: undefined
+        }))
 
-        const promise = queryRepository(ORG, REPO)
+        const promise = queryRepositoriesByTopic(ORG, TOPIC)
 
-        await expect(promise).resolves.toHaveProperty('description', '')
+        await expect(promise).resolves.toContainEqual(expect.objectContaining({
+            description: ''
+        }))
     })
 
     test('returns empty image url if undefined in ApolloClient response', async () => {
-        apolloClientMockQuery.mockResolvedValueOnce({...OK_RESPONSE, data: { repository: { openGraphImageUrl: undefined }}})
+        apolloClientMockQuery.mockResolvedValueOnce(responseWith({
+            openGraphImageUrl: undefined
+        }))
 
-        const promise = queryRepository(ORG, REPO)
+        const promise = queryRepositoriesByTopic(ORG, TOPIC)
 
-        await expect(promise).resolves.toHaveProperty('imageUrl', '')
+        await expect(promise).resolves.toContainEqual(expect.objectContaining({
+            imageUrl: ''
+        }))
     })
 
     test('forwards the same error received from ApolloClient', async () => {
         apolloClientMockQuery.mockRejectedValueOnce(ERROR_RESPONSE)
 
-        const promise = queryRepository(ORG, REPO)
+        const promise = queryRepositoriesByTopic(ORG, TOPIC)
 
         await expect(promise).rejects.toStrictEqual(ERROR_RESPONSE)
     })
 })
+
+expect.extend({
+    /**
+     * Matches any received object whose JSON stringification contains the expected string.
+     * Use this matcher instead of {@link expect.objectContaining} when the structure of the
+     * object is complex and you just need to find a string at any nesting level within it.
+     */
+    objectContainingString(receivedObj, expectedString) {
+      const pass = JSON.stringify(receivedObj).includes(expectedString)
+  
+      if (pass) {
+        return {
+          message: () => (`expected ${this.utils.printReceived(receivedObj)} not to contain string ${expectedString}`),
+          pass: true
+        }
+      } else {
+        return {
+          message: () => (`expected ${this.utils.printReceived(receivedObj)} to contain string ${expectedString}`),
+          pass: false
+        }
+      }
+    }
+  })

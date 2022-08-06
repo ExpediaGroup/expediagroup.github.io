@@ -28,13 +28,25 @@ const githubClient = new ApolloClient({
     cache: new InMemoryCache()
 })
 
-const QUERY_REPO_INFO = gql`
-  query ($owner: String!, $name: String!) {
-    repository(owner: $owner, name: $name) {
-      name
-      description
-      openGraphImageUrl
-      url
+/**
+ * The default maximum number of fetched repositories.
+ * It is the maximum allowed by GitHub API with a single query.
+ */
+const MAX_REPOSITORIES_DEFAULT = 100
+
+const buildQueryForReposByTopic = (orgName, topic, maxRepos) => gql`
+  query {
+    search (first: ${maxRepos},
+            type: REPOSITORY,
+            query: "org:${orgName} topic:${topic}") {
+      nodes {
+        ... on Repository {
+          name
+          description
+          openGraphImageUrl
+          url
+        }
+      }
     }
   }`
 
@@ -54,22 +66,19 @@ const QUERY_REPO_INFO = gql`
  */
 
 /**
- * Fetches some information of a given GitHub repository using GitHub GraphQL API.
+ * Searches all repositories in the given GitHub organization having the given topic, using GitHub GraphQL API.
  * @param {string} orgName the name of the GitHub organization
- * @param {string} repoName the name of the GitHub repository
- * @returns {Promise<Repository|Error>} a promise resolving to the repo info or rejecting with an error
+ * @param {string} topic the topic that all repos should have
+ * @param {number} maxRepos the maximum number of repositories that will be returned. If not provided defaults to {@link MAX_REPOSITORIES_DEFAULT}
+ * @returns {Promise<Repository[]|Error>} a promise resolving to the found repos or rejecting with an error
  */
-exports.queryRepository = (orgName, repoName) => {
+ exports.queryRepositoriesByTopic = (orgName, topic, maxRepos = MAX_REPOSITORIES_DEFAULT) => {
     return githubClient.query({
-        query: QUERY_REPO_INFO,
-        variables: {
-            owner : orgName,
-            name : repoName
-        }
-    }).then(result => ({
-        name: result.data.repository.name,
-        description: result.data.repository.description || '',
-        imageUrl: result.data.repository.openGraphImageUrl || '',
-        repoUrl: result.data.repository.url
-    }))
-}
+        query: buildQueryForReposByTopic(orgName, topic, maxRepos)
+    }).then(result => result.data.search.nodes.map(repo => ({
+        name: repo.name,
+        description: repo.description || '',
+        imageUrl: repo.openGraphImageUrl || '',
+        repoUrl: repo.url
+    }))).then(repos => repos.sort((repo1, repo2) => repo1.name.localeCompare(repo2.name)))
+ }
