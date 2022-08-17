@@ -6,7 +6,7 @@ See the live version [here](https://expediagroup.github.io/).
 ## ⚙ Technologies
 
 This is a statically-rendered website using [Docusaurus v2](https://v2.docusaurus.io/).
-You need Node.js 14 or later.
+You need Node.js 16.
 The produced static files are distributed as `GitHub Pages`.
 
 ## 👷 Local Development
