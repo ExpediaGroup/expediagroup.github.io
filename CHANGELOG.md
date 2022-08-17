@@ -8,7 +8,7 @@ You should update the version number in the [package.json](./package.json) accor
 then run `npm install`.
 
 ## 1.5.1
-- Bumped docusaurus to 2.0.1 and react to 17.0.2
+- Bumped to node 16, docusaurus 2.0.1, react 17.0.2
 
 ## 1.5.0
 - Fetch list of repositories by topic with GitHub GraphQL API instead of hardcoded list.
