@@ -21,8 +21,11 @@ import { Water } from 'three/examples/jsm/objects/Water'
 
 extend({ Water })
 
+/**
+ * Plane with water effect.
+ */
 function Ocean() {
-  const ref = useRef()
+  const thisMesh = useRef()
   const gl = useThree((state) => state.gl)
   const waterNormals = useLoader(THREE.TextureLoader, '/img/waternormals.jpg')
   waterNormals.wrapS = waterNormals.wrapT = THREE.RepeatWrapping
@@ -34,15 +37,15 @@ function Ocean() {
       waterNormals,
       sunDirection: new THREE.Vector3(),
       sunColor: 0xffffff,
-      waterColor: 0x001e0f,
-      distortionScale: 3.7,
+      waterColor: 0x18b3a3,
+      distortionScale: 1,
       fog: false,
       format: gl.encoding
     }),
     [waterNormals]
   )
-  useFrame((state, delta) => (ref.current.material.uniforms.time.value += delta))
-  return <water ref={ref} args={[geom, config]} rotation-x={- Math.PI / 2} />
+  useFrame((state, delta) => (thisMesh.current.material.uniforms.time.value += delta / 2))
+  return <water ref={thisMesh} args={[geom, config]} rotation-x={- Math.PI / 2} />
 }
 
 export default Ocean;

@@ -33,15 +33,15 @@ function HeroBanner3d() {
     <header className={styles.heroBanner}>
       <Canvas camera={{ position: CAMERA_POSITION }} dpr={[1, 2]}>
         <ambientLight/>
-        <AnimatedText text={TITLE} size={1.5} color={EXPEDIA_BLUE} startPosition={[-100, 3, 0]}/>
-        <AnimatedText text={SUBTITLE} size={1} color={EXPEDIA_BLUE} startPosition={[100, 1, 0]}/>
+        <AnimatedText text={TITLE} size={1.5} color={EXPEDIA_BLUE} positionY={2}/>
+        <AnimatedText text={SUBTITLE} size={1} color={EXPEDIA_BLUE} positionY={0}/>
         <Suspense fallback={null}>
           <Ocean />
         </Suspense>
-        <Sky scale={1000} sunPosition={[500, 150, -1000]} turbidity={0.1} />
+        <Sky sunPosition={[8, 0.2, -5]} turbidity={0.1} />
       </Canvas>
     </header>
-  );
+  )
 }
 
 export default HeroBanner3d;

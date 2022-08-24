@@ -17,38 +17,35 @@ limitations under the License.
 import { TextGeometry } from 'three/examples/jsm/geometries/TextGeometry'
 import { FontLoader } from 'three/examples/jsm/loaders/FontLoader'
 import HelvetikerFont from 'three/examples/fonts/helvetiker_regular.typeface.json'
-import { extend } from '@react-three/fiber'
-import { useSpring, animated } from "@react-spring/three"
+import { extend, useFrame } from '@react-three/fiber'
 import { Vector3 } from 'three'
-import React from 'react'
-import { useEffect, useRef, useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 
 const FONT = new FontLoader().parse(HelvetikerFont);
 
+extend({ TextGeometry })
+
 /**
- * 3D text with animation moving from the given start position and rotation
- * to the center of the canvas.
+ * 3D text with animation moving up and down from a given y position,
+ * while it is centered on the x axis.
  */
 function AnimatedText({text,
                        size = 1,
                        color = 'black',
-                       startPosition = [-100, 0, 0],
-                       startRotation = [0, 0.5, 0]}) {
-  extend({ TextGeometry })
+                       positionY = 0}) {
   const thisMesh = useRef()
-  const [endPositionX, setEndPositionX] = useState(0)
-  useEffect(() => setEndPositionX(getCenteredPositionX(thisMesh.current)), []);
-  const { position, rotation } = useSpring({
-    from: { position: startPosition, rotation: startRotation },
-    to: { position: [endPositionX, startPosition[1], startPosition[2]], rotation: [0, 0, 0] },
-    config: { mass: 10, tension: 70 }
+  const [positionX, setPositionX] = useState(0)
+  useEffect(() => setPositionX(getCenteredPositionX(thisMesh.current)), []);
+  useFrame(() => {
+    const time = performance.now() * 0.001
+    thisMesh.current.position.y = Math.sin(time) + positionY
   })
   
   return (
-    <animated.mesh ref={thisMesh} position={position} rotation={rotation}>
+    <mesh ref={thisMesh} position={[positionX, positionY, 0]}>
       <textGeometry args={[text, {font: FONT, size: size, height: 0.15}]} />
       <meshStandardMaterial color={color}/>
-    </animated.mesh>
+    </mesh>
   )
 }
 
