@@ -24,7 +24,7 @@ extend({ Water })
 /**
  * Plane with water effect.
  */
-function Ocean() {
+function Ocean({sunDirection = new THREE.Vector3()}) {
   const thisMesh = useRef()
   const gl = useThree((state) => state.gl)
   const waterNormals = useLoader(THREE.TextureLoader, '/img/waternormals.jpg')
@@ -35,7 +35,7 @@ function Ocean() {
       textureWidth: 512,
       textureHeight: 512,
       waterNormals,
-      sunDirection: new THREE.Vector3(),
+      sunDirection: sunDirection,
       sunColor: 0xffffff,
       waterColor: 0x18b3a3,
       distortionScale: 1,

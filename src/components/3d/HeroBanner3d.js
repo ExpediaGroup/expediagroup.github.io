@@ -16,11 +16,10 @@ limitations under the License.
 
 
 import styles from './HeroBanner3d.module.css'
-import React, {Suspense} from 'react'
+import React from 'react'
 import { Canvas } from '@react-three/fiber'
 import AnimatedText from './AnimatedText'
-import Ocean from './Ocean'
-import { Sky } from '@react-three/drei'
+import OceanAndSky from './OceanAndSky'
 
 
 const CAMERA_POSITION = [0, 2, 9]
@@ -32,13 +31,10 @@ function HeroBanner3d() {
   return (
     <header className={styles.heroBanner}>
       <Canvas camera={{ position: CAMERA_POSITION }} dpr={[1, 2]}>
-        <ambientLight/>
+        <pointLight position={CAMERA_POSITION} intensity={2}/>
         <AnimatedText text={TITLE} size={1.5} color={EXPEDIA_BLUE} positionY={2}/>
         <AnimatedText text={SUBTITLE} size={1} color={EXPEDIA_BLUE} positionY={0}/>
-        <Suspense fallback={null}>
-          <Ocean />
-        </Suspense>
-        <Sky sunPosition={[8, 0.2, -5]} turbidity={0.1} />
+        <OceanAndSky/>
       </Canvas>
     </header>
   )
