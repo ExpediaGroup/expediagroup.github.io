@@ -44,7 +44,7 @@ function Ocean({sunDirection = new THREE.Vector3()}) {
     }),
     [waterNormals]
   )
-  useFrame((state, delta) => (thisMesh.current.material.uniforms.time.value += delta / 2))
+  useFrame((state, delta) => (thisMesh.current.material.uniforms.time.value += delta / 3))
   return <water ref={thisMesh} args={[geom, config]} rotation-x={- Math.PI / 2} />
 }
 
