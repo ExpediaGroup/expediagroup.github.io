@@ -23,9 +23,9 @@ const SUN_ELEVATION = 0.1
 const SUN_AZIMUTH = 130
 
 /**
- * Puts together the ocean and the sky with sun at sunset.
+ * Environment consisting of ocean and sky with sun at sunset.
  */
-function OceanAndSky() {
+function Environment() {
     const sunPosition = useMemo(() => {
       const phi = THREE.MathUtils.degToRad(90 - SUN_ELEVATION)
 	    const theta = THREE.MathUtils.degToRad(SUN_AZIMUTH)
@@ -41,5 +41,5 @@ function OceanAndSky() {
     )
   }
   
-  export default OceanAndSky;
+  export default Environment;
   

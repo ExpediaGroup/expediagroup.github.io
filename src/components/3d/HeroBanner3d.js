@@ -19,7 +19,7 @@ import styles from './HeroBanner3d.module.css'
 import React from 'react'
 import { Canvas } from '@react-three/fiber'
 import AnimatedText from './AnimatedText'
-import OceanAndSky from './OceanAndSky'
+import Environment from './Environment'
 
 
 const CAMERA_POSITION = [0, 2, 9]
@@ -31,10 +31,10 @@ function HeroBanner3d() {
   return (
     <header className={styles.heroBanner}>
       <Canvas camera={{ position: CAMERA_POSITION }} dpr={[1, 2]}>
+        <Environment/>
         <pointLight position={CAMERA_POSITION} intensity={2}/>
         <AnimatedText text={TITLE} size={1.5} color={EXPEDIA_BLUE} positionY={2}/>
         <AnimatedText text={SUBTITLE} size={1} color={EXPEDIA_BLUE} positionY={0}/>
-        <OceanAndSky/>
       </Canvas>
     </header>
   )
