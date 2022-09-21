@@ -1,5 +1,12 @@
 [
   {
+    "title": "Async/Await in Swift",
+    "creator": "Asukhija",
+    "link": "https://medium.com/expedia-group-tech/async-await-in-swift-e1a5aeede132?source=rss----38998a53046f---4",
+    "date": "Sep 20, 2022",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*QK7HNkF1AasNLV5pY7oXuQ.jpeg"
+  },
+  {
     "title": "How to Handle Multiple Git Accounts",
     "creator": "Russell Brown",
     "link": "https://medium.com/expedia-group-tech/how-to-handle-multiple-git-accounts-385afe430d5a?source=rss----38998a53046f---4",
@@ -61,12 +68,5 @@
     "link": "https://medium.com/expedia-group-tech/managing-a-federated-kubernetes-cluster-using-kubefed-v2-5f115dbdbe05?source=rss----38998a53046f---4",
     "date": "Jun 21, 2022",
     "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*5S22_CcU4CH9mZbzwRSg5Q.jpeg"
-  },
-  {
-    "title": "Centralizing GraphQL Mock Data to an Internal Route",
-    "creator": "Adam Schutte",
-    "link": "https://medium.com/expedia-group-tech/centralizing-graphql-mock-data-to-an-internal-route-e17adbe4002f?source=rss----38998a53046f---4",
-    "date": "Jun 14, 2022",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1000/0*IVbOg6nUeQLde_j7"
   }
 ]
