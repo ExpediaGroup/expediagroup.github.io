@@ -114,7 +114,7 @@
   {
     "name": "github-helpers",
     "description": "A collection of Github Actions that simplify and standardize common CI/CD workflow tasks.",
-    "imageUrl": "https://opengraph.githubassets.com/c51fa1235073791f4821596161f6eb34f3be003018a5d29703b8265c6ecb1945/ExpediaGroup/github-helpers",
+    "imageUrl": "https://opengraph.githubassets.com/d86e07b6cfaa4bdd87e213359995969b9122598cef25cb53882b51d3fa7ee689/ExpediaGroup/github-helpers",
     "repoUrl": "https://github.com/ExpediaGroup/github-helpers",
     "featured": false
   },
@@ -135,7 +135,7 @@
   {
     "name": "kubernetes-sidecar-injector",
     "description": "Kuberbetes mutating webhook that injects a sidecar container to a pod",
-    "imageUrl": "https://opengraph.githubassets.com/a54017bd286ca1991a9c9d990c3400048e1215121f86b6aaf76598c25c4e7cb5/ExpediaGroup/kubernetes-sidecar-injector",
+    "imageUrl": "https://opengraph.githubassets.com/1a70fdf0c8b70b6ba1798b2bfe8b398ef872837538bea84eb3f5e12df166d79a/ExpediaGroup/kubernetes-sidecar-injector",
     "repoUrl": "https://github.com/ExpediaGroup/kubernetes-sidecar-injector",
     "featured": false
   },
@@ -170,7 +170,7 @@
   {
     "name": "spinnaker-pipeline-trigger",
     "description": "Pipeline trigger for Spinnaker utilizing SNS",
-    "imageUrl": "https://opengraph.githubassets.com/abb5f93205036d12c7d11e96424243df09c1883fc05e271955582fa2fb8ecf62/ExpediaGroup/spinnaker-pipeline-trigger",
+    "imageUrl": "https://opengraph.githubassets.com/5717f3bc265dfbfe2a292d235583fdd79529db50c55454a8d3dae43312fb56ec/ExpediaGroup/spinnaker-pipeline-trigger",
     "repoUrl": "https://github.com/ExpediaGroup/spinnaker-pipeline-trigger",
     "featured": false
   },
@@ -191,7 +191,7 @@
   {
     "name": "waggle-dance",
     "description": "Hive federation service. Enables disparate tables to be concurrently accessed across multiple Hive deployments.",
-    "imageUrl": "https://opengraph.githubassets.com/56fb4bc111ec1ce6ec9a2db46492f3727bd7179a30190b15803968fc5c6fd800/ExpediaGroup/waggle-dance",
+    "imageUrl": "https://opengraph.githubassets.com/4903241d0f9f48be0e855609ff197d597cfd2bf26fcb16d49eebd303bd0ce33a/ExpediaGroup/waggle-dance",
     "repoUrl": "https://github.com/ExpediaGroup/waggle-dance",
     "featured": false
   }
