@@ -1,5 +1,12 @@
 [
   {
+    "title": "10 Ways to Build a Customer-Centric Culture in Tech Organizations",
+    "creator": "Anurag Jain",
+    "link": "https://medium.com/expedia-group-tech/10-ways-to-build-a-customer-centric-culture-in-tech-organizations-9431164c60b9?source=rss----38998a53046f---4",
+    "date": "Oct 11, 2022",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*3aT3o4NdBz-XGEpZcdDE4g.jpeg"
+  },
+  {
     "title": "Async/Await in Swift",
     "creator": "Asukhija",
     "link": "https://medium.com/expedia-group-tech/async-await-in-swift-e1a5aeede132?source=rss----38998a53046f---4",
@@ -61,12 +68,5 @@
     "link": "https://medium.com/expedia-group-tech/error-budget-policy-adoption-at-expedia-group-7d80d41c4a8b?source=rss----38998a53046f---4",
     "date": "Jun 28, 2022",
     "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*4NDLe4oRhudBJBfe7retmw.jpeg"
-  },
-  {
-    "title": "Managing a federated Kubernetes Cluster using Kubefed v2",
-    "creator": "Aditya Sharma",
-    "link": "https://medium.com/expedia-group-tech/managing-a-federated-kubernetes-cluster-using-kubefed-v2-5f115dbdbe05?source=rss----38998a53046f---4",
-    "date": "Jun 21, 2022",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*5S22_CcU4CH9mZbzwRSg5Q.jpeg"
   }
 ]
