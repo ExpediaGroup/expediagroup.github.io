@@ -1,5 +1,12 @@
 [
   {
+    "title": "Avoid Optional or Nullable Attributes with This Simple Trick",
+    "creator": "Fred Friis",
+    "link": "https://medium.com/expedia-group-tech/avoid-optional-or-nullable-attributes-with-this-simple-trick-29f052c2cf?source=rss----38998a53046f---4",
+    "date": "Oct 18, 2022",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*g1iEeqUbO_fbIt5GbOEPhw.jpeg"
+  },
+  {
     "title": "10 Ways to Build a Customer-Centric Culture in Tech Organizations",
     "creator": "Anurag Jain",
     "link": "https://medium.com/expedia-group-tech/10-ways-to-build-a-customer-centric-culture-in-tech-organizations-9431164c60b9?source=rss----38998a53046f---4",
@@ -61,12 +68,5 @@
     "link": "https://medium.com/expedia-group-tech/error-budget-policies-in-practice-4c98f56a28c1?source=rss----38998a53046f---4",
     "date": "Jul 5, 2022",
     "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*dI7DI5ZnSjLPEV0_QY5KLA.jpeg"
-  },
-  {
-    "title": "Error Budget Policy Adoption at Expedia Group",
-    "creator": "Lasantha Kularatne",
-    "link": "https://medium.com/expedia-group-tech/error-budget-policy-adoption-at-expedia-group-7d80d41c4a8b?source=rss----38998a53046f---4",
-    "date": "Jun 28, 2022",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*4NDLe4oRhudBJBfe7retmw.jpeg"
   }
 ]
