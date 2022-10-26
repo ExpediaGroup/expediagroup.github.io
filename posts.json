@@ -1,5 +1,12 @@
 [
   {
+    "title": "Categorising Customer Feedback Using Unsupervised Learning",
+    "creator": "Aman Gupta",
+    "link": "https://medium.com/expedia-group-tech/categorising-customer-feedback-using-unsupervised-learning-8608c1e62d48?source=rss----38998a53046f---4",
+    "date": "Oct 25, 2022",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*rmNdOLpw7Dg2dMkZH_tG4A.jpeg"
+  },
+  {
     "title": "Avoid Optional or Nullable Attributes with This Simple Trick",
     "creator": "Fred Friis",
     "link": "https://medium.com/expedia-group-tech/avoid-optional-or-nullable-attributes-with-this-simple-trick-29f052c2cf?source=rss----38998a53046f---4",
@@ -61,12 +68,5 @@
     "link": "https://medium.com/expedia-group-tech/onion-architecture-deed8a554423?source=rss----38998a53046f---4",
     "date": "Jul 12, 2022",
     "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*h2vnCinMat3lh9ix"
-  },
-  {
-    "title": "Error Budget Policies in Practice",
-    "creator": "Eric Trang",
-    "link": "https://medium.com/expedia-group-tech/error-budget-policies-in-practice-4c98f56a28c1?source=rss----38998a53046f---4",
-    "date": "Jul 5, 2022",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*dI7DI5ZnSjLPEV0_QY5KLA.jpeg"
   }
 ]
