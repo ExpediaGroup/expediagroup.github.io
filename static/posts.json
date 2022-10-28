@@ -1,5 +1,12 @@
 [
   {
+    "title": "React India 2022",
+    "creator": "Jyoti Balwani",
+    "link": "https://medium.com/expedia-group-tech/react-india-2022-ae48ee74e8ff?source=rss----38998a53046f---4",
+    "date": "Oct 27, 2022",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*yKRKtVakfkKA9mZtFnNXMg.jpeg"
+  },
+  {
     "title": "Categorising Customer Feedback Using Unsupervised Learning",
     "creator": "Aman Gupta",
     "link": "https://medium.com/expedia-group-tech/categorising-customer-feedback-using-unsupervised-learning-8608c1e62d48?source=rss----38998a53046f---4",
@@ -61,12 +68,5 @@
     "link": "https://medium.com/expedia-group-tech/how-expedia-group-platform-engineering-revamped-their-compute-platform-9ebc1d3144e6?source=rss----38998a53046f---4",
     "date": "Jul 19, 2022",
     "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*5-XzIYi_jlKEp9Y27kzqeg.jpeg"
-  },
-  {
-    "title": "Onion Architecture",
-    "creator": "Ritesh Kapoor",
-    "link": "https://medium.com/expedia-group-tech/onion-architecture-deed8a554423?source=rss----38998a53046f---4",
-    "date": "Jul 12, 2022",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*h2vnCinMat3lh9ix"
   }
 ]
