@@ -1,5 +1,12 @@
 [
   {
+    "title": "Continuous Deployment at Expedia Group",
+    "creator": "Luca Pelosi",
+    "link": "https://medium.com/expedia-group-tech/continuous-deployment-at-expedia-group-af392b10a285?source=rss----38998a53046f---4",
+    "date": "Nov 8, 2022",
+    "imageUrl": "https://cdn-images-1.medium.com/max/786/0*ayCGVB2HCREfaBsm.png"
+  },
+  {
     "title": "React India 2022",
     "creator": "Jyoti Balwani",
     "link": "https://medium.com/expedia-group-tech/react-india-2022-ae48ee74e8ff?source=rss----38998a53046f---4",
@@ -61,12 +68,5 @@
     "link": "https://medium.com/expedia-group-tech/accelerating-nlp-model-inferencing-with-distillbert-onnx-23edd7e187b5?source=rss----38998a53046f---4",
     "date": "Jul 26, 2022",
     "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*K_qoC4hdNXBZnz2GWm1I0w.jpeg"
-  },
-  {
-    "title": "How Expedia Group Platform Engineering Revamped Their Compute Platform",
-    "creator": "Vaibhav Chopra",
-    "link": "https://medium.com/expedia-group-tech/how-expedia-group-platform-engineering-revamped-their-compute-platform-9ebc1d3144e6?source=rss----38998a53046f---4",
-    "date": "Jul 19, 2022",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*5-XzIYi_jlKEp9Y27kzqeg.jpeg"
   }
 ]
