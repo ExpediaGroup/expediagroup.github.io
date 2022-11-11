@@ -1,5 +1,12 @@
 [
   {
+    "title": "Network Policies with Calico for Kubernetes Networking",
+    "creator": "Rajatporwal",
+    "link": "https://medium.com/expedia-group-tech/network-policies-with-calico-for-kubernetes-networking-875c0ebbcfb3?source=rss----38998a53046f---4",
+    "date": "Nov 10, 2022",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*Qtev2OwpMKjw00cfKFGKog.jpeg"
+  },
+  {
     "title": "Continuous Deployment at Expedia Group",
     "creator": "Luca Pelosi",
     "link": "https://medium.com/expedia-group-tech/continuous-deployment-at-expedia-group-af392b10a285?source=rss----38998a53046f---4",
@@ -61,12 +68,5 @@
     "link": "https://medium.com/expedia-group-tech/graphql-kotlin-6-0-0-release-2227fd066dcd?source=rss----38998a53046f---4",
     "date": "Aug 9, 2022",
     "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*Zdg76dVUHL3WyjU_KfVehA.jpeg"
-  },
-  {
-    "title": "Accelerating NLP Model Inferencing with DistillBERT & ONNX",
-    "creator": "Kumar Abhishek",
-    "link": "https://medium.com/expedia-group-tech/accelerating-nlp-model-inferencing-with-distillbert-onnx-23edd7e187b5?source=rss----38998a53046f---4",
-    "date": "Jul 26, 2022",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*K_qoC4hdNXBZnz2GWm1I0w.jpeg"
   }
 ]
