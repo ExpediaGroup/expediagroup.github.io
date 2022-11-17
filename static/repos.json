@@ -149,7 +149,7 @@
   {
     "name": "package-json-validator",
     "description": "A Github Action for validating package.json conventions.",
-    "imageUrl": "https://opengraph.githubassets.com/bed65622858793d524a1ed9f6eb4c4717cc8636cbd0553ec6977c45024c2af87/ExpediaGroup/package-json-validator",
+    "imageUrl": "https://opengraph.githubassets.com/725240adebdb952c731d27e8991acd8a7053e1ba5ec07bd8237f882ff1a645f5/ExpediaGroup/package-json-validator",
     "repoUrl": "https://github.com/ExpediaGroup/package-json-validator",
     "featured": false
   },
@@ -191,7 +191,7 @@
   {
     "name": "waggle-dance",
     "description": "Hive federation service. Enables disparate tables to be concurrently accessed across multiple Hive deployments.",
-    "imageUrl": "https://opengraph.githubassets.com/d6466ca6fc4d3911c6988849051cb01b5de53a14a476a919fa53f943622b7201/ExpediaGroup/waggle-dance",
+    "imageUrl": "https://opengraph.githubassets.com/feddd80799611f4d84ab1561bdb5839a49eafa5620e37b7d30ce915e14184e16/ExpediaGroup/waggle-dance",
     "repoUrl": "https://github.com/ExpediaGroup/waggle-dance",
     "featured": false
   }
