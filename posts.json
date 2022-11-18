@@ -1,5 +1,12 @@
 [
   {
+    "title": "Wondering how is the transition from an IC to a Manager? Here’s my journey",
+    "creator": "Jyoti Balwani",
+    "link": "https://medium.com/expedia-group-tech/wondering-how-is-the-transition-from-an-ic-to-a-manager-heres-my-journey-a2930358dc82?source=rss----38998a53046f---4",
+    "date": "Nov 17, 2022",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*Z6JbRYEvDxnQhRb1FuOZCA.jpeg"
+  },
+  {
     "title": "Network Policies with Calico for Kubernetes Networking",
     "creator": "Rajatporwal",
     "link": "https://medium.com/expedia-group-tech/network-policies-with-calico-for-kubernetes-networking-875c0ebbcfb3?source=rss----38998a53046f---4",
@@ -61,12 +68,5 @@
     "link": "https://medium.com/expedia-group-tech/sending-signals-in-server-driven-ui-a8a580059ed1?source=rss----38998a53046f---4",
     "date": "Aug 16, 2022",
     "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*joqr02_SUS1jS2hZoTiP4A.jpeg"
-  },
-  {
-    "title": "GraphQL Kotlin 6.0.0 Release",
-    "creator": "Samuel Vazquez",
-    "link": "https://medium.com/expedia-group-tech/graphql-kotlin-6-0-0-release-2227fd066dcd?source=rss----38998a53046f---4",
-    "date": "Aug 9, 2022",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*Zdg76dVUHL3WyjU_KfVehA.jpeg"
   }
 ]
