@@ -79,7 +79,7 @@
   {
     "name": "cypress-codegen",
     "description": "A Cypress plugin which automatically adds and enables IntelliSense for your custom commands!",
-    "imageUrl": "https://opengraph.githubassets.com/2d214306624c4cc1991d8bcd86dc2923abd9faf124713f9f1d10532811214df6/ExpediaGroup/cypress-codegen",
+    "imageUrl": "https://opengraph.githubassets.com/dc6d74c9de16838d962025cf74385ed91491e8703afc155e4c690f6464765d84/ExpediaGroup/cypress-codegen",
     "repoUrl": "https://github.com/ExpediaGroup/cypress-codegen",
     "featured": false
   },
@@ -184,7 +184,7 @@
   {
     "name": "styx",
     "description": "Programmable, asynchronous, event-based reverse proxy for JVM.",
-    "imageUrl": "https://opengraph.githubassets.com/44e7688d577c03e43840ad1fa85029c8290dbb495f7b6458d0a784e5e62bb0b0/ExpediaGroup/styx",
+    "imageUrl": "https://opengraph.githubassets.com/ecc1b6c74fec38786bc5a1d80111836b5b2e0d4bb7ddf09a60b3728bff52c8b1/ExpediaGroup/styx",
     "repoUrl": "https://github.com/ExpediaGroup/styx",
     "featured": false
   },
