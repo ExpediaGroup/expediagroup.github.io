@@ -1,6 +1,13 @@
 [
   {
-    "title": "Wondering how is the transition from an IC to a Manager? Here’s my journey",
+    "title": "Functional Programming with Kotlin Arrow",
+    "creator": "Fred Friis",
+    "link": "https://medium.com/expedia-group-tech/functional-programming-with-kotlin-arrow-8d3d4f677d8d?source=rss----38998a53046f---4",
+    "date": "Nov 22, 2022",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*ssp-W-rnaqIo9MPCEQxzuw.jpeg"
+  },
+  {
+    "title": "Wondering about the Transition from IC to Manager?",
     "creator": "Jyoti Balwani",
     "link": "https://medium.com/expedia-group-tech/wondering-how-is-the-transition-from-an-ic-to-a-manager-heres-my-journey-a2930358dc82?source=rss----38998a53046f---4",
     "date": "Nov 17, 2022",
@@ -61,12 +68,5 @@
     "link": "https://medium.com/expedia-group-tech/how-to-handle-multiple-git-accounts-385afe430d5a?source=rss----38998a53046f---4",
     "date": "Sep 6, 2022",
     "imageUrl": "https://cdn-images-1.medium.com/max/1010/1*CpSjyaZtlERblflTrdT3sQ.png"
-  },
-  {
-    "title": "Sending Signals in Server-Driven UI",
-    "creator": "Clyde Smets",
-    "link": "https://medium.com/expedia-group-tech/sending-signals-in-server-driven-ui-a8a580059ed1?source=rss----38998a53046f---4",
-    "date": "Aug 16, 2022",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*joqr02_SUS1jS2hZoTiP4A.jpeg"
   }
 ]
