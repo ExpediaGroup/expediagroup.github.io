@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unify Data Lakes Across Multi-Regions in the Cloud",
+    "creator": "Jian Li",
+    "link": "https://medium.com/expedia-group-tech/unify-data-lakes-across-multi-regions-in-the-cloud-61119db325f9?source=rss----38998a53046f---4",
+    "date": "Nov 24, 2022",
+    "imageUrl": "https://cdn-images-1.medium.com/max/776/1*LCDH9UHKW6bbcLgZrG2WuA.png"
+  },
+  {
     "title": "Functional Programming with Kotlin Arrow",
     "creator": "Fred Friis",
     "link": "https://medium.com/expedia-group-tech/functional-programming-with-kotlin-arrow-8d3d4f677d8d?source=rss----38998a53046f---4",
@@ -61,12 +68,5 @@
     "link": "https://medium.com/expedia-group-tech/async-await-in-swift-e1a5aeede132?source=rss----38998a53046f---4",
     "date": "Sep 20, 2022",
     "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*QK7HNkF1AasNLV5pY7oXuQ.jpeg"
-  },
-  {
-    "title": "How to Handle Multiple Git Accounts",
-    "creator": "Russell Brown",
-    "link": "https://medium.com/expedia-group-tech/how-to-handle-multiple-git-accounts-385afe430d5a?source=rss----38998a53046f---4",
-    "date": "Sep 6, 2022",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1010/1*CpSjyaZtlERblflTrdT3sQ.png"
   }
 ]
