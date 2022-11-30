@@ -1,5 +1,12 @@
 [
   {
+    "title": "Insights from Women of Silicon Roundabout Conference",
+    "creator": "Camila Kill",
+    "link": "https://medium.com/expedia-group-tech/insights-from-women-of-silicon-roundabout-conference-bd53bcf6f29e?source=rss----38998a53046f---4",
+    "date": "Nov 29, 2022",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*20b8CNTc9SWoH5tAq2wjoQ.jpeg"
+  },
+  {
     "title": "Unify Data Lakes Across Multi-Regions in the Cloud",
     "creator": "Jian Li",
     "link": "https://medium.com/expedia-group-tech/unify-data-lakes-across-multi-regions-in-the-cloud-61119db325f9?source=rss----38998a53046f---4",
@@ -61,12 +68,5 @@
     "link": "https://medium.com/expedia-group-tech/10-ways-to-build-a-customer-centric-culture-in-tech-organizations-9431164c60b9?source=rss----38998a53046f---4",
     "date": "Oct 11, 2022",
     "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*3aT3o4NdBz-XGEpZcdDE4g.jpeg"
-  },
-  {
-    "title": "Async/Await in Swift",
-    "creator": "Asukhija",
-    "link": "https://medium.com/expedia-group-tech/async-await-in-swift-e1a5aeede132?source=rss----38998a53046f---4",
-    "date": "Sep 20, 2022",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*QK7HNkF1AasNLV5pY7oXuQ.jpeg"
   }
 ]
