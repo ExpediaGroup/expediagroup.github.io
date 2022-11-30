@@ -86,7 +86,7 @@
   {
     "name": "determination",
     "description": "Configuration resolver using confidence and shortstop.",
-    "imageUrl": "https://opengraph.githubassets.com/1707c2deec13e0e41560080ab441ae57a7780f2ced72ec4cd1f36ad0e6079283/ExpediaGroup/determination",
+    "imageUrl": "https://opengraph.githubassets.com/9d7d1a905b1c5cbd26ad3e4ce88414bfc9f9a205a881dbb65abd0505b4ac86cc/ExpediaGroup/determination",
     "repoUrl": "https://github.com/ExpediaGroup/determination",
     "featured": false
   },
@@ -114,14 +114,14 @@
   {
     "name": "github-helpers",
     "description": "A collection of Github Actions that simplify and standardize common CI/CD workflow tasks.",
-    "imageUrl": "https://opengraph.githubassets.com/36ff7554cecc8832d9a9225e3e3556d90812b0a32cb0bbc2d5b8cb8f09d1eb79/ExpediaGroup/github-helpers",
+    "imageUrl": "https://opengraph.githubassets.com/dd54acc31c243c01cc0ae3f175702a568a5fabad267d4616d414acac669a814c/ExpediaGroup/github-helpers",
     "repoUrl": "https://github.com/ExpediaGroup/github-helpers",
     "featured": false
   },
   {
     "name": "github-webhook-proxy",
     "description": "Request forwarder for GitHub webhooks from github.com to internal enterprise destinations, designed for use in Github Enterprise Cloud.",
-    "imageUrl": "https://opengraph.githubassets.com/3a063ad8908c8d37a730d2693836a797c9b7d383cf42946e5d1c72117240aa75/ExpediaGroup/github-webhook-proxy",
+    "imageUrl": "https://opengraph.githubassets.com/515fb0cb753736a34d65041173daa86588c2ae46ea99b4f45f3d4dfff841d700/ExpediaGroup/github-webhook-proxy",
     "repoUrl": "https://github.com/ExpediaGroup/github-webhook-proxy",
     "featured": false
   },
@@ -191,7 +191,7 @@
   {
     "name": "waggle-dance",
     "description": "Hive federation service. Enables disparate tables to be concurrently accessed across multiple Hive deployments.",
-    "imageUrl": "https://opengraph.githubassets.com/565bb982049ec5ab00c0b0a4befc99159d976504c81138b19f37603701fea970/ExpediaGroup/waggle-dance",
+    "imageUrl": "https://opengraph.githubassets.com/d3fa390a2b892fcb26e9b679a6ec0b037a60058b678226ae464c8f55ae1f4d23/ExpediaGroup/waggle-dance",
     "repoUrl": "https://github.com/ExpediaGroup/waggle-dance",
     "featured": false
   }
