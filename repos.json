@@ -79,7 +79,7 @@
   {
     "name": "cypress-codegen",
     "description": "A Cypress plugin which automatically adds and enables IntelliSense for your custom commands!",
-    "imageUrl": "https://opengraph.githubassets.com/dc6d74c9de16838d962025cf74385ed91491e8703afc155e4c690f6464765d84/ExpediaGroup/cypress-codegen",
+    "imageUrl": "https://opengraph.githubassets.com/1222b0317d090430eecd9c075270e1a5d82c223f4992c59426f3160b489c1d2b/ExpediaGroup/cypress-codegen",
     "repoUrl": "https://github.com/ExpediaGroup/cypress-codegen",
     "featured": false
   },
@@ -135,7 +135,7 @@
   {
     "name": "kubernetes-sidecar-injector",
     "description": "Kuberbetes mutating webhook that injects a sidecar container to a pod",
-    "imageUrl": "https://opengraph.githubassets.com/643db918ef3c6e6de85756888bc16dd0c8ddb259a6ee63f52c48b377d934ab08/ExpediaGroup/kubernetes-sidecar-injector",
+    "imageUrl": "https://opengraph.githubassets.com/44d95f30db0c9e49bd1e141a56857de0a563a22fef56c121645cf07e3989ff0f/ExpediaGroup/kubernetes-sidecar-injector",
     "repoUrl": "https://github.com/ExpediaGroup/kubernetes-sidecar-injector",
     "featured": false
   },
