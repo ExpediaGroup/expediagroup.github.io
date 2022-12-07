@@ -121,7 +121,7 @@
   {
     "name": "github-webhook-proxy",
     "description": "Request forwarder for GitHub webhooks from github.com to internal enterprise destinations, designed for use in Github Enterprise Cloud.",
-    "imageUrl": "https://opengraph.githubassets.com/515fb0cb753736a34d65041173daa86588c2ae46ea99b4f45f3d4dfff841d700/ExpediaGroup/github-webhook-proxy",
+    "imageUrl": "https://opengraph.githubassets.com/1171efa86ac4f9efb2cb67da6a01a512ed5b88dbb4d828316afbc47daf293d85/ExpediaGroup/github-webhook-proxy",
     "repoUrl": "https://github.com/ExpediaGroup/github-webhook-proxy",
     "featured": false
   },
@@ -149,7 +149,7 @@
   {
     "name": "package-json-validator",
     "description": "A Github Action for validating package.json conventions.",
-    "imageUrl": "https://opengraph.githubassets.com/725240adebdb952c731d27e8991acd8a7053e1ba5ec07bd8237f882ff1a645f5/ExpediaGroup/package-json-validator",
+    "imageUrl": "https://opengraph.githubassets.com/cef96d2718b724501c84f7f53f801ffb6c61661576f8f89efd08161f81d8f5cd/ExpediaGroup/package-json-validator",
     "repoUrl": "https://github.com/ExpediaGroup/package-json-validator",
     "featured": false
   },
