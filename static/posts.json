@@ -1,72 +1,72 @@
 [
   {
-    "title": "Sending Signals in Server-Driven UI",
-    "creator": "Clyde Smets",
-    "link": "https://medium.com/expedia-group-tech/sending-signals-in-server-driven-ui-a8a580059ed1?source=rss----38998a53046f---4",
-    "date": "Aug 16, 2022",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*joqr02_SUS1jS2hZoTiP4A.jpeg"
+    "title": "Insights from Women of Silicon Roundabout Conference",
+    "creator": "Camila Kill",
+    "link": "https://medium.com/expedia-group-tech/insights-from-women-of-silicon-roundabout-conference-bd53bcf6f29e?source=rss----38998a53046f---4",
+    "date": "Nov 29, 2022",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*20b8CNTc9SWoH5tAq2wjoQ.jpeg"
   },
   {
-    "title": "GraphQL Kotlin 6.0.0 Release",
-    "creator": "Samuel Vazquez",
-    "link": "https://medium.com/expedia-group-tech/graphql-kotlin-6-0-0-release-2227fd066dcd?source=rss----38998a53046f---4",
-    "date": "Aug 9, 2022",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*Zdg76dVUHL3WyjU_KfVehA.jpeg"
+    "title": "Unify Data Lakes Across Multi-Regions in the Cloud",
+    "creator": "Jian Li",
+    "link": "https://medium.com/expedia-group-tech/unify-data-lakes-across-multi-regions-in-the-cloud-61119db325f9?source=rss----38998a53046f---4",
+    "date": "Nov 24, 2022",
+    "imageUrl": "https://cdn-images-1.medium.com/max/776/1*LCDH9UHKW6bbcLgZrG2WuA.png"
   },
   {
-    "title": "Accelerating NLP Model Inferencing with DistillBERT & ONNX",
-    "creator": "Kumar Abhishek",
-    "link": "https://medium.com/expedia-group-tech/accelerating-nlp-model-inferencing-with-distillbert-onnx-23edd7e187b5?source=rss----38998a53046f---4",
-    "date": "Jul 26, 2022",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*K_qoC4hdNXBZnz2GWm1I0w.jpeg"
+    "title": "Functional Programming with Kotlin Arrow",
+    "creator": "Fred Friis",
+    "link": "https://medium.com/expedia-group-tech/functional-programming-with-kotlin-arrow-8d3d4f677d8d?source=rss----38998a53046f---4",
+    "date": "Nov 22, 2022",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*ssp-W-rnaqIo9MPCEQxzuw.jpeg"
   },
   {
-    "title": "How Expedia Group Platform Engineering Revamped Their Compute Platform",
-    "creator": "Vaibhav Chopra",
-    "link": "https://medium.com/expedia-group-tech/how-expedia-group-platform-engineering-revamped-their-compute-platform-9ebc1d3144e6?source=rss----38998a53046f---4",
-    "date": "Jul 19, 2022",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*5-XzIYi_jlKEp9Y27kzqeg.jpeg"
+    "title": "Wondering about the Transition from IC to Manager?",
+    "creator": "Jyoti Balwani",
+    "link": "https://medium.com/expedia-group-tech/wondering-how-is-the-transition-from-an-ic-to-a-manager-heres-my-journey-a2930358dc82?source=rss----38998a53046f---4",
+    "date": "Nov 17, 2022",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*Z6JbRYEvDxnQhRb1FuOZCA.jpeg"
   },
   {
-    "title": "Onion Architecture",
-    "creator": "Ritesh Kapoor",
-    "link": "https://medium.com/expedia-group-tech/onion-architecture-deed8a554423?source=rss----38998a53046f---4",
-    "date": "Jul 12, 2022",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*h2vnCinMat3lh9ix"
+    "title": "Network Policies with Calico for Kubernetes Networking",
+    "creator": "Rajatporwal",
+    "link": "https://medium.com/expedia-group-tech/network-policies-with-calico-for-kubernetes-networking-875c0ebbcfb3?source=rss----38998a53046f---4",
+    "date": "Nov 10, 2022",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*Qtev2OwpMKjw00cfKFGKog.jpeg"
   },
   {
-    "title": "Error Budget Policies in Practice",
-    "creator": "Eric Trang",
-    "link": "https://medium.com/expedia-group-tech/error-budget-policies-in-practice-4c98f56a28c1?source=rss----38998a53046f---4",
-    "date": "Jul 5, 2022",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*dI7DI5ZnSjLPEV0_QY5KLA.jpeg"
+    "title": "Continuous Deployment at Expedia Group",
+    "creator": "Luca Pelosi",
+    "link": "https://medium.com/expedia-group-tech/continuous-deployment-at-expedia-group-af392b10a285?source=rss----38998a53046f---4",
+    "date": "Nov 8, 2022",
+    "imageUrl": "https://cdn-images-1.medium.com/max/786/0*ayCGVB2HCREfaBsm.png"
   },
   {
-    "title": "Error Budget Policy Adoption at Expedia Group",
-    "creator": "Lasantha Kularatne",
-    "link": "https://medium.com/expedia-group-tech/error-budget-policy-adoption-at-expedia-group-7d80d41c4a8b?source=rss----38998a53046f---4",
-    "date": "Jun 28, 2022",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*4NDLe4oRhudBJBfe7retmw.jpeg"
+    "title": "React India 2022",
+    "creator": "Jyoti Balwani",
+    "link": "https://medium.com/expedia-group-tech/react-india-2022-ae48ee74e8ff?source=rss----38998a53046f---4",
+    "date": "Oct 27, 2022",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*yKRKtVakfkKA9mZtFnNXMg.jpeg"
   },
   {
-    "title": "Managing a federated Kubernetes Cluster using Kubefed v2",
-    "creator": "Aditya Sharma",
-    "link": "https://medium.com/expedia-group-tech/managing-a-federated-kubernetes-cluster-using-kubefed-v2-5f115dbdbe05?source=rss----38998a53046f---4",
-    "date": "Jun 21, 2022",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*5S22_CcU4CH9mZbzwRSg5Q.jpeg"
+    "title": "Categorising Customer Feedback Using Unsupervised Learning",
+    "creator": "Aman Gupta",
+    "link": "https://medium.com/expedia-group-tech/categorising-customer-feedback-using-unsupervised-learning-8608c1e62d48?source=rss----38998a53046f---4",
+    "date": "Oct 25, 2022",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*rmNdOLpw7Dg2dMkZH_tG4A.jpeg"
   },
   {
-    "title": "Centralizing GraphQL Mock Data to an Internal Route",
-    "creator": "Adam Schutte",
-    "link": "https://medium.com/expedia-group-tech/centralizing-graphql-mock-data-to-an-internal-route-e17adbe4002f?source=rss----38998a53046f---4",
-    "date": "Jun 14, 2022",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1000/0*IVbOg6nUeQLde_j7"
+    "title": "Avoid Optional or Nullable Attributes with This Simple Trick",
+    "creator": "Fred Friis",
+    "link": "https://medium.com/expedia-group-tech/avoid-optional-or-nullable-attributes-with-this-simple-trick-29f052c2cf?source=rss----38998a53046f---4",
+    "date": "Oct 18, 2022",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*g1iEeqUbO_fbIt5GbOEPhw.jpeg"
   },
   {
-    "title": "Lightning Fast Flight Searches on Expedia using Apache Ignite — Part II",
-    "creator": "Bhanu Choudhary",
-    "link": "https://medium.com/expedia-group-tech/lightning-fast-flight-searches-on-expedia-using-apache-ignite-part-ii-7fc7e3bca7f?source=rss----38998a53046f---4",
-    "date": "Jun 9, 2022",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*3_9lmHH0CMVJyA873nrbMg.jpeg"
+    "title": "10 Ways to Build a Customer-Centric Culture in Tech Organizations",
+    "creator": "Anurag Jain",
+    "link": "https://medium.com/expedia-group-tech/10-ways-to-build-a-customer-centric-culture-in-tech-organizations-9431164c60b9?source=rss----38998a53046f---4",
+    "date": "Oct 11, 2022",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*3aT3o4NdBz-XGEpZcdDE4g.jpeg"
   }
 ]

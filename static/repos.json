@@ -65,28 +65,28 @@
   {
     "name": "catalyst-render",
     "description": "A hapi js plugin that works with catalyst-server to provide server-side rendering with react inside a handlebars template",
-    "imageUrl": "https://avatars.githubusercontent.com/u/38541875?s=400&v=4",
+    "imageUrl": "https://opengraph.githubassets.com/c736ba7a8cea4d86d43ef84f986ea3dd57086c45b5b3aabd4c541e2341b07f20/ExpediaGroup/catalyst-render",
     "repoUrl": "https://github.com/ExpediaGroup/catalyst-render",
     "featured": false
   },
   {
     "name": "catalyst-server",
     "description": "Configuration and composition management for Hapi.js applications.",
-    "imageUrl": "https://avatars.githubusercontent.com/u/38541875?s=400&v=4",
+    "imageUrl": "https://opengraph.githubassets.com/d5d51145e005bc4e6277ac8e4112eb3854ef43ad6aaa6f6311f87450c7b2054f/ExpediaGroup/catalyst-server",
     "repoUrl": "https://github.com/ExpediaGroup/catalyst-server",
     "featured": false
   },
   {
     "name": "cypress-codegen",
     "description": "A Cypress plugin which automatically adds and enables IntelliSense for your custom commands!",
-    "imageUrl": "https://avatars.githubusercontent.com/u/38541875?s=400&v=4",
+    "imageUrl": "https://opengraph.githubassets.com/1222b0317d090430eecd9c075270e1a5d82c223f4992c59426f3160b489c1d2b/ExpediaGroup/cypress-codegen",
     "repoUrl": "https://github.com/ExpediaGroup/cypress-codegen",
     "featured": false
   },
   {
     "name": "determination",
     "description": "Configuration resolver using confidence and shortstop.",
-    "imageUrl": "https://avatars.githubusercontent.com/u/38541875?s=400&v=4",
+    "imageUrl": "https://opengraph.githubassets.com/9d7d1a905b1c5cbd26ad3e4ce88414bfc9f9a205a881dbb65abd0505b4ac86cc/ExpediaGroup/determination",
     "repoUrl": "https://github.com/ExpediaGroup/determination",
     "featured": false
   },
@@ -114,14 +114,14 @@
   {
     "name": "github-helpers",
     "description": "A collection of Github Actions that simplify and standardize common CI/CD workflow tasks.",
-    "imageUrl": "https://avatars.githubusercontent.com/u/38541875?s=400&v=4",
+    "imageUrl": "https://opengraph.githubassets.com/658c00c310fed67bf89c483f3f1ef88c0b955e84aa31a9ec90f50017907dadef/ExpediaGroup/github-helpers",
     "repoUrl": "https://github.com/ExpediaGroup/github-helpers",
     "featured": false
   },
   {
     "name": "github-webhook-proxy",
     "description": "Request forwarder for GitHub webhooks from github.com to internal enterprise destinations, designed for use in Github Enterprise Cloud.",
-    "imageUrl": "https://avatars.githubusercontent.com/u/38541875?s=400&v=4",
+    "imageUrl": "https://opengraph.githubassets.com/1171efa86ac4f9efb2cb67da6a01a512ed5b88dbb4d828316afbc47daf293d85/ExpediaGroup/github-webhook-proxy",
     "repoUrl": "https://github.com/ExpediaGroup/github-webhook-proxy",
     "featured": false
   },
@@ -135,28 +135,28 @@
   {
     "name": "kubernetes-sidecar-injector",
     "description": "Kuberbetes mutating webhook that injects a sidecar container to a pod",
-    "imageUrl": "https://avatars.githubusercontent.com/u/38541875?s=400&v=4",
+    "imageUrl": "https://opengraph.githubassets.com/44d95f30db0c9e49bd1e141a56857de0a563a22fef56c121645cf07e3989ff0f/ExpediaGroup/kubernetes-sidecar-injector",
     "repoUrl": "https://github.com/ExpediaGroup/kubernetes-sidecar-injector",
     "featured": false
   },
   {
     "name": "overwhelm",
     "description": "Operator for complex application deployment on Kubernetes",
-    "imageUrl": "https://avatars.githubusercontent.com/u/38541875?s=400&v=4",
+    "imageUrl": "https://opengraph.githubassets.com/97b876988ca0576d223fa593a016a930845e205ed92df56398d05dfe7835dfa6/ExpediaGroup/overwhelm",
     "repoUrl": "https://github.com/ExpediaGroup/overwhelm",
     "featured": false
   },
   {
     "name": "package-json-validator",
     "description": "A Github Action for validating package.json conventions.",
-    "imageUrl": "https://avatars.githubusercontent.com/u/38541875?s=400&v=4",
+    "imageUrl": "https://opengraph.githubassets.com/cef96d2718b724501c84f7f53f801ffb6c61661576f8f89efd08161f81d8f5cd/ExpediaGroup/package-json-validator",
     "repoUrl": "https://github.com/ExpediaGroup/package-json-validator",
     "featured": false
   },
   {
     "name": "parsec",
     "description": "Parsec is a data processing engine for interpreted queries.",
-    "imageUrl": "https://avatars.githubusercontent.com/u/38541875?s=400&v=4",
+    "imageUrl": "https://opengraph.githubassets.com/64ddcd2bb8fc499cc7b87c78a7804f7cfcedb74a285ffd8e48e42508f6acd17a/ExpediaGroup/parsec",
     "repoUrl": "https://github.com/ExpediaGroup/parsec",
     "featured": false
   },
@@ -170,28 +170,28 @@
   {
     "name": "spinnaker-pipeline-trigger",
     "description": "Pipeline trigger for Spinnaker utilizing SNS",
-    "imageUrl": "https://avatars.githubusercontent.com/u/38541875?s=400&v=4",
+    "imageUrl": "https://opengraph.githubassets.com/92fcd7797b363da84bd5aff587b6021af6a25c33174656b92713d6a975dc002c/ExpediaGroup/spinnaker-pipeline-trigger",
     "repoUrl": "https://github.com/ExpediaGroup/spinnaker-pipeline-trigger",
     "featured": false
   },
   {
     "name": "steerage",
     "description": "Hapi server configuration and composition using confidence, topo, and shortstop.",
-    "imageUrl": "https://avatars.githubusercontent.com/u/38541875?s=400&v=4",
+    "imageUrl": "https://opengraph.githubassets.com/1b8cb582230fb9f24176beb5f0fc60d4c064dff6220cbaf16ec0166583985da5/ExpediaGroup/steerage",
     "repoUrl": "https://github.com/ExpediaGroup/steerage",
     "featured": false
   },
   {
     "name": "styx",
     "description": "Programmable, asynchronous, event-based reverse proxy for JVM.",
-    "imageUrl": "https://avatars.githubusercontent.com/u/38541875?s=400&v=4",
+    "imageUrl": "https://opengraph.githubassets.com/ecc1b6c74fec38786bc5a1d80111836b5b2e0d4bb7ddf09a60b3728bff52c8b1/ExpediaGroup/styx",
     "repoUrl": "https://github.com/ExpediaGroup/styx",
     "featured": false
   },
   {
     "name": "waggle-dance",
     "description": "Hive federation service. Enables disparate tables to be concurrently accessed across multiple Hive deployments.",
-    "imageUrl": "https://avatars.githubusercontent.com/u/38541875?s=400&v=4",
+    "imageUrl": "https://opengraph.githubassets.com/d3fa390a2b892fcb26e9b679a6ec0b037a60058b678226ae464c8f55ae1f4d23/ExpediaGroup/waggle-dance",
     "repoUrl": "https://github.com/ExpediaGroup/waggle-dance",
     "featured": false
   }
