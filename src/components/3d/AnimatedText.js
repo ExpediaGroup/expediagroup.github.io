@@ -17,7 +17,7 @@ limitations under the License.
 import { TextGeometry } from 'three/examples/jsm/geometries/TextGeometry'
 import { FontLoader } from 'three/examples/jsm/loaders/FontLoader'
 import HelvetikerFont from 'three/examples/fonts/helvetiker_regular.typeface.json'
-import { extend, useFrame } from '@react-three/fiber'
+import { extend, useFrame, useThree } from '@react-three/fiber'
 import { Vector3 } from 'three'
 import React, { useEffect, useRef, useState } from 'react'
 
@@ -32,14 +32,39 @@ extend({ TextGeometry })
 function AnimatedText({text,
                        size = 1,
                        color = 'black',
-                       positionY = 0}) {
+                       positionY = 0,
+                       stopAfterLoops = 4}) {
   const thisMesh = useRef()
   const [positionX, setPositionX] = useState(0)
+  const [loopsState, setLoopsState] = useState({
+    direction: false, // going up or going down
+    count: 0,
+    active: true
+  })
+  const { invalidate } = useThree()
   useEffect(() => setPositionX(getCenteredPositionX(thisMesh.current)), []);
   useFrame(() => {
-    const time = performance.now() * 0.001
-    thisMesh.current.position.y = Math.sin(time) + positionY
+    if (loopsState.active) {
+      invalidate() // trigger manual frame render, given that canvas has frameloop="demand"
+      const time = performance.now()
+      const newY = Math.sin(time * 0.001) + positionY
+      const oldY = thisMesh.current.position.y
+      thisMesh.current.position.y = newY
+      checkForChangeOfDirection(oldY, newY)
+    }
   })
+  const checkForChangeOfDirection = (oldY, newY) => {
+    const deltaY = newY - oldY
+    if ((deltaY >= 0 && loopsState.direction) || (deltaY < 0 && !loopsState.direction)) {
+      const newDirection = !loopsState.direction
+      const newCount = loopsState.count + 1
+      setLoopsState({
+        direction: newDirection,
+        count: newCount,
+        active: newCount <= stopAfterLoops
+      })
+    }
+  }
   
   return (
     <mesh ref={thisMesh} position={[positionX, positionY, 0]}>

@@ -26,15 +26,16 @@ const CAMERA_POSITION = [0, 2, 9]
 const EXPEDIA_BLUE = 'rgb(0, 0, 153)'
 const TITLE = 'Expedia Group'
 const SUBTITLE = 'Open Source'
+const STOP_AFTER_LOOPS = 2
 
 function HeroBanner3d() {
   return (
     <header className={styles.heroBanner}>
-      <Canvas camera={{ position: CAMERA_POSITION }} dpr={[1, 2]}>
+      <Canvas camera={{ position: CAMERA_POSITION, far: 50 }} dpr={[1, 2]} frameloop="demand">
         <Environment/>
         <pointLight position={CAMERA_POSITION} intensity={2}/>
-        <AnimatedText text={TITLE} size={1.5} color={EXPEDIA_BLUE} positionY={2}/>
-        <AnimatedText text={SUBTITLE} size={1} color={EXPEDIA_BLUE} positionY={0}/>
+        <AnimatedText text={TITLE} size={1.5} color={EXPEDIA_BLUE} positionY={2} stopAfterLoops={STOP_AFTER_LOOPS}/>
+        <AnimatedText text={SUBTITLE} size={1} color={EXPEDIA_BLUE} positionY={0} stopAfterLoops={STOP_AFTER_LOOPS}/>
       </Canvas>
     </header>
   )
