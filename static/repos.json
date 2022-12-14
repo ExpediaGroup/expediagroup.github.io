@@ -114,7 +114,7 @@
   {
     "name": "github-helpers",
     "description": "A collection of Github Actions that simplify and standardize common CI/CD workflow tasks.",
-    "imageUrl": "https://opengraph.githubassets.com/658c00c310fed67bf89c483f3f1ef88c0b955e84aa31a9ec90f50017907dadef/ExpediaGroup/github-helpers",
+    "imageUrl": "https://opengraph.githubassets.com/6098e4f93da45b472107f4f3fab8ceff5a2176ec92523fe2d1be5cb4d11eaf90/ExpediaGroup/github-helpers",
     "repoUrl": "https://github.com/ExpediaGroup/github-helpers",
     "featured": false
   },
@@ -135,7 +135,7 @@
   {
     "name": "kubernetes-sidecar-injector",
     "description": "Kuberbetes mutating webhook that injects a sidecar container to a pod",
-    "imageUrl": "https://opengraph.githubassets.com/44d95f30db0c9e49bd1e141a56857de0a563a22fef56c121645cf07e3989ff0f/ExpediaGroup/kubernetes-sidecar-injector",
+    "imageUrl": "https://opengraph.githubassets.com/394d781b43906b0809ad51ab0c69d6790a1fa306215c3a74cea16ba87fd16586/ExpediaGroup/kubernetes-sidecar-injector",
     "repoUrl": "https://github.com/ExpediaGroup/kubernetes-sidecar-injector",
     "featured": false
   },
