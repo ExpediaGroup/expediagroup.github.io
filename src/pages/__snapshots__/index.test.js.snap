@@ -5,7 +5,7 @@ exports[`Home renders correctly 1`] = `
   title="site title"
 >
   <HeroBanner
-    imageUrl="/img/hero.jpg"
+    imageUrl="test/image/url"
     subtitle="hero subtitle"
     title="hero title"
   />

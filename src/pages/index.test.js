@@ -24,8 +24,14 @@ const DOCUSAURUS_CTX = {
         tagLine: 'site tag line',
         customFields: {
             heroConfig: {
-                title: 'hero title',
-                subtitle: 'hero subtitle'
+                hero2d: {
+                    title: 'hero title',
+                    subtitle: 'hero subtitle',
+                    imageUrl: 'test/image/url'
+                },
+                hero3d: {
+                    enabled: false
+                }
             },
             repositoriesConfig: 'fake-repos-config',
             socialConfig: 'fake-social-config'
@@ -34,6 +40,7 @@ const DOCUSAURUS_CTX = {
 }
 
 jest.mock('../components/HeroBanner', () => 'HeroBanner');
+jest.mock('../components/3d/HeroBanner3d', () => 'HeroBanner3d');
 jest.mock('../components/Repositories', () => 'Repositories');
 jest.mock('../components/Social', () => 'Social');
 jest.mock('@theme/Layout', () => 'Layout', { virtual: true });
