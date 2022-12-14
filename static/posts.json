@@ -1,5 +1,12 @@
 [
   {
+    "title": "Upgrading Apache Zookeeper from 3.7.0 to 3.8.0 to Get Rid of the Log4j Vulnerability",
+    "creator": "Harsh Vardhan",
+    "link": "https://medium.com/expedia-group-tech/upgrading-apache-zookeeper-from-3-7-0-to-3-8-0-to-get-rid-of-the-log4j-vulnerability-46543e768540?source=rss----38998a53046f---4",
+    "date": "Dec 13, 2022",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*Ijzuooc0IKv7pOIr"
+  },
+  {
     "title": "Insights from Women of Silicon Roundabout Conference",
     "creator": "Camila Kill",
     "link": "https://medium.com/expedia-group-tech/insights-from-women-of-silicon-roundabout-conference-bd53bcf6f29e?source=rss----38998a53046f---4",
@@ -61,12 +68,5 @@
     "link": "https://medium.com/expedia-group-tech/avoid-optional-or-nullable-attributes-with-this-simple-trick-29f052c2cf?source=rss----38998a53046f---4",
     "date": "Oct 18, 2022",
     "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*g1iEeqUbO_fbIt5GbOEPhw.jpeg"
-  },
-  {
-    "title": "10 Ways to Build a Customer-Centric Culture in Tech Organizations",
-    "creator": "Anurag Jain",
-    "link": "https://medium.com/expedia-group-tech/10-ways-to-build-a-customer-centric-culture-in-tech-organizations-9431164c60b9?source=rss----38998a53046f---4",
-    "date": "Oct 11, 2022",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*3aT3o4NdBz-XGEpZcdDE4g.jpeg"
   }
 ]
