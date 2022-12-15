@@ -86,7 +86,7 @@
   {
     "name": "determination",
     "description": "Configuration resolver using confidence and shortstop.",
-    "imageUrl": "https://opengraph.githubassets.com/9d7d1a905b1c5cbd26ad3e4ce88414bfc9f9a205a881dbb65abd0505b4ac86cc/ExpediaGroup/determination",
+    "imageUrl": "https://opengraph.githubassets.com/64ae9c7be24ec54e2520e9b03e2dcbdfea4978b227652fe4b78e605551b640ed/ExpediaGroup/determination",
     "repoUrl": "https://github.com/ExpediaGroup/determination",
     "featured": false
   },
@@ -114,14 +114,14 @@
   {
     "name": "github-helpers",
     "description": "A collection of Github Actions that simplify and standardize common CI/CD workflow tasks.",
-    "imageUrl": "https://opengraph.githubassets.com/6098e4f93da45b472107f4f3fab8ceff5a2176ec92523fe2d1be5cb4d11eaf90/ExpediaGroup/github-helpers",
+    "imageUrl": "https://opengraph.githubassets.com/9a9927be2619f90955f844efc855d45422d589080ee4b66be8ce0f04a5c7cb71/ExpediaGroup/github-helpers",
     "repoUrl": "https://github.com/ExpediaGroup/github-helpers",
     "featured": false
   },
   {
     "name": "github-webhook-proxy",
     "description": "Request forwarder for GitHub webhooks from github.com to internal enterprise destinations, designed for use in Github Enterprise Cloud.",
-    "imageUrl": "https://opengraph.githubassets.com/1171efa86ac4f9efb2cb67da6a01a512ed5b88dbb4d828316afbc47daf293d85/ExpediaGroup/github-webhook-proxy",
+    "imageUrl": "https://opengraph.githubassets.com/b216100c98a8a9371a01c9c4f15ace352bebe5f221783adda39d3a31b4fd015e/ExpediaGroup/github-webhook-proxy",
     "repoUrl": "https://github.com/ExpediaGroup/github-webhook-proxy",
     "featured": false
   },
@@ -149,7 +149,7 @@
   {
     "name": "package-json-validator",
     "description": "A Github Action for validating package.json conventions.",
-    "imageUrl": "https://opengraph.githubassets.com/cef96d2718b724501c84f7f53f801ffb6c61661576f8f89efd08161f81d8f5cd/ExpediaGroup/package-json-validator",
+    "imageUrl": "https://opengraph.githubassets.com/1c583a6198ba064cd885c4da5bf3670242a8100fcfc9e0b81ceeafc4251046db/ExpediaGroup/package-json-validator",
     "repoUrl": "https://github.com/ExpediaGroup/package-json-validator",
     "featured": false
   },
@@ -170,7 +170,7 @@
   {
     "name": "spinnaker-pipeline-trigger",
     "description": "Pipeline trigger for Spinnaker utilizing SNS",
-    "imageUrl": "https://opengraph.githubassets.com/92fcd7797b363da84bd5aff587b6021af6a25c33174656b92713d6a975dc002c/ExpediaGroup/spinnaker-pipeline-trigger",
+    "imageUrl": "https://opengraph.githubassets.com/274a3a36ed8772ab249bfacd65e7675d654be75070a9541803d8dd6b14fda0c3/ExpediaGroup/spinnaker-pipeline-trigger",
     "repoUrl": "https://github.com/ExpediaGroup/spinnaker-pipeline-trigger",
     "featured": false
   },
