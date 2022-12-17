@@ -26,6 +26,12 @@ const CAMERA_POSITION = [0, 2, 9]
 const EXPEDIA_BLUE = 'rgb(0, 0, 153)'
 const STOP_AFTER_LOOPS = 2
 
+/**
+ * 3D animation with ocean waves, sun in the sky, and text that is floating
+ * up and down of the water.
+ * 
+ * Based on this three.js example: https://threejs.org/examples/webgl_shaders_ocean.html 
+ */
 function HeroBanner3d({title, subtitle}) {
   return (
     <header className={styles.heroBanner}>

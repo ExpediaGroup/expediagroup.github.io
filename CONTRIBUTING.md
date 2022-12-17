@@ -26,10 +26,16 @@ This project uses [Jest](https://jestjs.io/) for unit testing. When contributing
 
 The naming convention for a file `foo.js` is to put the related unit tests next to it as `foo.test.js`.
 
-Run the unit tests with:
+Run all the unit tests with:
 
 ```
 npm run test
+```
+
+or a specific unit test with:
+
+```
+npm run test <path to test file>
 ```
 
 Unit tests for React components use [snapshot testing](https://jestjs.io/docs/snapshot-testing), please take a moment

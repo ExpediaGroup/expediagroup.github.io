@@ -27,7 +27,8 @@ extend({ TextGeometry })
 
 /**
  * 3D text with animation moving up and down from a given y position,
- * while it is centered on the x axis.
+ * while it is centered on the x axis. The animation stops after the
+ * given number of loops.
  */
 function AnimatedText({text,
                        size = 1,
@@ -88,8 +89,8 @@ function getCenteredPositionX(mesh) {
  * Computes the given mesh' width along the x axis.
  */
 function getWidth(mesh) {
-  mesh.geometry.computeBoundingBox()
+  mesh?.geometry?.computeBoundingBox()
   const meshSize = new Vector3();
-  mesh.geometry.boundingBox.getSize(meshSize)
+  mesh?.geometry?.boundingBox?.getSize(meshSize)
   return meshSize.x
 }
