@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<header
+  className="heroBanner"
+>
+  <Canvas
+    camera={
+      Object {
+        "far": 50,
+        "position": Array [
+          0,
+          2,
+          9,
+        ],
+      }
+    }
+    dpr={
+      Array [
+        1,
+        2,
+      ]
+    }
+    frameloop="demand"
+  >
+    <Environment />
+    <pointLight
+      intensity={2}
+      position={
+        Array [
+          0,
+          2,
+          9,
+        ]
+      }
+    />
+    <AnimatedText
+      color="rgb(0, 0, 153)"
+      positionY={2}
+      size={1.5}
+      stopAfterLoops={2}
+      text="Test title"
+    />
+    <AnimatedText
+      color="rgb(0, 0, 153)"
+      positionY={0}
+      size={1}
+      stopAfterLoops={2}
+      text="Test subtitle"
+    />
+  </Canvas>
+</header>
+`;

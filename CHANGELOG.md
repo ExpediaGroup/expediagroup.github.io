@@ -7,6 +7,9 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 You should update the version number in the [package.json](./package.json) according to the semantic versioning,
 then run `npm install`.
 
+## 1.6.0
+- Added 3D hero banner
+
 ## 1.5.1
 - Bumped to node 16, docusaurus 2.0.1, react 17.0.2
 
