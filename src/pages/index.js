@@ -18,6 +18,7 @@ import React from 'react';
 import Layout from '@theme/Layout';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import HeroBanner from "../components/HeroBanner";
+import HeroBanner3d from '../components/3d/HeroBanner3d';
 import repositoriesData from '@site/static/repos.json';
 import Repositories from "../components/Repositories";
 import Social from "../components/Social";
@@ -30,7 +31,10 @@ function Home() {
     <Layout
       title={siteConfig.title}
       description={siteConfig.tagline}>
-        <HeroBanner title={heroConfig.title} subtitle={heroConfig.subtitle} imageUrl="/img/hero.jpg"/>
+        {heroConfig.hero3d.enabled
+            ? <HeroBanner3d title={heroConfig.hero3d.title} subtitle={heroConfig.hero3d.subtitle}/>
+            : <HeroBanner title={heroConfig.hero2d.title} subtitle={heroConfig.hero2d.subtitle} imageUrl={heroConfig.hero2d.imageUrl}/>
+        }
         <main>
             <Repositories reposData={repositoriesData} reposConfig={repositoriesConfig} showOnlyFeatured={true}/>
             <Social socialConfig={socialConfig}/>

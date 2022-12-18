@@ -16,8 +16,16 @@ limitations under the License.
 
 const customFields = {
   heroConfig: {
-    title: 'Powering global travel through a world-class tech platform.',
-    subtitle: 'Peek behind the scenes at our open source projects.'
+    hero2d: {
+      title: 'Powering global travel through a world-class tech platform.',
+      subtitle: 'Peek behind the scenes at our open source projects.',
+      imageUrl: '/img/hero.jpg'
+    },
+    hero3d: {
+      enabled: true,
+      title: 'Expedia Group',
+      subtitle: 'Open Source'
+    }
   },
   repositoriesConfig: {
     navbarLabel: 'Projects',

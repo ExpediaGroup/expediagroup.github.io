@@ -18,6 +18,9 @@ import React from 'react';
 import styles from './HeroBanner.module.css';
 import clsx from "clsx";
 
+/**
+ * Hero banner with text and an image.
+ */
 function HeroBanner({title, subtitle, imageUrl}) {
     return (
         <header className={clsx('hero hero--primary', styles.heroBanner, !imageUrl && styles.imageLess)}

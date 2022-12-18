@@ -5,9 +5,30 @@ exports[`Home renders correctly 1`] = `
   title="site title"
 >
   <HeroBanner
-    imageUrl="/img/hero.jpg"
+    imageUrl="test/image/url"
     subtitle="hero subtitle"
     title="hero title"
+  />
+  <main>
+    <Repositories
+      reposConfig="fake-repos-config"
+      reposData="fake-repos-data"
+      showOnlyFeatured={true}
+    />
+    <Social
+      socialConfig="fake-social-config"
+    />
+  </main>
+</Layout>
+`;
+
+exports[`Home renders with 3D hero banner 1`] = `
+<Layout
+  title="site title"
+>
+  <HeroBanner3d
+    subtitle="3D hero subtitle"
+    title="3D hero title"
   />
   <main>
     <Repositories

@@ -14,14 +14,21 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-const config = {
-    resetMocks: true,
-    setupFiles: ["<rootDir>/src/jest/helpers.js"],
-    transform: {
-        "\\.[jt]sx?$": "babel-jest",
-        ".+\\.(css|styl|less|sass|scss)$": "jest-css-modules-transform"
-    },
-    transformIgnorePatterns: ["/node_modules/(?!(@babel/runtime)/)"]
-};
+jest.mock('@react-three/drei', () => {
+    return {
+        Sky: 'Sky'
+    }
+})
+jest.mock('./Ocean', () => 'Ocean');
 
-module.exports = config;
+import React from 'react';
+import renderer from 'react-test-renderer';
+import Environment from './Environment';
+
+
+it('renders correctly', async () => {
+    const tree = renderer
+        .create(<Environment/>)
+        .toJSON();
+    expect(tree).toMatchSnapshot();
+});

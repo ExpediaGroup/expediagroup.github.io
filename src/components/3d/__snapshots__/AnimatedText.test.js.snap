@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<mesh
+  position={
+    Array [
+      0,
+      2,
+      0,
+    ]
+  }
+>
+  <textGeometry
+    args={
+      Array [
+        "test text",
+        Object {
+          "font": "test_font",
+          "height": 0.15,
+          "size": 3,
+        },
+      ]
+    }
+  />
+  <meshStandardMaterial
+    color="green"
+  />
+</mesh>
+`;

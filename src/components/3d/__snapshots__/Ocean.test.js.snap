@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<water
+  args={
+    Array [
+      Object {
+        "height": 10000,
+        "heightSegments": 1,
+        "metadata": Object {
+          "generator": "BufferGeometry.toJSON",
+          "type": "BufferGeometry",
+          "version": 4.5,
+        },
+        "type": "PlaneGeometry",
+        "uuid": "123456789",
+        "width": 10000,
+        "widthSegments": 1,
+      },
+      Object {
+        "distortionScale": 1,
+        "fog": false,
+        "format": undefined,
+        "sunColor": 16777215,
+        "sunDirection": Vector3 {
+          "x": 1,
+          "y": 2,
+          "z": 3,
+        },
+        "textureHeight": 512,
+        "textureWidth": 512,
+        "waterColor": 1618851,
+        "waterNormals": Object {
+          "wrapS": 1000,
+          "wrapT": 1000,
+        },
+      },
+    ]
+  }
+  rotation-x={-1.5707963267948966}
+/>
+`;

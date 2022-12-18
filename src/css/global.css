@@ -54,7 +54,7 @@ limitations under the License.
 .navbar__link {
   border-right: 1px solid var(--ifm-navbar-link-color);
 }
-.navbar__link:last-child {
+.navbar__link:last-child, .navbar__link:nth-last-child(2) {
   border-right: none;
 }
 .navbar__link svg {

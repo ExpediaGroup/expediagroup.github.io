@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+Array [
+  <Ocean
+    sunDirection={
+      Vector3 {
+        "x": 0.7660432763668656,
+        "y": 0.0017453283658982615,
+        "z": -0.6427866306652722,
+      }
+    }
+  />,
+  <Sky
+    mieCoefficient={0.005}
+    mieDirectionalG={0.8}
+    rayleigh={2}
+    scale={10000}
+    sunPosition={
+      Vector3 {
+        "x": 0.7660432763668656,
+        "y": 0.0017453283658982615,
+        "z": -0.6427866306652722,
+      }
+    }
+    turbidity={10}
+  />,
+]
+`;

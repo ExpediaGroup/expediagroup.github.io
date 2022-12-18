@@ -14,14 +14,23 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-const config = {
-    resetMocks: true,
-    setupFiles: ["<rootDir>/src/jest/helpers.js"],
-    transform: {
-        "\\.[jt]sx?$": "babel-jest",
-        ".+\\.(css|styl|less|sass|scss)$": "jest-css-modules-transform"
-    },
-    transformIgnorePatterns: ["/node_modules/(?!(@babel/runtime)/)"]
-};
+jest.mock('@react-three/fiber', () => {
+    return { Canvas: 'Canvas' }
+})
+jest.mock('./AnimatedText', () => 'AnimatedText');
+jest.mock('./Environment', () => 'Environment');
 
-module.exports = config;
+import React from 'react';
+import renderer from 'react-test-renderer';
+import HeroBanner3d from './HeroBanner3d';
+
+const TITLE = 'Test title'
+const SUBTITLE = 'Test subtitle'
+
+
+it('renders correctly', async () => {
+    const tree = renderer
+        .create(<HeroBanner3d title={TITLE} subtitle={SUBTITLE}/>)
+        .toJSON();
+    expect(tree).toMatchSnapshot();
+});
