@@ -19,3 +19,5 @@ the site to GitHub Pages. The workflow is also automatically scheduled on a dail
 
 The built static files are pushed to branch `gh-pages`, which automatically triggers the GitHub Pages deployment, usually
 in few minutes. You can check the history of GitHub Pages deployments [here](https://github.com/ExpediaGroup/expediagroup.github.io/deployments).
+
+As a last step, manually create [a GitHub release](https://github.com/ExpediaGroup/expediagroup.github.io/releases) as described [in GitHub docs](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository).
