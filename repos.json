@@ -79,7 +79,7 @@
   {
     "name": "cypress-codegen",
     "description": "A Cypress plugin which automatically adds and enables IntelliSense for your custom commands!",
-    "imageUrl": "https://opengraph.githubassets.com/12b423fb9011a109736346b8d314f531fb2b235cd994e913bffa80bbc2a85305/ExpediaGroup/cypress-codegen",
+    "imageUrl": "https://opengraph.githubassets.com/676f10a349f55cc2a0932be7f9a8a3ddf13d2409386b63af62dc2f57020e8900/ExpediaGroup/cypress-codegen",
     "repoUrl": "https://github.com/ExpediaGroup/cypress-codegen",
     "featured": false
   },
@@ -114,7 +114,7 @@
   {
     "name": "github-helpers",
     "description": "A collection of Github Actions that simplify and standardize common CI/CD workflow tasks.",
-    "imageUrl": "https://opengraph.githubassets.com/9a9927be2619f90955f844efc855d45422d589080ee4b66be8ce0f04a5c7cb71/ExpediaGroup/github-helpers",
+    "imageUrl": "https://opengraph.githubassets.com/4ee33744d6b7563ebe01c1b90c5ec3e5505faf8bb8d50512bbd054d42670f067/ExpediaGroup/github-helpers",
     "repoUrl": "https://github.com/ExpediaGroup/github-helpers",
     "featured": false
   },
