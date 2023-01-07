@@ -72,7 +72,7 @@
   {
     "name": "catalyst-server",
     "description": "Configuration and composition management for Hapi.js applications.",
-    "imageUrl": "https://opengraph.githubassets.com/d5d51145e005bc4e6277ac8e4112eb3854ef43ad6aaa6f6311f87450c7b2054f/ExpediaGroup/catalyst-server",
+    "imageUrl": "https://opengraph.githubassets.com/2bb0c8cf773895d5a1859028b3215225284221e8e8be69aaec04d72c2e7e0d02/ExpediaGroup/catalyst-server",
     "repoUrl": "https://github.com/ExpediaGroup/catalyst-server",
     "featured": false
   },
@@ -191,7 +191,7 @@
   {
     "name": "waggle-dance",
     "description": "Hive federation service. Enables disparate tables to be concurrently accessed across multiple Hive deployments.",
-    "imageUrl": "https://opengraph.githubassets.com/d3fa390a2b892fcb26e9b679a6ec0b037a60058b678226ae464c8f55ae1f4d23/ExpediaGroup/waggle-dance",
+    "imageUrl": "https://opengraph.githubassets.com/c6d0e4286abdf6c6f6b5af7095c9d112891fe53bf713588e197d84aa9abc8930/ExpediaGroup/waggle-dance",
     "repoUrl": "https://github.com/ExpediaGroup/waggle-dance",
     "featured": false
   }
