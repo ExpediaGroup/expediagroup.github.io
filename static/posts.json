@@ -1,5 +1,12 @@
 [
   {
+    "title": "4 Ways to Make Unit Tests More Effective",
+    "creator": "Lorenzo Dell'Arciprete",
+    "link": "https://medium.com/expedia-group-tech/4-ways-to-make-unit-tests-more-effective-3615cc6ba4ec?source=rss----38998a53046f---4",
+    "date": "Jan 12, 2023",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*0g1sMPgS3iGyEatsgApiGQ.png"
+  },
+  {
     "title": "AI, Personalization and Openness: Exploring the Definitive Tech Trends of 2023",
     "creator": "Rajesh Naidu",
     "link": "https://medium.com/expedia-group-tech/ai-personalization-and-openness-exploring-the-definitive-tech-trends-of-2023-d5ba45875c80?source=rss----38998a53046f---4",
@@ -61,12 +68,5 @@
     "link": "https://medium.com/expedia-group-tech/continuous-deployment-at-expedia-group-af392b10a285?source=rss----38998a53046f---4",
     "date": "Nov 8, 2022",
     "imageUrl": "https://cdn-images-1.medium.com/max/786/0*ayCGVB2HCREfaBsm.png"
-  },
-  {
-    "title": "React India 2022",
-    "creator": "Jyoti Balwani",
-    "link": "https://medium.com/expedia-group-tech/react-india-2022-ae48ee74e8ff?source=rss----38998a53046f---4",
-    "date": "Oct 27, 2022",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*yKRKtVakfkKA9mZtFnNXMg.jpeg"
   }
 ]
