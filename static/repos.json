@@ -142,7 +142,7 @@
   {
     "name": "overwhelm",
     "description": "Operator for complex application deployment on Kubernetes",
-    "imageUrl": "https://opengraph.githubassets.com/97b876988ca0576d223fa593a016a930845e205ed92df56398d05dfe7835dfa6/ExpediaGroup/overwhelm",
+    "imageUrl": "https://opengraph.githubassets.com/54cf3c6ded73acd53e5038cfd07e087f0034cc512dddaf487db00fc851851f7e/ExpediaGroup/overwhelm",
     "repoUrl": "https://github.com/ExpediaGroup/overwhelm",
     "featured": false
   },
@@ -170,7 +170,7 @@
   {
     "name": "spinnaker-pipeline-trigger",
     "description": "Pipeline trigger for Spinnaker utilizing SNS",
-    "imageUrl": "https://opengraph.githubassets.com/d838451fbc78324606b7339254c5f15b3141e17ca2b32e40a526752d59b86558/ExpediaGroup/spinnaker-pipeline-trigger",
+    "imageUrl": "https://opengraph.githubassets.com/87e6fcf441cd82413e538eeb8358e0633cd6e6d0565312456ff742afeeb19f02/ExpediaGroup/spinnaker-pipeline-trigger",
     "repoUrl": "https://github.com/ExpediaGroup/spinnaker-pipeline-trigger",
     "featured": false
   },
@@ -191,7 +191,7 @@
   {
     "name": "waggle-dance",
     "description": "Hive federation service. Enables disparate tables to be concurrently accessed across multiple Hive deployments.",
-    "imageUrl": "https://opengraph.githubassets.com/c6d0e4286abdf6c6f6b5af7095c9d112891fe53bf713588e197d84aa9abc8930/ExpediaGroup/waggle-dance",
+    "imageUrl": "https://opengraph.githubassets.com/a32e14a8aa9f42c07193b0ae6b26c12cc7c7d50c765c95daecc7db31bf3560c1/ExpediaGroup/waggle-dance",
     "repoUrl": "https://github.com/ExpediaGroup/waggle-dance",
     "featured": false
   }
