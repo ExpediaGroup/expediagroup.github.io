@@ -72,7 +72,7 @@
   {
     "name": "catalyst-server",
     "description": "Configuration and composition management for Hapi.js applications.",
-    "imageUrl": "https://opengraph.githubassets.com/2bb0c8cf773895d5a1859028b3215225284221e8e8be69aaec04d72c2e7e0d02/ExpediaGroup/catalyst-server",
+    "imageUrl": "https://opengraph.githubassets.com/0cfe34f4f9bebc4dffd0340e897c3a4a8b68a2343b9519e27729d459b4e831b9/ExpediaGroup/catalyst-server",
     "repoUrl": "https://github.com/ExpediaGroup/catalyst-server",
     "featured": false
   },
@@ -86,7 +86,7 @@
   {
     "name": "determination",
     "description": "Configuration resolver using confidence and shortstop.",
-    "imageUrl": "https://opengraph.githubassets.com/64ae9c7be24ec54e2520e9b03e2dcbdfea4978b227652fe4b78e605551b640ed/ExpediaGroup/determination",
+    "imageUrl": "https://opengraph.githubassets.com/68706a4b064324aa1b45212c6110c172c4bbb4824c1f3daf1cc7278e12e9ea90/ExpediaGroup/determination",
     "repoUrl": "https://github.com/ExpediaGroup/determination",
     "featured": false
   },
@@ -177,7 +177,7 @@
   {
     "name": "steerage",
     "description": "Hapi server configuration and composition using confidence, topo, and shortstop.",
-    "imageUrl": "https://opengraph.githubassets.com/1b8cb582230fb9f24176beb5f0fc60d4c064dff6220cbaf16ec0166583985da5/ExpediaGroup/steerage",
+    "imageUrl": "https://opengraph.githubassets.com/4a3e5f93925af39932623be06cab73983fb6d0d6c668d705ee40aff1f87679a9/ExpediaGroup/steerage",
     "repoUrl": "https://github.com/ExpediaGroup/steerage",
     "featured": false
   },
