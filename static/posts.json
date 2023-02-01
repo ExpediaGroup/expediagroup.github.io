@@ -1,5 +1,12 @@
 [
   {
+    "title": "Creating a More Sustainable and Accessible Future for Travelers",
+    "creator": "Aditi Mohapatra",
+    "link": "https://medium.com/expedia-group-tech/creating-a-more-sustainable-and-accessible-future-for-travelers-3f1f60b36e83?source=rss----38998a53046f---4",
+    "date": "Jan 31, 2023",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*s1vpnmQxErSbHALX4mbcOA.png"
+  },
+  {
     "title": "4 Ways to Make Unit Tests More Effective",
     "creator": "Lorenzo Dell'Arciprete",
     "link": "https://medium.com/expedia-group-tech/4-ways-to-make-unit-tests-more-effective-3615cc6ba4ec?source=rss----38998a53046f---4",
@@ -61,12 +68,5 @@
     "link": "https://medium.com/expedia-group-tech/network-policies-with-calico-for-kubernetes-networking-875c0ebbcfb3?source=rss----38998a53046f---4",
     "date": "Nov 10, 2022",
     "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*Qtev2OwpMKjw00cfKFGKog.jpeg"
-  },
-  {
-    "title": "Continuous Deployment at Expedia Group",
-    "creator": "Luca Pelosi",
-    "link": "https://medium.com/expedia-group-tech/continuous-deployment-at-expedia-group-af392b10a285?source=rss----38998a53046f---4",
-    "date": "Nov 8, 2022",
-    "imageUrl": "https://cdn-images-1.medium.com/max/786/0*ayCGVB2HCREfaBsm.png"
   }
 ]
