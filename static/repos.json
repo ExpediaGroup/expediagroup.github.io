@@ -79,7 +79,7 @@
   {
     "name": "cypress-codegen",
     "description": "A Cypress plugin which automatically adds and enables IntelliSense for your custom commands!",
-    "imageUrl": "https://opengraph.githubassets.com/676f10a349f55cc2a0932be7f9a8a3ddf13d2409386b63af62dc2f57020e8900/ExpediaGroup/cypress-codegen",
+    "imageUrl": "https://opengraph.githubassets.com/52dc75d1edf51c174b9904acebc590ccac9ce37466c30011dc0fb57ee2041f2e/ExpediaGroup/cypress-codegen",
     "repoUrl": "https://github.com/ExpediaGroup/cypress-codegen",
     "featured": false
   },
@@ -142,7 +142,7 @@
   {
     "name": "overwhelm",
     "description": "Operator for complex application deployment on Kubernetes",
-    "imageUrl": "https://opengraph.githubassets.com/54cf3c6ded73acd53e5038cfd07e087f0034cc512dddaf487db00fc851851f7e/ExpediaGroup/overwhelm",
+    "imageUrl": "https://opengraph.githubassets.com/d47e71d8d1e9aa6e8acb7964fce36d435200491afc3a16f2066395ebe2097bdd/ExpediaGroup/overwhelm",
     "repoUrl": "https://github.com/ExpediaGroup/overwhelm",
     "featured": false
   },
@@ -170,7 +170,7 @@
   {
     "name": "spinnaker-pipeline-trigger",
     "description": "Pipeline trigger for Spinnaker utilizing SNS",
-    "imageUrl": "https://opengraph.githubassets.com/87e6fcf441cd82413e538eeb8358e0633cd6e6d0565312456ff742afeeb19f02/ExpediaGroup/spinnaker-pipeline-trigger",
+    "imageUrl": "https://opengraph.githubassets.com/f35a9c36f989be98de9514662b5e96b6a6a6d40b9c6213607f869c8ce45ee891/ExpediaGroup/spinnaker-pipeline-trigger",
     "repoUrl": "https://github.com/ExpediaGroup/spinnaker-pipeline-trigger",
     "featured": false
   },
