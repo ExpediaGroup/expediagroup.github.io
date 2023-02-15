@@ -1,5 +1,12 @@
 [
   {
+    "title": "Four Key Differences Between “Online Travel” and “Online Shopping” E-commerce",
+    "creator": "John James",
+    "link": "https://medium.com/expedia-group-tech/four-key-differences-between-online-travel-and-online-shopping-e-commerce-8512cc47b0bf?source=rss----38998a53046f---4",
+    "date": "Feb 14, 2023",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*-vFGp5oRBLqXTsYF36cTsQ.jpeg"
+  },
+  {
     "title": "Creating a More Sustainable and Accessible Future for Travelers",
     "creator": "Aditi Mohapatra",
     "link": "https://medium.com/expedia-group-tech/creating-a-more-sustainable-and-accessible-future-for-travelers-3f1f60b36e83?source=rss----38998a53046f---4",
@@ -61,12 +68,5 @@
     "link": "https://medium.com/expedia-group-tech/wondering-how-is-the-transition-from-an-ic-to-a-manager-heres-my-journey-a2930358dc82?source=rss----38998a53046f---4",
     "date": "Nov 17, 2022",
     "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*7SfNseGD90oqtCQc2CchBA.png"
-  },
-  {
-    "title": "Network Policies with Calico for Kubernetes Networking",
-    "creator": "Rajatporwal",
-    "link": "https://medium.com/expedia-group-tech/network-policies-with-calico-for-kubernetes-networking-875c0ebbcfb3?source=rss----38998a53046f---4",
-    "date": "Nov 10, 2022",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*Qtev2OwpMKjw00cfKFGKog.jpeg"
   }
 ]
