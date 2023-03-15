@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unified Machine Learning Platform at Expedia Group",
+    "creator": "Hisham Mohamed",
+    "link": "https://medium.com/expedia-group-tech/unified-machine-learning-platform-at-expedia-group-5aee72606c74?source=rss----38998a53046f---4",
+    "date": "Mar 14, 2023",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*xeYUOCxXz4I6UkyO"
+  },
+  {
     "title": "Market Segmentation for Geo-Testing at Scale",
     "creator": "Jasmine Holdsworth",
     "link": "https://medium.com/expedia-group-tech/market-segmentation-for-geo-testing-at-scale-8d593e0aa755?source=rss----38998a53046f---4",
@@ -61,12 +68,5 @@
     "link": "https://medium.com/expedia-group-tech/unify-data-lakes-across-multi-regions-in-the-cloud-61119db325f9?source=rss----38998a53046f---4",
     "date": "Nov 24, 2022",
     "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*18N6-UT8PPV6iXVBj2KWTQ.jpeg"
-  },
-  {
-    "title": "Functional Programming with Kotlin Arrow",
-    "creator": "Fred Friis",
-    "link": "https://medium.com/expedia-group-tech/functional-programming-with-kotlin-arrow-8d3d4f677d8d?source=rss----38998a53046f---4",
-    "date": "Nov 22, 2022",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*ssp-W-rnaqIo9MPCEQxzuw.jpeg"
   }
 ]
