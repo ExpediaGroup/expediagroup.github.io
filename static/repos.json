@@ -114,14 +114,14 @@
   {
     "name": "github-helpers",
     "description": "A collection of Github Actions that simplify and standardize common CI/CD workflow tasks.",
-    "imageUrl": "https://opengraph.githubassets.com/4ee33744d6b7563ebe01c1b90c5ec3e5505faf8bb8d50512bbd054d42670f067/ExpediaGroup/github-helpers",
+    "imageUrl": "https://opengraph.githubassets.com/24434bf9270d713103c0d2027eefc5e80b3e2d896795e5a401f42ca676919f33/ExpediaGroup/github-helpers",
     "repoUrl": "https://github.com/ExpediaGroup/github-helpers",
     "featured": false
   },
   {
     "name": "github-webhook-proxy",
     "description": "Request forwarder for GitHub webhooks from github.com to internal enterprise destinations, designed for use in Github Enterprise Cloud.",
-    "imageUrl": "https://opengraph.githubassets.com/35269c61f16b9f379a643de96dd7996e5c9c11844f6013c8d82a7e4bf77473f1/ExpediaGroup/github-webhook-proxy",
+    "imageUrl": "https://opengraph.githubassets.com/03822c332da51c3d3066934445972cb31b29987e7d9b9319e0908c4658e49edb/ExpediaGroup/github-webhook-proxy",
     "repoUrl": "https://github.com/ExpediaGroup/github-webhook-proxy",
     "featured": false
   },
