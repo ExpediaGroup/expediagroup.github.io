@@ -121,7 +121,7 @@
   {
     "name": "github-webhook-proxy",
     "description": "Request forwarder for GitHub webhooks from github.com to internal enterprise destinations, designed for use in Github Enterprise Cloud.",
-    "imageUrl": "https://opengraph.githubassets.com/03822c332da51c3d3066934445972cb31b29987e7d9b9319e0908c4658e49edb/ExpediaGroup/github-webhook-proxy",
+    "imageUrl": "https://opengraph.githubassets.com/e078cc23da8ed6f4d5a8629e8fa235a98090a0890dc76261602c7702f9082c4b/ExpediaGroup/github-webhook-proxy",
     "repoUrl": "https://github.com/ExpediaGroup/github-webhook-proxy",
     "featured": false
   },
