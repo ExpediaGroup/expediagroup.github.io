@@ -1,16 +1,16 @@
 [
   {
-    "name": "beekeeper",
-    "description": "Service for automatically managing and cleaning up unreferenced data",
-    "imageUrl": "https://repository-images.githubusercontent.com/200810412/100eb900-76c4-11eb-991a-1ebaec51af11",
-    "repoUrl": "https://github.com/ExpediaGroup/beekeeper",
-    "featured": true
-  },
-  {
     "name": "bull",
     "description": "BULL - Bean Utils Light Library",
     "imageUrl": "https://repository-images.githubusercontent.com/166023376/9632dcfb-86af-4a78-b520-53fd7c360648",
     "repoUrl": "https://github.com/ExpediaGroup/bull",
+    "featured": true
+  },
+  {
+    "name": "expediagroup.github.io",
+    "description": "The Expedia Group Open Source portal, a website for discovering EG open source projects.",
+    "imageUrl": "https://opengraph.githubassets.com/bad9f559adc72328d8c28a07af5d589b61b366f091b4b4d9610a245f53aa57c1/ExpediaGroup/expediagroup.github.io",
+    "repoUrl": "https://github.com/ExpediaGroup/expediagroup.github.io",
     "featured": true
   },
   {
@@ -135,7 +135,7 @@
   {
     "name": "kubernetes-sidecar-injector",
     "description": "Kuberbetes mutating webhook that injects a sidecar container to a pod",
-    "imageUrl": "https://opengraph.githubassets.com/ecba29335b5eeb8e3bf025aff340ee66a0ddaf760ec55db7c9d56ceadfff4d60/ExpediaGroup/kubernetes-sidecar-injector",
+    "imageUrl": "https://opengraph.githubassets.com/99f6ba89201fcc234aa4234e48a6625a639bc2978afc106d2de7dc453350fb53/ExpediaGroup/kubernetes-sidecar-injector",
     "repoUrl": "https://github.com/ExpediaGroup/kubernetes-sidecar-injector",
     "featured": false
   },
