@@ -1,5 +1,12 @@
 [
   {
+    "title": "Marketing Attribution",
+    "creator": "Emily Cai",
+    "link": "https://medium.com/expedia-group-tech/marketing-attribution-f76ac15c804e?source=rss----38998a53046f---4",
+    "date": "Apr 11, 2023",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*8zJlAyoLA0POoXAw"
+  },
+  {
     "title": "How to Size For Online Experiments With Ratio Metrics",
     "creator": "Wenkai Bao",
     "link": "https://medium.com/expedia-group-tech/how-to-size-for-online-experiments-with-ratio-metrics-3d57362f1967?source=rss----38998a53046f---4",
@@ -61,12 +68,5 @@
     "link": "https://medium.com/expedia-group-tech/upgrading-apache-zookeeper-from-3-7-0-to-3-8-0-to-get-rid-of-the-log4j-vulnerability-46543e768540?source=rss----38998a53046f---4",
     "date": "Dec 13, 2022",
     "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*Ijzuooc0IKv7pOIr"
-  },
-  {
-    "title": "Insights from Women of Silicon Roundabout Conference",
-    "creator": "Camila Kill",
-    "link": "https://medium.com/expedia-group-tech/insights-from-women-of-silicon-roundabout-conference-bd53bcf6f29e?source=rss----38998a53046f---4",
-    "date": "Nov 29, 2022",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*20b8CNTc9SWoH5tAq2wjoQ.jpeg"
   }
 ]
