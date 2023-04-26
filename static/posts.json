@@ -1,5 +1,12 @@
 [
   {
+    "title": "How Expedia Reviews Engineering Is Using Event Streams As A Source Of Truth",
+    "creator": "Ritesh Kapoor",
+    "link": "https://medium.com/expedia-group-tech/how-expedia-reviews-engineering-is-using-event-streams-as-a-source-of-truth-d3df616cccd8?source=rss----38998a53046f---4",
+    "date": "Apr 25, 2023",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*eZcUC0BVcFIvGOS-"
+  },
+  {
     "title": "Marketing Attribution",
     "creator": "Emily Cai",
     "link": "https://medium.com/expedia-group-tech/marketing-attribution-f76ac15c804e?source=rss----38998a53046f---4",
@@ -61,12 +68,5 @@
     "link": "https://medium.com/expedia-group-tech/how-to-optimise-rankings-with-cascade-bandits-5d92dfa0f16b?source=rss----38998a53046f---4",
     "date": "Dec 15, 2022",
     "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*z9cXYpUtmDImFNjF"
-  },
-  {
-    "title": "Upgrading Apache Zookeeper from 3.7.0 to 3.8.0 to Get Rid of the Log4j Vulnerability",
-    "creator": "Harsh Vardhan",
-    "link": "https://medium.com/expedia-group-tech/upgrading-apache-zookeeper-from-3-7-0-to-3-8-0-to-get-rid-of-the-log4j-vulnerability-46543e768540?source=rss----38998a53046f---4",
-    "date": "Dec 13, 2022",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*Ijzuooc0IKv7pOIr"
   }
 ]
