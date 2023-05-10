@@ -1,5 +1,12 @@
 [
   {
+    "title": "Installing Spinnaker in The Cloud",
+    "creator": "Manoj Tiwari",
+    "link": "https://medium.com/expedia-group-tech/installing-spinnaker-in-the-cloud-c7f518c98dc1?source=rss----38998a53046f---4",
+    "date": "May 9, 2023",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*jDc12QyCDNHyfk88"
+  },
+  {
     "title": "How Expedia Reviews Engineering Is Using Event Streams as a Source Of Truth",
     "creator": "Ritesh Kapoor",
     "link": "https://medium.com/expedia-group-tech/how-expedia-reviews-engineering-is-using-event-streams-as-a-source-of-truth-d3df616cccd8?source=rss----38998a53046f---4",
@@ -61,12 +68,5 @@
     "link": "https://medium.com/expedia-group-tech/ai-personalization-and-openness-exploring-the-definitive-tech-trends-of-2023-d5ba45875c80?source=rss----38998a53046f---4",
     "date": "Jan 5, 2023",
     "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*S1iZRb0e9URudlK3"
-  },
-  {
-    "title": "How to Optimise Rankings with Cascade Bandits",
-    "creator": "Andrea Marchini",
-    "link": "https://medium.com/expedia-group-tech/how-to-optimise-rankings-with-cascade-bandits-5d92dfa0f16b?source=rss----38998a53046f---4",
-    "date": "Dec 15, 2022",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*z9cXYpUtmDImFNjF"
   }
 ]
