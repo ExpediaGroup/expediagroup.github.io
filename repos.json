@@ -170,7 +170,7 @@
   {
     "name": "spinnaker-pipeline-trigger",
     "description": "Pipeline trigger for Spinnaker utilizing SNS",
-    "imageUrl": "https://opengraph.githubassets.com/b166db75785f338081516e2a765983070b2ddf6eb2c43f05b753e0a5adc6184d/ExpediaGroup/spinnaker-pipeline-trigger",
+    "imageUrl": "https://opengraph.githubassets.com/718cb2ba45228576f028c86f0a0adfee19f297d9861b4840f2fdedcf5958b91e/ExpediaGroup/spinnaker-pipeline-trigger",
     "repoUrl": "https://github.com/ExpediaGroup/spinnaker-pipeline-trigger",
     "featured": false
   },
