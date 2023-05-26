@@ -1,5 +1,12 @@
 [
   {
+    "title": "Generating Diverse Travel Recommendations",
+    "creator": "Lucy (Jingyu) Zou",
+    "link": "https://medium.com/expedia-group-tech/generating-diverse-travel-recommendations-76688f49c812?source=rss----38998a53046f---4",
+    "date": "May 25, 2023",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*GY4MHmSq6OYsZlqp"
+  },
+  {
     "title": "Using Terraform to Provision Spinnaker on Kubernetes",
     "creator": "Manoj Tiwari",
     "link": "https://medium.com/expedia-group-tech/installing-spinnaker-in-the-cloud-c7f518c98dc1?source=rss----38998a53046f---4",
@@ -61,12 +68,5 @@
     "link": "https://medium.com/expedia-group-tech/4-ways-to-make-unit-tests-more-effective-3615cc6ba4ec?source=rss----38998a53046f---4",
     "date": "Jan 12, 2023",
     "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*n2jLr5mDBxcoFFQL"
-  },
-  {
-    "title": "AI, Personalization and Openness: Exploring the Definitive Tech Trends of 2023",
-    "creator": "Rajesh Naidu",
-    "link": "https://medium.com/expedia-group-tech/ai-personalization-and-openness-exploring-the-definitive-tech-trends-of-2023-d5ba45875c80?source=rss----38998a53046f---4",
-    "date": "Jan 5, 2023",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*S1iZRb0e9URudlK3"
   }
 ]
