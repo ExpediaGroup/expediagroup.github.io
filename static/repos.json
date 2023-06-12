@@ -65,7 +65,7 @@
   {
     "name": "catalyst-render",
     "description": "A hapi js plugin that works with catalyst-server to provide server-side rendering with react inside a handlebars template",
-    "imageUrl": "https://opengraph.githubassets.com/c736ba7a8cea4d86d43ef84f986ea3dd57086c45b5b3aabd4c541e2341b07f20/ExpediaGroup/catalyst-render",
+    "imageUrl": "https://opengraph.githubassets.com/0f8edc28a7095b8599cb123523b919918c8c7a40b20ac61f192ca3357d375fd7/ExpediaGroup/catalyst-render",
     "repoUrl": "https://github.com/ExpediaGroup/catalyst-render",
     "featured": false
   },
