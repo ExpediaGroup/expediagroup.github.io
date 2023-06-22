@@ -191,7 +191,7 @@
   {
     "name": "waggle-dance",
     "description": "Hive federation service. Enables disparate tables to be concurrently accessed across multiple Hive deployments.",
-    "imageUrl": "https://opengraph.githubassets.com/1d2966fc3ff0087f8798422b75761a31bbcaaf4fc30207a41e4b912d79815b38/ExpediaGroup/waggle-dance",
+    "imageUrl": "https://opengraph.githubassets.com/f56ab638392cb4e88f0c4fa341840ea061770c713941fecec6356166b85b231e/ExpediaGroup/waggle-dance",
     "repoUrl": "https://github.com/ExpediaGroup/waggle-dance",
     "featured": false
   }
