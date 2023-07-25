@@ -1,5 +1,26 @@
 [
   {
+    "title": "Creating Shareable Experiences in the Tech World",
+    "creator": "Tanvi Johari",
+    "link": "https://medium.com/expedia-group-tech/creating-shareable-experiences-in-the-tech-world-cef196fdb95?source=rss----38998a53046f---4",
+    "date": "Jul 21, 2023",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*ic85DtvFOhy5aEAQ"
+  },
+  {
+    "title": "Unlocking the Value of AI and Generative AI in Travel",
+    "creator": "Rathi Murthy",
+    "link": "https://medium.com/expedia-group-tech/unlocking-the-value-of-ai-and-generative-ai-in-travel-2994712d0a0?source=rss----38998a53046f---4",
+    "date": "Jul 17, 2023",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*fv0-2Fb-Ebxqc0Q_"
+  },
+  {
+    "title": "Demystifying Technical Program Management in Data Science at Expedia Group",
+    "creator": "Simple Wadhwa",
+    "link": "https://medium.com/expedia-group-tech/demystifying-technical-program-management-in-data-science-at-expedia-group-b068d1fd01b0?source=rss----38998a53046f---4",
+    "date": "Jul 13, 2023",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*R3gwP-V1cPK5jggZ"
+  },
+  {
     "title": "Karmada A Multi-Cloud, Multi-Cluster Kubernetes Orchestration: Part-2",
     "creator": "Rajatporwal",
     "link": "https://medium.com/expedia-group-tech/karmada-a-multi-cloud-multi-cluster-kubernetes-orchestration-part-2-1a55f9c22cf5?source=rss----38998a53046f---4",
@@ -47,26 +68,5 @@
     "link": "https://medium.com/expedia-group-tech/marketing-attribution-f76ac15c804e?source=rss----38998a53046f---4",
     "date": "Apr 11, 2023",
     "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*8zJlAyoLA0POoXAw"
-  },
-  {
-    "title": "How to Size For Online Experiments With Ratio Metrics",
-    "creator": "Wenkai Bao",
-    "link": "https://medium.com/expedia-group-tech/how-to-size-for-online-experiments-with-ratio-metrics-3d57362f1967?source=rss----38998a53046f---4",
-    "date": "Mar 28, 2023",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*Wwf6mBPmQ3LUs3b5"
-  },
-  {
-    "title": "Unified Machine Learning Platform at Expedia Group",
-    "creator": "Hisham Mohamed",
-    "link": "https://medium.com/expedia-group-tech/unified-machine-learning-platform-at-expedia-group-5aee72606c74?source=rss----38998a53046f---4",
-    "date": "Mar 14, 2023",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*xeYUOCxXz4I6UkyO"
-  },
-  {
-    "title": "Market Segmentation for Geo-Testing at Scale",
-    "creator": "Jasmine Holdsworth",
-    "link": "https://medium.com/expedia-group-tech/market-segmentation-for-geo-testing-at-scale-8d593e0aa755?source=rss----38998a53046f---4",
-    "date": "Feb 28, 2023",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*APmjOEcsH59wxjrDC3b43g.jpeg"
   }
 ]
