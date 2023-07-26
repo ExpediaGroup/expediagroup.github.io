@@ -1,5 +1,12 @@
 [
   {
+    "title": "The Importance of Being a Code Reviewer",
+    "creator": "Carlo Sales",
+    "link": "https://medium.com/expedia-group-tech/the-importance-of-being-a-code-reviewer-fdbd910fbce7?source=rss----38998a53046f---4",
+    "date": "Jul 25, 2023",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*ykmkyBlHva5VRvyV"
+  },
+  {
     "title": "Creating Shareable Experiences in the Tech World",
     "creator": "Tanvi Johari",
     "link": "https://medium.com/expedia-group-tech/creating-shareable-experiences-in-the-tech-world-cef196fdb95?source=rss----38998a53046f---4",
@@ -61,12 +68,5 @@
     "link": "https://medium.com/expedia-group-tech/how-expedia-reviews-engineering-is-using-event-streams-as-a-source-of-truth-d3df616cccd8?source=rss----38998a53046f---4",
     "date": "Apr 25, 2023",
     "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*eZcUC0BVcFIvGOS-"
-  },
-  {
-    "title": "Marketing Attribution",
-    "creator": "Emily Cai",
-    "link": "https://medium.com/expedia-group-tech/marketing-attribution-f76ac15c804e?source=rss----38998a53046f---4",
-    "date": "Apr 11, 2023",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*8zJlAyoLA0POoXAw"
   }
 ]
