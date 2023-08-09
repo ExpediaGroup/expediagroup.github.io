@@ -1,5 +1,12 @@
 [
   {
+    "title": "Merging Code Quickly and Safely in a Monorepo",
+    "creator": "Dan Adajian",
+    "link": "https://medium.com/expedia-group-tech/merging-code-quickly-and-safely-in-a-monorepo-9d62b6e92f14?source=rss----38998a53046f---4",
+    "date": "Aug 8, 2023",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*GX-rygEkXVRGlQpp"
+  },
+  {
     "title": "The Importance of Being a Code Reviewer",
     "creator": "Carlo Sales",
     "link": "https://medium.com/expedia-group-tech/the-importance-of-being-a-code-reviewer-fdbd910fbce7?source=rss----38998a53046f---4",
@@ -61,12 +68,5 @@
     "link": "https://medium.com/expedia-group-tech/installing-spinnaker-in-the-cloud-c7f518c98dc1?source=rss----38998a53046f---4",
     "date": "May 9, 2023",
     "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*jDc12QyCDNHyfk88"
-  },
-  {
-    "title": "How Expedia Reviews Engineering Is Using Event Streams as a Source Of Truth",
-    "creator": "Ritesh Kapoor",
-    "link": "https://medium.com/expedia-group-tech/how-expedia-reviews-engineering-is-using-event-streams-as-a-source-of-truth-d3df616cccd8?source=rss----38998a53046f---4",
-    "date": "Apr 25, 2023",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*eZcUC0BVcFIvGOS-"
   }
 ]
