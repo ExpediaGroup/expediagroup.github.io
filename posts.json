@@ -1,5 +1,12 @@
 [
   {
+    "title": "Creating One Identity: Building The Framework For One Key",
+    "creator": "Manish Gupta",
+    "link": "https://medium.com/expedia-group-tech/creating-one-identity-building-the-framework-for-one-key-b04054c4d22?source=rss----38998a53046f---4",
+    "date": "Aug 10, 2023",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*J1dPFgFH_ibEksHL"
+  },
+  {
     "title": "Merging Code Quickly and Safely in a Monorepo",
     "creator": "Dan Adajian",
     "link": "https://medium.com/expedia-group-tech/merging-code-quickly-and-safely-in-a-monorepo-9d62b6e92f14?source=rss----38998a53046f---4",
@@ -61,12 +68,5 @@
     "link": "https://medium.com/expedia-group-tech/generating-diverse-travel-recommendations-76688f49c812?source=rss----38998a53046f---4",
     "date": "May 25, 2023",
     "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*GY4MHmSq6OYsZlqp"
-  },
-  {
-    "title": "Using Terraform to Provision Spinnaker on Kubernetes",
-    "creator": "Manoj Tiwari",
-    "link": "https://medium.com/expedia-group-tech/installing-spinnaker-in-the-cloud-c7f518c98dc1?source=rss----38998a53046f---4",
-    "date": "May 9, 2023",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*jDc12QyCDNHyfk88"
   }
 ]
