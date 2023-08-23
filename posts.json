@@ -1,5 +1,12 @@
 [
   {
+    "title": "Configuration Management at Expedia Group",
+    "creator": "Ayan Sen",
+    "link": "https://medium.com/expedia-group-tech/configuration-management-at-expedia-group-a23a7563a348?source=rss----38998a53046f---4",
+    "date": "Aug 22, 2023",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*YFIlxADGx-hQq3It"
+  },
+  {
     "title": "Expedia Group Shares Backstage Proof Of Value Metrics",
     "creator": "Guillermo Manzo",
     "link": "https://medium.com/expedia-group-tech/expedia-group-shares-backstage-proof-of-value-metrics-ee1b4323a01?source=rss----38998a53046f---4",
@@ -61,12 +68,5 @@
     "link": "https://medium.com/expedia-group-tech/karmada-a-multi-cloud-multi-cluster-kubernetes-orchestration-part-1-c53f13c263e5?source=rss----38998a53046f---4",
     "date": "Jun 20, 2023",
     "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*YyJdcNJKLX-VsSGh"
-  },
-  {
-    "title": "Understanding Real-Time Application Monitoring",
-    "creator": "Ritesh Kapoor",
-    "link": "https://medium.com/expedia-group-tech/essential-application-monitoring-metrics-a08519ecab9d?source=rss----38998a53046f---4",
-    "date": "Jun 13, 2023",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*MB_t_dcoAS72giYj"
   }
 ]
