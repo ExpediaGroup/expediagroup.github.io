@@ -64,15 +64,15 @@
   },
   {
     "name": "catalyst-render",
-    "description": "A hapi js plugin that works with catalyst-server to provide server-side rendering with react inside a handlebars template",
-    "imageUrl": "https://opengraph.githubassets.com/031695184ccb79eb76be3e5518f48c5cd0aed8b3d460fd7d3d319ea255475300/ExpediaGroup/catalyst-render",
+    "description": "[DEPRECATED] A hapi js plugin that works with catalyst-server to provide server-side rendering with react inside a handlebars template",
+    "imageUrl": "https://opengraph.githubassets.com/7f638ca60087df212dc62b5a44307ffe13de1150df3e1e639ecd6170499d548e/ExpediaGroup/catalyst-render",
     "repoUrl": "https://github.com/ExpediaGroup/catalyst-render",
     "featured": false
   },
   {
     "name": "catalyst-server",
-    "description": "Configuration and composition management for Hapi.js applications.",
-    "imageUrl": "https://opengraph.githubassets.com/0cfe34f4f9bebc4dffd0340e897c3a4a8b68a2343b9519e27729d459b4e831b9/ExpediaGroup/catalyst-server",
+    "description": "[DEPRECATED] Configuration and composition management for Hapi.js applications.",
+    "imageUrl": "https://opengraph.githubassets.com/73c27a83e6d117d285679643133b6348c88e034792c8b6db882a27022e959a67/ExpediaGroup/catalyst-server",
     "repoUrl": "https://github.com/ExpediaGroup/catalyst-server",
     "featured": false
   },
@@ -85,8 +85,8 @@
   },
   {
     "name": "determination",
-    "description": "Configuration resolver using confidence and shortstop.",
-    "imageUrl": "https://opengraph.githubassets.com/68706a4b064324aa1b45212c6110c172c4bbb4824c1f3daf1cc7278e12e9ea90/ExpediaGroup/determination",
+    "description": "[DEPRECATED] Configuration resolver using confidence and shortstop.",
+    "imageUrl": "https://opengraph.githubassets.com/d12ed39fbdbaaf52d15f82d990bc46ce4c4451a51c6908e658327a9c4488610e/ExpediaGroup/determination",
     "repoUrl": "https://github.com/ExpediaGroup/determination",
     "featured": false
   },
@@ -176,8 +176,8 @@
   },
   {
     "name": "steerage",
-    "description": "Hapi server configuration and composition using confidence, topo, and shortstop.",
-    "imageUrl": "https://opengraph.githubassets.com/7b83a87b8c7e9d67a5093737c2b1dc060e480c0b6b76596c6fa8c3b54e32f2ed/ExpediaGroup/steerage",
+    "description": "[DEPRECATED] Hapi server configuration and composition using confidence, topo, and shortstop.",
+    "imageUrl": "https://opengraph.githubassets.com/c42dd01dc7a04afb3821aaf0113658458e21b6d10a149dc768ae73ce73932496/ExpediaGroup/steerage",
     "repoUrl": "https://github.com/ExpediaGroup/steerage",
     "featured": false
   },
