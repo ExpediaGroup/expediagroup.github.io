@@ -1,5 +1,12 @@
 [
   {
+    "title": "Herding the Elephants",
+    "creator": "Abhimanyu Gupta",
+    "link": "https://medium.com/expedia-group-tech/herding-the-elephants-3501cb64eb3?source=rss----38998a53046f---4",
+    "date": "Sep 12, 2023",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*KMJMiKMUZxl9GaHE"
+  },
+  {
     "title": "Configuration Management at Expedia Group",
     "creator": "Ayan Sen",
     "link": "https://medium.com/expedia-group-tech/configuration-management-at-expedia-group-a23a7563a348?source=rss----38998a53046f---4",
@@ -61,12 +68,5 @@
     "link": "https://medium.com/expedia-group-tech/karmada-a-multi-cloud-multi-cluster-kubernetes-orchestration-part-2-1a55f9c22cf5?source=rss----38998a53046f---4",
     "date": "Jun 27, 2023",
     "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*5xd2ZW3IynSJ7uze"
-  },
-  {
-    "title": "Karmada A Multi-Cloud, Multi-Cluster Kubernetes Orchestration: Part-1",
-    "creator": "Rajatporwal",
-    "link": "https://medium.com/expedia-group-tech/karmada-a-multi-cloud-multi-cluster-kubernetes-orchestration-part-1-c53f13c263e5?source=rss----38998a53046f---4",
-    "date": "Jun 20, 2023",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*YyJdcNJKLX-VsSGh"
   }
 ]
