@@ -1,5 +1,12 @@
 [
   {
+    "title": "Expedia Group’s Customer Lifetime Value Prediction Model",
+    "creator": "Anantharaman Janakiraman",
+    "link": "https://medium.com/expedia-group-tech/expedia-groups-customer-lifetime-value-prediction-model-7927cdd44342?source=rss----38998a53046f---4",
+    "date": "Sep 14, 2023",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*TW8GR6JvhFFpUZYg"
+  },
+  {
     "title": "Herding the Elephants",
     "creator": "Abhimanyu Gupta",
     "link": "https://medium.com/expedia-group-tech/herding-the-elephants-3501cb64eb3?source=rss----38998a53046f---4",
@@ -61,12 +68,5 @@
     "link": "https://medium.com/expedia-group-tech/demystifying-technical-program-management-in-data-science-at-expedia-group-b068d1fd01b0?source=rss----38998a53046f---4",
     "date": "Jul 13, 2023",
     "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*R3gwP-V1cPK5jggZ"
-  },
-  {
-    "title": "Karmada A Multi-Cloud, Multi-Cluster Kubernetes Orchestration: Part-2",
-    "creator": "Rajatporwal",
-    "link": "https://medium.com/expedia-group-tech/karmada-a-multi-cloud-multi-cluster-kubernetes-orchestration-part-2-1a55f9c22cf5?source=rss----38998a53046f---4",
-    "date": "Jun 27, 2023",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*5xd2ZW3IynSJ7uze"
   }
 ]
