@@ -1,5 +1,12 @@
 [
   {
+    "title": "The Juggler Model: Balancing Expectations in Lodging Rankings",
+    "creator": "Tiago Cunha",
+    "link": "https://medium.com/expedia-group-tech/the-juggler-model-balancing-expectations-in-lodging-rankings-6d09b9b8e341?source=rss----38998a53046f---4",
+    "date": "Sep 19, 2023",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*x1Yqwrdq1jX3ApUA"
+  },
+  {
     "title": "Expedia Group’s Customer Lifetime Value Prediction Model",
     "creator": "Anantharaman Janakiraman",
     "link": "https://medium.com/expedia-group-tech/expedia-groups-customer-lifetime-value-prediction-model-7927cdd44342?source=rss----38998a53046f---4",
@@ -61,12 +68,5 @@
     "link": "https://medium.com/expedia-group-tech/unlocking-the-value-of-ai-and-generative-ai-in-travel-2994712d0a0?source=rss----38998a53046f---4",
     "date": "Jul 17, 2023",
     "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*fv0-2Fb-Ebxqc0Q_"
-  },
-  {
-    "title": "Demystifying Technical Program Management in Data Science at Expedia Group",
-    "creator": "Simple Wadhwa",
-    "link": "https://medium.com/expedia-group-tech/demystifying-technical-program-management-in-data-science-at-expedia-group-b068d1fd01b0?source=rss----38998a53046f---4",
-    "date": "Jul 13, 2023",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*R3gwP-V1cPK5jggZ"
   }
 ]
