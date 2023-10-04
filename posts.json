@@ -1,5 +1,12 @@
 [
   {
+    "title": "Using Synthetic Search Data for Flights Price Forecasting",
+    "creator": "Andrew Reuben",
+    "link": "https://medium.com/expedia-group-tech/using-synthetic-search-data-for-flights-price-forecasting-4cf3277afdaf?source=rss----38998a53046f---4",
+    "date": "Oct 3, 2023",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*DJvq8hsAEf_4HzxK"
+  },
+  {
     "title": "The Juggler Model: Balancing Expectations in Lodging Rankings",
     "creator": "Tiago Cunha",
     "link": "https://medium.com/expedia-group-tech/the-juggler-model-balancing-expectations-in-lodging-rankings-6d09b9b8e341?source=rss----38998a53046f---4",
@@ -61,12 +68,5 @@
     "link": "https://medium.com/expedia-group-tech/creating-shareable-experiences-in-the-tech-world-cef196fdb95?source=rss----38998a53046f---4",
     "date": "Jul 21, 2023",
     "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*ic85DtvFOhy5aEAQ"
-  },
-  {
-    "title": "Unlocking the Value of AI and Generative AI in Travel",
-    "creator": "Rathi Murthy",
-    "link": "https://medium.com/expedia-group-tech/unlocking-the-value-of-ai-and-generative-ai-in-travel-2994712d0a0?source=rss----38998a53046f---4",
-    "date": "Jul 17, 2023",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*fv0-2Fb-Ebxqc0Q_"
   }
 ]
