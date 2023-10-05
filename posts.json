@@ -1,5 +1,12 @@
 [
   {
+    "title": "Introducing EG Labs",
+    "creator": "Shiyi Pickrell",
+    "link": "https://medium.com/expedia-group-tech/introducing-eg-labs-ca071d0683c1?source=rss----38998a53046f---4",
+    "date": "Oct 4, 2023",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*y_ID1nGfuHJ9Zn9m"
+  },
+  {
     "title": "Using Synthetic Search Data for Flights Price Forecasting",
     "creator": "Andrew Reuben",
     "link": "https://medium.com/expedia-group-tech/using-synthetic-search-data-for-flights-price-forecasting-4cf3277afdaf?source=rss----38998a53046f---4",
@@ -61,12 +68,5 @@
     "link": "https://medium.com/expedia-group-tech/the-importance-of-being-a-code-reviewer-fdbd910fbce7?source=rss----38998a53046f---4",
     "date": "Jul 25, 2023",
     "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*ykmkyBlHva5VRvyV"
-  },
-  {
-    "title": "Creating Shareable Experiences in the Tech World",
-    "creator": "Tanvi Johari",
-    "link": "https://medium.com/expedia-group-tech/creating-shareable-experiences-in-the-tech-world-cef196fdb95?source=rss----38998a53046f---4",
-    "date": "Jul 21, 2023",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*ic85DtvFOhy5aEAQ"
   }
 ]
