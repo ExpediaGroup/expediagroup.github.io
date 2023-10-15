@@ -1,5 +1,19 @@
 [
   {
+    "title": "Speeding Up Inference Pipelines with Model Libraries at Expedia Group",
+    "creator": "Karl Lessard",
+    "link": "https://medium.com/expedia-group-tech/speeding-up-inference-pipelines-with-model-libraries-at-expedia-group-6b345b532898?source=rss----38998a53046f---4",
+    "date": "Oct 14, 2023",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*J6_Pu8R3mhwVozgYIuhvXQ.jpeg"
+  },
+  {
+    "title": "Increasing Travelers’ Engagement Through Relevant Price Alerts at Expedia Group",
+    "creator": "Oarinde",
+    "link": "https://medium.com/expedia-group-tech/increasing-travelers-engagement-through-relevant-price-alerts-at-expedia-group-75aa6a377864?source=rss----38998a53046f---4",
+    "date": "Oct 14, 2023",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*NopNq3lmIwDmHH2V"
+  },
+  {
     "title": "Introducing EG Labs",
     "creator": "Shiyi Pickrell",
     "link": "https://medium.com/expedia-group-tech/introducing-eg-labs-ca071d0683c1?source=rss----38998a53046f---4",
@@ -54,19 +68,5 @@
     "link": "https://medium.com/expedia-group-tech/creating-one-identity-building-the-framework-for-one-key-b04054c4d22?source=rss----38998a53046f---4",
     "date": "Aug 10, 2023",
     "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*J1dPFgFH_ibEksHL"
-  },
-  {
-    "title": "Merging Code Quickly and Safely in a Monorepo",
-    "creator": "Dan Adajian",
-    "link": "https://medium.com/expedia-group-tech/merging-code-quickly-and-safely-in-a-monorepo-9d62b6e92f14?source=rss----38998a53046f---4",
-    "date": "Aug 8, 2023",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*GX-rygEkXVRGlQpp"
-  },
-  {
-    "title": "The Importance of Being a Code Reviewer",
-    "creator": "Carlo Sales",
-    "link": "https://medium.com/expedia-group-tech/the-importance-of-being-a-code-reviewer-fdbd910fbce7?source=rss----38998a53046f---4",
-    "date": "Jul 25, 2023",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*ykmkyBlHva5VRvyV"
   }
 ]
