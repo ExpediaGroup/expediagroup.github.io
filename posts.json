@@ -1,5 +1,12 @@
 [
   {
+    "title": "Enhancing Istio’s Performance: Unveiling the Impact of Lock Contention on Expedia’s Compute Platform",
+    "creator": "Raghav Grover",
+    "link": "https://medium.com/expedia-group-tech/enhancing-istios-performance-unveiling-the-impact-of-lock-contention-on-expedia-s-compute-platform-2cfabc9d8058?source=rss----38998a53046f---4",
+    "date": "Oct 31, 2023",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*IQU6p9lxo6UB70_E"
+  },
+  {
     "title": "Bugathon: Achieving Excellence in Software Development",
     "creator": "Divya Gupta Arora",
     "link": "https://medium.com/expedia-group-tech/bug-a-thon-achieving-excellence-in-software-development-6fa3da981f90?source=rss----38998a53046f---4",
@@ -61,12 +68,5 @@
     "link": "https://medium.com/expedia-group-tech/configuration-management-at-expedia-group-a23a7563a348?source=rss----38998a53046f---4",
     "date": "Aug 22, 2023",
     "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*YFIlxADGx-hQq3It"
-  },
-  {
-    "title": "Expedia Group Shares Backstage Proof Of Value Metrics",
-    "creator": "Guillermo Manzo",
-    "link": "https://medium.com/expedia-group-tech/expedia-group-shares-backstage-proof-of-value-metrics-ee1b4323a01?source=rss----38998a53046f---4",
-    "date": "Aug 17, 2023",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*PYwNohgnks5UVgr1"
   }
 ]
