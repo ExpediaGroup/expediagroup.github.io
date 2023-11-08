@@ -170,7 +170,7 @@
   {
     "name": "spinnaker-pipeline-trigger",
     "description": "Pipeline trigger for Spinnaker utilizing SNS",
-    "imageUrl": "https://opengraph.githubassets.com/fe7b6aa7c43f75505d6d3d6fe3ec7fd5914f92cb607fb5f4dd52ab399354a067/ExpediaGroup/spinnaker-pipeline-trigger",
+    "imageUrl": "https://opengraph.githubassets.com/bd8eff22e7edbce7e92431b77bb9632102fbddd749c58a677a8dc119d40a1c14/ExpediaGroup/spinnaker-pipeline-trigger",
     "repoUrl": "https://github.com/ExpediaGroup/spinnaker-pipeline-trigger",
     "featured": false
   },
@@ -184,7 +184,7 @@
   {
     "name": "styx",
     "description": "Programmable, asynchronous, event-based reverse proxy for JVM.",
-    "imageUrl": "https://opengraph.githubassets.com/201bc225182c61f2867882751a523487700153661a0be531aa3f7dbb98fd5a15/ExpediaGroup/styx",
+    "imageUrl": "https://opengraph.githubassets.com/ea15b1f1fa20ac4bfab365e7718ce0668533eaa34c6da811df82a77b89974518/ExpediaGroup/styx",
     "repoUrl": "https://github.com/ExpediaGroup/styx",
     "featured": false
   },
