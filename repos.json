@@ -135,7 +135,7 @@
   {
     "name": "kubernetes-sidecar-injector",
     "description": "Kuberbetes mutating webhook that injects a sidecar container to a pod",
-    "imageUrl": "https://opengraph.githubassets.com/ca4b61bb34272fba8a40792d87ddb7555bc2b6cacd93d4cce5491d9843dcefb5/ExpediaGroup/kubernetes-sidecar-injector",
+    "imageUrl": "https://opengraph.githubassets.com/8f5dfeaea639eb5def3135b1c15ebe44731697dfb636eebb3bc59b5f5a7d9ac7/ExpediaGroup/kubernetes-sidecar-injector",
     "repoUrl": "https://github.com/ExpediaGroup/kubernetes-sidecar-injector",
     "featured": false
   },
@@ -191,7 +191,7 @@
   {
     "name": "waggle-dance",
     "description": "Hive federation service. Enables disparate tables to be concurrently accessed across multiple Hive deployments.",
-    "imageUrl": "https://opengraph.githubassets.com/75e6ec05f59ddc04293c58855cfb5c5d91d422547928f73b80fdb1b7c8100f1c/ExpediaGroup/waggle-dance",
+    "imageUrl": "https://opengraph.githubassets.com/3220ff3466e235113f375f9319093f3cdaa0ad4ba315c7863ad8d71d76faad36/ExpediaGroup/waggle-dance",
     "repoUrl": "https://github.com/ExpediaGroup/waggle-dance",
     "featured": false
   }
