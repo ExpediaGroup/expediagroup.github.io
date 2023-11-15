@@ -1,5 +1,12 @@
 [
   {
+    "title": "Explore near Real-time Streaming Data Using a Web UI",
+    "creator": "Ryan Lacerna",
+    "link": "https://medium.com/expedia-group-tech/explore-near-real-time-streaming-data-using-a-web-ui-da116079a74a?source=rss----38998a53046f---4",
+    "date": "Nov 14, 2023",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*RxpiOrnqN8oeO-PM"
+  },
+  {
     "title": "Enhancing Istio’s Performance: Unveiling the Impact of Lock Contention on Expedia’s Compute Platform",
     "creator": "Raghav Grover",
     "link": "https://medium.com/expedia-group-tech/enhancing-istios-performance-unveiling-the-impact-of-lock-contention-on-expedia-s-compute-platform-2cfabc9d8058?source=rss----38998a53046f---4",
@@ -61,12 +68,5 @@
     "link": "https://medium.com/expedia-group-tech/herding-the-elephants-3501cb64eb3?source=rss----38998a53046f---4",
     "date": "Sep 12, 2023",
     "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*KMJMiKMUZxl9GaHE"
-  },
-  {
-    "title": "Configuration Management at Expedia Group",
-    "creator": "Ayan Sen",
-    "link": "https://medium.com/expedia-group-tech/configuration-management-at-expedia-group-a23a7563a348?source=rss----38998a53046f---4",
-    "date": "Aug 22, 2023",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*YFIlxADGx-hQq3It"
   }
 ]
