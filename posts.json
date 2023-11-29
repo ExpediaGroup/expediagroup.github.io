@@ -1,5 +1,12 @@
 [
   {
+    "title": "Powering People’s Data with an Enterprise Platform",
+    "creator": "Jordan Rusk",
+    "link": "https://medium.com/expedia-group-tech/powering-peoples-data-with-an-enterprise-platform-fa29c73f2016?source=rss----38998a53046f---4",
+    "date": "Nov 28, 2023",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*Cbyt-GQGWAwKxxgh"
+  },
+  {
     "title": "Explore near Real-time Streaming Data Using a Web UI",
     "creator": "Ryan Lacerna",
     "link": "https://medium.com/expedia-group-tech/explore-near-real-time-streaming-data-using-a-web-ui-da116079a74a?source=rss----38998a53046f---4",
@@ -61,12 +68,5 @@
     "link": "https://medium.com/expedia-group-tech/expedia-groups-customer-lifetime-value-prediction-model-7927cdd44342?source=rss----38998a53046f---4",
     "date": "Sep 14, 2023",
     "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*TW8GR6JvhFFpUZYg"
-  },
-  {
-    "title": "Herding the Elephants",
-    "creator": "Abhimanyu Gupta",
-    "link": "https://medium.com/expedia-group-tech/herding-the-elephants-3501cb64eb3?source=rss----38998a53046f---4",
-    "date": "Sep 12, 2023",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*KMJMiKMUZxl9GaHE"
   }
 ]
