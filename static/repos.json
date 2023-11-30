@@ -135,7 +135,7 @@
   {
     "name": "kubernetes-sidecar-injector",
     "description": "Kuberbetes mutating webhook that injects a sidecar container to a pod",
-    "imageUrl": "https://opengraph.githubassets.com/8dc6fb43f4fb23613730022c82cf43b3fc07e4783feae7ba4527dfc55b01d0bb/ExpediaGroup/kubernetes-sidecar-injector",
+    "imageUrl": "https://opengraph.githubassets.com/5d3016ce59a2ef86bb4f43ad0fa4c2a7e1b8decc1eb2d86f8bcdb7c5b6d26a3b/ExpediaGroup/kubernetes-sidecar-injector",
     "repoUrl": "https://github.com/ExpediaGroup/kubernetes-sidecar-injector",
     "featured": false
   },
