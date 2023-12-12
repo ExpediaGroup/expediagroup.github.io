@@ -184,7 +184,7 @@
   {
     "name": "styx",
     "description": "Programmable, asynchronous, event-based reverse proxy for JVM.",
-    "imageUrl": "https://opengraph.githubassets.com/ca16e7598a523fcfd73acae69646535b71c5d651a081e73384dd824036f770c5/ExpediaGroup/styx",
+    "imageUrl": "https://opengraph.githubassets.com/6149ef43bbeac2edddf1de65fa886228a977ac6daf7005e451ed693e091ab411/ExpediaGroup/styx",
     "repoUrl": "https://github.com/ExpediaGroup/styx",
     "featured": false
   },
