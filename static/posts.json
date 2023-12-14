@@ -1,5 +1,12 @@
 [
   {
+    "title": "Candidate Generation Using a Two Tower Approach With Expedia Group Traveler Data",
+    "creator": "Eric Rincon",
+    "link": "https://medium.com/expedia-group-tech/candidate-generation-using-a-two-tower-approach-with-expedia-group-traveler-data-ca6a0dcab83e?source=rss----38998a53046f---4",
+    "date": "Dec 12, 2023",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*AuPpnyPZt3j3RtND"
+  },
+  {
     "title": "Powering People’s Data with an Enterprise Platform",
     "creator": "Jordan Rusk",
     "link": "https://medium.com/expedia-group-tech/powering-peoples-data-with-an-enterprise-platform-fa29c73f2016?source=rss----38998a53046f---4",
@@ -61,12 +68,5 @@
     "link": "https://medium.com/expedia-group-tech/the-juggler-model-balancing-expectations-in-lodging-rankings-6d09b9b8e341?source=rss----38998a53046f---4",
     "date": "Sep 19, 2023",
     "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*x1Yqwrdq1jX3ApUA"
-  },
-  {
-    "title": "Expedia Group’s Customer Lifetime Value Prediction Model",
-    "creator": "Anantharaman Janakiraman",
-    "link": "https://medium.com/expedia-group-tech/expedia-groups-customer-lifetime-value-prediction-model-7927cdd44342?source=rss----38998a53046f---4",
-    "date": "Sep 14, 2023",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*TW8GR6JvhFFpUZYg"
   }
 ]
