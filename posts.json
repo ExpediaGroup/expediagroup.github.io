@@ -1,5 +1,12 @@
 [
   {
+    "title": "Search Speed: Making Expedia Flights Faster",
+    "creator": "Heena Gupta",
+    "link": "https://medium.com/expedia-group-tech/search-speed-making-expedia-flights-faster-5c3f7fec4c10?source=rss----38998a53046f---4",
+    "date": "Jan 3, 2024",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*9-rAUeZ48GcdnsfM"
+  },
+  {
     "title": "Candidate Generation Using a Two Tower Approach With Expedia Group Traveler Data",
     "creator": "Eric Rincon",
     "link": "https://medium.com/expedia-group-tech/candidate-generation-using-a-two-tower-approach-with-expedia-group-traveler-data-ca6a0dcab83e?source=rss----38998a53046f---4",
@@ -61,12 +68,5 @@
     "link": "https://medium.com/expedia-group-tech/using-synthetic-search-data-for-flights-price-forecasting-4cf3277afdaf?source=rss----38998a53046f---4",
     "date": "Oct 3, 2023",
     "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*DJvq8hsAEf_4HzxK"
-  },
-  {
-    "title": "The Juggler Model: Balancing Expectations in Lodging Rankings",
-    "creator": "Tiago Cunha",
-    "link": "https://medium.com/expedia-group-tech/the-juggler-model-balancing-expectations-in-lodging-rankings-6d09b9b8e341?source=rss----38998a53046f---4",
-    "date": "Sep 19, 2023",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*x1Yqwrdq1jX3ApUA"
   }
 ]
