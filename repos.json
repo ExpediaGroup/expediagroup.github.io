@@ -86,7 +86,7 @@
   {
     "name": "determination",
     "description": "[DEPRECATED] Configuration resolver using confidence and shortstop.",
-    "imageUrl": "https://opengraph.githubassets.com/d12ed39fbdbaaf52d15f82d990bc46ce4c4451a51c6908e658327a9c4488610e/ExpediaGroup/determination",
+    "imageUrl": "https://opengraph.githubassets.com/43557a2640505c31ad0631a1448d69b65e225d06e425fe95c53a9c37789ab832/ExpediaGroup/determination",
     "repoUrl": "https://github.com/ExpediaGroup/determination",
     "featured": false
   },
@@ -121,7 +121,7 @@
   {
     "name": "github-webhook-proxy",
     "description": "Request forwarder for GitHub webhooks from github.com to internal enterprise destinations, designed for use in Github Enterprise Cloud.",
-    "imageUrl": "https://opengraph.githubassets.com/5910bfe68753085a37ed9c6b6d945ac3520ec14a3c49b310c40e52784435053a/ExpediaGroup/github-webhook-proxy",
+    "imageUrl": "https://opengraph.githubassets.com/1b154ca2c1f7cf493c8dd6cd40226d6b37f3deff3c35a6cee899259a27b1102e/ExpediaGroup/github-webhook-proxy",
     "repoUrl": "https://github.com/ExpediaGroup/github-webhook-proxy",
     "featured": false
   },
@@ -149,7 +149,7 @@
   {
     "name": "package-json-validator",
     "description": "A Github Action for validating package.json conventions.",
-    "imageUrl": "https://opengraph.githubassets.com/1c583a6198ba064cd885c4da5bf3670242a8100fcfc9e0b81ceeafc4251046db/ExpediaGroup/package-json-validator",
+    "imageUrl": "https://opengraph.githubassets.com/f93e505c5d05ac1dcbcddf76012c184a98b1406c8a3c347a26805cca30450115/ExpediaGroup/package-json-validator",
     "repoUrl": "https://github.com/ExpediaGroup/package-json-validator",
     "featured": false
   },
@@ -184,7 +184,7 @@
   {
     "name": "styx",
     "description": "Programmable, asynchronous, event-based reverse proxy for JVM.",
-    "imageUrl": "https://opengraph.githubassets.com/4c5970f3789da37d69fcd09733fe00dd1f8de7a9049a6d4e7174371df6cf5587/ExpediaGroup/styx",
+    "imageUrl": "https://opengraph.githubassets.com/d7489e50e7dc6db95933366a9e3d0ebfaa924e9bb321b3edf14d30ca51332011/ExpediaGroup/styx",
     "repoUrl": "https://github.com/ExpediaGroup/styx",
     "featured": false
   },
