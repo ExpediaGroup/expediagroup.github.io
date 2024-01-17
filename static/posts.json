@@ -1,5 +1,12 @@
 [
   {
+    "title": "Traveler Trust and AI",
+    "creator": "Sarah Gomillion, PhD",
+    "link": "https://medium.com/expedia-group-tech/traveler-trust-and-ai-22311d833e04?source=rss----38998a53046f---4",
+    "date": "Jan 16, 2024",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*_R-vwtmS25JSSgRk"
+  },
+  {
     "title": "Search Speed: Making Expedia Flights Faster",
     "creator": "Heena Gupta",
     "link": "https://medium.com/expedia-group-tech/search-speed-making-expedia-flights-faster-5c3f7fec4c10?source=rss----38998a53046f---4",
@@ -61,12 +68,5 @@
     "link": "https://medium.com/expedia-group-tech/introducing-eg-labs-ca071d0683c1?source=rss----38998a53046f---4",
     "date": "Oct 4, 2023",
     "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*y_ID1nGfuHJ9Zn9m"
-  },
-  {
-    "title": "Using Synthetic Search Data for Flights Price Forecasting",
-    "creator": "Andrew Reuben",
-    "link": "https://medium.com/expedia-group-tech/using-synthetic-search-data-for-flights-price-forecasting-4cf3277afdaf?source=rss----38998a53046f---4",
-    "date": "Oct 3, 2023",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*DJvq8hsAEf_4HzxK"
   }
 ]
