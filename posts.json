@@ -1,5 +1,12 @@
 [
   {
+    "title": "Powering ML Platform Orchestration and Experimentation",
+    "creator": "Andrew Campen",
+    "link": "https://medium.com/expedia-group-tech/powering-ml-platform-orchestration-and-experimentation-a0574b97af30?source=rss----38998a53046f---4",
+    "date": "Feb 13, 2024",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*R0XXmR6E0bWshEmx"
+  },
+  {
     "title": "Learning Embeddings for Lodging Travel Concepts",
     "creator": "Ioannis Partalas",
     "link": "https://medium.com/expedia-group-tech/learning-embeddings-for-lodging-travel-concepts-99165700cdbd?source=rss----38998a53046f---4",
@@ -61,12 +68,5 @@
     "link": "https://medium.com/expedia-group-tech/speeding-up-inference-pipelines-with-model-libraries-at-expedia-group-6b345b532898?source=rss----38998a53046f---4",
     "date": "Oct 14, 2023",
     "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*--EyVet1Oxu1NMBz"
-  },
-  {
-    "title": "Increasing Travelers’ Engagement Through Price Alerts",
-    "creator": "Oarinde",
-    "link": "https://medium.com/expedia-group-tech/increasing-travelers-engagement-through-relevant-price-alerts-at-expedia-group-75aa6a377864?source=rss----38998a53046f---4",
-    "date": "Oct 14, 2023",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*NopNq3lmIwDmHH2V"
   }
 ]
