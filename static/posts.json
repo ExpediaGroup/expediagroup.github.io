@@ -1,5 +1,12 @@
 [
   {
+    "title": "Takeaways From React India 2023",
+    "creator": "Heena Gupta",
+    "link": "https://medium.com/expedia-group-tech/takeaways-from-react-india-2023-26f7d3dbe52c?source=rss----38998a53046f---4",
+    "date": "Feb 27, 2024",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*PtZxzaOznr3fIWMb"
+  },
+  {
     "title": "Powering ML Platform Orchestration and Experimentation",
     "creator": "Andrew Campen",
     "link": "https://medium.com/expedia-group-tech/powering-ml-platform-orchestration-and-experimentation-a0574b97af30?source=rss----38998a53046f---4",
@@ -61,12 +68,5 @@
     "link": "https://medium.com/expedia-group-tech/bug-a-thon-achieving-excellence-in-software-development-6fa3da981f90?source=rss----38998a53046f---4",
     "date": "Oct 23, 2023",
     "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*GJgckxj-Lx5Q4b0e"
-  },
-  {
-    "title": "Speeding Up Inference Pipelines with Model Libraries at Expedia Group",
-    "creator": "Karl Lessard",
-    "link": "https://medium.com/expedia-group-tech/speeding-up-inference-pipelines-with-model-libraries-at-expedia-group-6b345b532898?source=rss----38998a53046f---4",
-    "date": "Oct 14, 2023",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*--EyVet1Oxu1NMBz"
   }
 ]
