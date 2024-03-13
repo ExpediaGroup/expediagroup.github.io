@@ -1,5 +1,12 @@
 [
   {
+    "title": "Head in the Clouds",
+    "creator": "Nidhi",
+    "link": "https://medium.com/expedia-group-tech/head-in-the-cloud-a-force-for-good-d7544a4478a6?source=rss----38998a53046f---4",
+    "date": "Mar 12, 2024",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*6PFJ9-iLdziKM9PN"
+  },
+  {
     "title": "Takeaways From React India 2023",
     "creator": "Heena Gupta",
     "link": "https://medium.com/expedia-group-tech/takeaways-from-react-india-2023-26f7d3dbe52c?source=rss----38998a53046f---4",
@@ -61,12 +68,5 @@
     "link": "https://medium.com/expedia-group-tech/enhancing-istios-performance-unveiling-the-impact-of-lock-contention-on-expedia-s-compute-platform-2cfabc9d8058?source=rss----38998a53046f---4",
     "date": "Oct 31, 2023",
     "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*IQU6p9lxo6UB70_E"
-  },
-  {
-    "title": "Bugathon: Achieving Excellence in Software Development",
-    "creator": "Divya Gupta Arora",
-    "link": "https://medium.com/expedia-group-tech/bug-a-thon-achieving-excellence-in-software-development-6fa3da981f90?source=rss----38998a53046f---4",
-    "date": "Oct 23, 2023",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*GJgckxj-Lx5Q4b0e"
   }
 ]
