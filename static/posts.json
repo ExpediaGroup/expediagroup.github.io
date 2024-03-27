@@ -1,5 +1,12 @@
 [
   {
+    "title": "Chaos Engineering for AWS Resources: A Custom Approach",
+    "creator": "Asmita Bharti",
+    "link": "https://medium.com/expedia-group-tech/chaos-engineering-for-aws-resources-a-custom-approach-2dbd604d5df8?source=rss----38998a53046f---4",
+    "date": "Mar 26, 2024",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*WakcYSGJGFF5L6so"
+  },
+  {
     "title": "Head in the Clouds",
     "creator": "Nidhi",
     "link": "https://medium.com/expedia-group-tech/head-in-the-cloud-a-force-for-good-d7544a4478a6?source=rss----38998a53046f---4",
@@ -61,12 +68,5 @@
     "link": "https://medium.com/expedia-group-tech/explore-near-real-time-streaming-data-using-a-web-ui-da116079a74a?source=rss----38998a53046f---4",
     "date": "Nov 14, 2023",
     "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*RxpiOrnqN8oeO-PM"
-  },
-  {
-    "title": "Enhancing Istio’s Performance: Unveiling the Impact of Lock Contention on Expedia’s Compute Platform",
-    "creator": "Raghav Grover",
-    "link": "https://medium.com/expedia-group-tech/enhancing-istios-performance-unveiling-the-impact-of-lock-contention-on-expedia-s-compute-platform-2cfabc9d8058?source=rss----38998a53046f---4",
-    "date": "Oct 31, 2023",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*IQU6p9lxo6UB70_E"
   }
 ]
