@@ -184,14 +184,14 @@
   {
     "name": "styx",
     "description": "Programmable, asynchronous, event-based reverse proxy for JVM.",
-    "imageUrl": "https://opengraph.githubassets.com/b579613ea2e1572bbc21155f8a1db8704e293f4db4e340a4538715a05b368e07/ExpediaGroup/styx",
+    "imageUrl": "https://opengraph.githubassets.com/15e9156b67d8693bfa7de97e936c769f3f90963de307e8dc225fb0160bd8936c/ExpediaGroup/styx",
     "repoUrl": "https://github.com/ExpediaGroup/styx",
     "featured": false
   },
   {
     "name": "waggle-dance",
     "description": "Hive federation service. Enables disparate tables to be concurrently accessed across multiple Hive deployments.",
-    "imageUrl": "https://opengraph.githubassets.com/b712acce1a645af27aedc786d18f3c5493e571f84fd3461446fd05aafe1efc5c/ExpediaGroup/waggle-dance",
+    "imageUrl": "https://opengraph.githubassets.com/9cf2d0531af2a65e870642af8f780952517a7c8c2301bb90aba49be466ab79eb/ExpediaGroup/waggle-dance",
     "repoUrl": "https://github.com/ExpediaGroup/waggle-dance",
     "featured": false
   }
