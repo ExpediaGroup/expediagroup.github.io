@@ -9,7 +9,7 @@
   {
     "name": "expediagroup.github.io",
     "description": "The Expedia Group Open Source portal, a website for discovering EG open source projects.",
-    "imageUrl": "https://opengraph.githubassets.com/b6792caed3eee65ae0c4a3ed2829398f9b03b885a4ff4eb93c9578bd68ba0b51/ExpediaGroup/expediagroup.github.io",
+    "imageUrl": "https://opengraph.githubassets.com/39eb2751d7911c9a7ab9e366b54636e64bcd59fb149e4448a84fd61258834fbd/ExpediaGroup/expediagroup.github.io",
     "repoUrl": "https://github.com/ExpediaGroup/expediagroup.github.io",
     "featured": true
   },
@@ -79,7 +79,7 @@
   {
     "name": "cypress-codegen",
     "description": "A Cypress plugin which automatically adds and enables IntelliSense for your custom commands!",
-    "imageUrl": "https://opengraph.githubassets.com/1bea44215bf02801b48cc286f12ad32aff3a476247e992536a281186d79ebff3/ExpediaGroup/cypress-codegen",
+    "imageUrl": "https://opengraph.githubassets.com/f965022b38bdb5c5a8982c33e51049b5a68539a13248f2f7b1fb2aabc90ace29/ExpediaGroup/cypress-codegen",
     "repoUrl": "https://github.com/ExpediaGroup/cypress-codegen",
     "featured": false
   },
