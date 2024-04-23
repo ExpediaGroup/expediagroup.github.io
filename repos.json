@@ -9,7 +9,7 @@
   {
     "name": "expediagroup.github.io",
     "description": "The Expedia Group Open Source portal, a website for discovering EG open source projects.",
-    "imageUrl": "https://opengraph.githubassets.com/05e6299592d77a2d34a62fe9045c7fec5e43ced3187083bc1c2dd8dccbba100c/ExpediaGroup/expediagroup.github.io",
+    "imageUrl": "https://opengraph.githubassets.com/25685e72e39a67cd3ef50432056322c9604e4507c177f9f3d8ce8b7ff87b5f63/ExpediaGroup/expediagroup.github.io",
     "repoUrl": "https://github.com/ExpediaGroup/expediagroup.github.io",
     "featured": true
   },
@@ -79,7 +79,7 @@
   {
     "name": "cypress-codegen",
     "description": "A Cypress plugin which automatically adds and enables IntelliSense for your custom commands!",
-    "imageUrl": "https://opengraph.githubassets.com/f965022b38bdb5c5a8982c33e51049b5a68539a13248f2f7b1fb2aabc90ace29/ExpediaGroup/cypress-codegen",
+    "imageUrl": "https://opengraph.githubassets.com/65602c2bb8702831df98986114de847fc6a70120bf9930644334eb4c3f6d10e6/ExpediaGroup/cypress-codegen",
     "repoUrl": "https://github.com/ExpediaGroup/cypress-codegen",
     "featured": false
   },
@@ -121,7 +121,7 @@
   {
     "name": "github-webhook-proxy",
     "description": "Request forwarder for GitHub webhooks from github.com to internal enterprise destinations, designed for use in Github Enterprise Cloud.",
-    "imageUrl": "https://opengraph.githubassets.com/1b154ca2c1f7cf493c8dd6cd40226d6b37f3deff3c35a6cee899259a27b1102e/ExpediaGroup/github-webhook-proxy",
+    "imageUrl": "https://opengraph.githubassets.com/4a815539213ee8630c66ce227b2a73f2ef54cda6efa9da0e599e9cd62ab07273/ExpediaGroup/github-webhook-proxy",
     "repoUrl": "https://github.com/ExpediaGroup/github-webhook-proxy",
     "featured": false
   },
