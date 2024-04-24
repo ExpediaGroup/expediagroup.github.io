@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unveiling the Essence of Code-Level Extensibility in System Design",
+    "creator": "Keshavpeswani",
+    "link": "https://medium.com/expedia-group-tech/unveiling-the-essence-of-code-level-extensibility-in-system-design-e5e74067cbfa?source=rss----38998a53046f---4",
+    "date": "Apr 23, 2024",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*uS5lZY7hCPfaKB1M"
+  },
+  {
     "title": "Introducing container-startup-autoscaler for Kubernetes",
     "creator": "Will Tomlin",
     "link": "https://medium.com/expedia-group-tech/introducing-container-startup-autoscaler-for-kubernetes-9f15a981b69e?source=rss----38998a53046f---4",
@@ -61,12 +68,5 @@
     "link": "https://medium.com/expedia-group-tech/candidate-generation-using-a-two-tower-approach-with-expedia-group-traveler-data-ca6a0dcab83e?source=rss----38998a53046f---4",
     "date": "Dec 12, 2023",
     "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*AuPpnyPZt3j3RtND"
-  },
-  {
-    "title": "Powering People’s Data with an Enterprise Platform",
-    "creator": "Jordan Rusk",
-    "link": "https://medium.com/expedia-group-tech/powering-peoples-data-with-an-enterprise-platform-fa29c73f2016?source=rss----38998a53046f---4",
-    "date": "Nov 28, 2023",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*Cbyt-GQGWAwKxxgh"
   }
 ]
