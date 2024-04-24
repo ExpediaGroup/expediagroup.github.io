@@ -9,7 +9,7 @@
   {
     "name": "expediagroup.github.io",
     "description": "The Expedia Group Open Source portal, a website for discovering EG open source projects.",
-    "imageUrl": "https://opengraph.githubassets.com/40b92051e73e96530405179a34ce9754d084de875f483d9819155f86c0393cbd/ExpediaGroup/expediagroup.github.io",
+    "imageUrl": "https://opengraph.githubassets.com/8a2a56f3344b496ff26cb791f3fcd6594df213edc1a29b9f24044595d2344687/ExpediaGroup/expediagroup.github.io",
     "repoUrl": "https://github.com/ExpediaGroup/expediagroup.github.io",
     "featured": true
   },
@@ -114,14 +114,14 @@
   {
     "name": "github-helpers",
     "description": "A collection of Github Actions that simplify and standardize common CI/CD workflow tasks.",
-    "imageUrl": "https://opengraph.githubassets.com/47d89b610174a9f785edd1e2dbb026c747f593bd00dafa5ce1ab8e0bb263f0fc/ExpediaGroup/github-helpers",
+    "imageUrl": "https://opengraph.githubassets.com/dabcb1ca7d72599adaf5d5693b3395a457d79d52f8be008763cee6b4de83f85b/ExpediaGroup/github-helpers",
     "repoUrl": "https://github.com/ExpediaGroup/github-helpers",
     "featured": false
   },
   {
     "name": "github-webhook-proxy",
     "description": "Request forwarder for GitHub webhooks from github.com to internal enterprise destinations, designed for use in Github Enterprise Cloud.",
-    "imageUrl": "https://opengraph.githubassets.com/4a815539213ee8630c66ce227b2a73f2ef54cda6efa9da0e599e9cd62ab07273/ExpediaGroup/github-webhook-proxy",
+    "imageUrl": "https://opengraph.githubassets.com/4e8754f2d41ec33c847133a8e94ea4bfc0b9113254d2e8a1fdf237155930f25e/ExpediaGroup/github-webhook-proxy",
     "repoUrl": "https://github.com/ExpediaGroup/github-webhook-proxy",
     "featured": false
   },
@@ -135,7 +135,7 @@
   {
     "name": "kubernetes-sidecar-injector",
     "description": "Kuberbetes mutating webhook that injects a sidecar container to a pod",
-    "imageUrl": "https://opengraph.githubassets.com/7d8aeb75d9ac1668986454c2be0b0569c5dfcf619d53fbb57499ee71c4f2994c/ExpediaGroup/kubernetes-sidecar-injector",
+    "imageUrl": "https://opengraph.githubassets.com/5762b2ff6c8431c347e4d3e9115c32908839227e878506e9a7ba2857ff2be92d/ExpediaGroup/kubernetes-sidecar-injector",
     "repoUrl": "https://github.com/ExpediaGroup/kubernetes-sidecar-injector",
     "featured": false
   },
@@ -149,7 +149,7 @@
   {
     "name": "package-json-validator",
     "description": "A Github Action for validating package.json conventions.",
-    "imageUrl": "https://opengraph.githubassets.com/f93e505c5d05ac1dcbcddf76012c184a98b1406c8a3c347a26805cca30450115/ExpediaGroup/package-json-validator",
+    "imageUrl": "https://opengraph.githubassets.com/ad2533ec8c16bbcf3cc08d0c2a5ae7d978eabe0bb98d99cc9a063f5080674101/ExpediaGroup/package-json-validator",
     "repoUrl": "https://github.com/ExpediaGroup/package-json-validator",
     "featured": false
   },
