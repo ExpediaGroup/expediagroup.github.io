@@ -9,7 +9,7 @@
   {
     "name": "expediagroup.github.io",
     "description": "The Expedia Group Open Source portal, a website for discovering EG open source projects.",
-    "imageUrl": "https://opengraph.githubassets.com/2a247d25214f0fb29d9a974e057504d2f624dd0437bc5fbc5363981c933c4aed/ExpediaGroup/expediagroup.github.io",
+    "imageUrl": "https://opengraph.githubassets.com/f6e28cfdc8aaf07f7cb0ed5277e30dea71e5ca773864e6dec6925d6386a3d03a/ExpediaGroup/expediagroup.github.io",
     "repoUrl": "https://github.com/ExpediaGroup/expediagroup.github.io",
     "featured": true
   },
@@ -149,7 +149,7 @@
   {
     "name": "package-json-validator",
     "description": "A Github Action for validating package.json conventions.",
-    "imageUrl": "https://opengraph.githubassets.com/469607a5c3882dcd6f2bc17ae328ffd338c4cf317ad833c27cf344197ad3ffcb/ExpediaGroup/package-json-validator",
+    "imageUrl": "https://opengraph.githubassets.com/b06b8439709f45118082b73c8f1c90ee560efac446be30e15138a7caede815da/ExpediaGroup/package-json-validator",
     "repoUrl": "https://github.com/ExpediaGroup/package-json-validator",
     "featured": false
   },
