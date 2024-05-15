@@ -1,5 +1,19 @@
 [
   {
+    "title": "Traveling Just Got a Whole Lot Smarter with Romie",
+    "creator": "Rathi Murthy",
+    "link": "https://medium.com/expedia-group-tech/traveling-just-got-a-whole-lot-smarter-with-romie-dfb9b21c07c5?source=rss----38998a53046f---4",
+    "date": "May 14, 2024",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*BrW6M-nfWaRXtxhJ"
+  },
+  {
+    "title": "Measuring Marketing Success: The Power of Incrementality and Geo Testing",
+    "creator": "Nivedita Sharma",
+    "link": "https://medium.com/expedia-group-tech/measuring-marketing-success-the-power-of-incrementality-and-geo-testing-1acd4291545d?source=rss----38998a53046f---4",
+    "date": "May 14, 2024",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*Wo_HJu1Snhz_4S2x"
+  },
+  {
     "title": "Unveiling the Essence of Code-Level Extensibility in System Design",
     "creator": "Keshavpeswani",
     "link": "https://medium.com/expedia-group-tech/unveiling-the-essence-of-code-level-extensibility-in-system-design-e5e74067cbfa?source=rss----38998a53046f---4",
@@ -54,19 +68,5 @@
     "link": "https://medium.com/expedia-group-tech/traveler-trust-and-ai-22311d833e04?source=rss----38998a53046f---4",
     "date": "Jan 16, 2024",
     "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*_R-vwtmS25JSSgRk"
-  },
-  {
-    "title": "Search Speed: Making Expedia Flights Faster",
-    "creator": "Heena Gupta",
-    "link": "https://medium.com/expedia-group-tech/search-speed-making-expedia-flights-faster-5c3f7fec4c10?source=rss----38998a53046f---4",
-    "date": "Jan 3, 2024",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*9-rAUeZ48GcdnsfM"
-  },
-  {
-    "title": "Candidate Generation Using a Two Tower Approach With Expedia Group Traveler Data",
-    "creator": "Eric Rincon",
-    "link": "https://medium.com/expedia-group-tech/candidate-generation-using-a-two-tower-approach-with-expedia-group-traveler-data-ca6a0dcab83e?source=rss----38998a53046f---4",
-    "date": "Dec 12, 2023",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*AuPpnyPZt3j3RtND"
   }
 ]
