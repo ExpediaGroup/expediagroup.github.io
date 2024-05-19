@@ -9,7 +9,7 @@
   {
     "name": "expediagroup.github.io",
     "description": "The Expedia Group Open Source portal, a website for discovering EG open source projects.",
-    "imageUrl": "https://opengraph.githubassets.com/6eb1f5536c8529ffe44ccf0480bb7567c57bb9bd0cfc494fd2acf31426c5b177/ExpediaGroup/expediagroup.github.io",
+    "imageUrl": "https://opengraph.githubassets.com/bf7cc27bc31011ab72caf7b6b3b38935eb31d104b26aeef917db1cf648f505c2/ExpediaGroup/expediagroup.github.io",
     "repoUrl": "https://github.com/ExpediaGroup/expediagroup.github.io",
     "featured": true
   },
@@ -121,7 +121,7 @@
   {
     "name": "github-webhook-proxy",
     "description": "Request forwarder for GitHub webhooks from github.com to internal enterprise destinations, designed for use in Github Enterprise Cloud.",
-    "imageUrl": "https://opengraph.githubassets.com/c96f99186f698ecc2a4e8e77ac77784f3c4dea3692b6c653ba0c3fc02a8c8055/ExpediaGroup/github-webhook-proxy",
+    "imageUrl": "https://opengraph.githubassets.com/23c2f45648df3030e1a00b45cc33a5e86d661987f4cc49324e5844845d8756eb/ExpediaGroup/github-webhook-proxy",
     "repoUrl": "https://github.com/ExpediaGroup/github-webhook-proxy",
     "featured": false
   },
@@ -149,7 +149,7 @@
   {
     "name": "package-json-validator",
     "description": "A Github Action for validating package.json conventions.",
-    "imageUrl": "https://opengraph.githubassets.com/104547a181e44da19e3540eb9c19fb260831a12794a07cb9b6695eaf3bd624a5/ExpediaGroup/package-json-validator",
+    "imageUrl": "https://opengraph.githubassets.com/13ecad8b9d204d3fb4877b4c4ea423ccbc4a93ef4dfdd6d5d61bddf951253f69/ExpediaGroup/package-json-validator",
     "repoUrl": "https://github.com/ExpediaGroup/package-json-validator",
     "featured": false
   },
