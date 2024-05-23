@@ -9,7 +9,7 @@
   {
     "name": "expediagroup.github.io",
     "description": "The Expedia Group Open Source portal, a website for discovering EG open source projects.",
-    "imageUrl": "https://opengraph.githubassets.com/a684ff2353beceeee327880a14a3b5c160ff31ca5d6b281e5f128909bc075243/ExpediaGroup/expediagroup.github.io",
+    "imageUrl": "https://opengraph.githubassets.com/291340b215817092fcdaf9b9aa4e673083070c410570d1020a4acdaf6ec6a9b0/ExpediaGroup/expediagroup.github.io",
     "repoUrl": "https://github.com/ExpediaGroup/expediagroup.github.io",
     "featured": true
   },
@@ -184,7 +184,7 @@
   {
     "name": "styx",
     "description": "Programmable, asynchronous, event-based reverse proxy for JVM.",
-    "imageUrl": "https://opengraph.githubassets.com/1807768cd14d9aebfe1803b9e2d143890d9f5e50ac07242ef5249d24fb6e0d2c/ExpediaGroup/styx",
+    "imageUrl": "https://opengraph.githubassets.com/2d77251dc1a1d89ba7aa8afb93a8d46f2421982b795b865e18d29e681e8924ee/ExpediaGroup/styx",
     "repoUrl": "https://github.com/ExpediaGroup/styx",
     "featured": false
   },
