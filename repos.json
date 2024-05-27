@@ -1,1 +1,198 @@
-[]
+[
+  {
+    "name": "bull",
+    "description": "BULL - Bean Utils Light Library",
+    "imageUrl": "https://repository-images.githubusercontent.com/166023376/9632dcfb-86af-4a78-b520-53fd7c360648",
+    "repoUrl": "https://github.com/ExpediaGroup/bull",
+    "featured": true
+  },
+  {
+    "name": "expediagroup.github.io",
+    "description": "The Expedia Group Open Source portal, a website for discovering EG open source projects.",
+    "imageUrl": "https://opengraph.githubassets.com/0f733f7681b98d7273f773aef98cdeddf1c819b6c7c25c39c629dffdd163993f/ExpediaGroup/expediagroup.github.io",
+    "repoUrl": "https://github.com/ExpediaGroup/expediagroup.github.io",
+    "featured": true
+  },
+  {
+    "name": "flyte",
+    "description": "Flyte binds together the tools you use into easily defined, automated workflows",
+    "imageUrl": "https://repository-images.githubusercontent.com/129653023/73858c80-9216-11eb-8c14-f87c97aa8bad",
+    "repoUrl": "https://github.com/ExpediaGroup/flyte",
+    "featured": true
+  },
+  {
+    "name": "graphql-component",
+    "description": "Composeable graphql components",
+    "imageUrl": "https://repository-images.githubusercontent.com/161377145/4b19c280-d400-11eb-9db6-7575ab55ce5c",
+    "repoUrl": "https://github.com/ExpediaGroup/graphql-component",
+    "featured": true
+  },
+  {
+    "name": "graphql-kotlin",
+    "description": "Libraries for running GraphQL in Kotlin",
+    "imageUrl": "https://repository-images.githubusercontent.com/148706161/542afb00-3ebf-11ea-9aec-6bc282c8bd3a",
+    "repoUrl": "https://github.com/ExpediaGroup/graphql-kotlin",
+    "featured": true
+  },
+  {
+    "name": "jarviz",
+    "description": "Jarviz is dependency analysis and visualization tool designed for Java applications",
+    "imageUrl": "https://repository-images.githubusercontent.com/244941906/9d8a7f00-9215-11eb-81f8-138cad4ac705",
+    "repoUrl": "https://github.com/ExpediaGroup/jarviz",
+    "featured": true
+  },
+  {
+    "name": "jenkins-spock",
+    "description": "Unit-test Jenkins pipeline code with Spock",
+    "imageUrl": "https://repository-images.githubusercontent.com/148189558/52069d33-fb78-4fc9-a524-0c064ab16a62",
+    "repoUrl": "https://github.com/ExpediaGroup/jenkins-spock",
+    "featured": true
+  },
+  {
+    "name": "mittens",
+    "description": "Warm-up routine for http applications over REST and gRPC",
+    "imageUrl": "https://repository-images.githubusercontent.com/211941853/89da5a00-19cd-11ea-979e-6285d41b0a6f",
+    "repoUrl": "https://github.com/ExpediaGroup/mittens",
+    "featured": true
+  },
+  {
+    "name": "stream-registry",
+    "description": "Stream Discovery and Stream Orchestration",
+    "imageUrl": "https://repository-images.githubusercontent.com/159537834/eca8ed80-65c4-11e9-9920-6734cb2355c8",
+    "repoUrl": "https://github.com/ExpediaGroup/stream-registry",
+    "featured": true
+  },
+  {
+    "name": "catalyst-render",
+    "description": "[DEPRECATED] A hapi js plugin that works with catalyst-server to provide server-side rendering with react inside a handlebars template",
+    "imageUrl": "https://opengraph.githubassets.com/7f638ca60087df212dc62b5a44307ffe13de1150df3e1e639ecd6170499d548e/ExpediaGroup/catalyst-render",
+    "repoUrl": "https://github.com/ExpediaGroup/catalyst-render",
+    "featured": false
+  },
+  {
+    "name": "catalyst-server",
+    "description": "[DEPRECATED] Configuration and composition management for Hapi.js applications.",
+    "imageUrl": "https://opengraph.githubassets.com/73c27a83e6d117d285679643133b6348c88e034792c8b6db882a27022e959a67/ExpediaGroup/catalyst-server",
+    "repoUrl": "https://github.com/ExpediaGroup/catalyst-server",
+    "featured": false
+  },
+  {
+    "name": "cypress-codegen",
+    "description": "A Cypress plugin which automatically adds and enables IntelliSense for your custom commands!",
+    "imageUrl": "https://opengraph.githubassets.com/4ca472d843317528936c6e5189831bb2350dcc036be2b733c45ed42cb8d1379e/ExpediaGroup/cypress-codegen",
+    "repoUrl": "https://github.com/ExpediaGroup/cypress-codegen",
+    "featured": false
+  },
+  {
+    "name": "determination",
+    "description": "[DEPRECATED] Configuration resolver using confidence and shortstop.",
+    "imageUrl": "https://opengraph.githubassets.com/43557a2640505c31ad0631a1448d69b65e225d06e425fe95c53a9c37789ab832/ExpediaGroup/determination",
+    "repoUrl": "https://github.com/ExpediaGroup/determination",
+    "featured": false
+  },
+  {
+    "name": "flyte-client",
+    "description": "A Go library designed to make the writing of flyte packs simple",
+    "imageUrl": "https://repository-images.githubusercontent.com/129653291/a4fe5800-9216-11eb-8053-e810dec939a6",
+    "repoUrl": "https://github.com/ExpediaGroup/flyte-client",
+    "featured": false
+  },
+  {
+    "name": "flyte-jira",
+    "description": "An Atlassian Jira integration pack for Flyte",
+    "imageUrl": "https://repository-images.githubusercontent.com/129654053/87c98980-9216-11eb-816f-13e803a34c05",
+    "repoUrl": "https://github.com/ExpediaGroup/flyte-jira",
+    "featured": false
+  },
+  {
+    "name": "flyte-slack",
+    "description": "A Slack integration pack for Flyte",
+    "imageUrl": "https://repository-images.githubusercontent.com/129653515/7b453100-9216-11eb-9389-96243f667af9",
+    "repoUrl": "https://github.com/ExpediaGroup/flyte-slack",
+    "featured": false
+  },
+  {
+    "name": "github-helpers",
+    "description": "A collection of Github Actions that simplify and standardize common CI/CD workflow tasks.",
+    "imageUrl": "https://opengraph.githubassets.com/7c30fa28187f1ec00dab86e8e37953998db74477313517fcfa339406878d5375/ExpediaGroup/github-helpers",
+    "repoUrl": "https://github.com/ExpediaGroup/github-helpers",
+    "featured": false
+  },
+  {
+    "name": "github-webhook-proxy",
+    "description": "Request forwarder for GitHub webhooks from github.com to internal enterprise destinations, designed for use in Github Enterprise Cloud.",
+    "imageUrl": "https://opengraph.githubassets.com/63968acfcba54fdf5d6bb2254842c548d4d7761f00969ff6607314e139c3c0d5/ExpediaGroup/github-webhook-proxy",
+    "repoUrl": "https://github.com/ExpediaGroup/github-webhook-proxy",
+    "featured": false
+  },
+  {
+    "name": "insights-explorer",
+    "description": "Insights Explorer is a tool to catalogue and present analytical & research work.",
+    "imageUrl": "https://repository-images.githubusercontent.com/433406345/4af5dcd0-2696-4477-a488-797d097c488f",
+    "repoUrl": "https://github.com/ExpediaGroup/insights-explorer",
+    "featured": false
+  },
+  {
+    "name": "kubernetes-sidecar-injector",
+    "description": "Kuberbetes mutating webhook that injects a sidecar container to a pod",
+    "imageUrl": "https://opengraph.githubassets.com/5762b2ff6c8431c347e4d3e9115c32908839227e878506e9a7ba2857ff2be92d/ExpediaGroup/kubernetes-sidecar-injector",
+    "repoUrl": "https://github.com/ExpediaGroup/kubernetes-sidecar-injector",
+    "featured": false
+  },
+  {
+    "name": "overwhelm",
+    "description": "Operator for complex application deployment on Kubernetes",
+    "imageUrl": "https://opengraph.githubassets.com/55417058c057516af1f6951d1b1699767cb8a0cfcdfdb33d2a7fa8346464bb44/ExpediaGroup/overwhelm",
+    "repoUrl": "https://github.com/ExpediaGroup/overwhelm",
+    "featured": false
+  },
+  {
+    "name": "package-json-validator",
+    "description": "A Github Action for validating package.json conventions.",
+    "imageUrl": "https://opengraph.githubassets.com/9b30b6a0c8d1c65423a6b2bb86e939a7409a8195f860d849dd3c3b14a3cf602c/ExpediaGroup/package-json-validator",
+    "repoUrl": "https://github.com/ExpediaGroup/package-json-validator",
+    "featured": false
+  },
+  {
+    "name": "parsec",
+    "description": "Parsec is a data processing engine for interpreted queries.",
+    "imageUrl": "https://opengraph.githubassets.com/64ddcd2bb8fc499cc7b87c78a7804f7cfcedb74a285ffd8e48e42508f6acd17a/ExpediaGroup/parsec",
+    "repoUrl": "https://github.com/ExpediaGroup/parsec",
+    "featured": false
+  },
+  {
+    "name": "pitchfork",
+    "description": "Convert tracing data between Zipkin and Haystack formats",
+    "imageUrl": "https://repository-images.githubusercontent.com/153086272/a8143080-6ea7-11e9-9205-99177e5c524a",
+    "repoUrl": "https://github.com/ExpediaGroup/pitchfork",
+    "featured": false
+  },
+  {
+    "name": "spinnaker-pipeline-trigger",
+    "description": "Pipeline trigger for Spinnaker utilizing SNS",
+    "imageUrl": "https://opengraph.githubassets.com/bd8eff22e7edbce7e92431b77bb9632102fbddd749c58a677a8dc119d40a1c14/ExpediaGroup/spinnaker-pipeline-trigger",
+    "repoUrl": "https://github.com/ExpediaGroup/spinnaker-pipeline-trigger",
+    "featured": false
+  },
+  {
+    "name": "steerage",
+    "description": "[DEPRECATED] Hapi server configuration and composition using confidence, topo, and shortstop.",
+    "imageUrl": "https://opengraph.githubassets.com/c42dd01dc7a04afb3821aaf0113658458e21b6d10a149dc768ae73ce73932496/ExpediaGroup/steerage",
+    "repoUrl": "https://github.com/ExpediaGroup/steerage",
+    "featured": false
+  },
+  {
+    "name": "styx",
+    "description": "Programmable, asynchronous, event-based reverse proxy for JVM.",
+    "imageUrl": "https://opengraph.githubassets.com/2d77251dc1a1d89ba7aa8afb93a8d46f2421982b795b865e18d29e681e8924ee/ExpediaGroup/styx",
+    "repoUrl": "https://github.com/ExpediaGroup/styx",
+    "featured": false
+  },
+  {
+    "name": "waggle-dance",
+    "description": "Hive federation service. Enables disparate tables to be concurrently accessed across multiple Hive deployments.",
+    "imageUrl": "https://opengraph.githubassets.com/ef9b80ec391afb448cb08db10fdb39315bd46d5cdc1d1155c7ffcd27d0812ef4/ExpediaGroup/waggle-dance",
+    "repoUrl": "https://github.com/ExpediaGroup/waggle-dance",
+    "featured": false
+  }
+]
