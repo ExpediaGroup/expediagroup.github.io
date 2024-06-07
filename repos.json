@@ -9,7 +9,7 @@
   {
     "name": "expediagroup.github.io",
     "description": "The Expedia Group Open Source portal, a website for discovering EG open source projects.",
-    "imageUrl": "https://opengraph.githubassets.com/1d27a17fc53eb00cb9b9fdec9437a312889305ce789a8323add5cd5dffa1e106/ExpediaGroup/expediagroup.github.io",
+    "imageUrl": "https://opengraph.githubassets.com/d75f1e94383531d4d9344576d0d4175557f3bf40dbf19912e2afe6417c6878b3/ExpediaGroup/expediagroup.github.io",
     "repoUrl": "https://github.com/ExpediaGroup/expediagroup.github.io",
     "featured": true
   },
@@ -114,7 +114,7 @@
   {
     "name": "github-helpers",
     "description": "A collection of Github Actions that simplify and standardize common CI/CD workflow tasks.",
-    "imageUrl": "https://opengraph.githubassets.com/5581f180eccbc270ee7ecbe5bf1cd1009303eaf35cb4511e36504d4f29550c76/ExpediaGroup/github-helpers",
+    "imageUrl": "https://opengraph.githubassets.com/071b742a9de139a4d65d56c53353624534331084f70075740e56aafc7119b035/ExpediaGroup/github-helpers",
     "repoUrl": "https://github.com/ExpediaGroup/github-helpers",
     "featured": false
   },
