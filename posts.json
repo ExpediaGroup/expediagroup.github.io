@@ -1,5 +1,12 @@
 [
   {
+    "title": "Downtime-Free Shift: Transitioning from Instance to IP-Based NLB amid live traffic",
+    "creator": "Isha Batra",
+    "link": "https://medium.com/expedia-group-tech/downtime-free-shift-transitioning-from-instance-to-ip-based-nlb-amid-live-traffic-8268253d266b?source=rss----38998a53046f---4",
+    "date": "Jun 7, 2024",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*lJzVrOGzybdg0i0C"
+  },
+  {
     "title": "Choosing the Right Candidates for Lodging Ranking",
     "creator": "Adam Woznica",
     "link": "https://medium.com/expedia-group-tech/choosing-the-right-candidates-for-lodging-ranking-d0841bf40c0e?source=rss----38998a53046f---4",
@@ -61,12 +68,5 @@
     "link": "https://medium.com/expedia-group-tech/powering-ml-platform-orchestration-and-experimentation-a0574b97af30?source=rss----38998a53046f---4",
     "date": "Feb 13, 2024",
     "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*R0XXmR6E0bWshEmx"
-  },
-  {
-    "title": "Learning Embeddings for Lodging Travel Concepts",
-    "creator": "Ioannis Partalas",
-    "link": "https://medium.com/expedia-group-tech/learning-embeddings-for-lodging-travel-concepts-99165700cdbd?source=rss----38998a53046f---4",
-    "date": "Jan 30, 2024",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*36ELVdfywSABnPeC"
   }
 ]
