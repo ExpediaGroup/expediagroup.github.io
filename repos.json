@@ -9,7 +9,7 @@
   {
     "name": "expediagroup.github.io",
     "description": "The Expedia Group Open Source portal, a website for discovering EG open source projects.",
-    "imageUrl": "https://opengraph.githubassets.com/b3ec1cfab596a3cc0ccdbe2dd0fcadf6cb347c5f3c7deac254c7e1c50fa9778b/ExpediaGroup/expediagroup.github.io",
+    "imageUrl": "https://opengraph.githubassets.com/2c8cccdcbd697d03e6e1b4745136bfdf32350ac4900aa1c400c06aa1b2f93945/ExpediaGroup/expediagroup.github.io",
     "repoUrl": "https://github.com/ExpediaGroup/expediagroup.github.io",
     "featured": true
   },
@@ -135,7 +135,7 @@
   {
     "name": "kubernetes-sidecar-injector",
     "description": "Kuberbetes mutating webhook that injects a sidecar container to a pod",
-    "imageUrl": "https://opengraph.githubassets.com/c2641c9a26709b536293da9a3a5bc6b2ff80f63f642bfac6f0532eac43af90b8/ExpediaGroup/kubernetes-sidecar-injector",
+    "imageUrl": "https://opengraph.githubassets.com/d54740c3829efa5cde1a8ed06e8a0aeb4656a8d6944ffe5654e1c91141007046/ExpediaGroup/kubernetes-sidecar-injector",
     "repoUrl": "https://github.com/ExpediaGroup/kubernetes-sidecar-injector",
     "featured": false
   },
