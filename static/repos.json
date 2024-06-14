@@ -9,7 +9,7 @@
   {
     "name": "expediagroup.github.io",
     "description": "The Expedia Group Open Source portal, a website for discovering EG open source projects.",
-    "imageUrl": "https://opengraph.githubassets.com/75f86882a548e19099956bff515704ab4288b6f4dede5e1f4ece774e30c40991/ExpediaGroup/expediagroup.github.io",
+    "imageUrl": "https://opengraph.githubassets.com/c451b14fa9f94072339f6971a1a6da535b528958d0aa70d2b76c6b2dfd52780f/ExpediaGroup/expediagroup.github.io",
     "repoUrl": "https://github.com/ExpediaGroup/expediagroup.github.io",
     "featured": true
   },
@@ -135,7 +135,7 @@
   {
     "name": "kubernetes-sidecar-injector",
     "description": "Kuberbetes mutating webhook that injects a sidecar container to a pod",
-    "imageUrl": "https://opengraph.githubassets.com/d54740c3829efa5cde1a8ed06e8a0aeb4656a8d6944ffe5654e1c91141007046/ExpediaGroup/kubernetes-sidecar-injector",
+    "imageUrl": "https://opengraph.githubassets.com/dfdfdac1b34845bfc6f5d57864fd30516b39d5531cd264aef7b4b6596f51b80f/ExpediaGroup/kubernetes-sidecar-injector",
     "repoUrl": "https://github.com/ExpediaGroup/kubernetes-sidecar-injector",
     "featured": false
   },
@@ -191,7 +191,7 @@
   {
     "name": "waggle-dance",
     "description": "Hive federation service. Enables disparate tables to be concurrently accessed across multiple Hive deployments.",
-    "imageUrl": "https://opengraph.githubassets.com/a0fd36274c527af5d0bad6f92d328a2cfbd861b73ea03fd1bc013fdda5e9977e/ExpediaGroup/waggle-dance",
+    "imageUrl": "https://opengraph.githubassets.com/96e4186380a780310bb4757bbbc0b9cc0a5f0fefffb92469aee3185eb270cea5/ExpediaGroup/waggle-dance",
     "repoUrl": "https://github.com/ExpediaGroup/waggle-dance",
     "featured": false
   }
