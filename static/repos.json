@@ -9,7 +9,7 @@
   {
     "name": "expediagroup.github.io",
     "description": "The Expedia Group Open Source portal, a website for discovering EG open source projects.",
-    "imageUrl": "https://opengraph.githubassets.com/bf096572d99522eec77604d80938cf7812185b4316ed48243b571ff6793d7121/ExpediaGroup/expediagroup.github.io",
+    "imageUrl": "https://opengraph.githubassets.com/e695e349298df8e5988a199e058bbaed1813b30951ea50ff512e2cf8ca55e35f/ExpediaGroup/expediagroup.github.io",
     "repoUrl": "https://github.com/ExpediaGroup/expediagroup.github.io",
     "featured": true
   },
@@ -184,14 +184,14 @@
   {
     "name": "styx",
     "description": "Programmable, asynchronous, event-based reverse proxy for JVM.",
-    "imageUrl": "https://opengraph.githubassets.com/2d77251dc1a1d89ba7aa8afb93a8d46f2421982b795b865e18d29e681e8924ee/ExpediaGroup/styx",
+    "imageUrl": "https://opengraph.githubassets.com/0218665fa2b7fd9d8f6f523b0623fc33b17e6953e8826ac139efcd43666550d4/ExpediaGroup/styx",
     "repoUrl": "https://github.com/ExpediaGroup/styx",
     "featured": false
   },
   {
     "name": "waggle-dance",
     "description": "Hive federation service. Enables disparate tables to be concurrently accessed across multiple Hive deployments.",
-    "imageUrl": "https://opengraph.githubassets.com/0a1a2348fba864b43527c34ec2bf2f6aaad516c4c148b71b4a6c6b0b486aa6a3/ExpediaGroup/waggle-dance",
+    "imageUrl": "https://opengraph.githubassets.com/8c01f5fb0d67c724e685deb7f2c1c6632534dd25fd527d765c29cb92a14c7dbc/ExpediaGroup/waggle-dance",
     "repoUrl": "https://github.com/ExpediaGroup/waggle-dance",
     "featured": false
   }
