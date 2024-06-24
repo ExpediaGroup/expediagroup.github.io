@@ -9,7 +9,7 @@
   {
     "name": "expediagroup.github.io",
     "description": "The Expedia Group Open Source portal, a website for discovering EG open source projects.",
-    "imageUrl": "https://opengraph.githubassets.com/feb655a2ec7deb5a9b4ab384c75b70d484a14c2f7d684aeee8725240e5889f01/ExpediaGroup/expediagroup.github.io",
+    "imageUrl": "https://opengraph.githubassets.com/af4dd564e26f2d04aeae04c76c799bf4f976867fdb935dc43acf0fcbf6714b94/ExpediaGroup/expediagroup.github.io",
     "repoUrl": "https://github.com/ExpediaGroup/expediagroup.github.io",
     "featured": true
   },
@@ -79,7 +79,7 @@
   {
     "name": "cypress-codegen",
     "description": "A Cypress plugin which automatically adds and enables IntelliSense for your custom commands!",
-    "imageUrl": "https://opengraph.githubassets.com/b69df447df034819714f3a0b97c4c758918b5a9c37eec430d2e5e420097577ac/ExpediaGroup/cypress-codegen",
+    "imageUrl": "https://opengraph.githubassets.com/df490cb77d04e9a4cb6f058efaf6f522f57f28d88ebbd2070c2ad475a5084c43/ExpediaGroup/cypress-codegen",
     "repoUrl": "https://github.com/ExpediaGroup/cypress-codegen",
     "featured": false
   },
@@ -149,7 +149,7 @@
   {
     "name": "package-json-validator",
     "description": "A Github Action for validating package.json conventions.",
-    "imageUrl": "https://opengraph.githubassets.com/371b7fba2a46a81d420a88d26f751af33e725322abf81543d14e969aed5f6e01/ExpediaGroup/package-json-validator",
+    "imageUrl": "https://opengraph.githubassets.com/039c7970dfcb24bac732338820c43ad2b0a1fd4df1bf86bfed8743b0f131f89c/ExpediaGroup/package-json-validator",
     "repoUrl": "https://github.com/ExpediaGroup/package-json-validator",
     "featured": false
   },
