@@ -9,7 +9,7 @@
   {
     "name": "expediagroup.github.io",
     "description": "The Expedia Group Open Source portal, a website for discovering EG open source projects.",
-    "imageUrl": "https://opengraph.githubassets.com/ad6c5187e494f9b14a8d28686dec2b14f12290056e98cc4c07eed3b990cfa2c7/ExpediaGroup/expediagroup.github.io",
+    "imageUrl": "https://opengraph.githubassets.com/2fc68c08ea6078d3b1c66b0b6d86f9c09ba7724cb3dd485bb45087d6291f0874/ExpediaGroup/expediagroup.github.io",
     "repoUrl": "https://github.com/ExpediaGroup/expediagroup.github.io",
     "featured": true
   },
@@ -81,6 +81,13 @@
     "description": "A Cypress plugin which automatically adds and enables IntelliSense for your custom commands!",
     "imageUrl": "https://opengraph.githubassets.com/2a781e16ff1363ae62a1795b22e4478e42acd4928b850d1dc40491ae63a700e4/ExpediaGroup/cypress-codegen",
     "repoUrl": "https://github.com/ExpediaGroup/cypress-codegen",
+    "featured": false
+  },
+  {
+    "name": "determination",
+    "description": "[DEPRECATED] Configuration resolver using confidence and shortstop.",
+    "imageUrl": "https://opengraph.githubassets.com/43557a2640505c31ad0631a1448d69b65e225d06e425fe95c53a9c37789ab832/ExpediaGroup/determination",
+    "repoUrl": "https://github.com/ExpediaGroup/determination",
     "featured": false
   },
   {
@@ -158,6 +165,13 @@
     "description": "Convert tracing data between Zipkin and Haystack formats",
     "imageUrl": "https://repository-images.githubusercontent.com/153086272/a8143080-6ea7-11e9-9205-99177e5c524a",
     "repoUrl": "https://github.com/ExpediaGroup/pitchfork",
+    "featured": false
+  },
+  {
+    "name": "spinnaker-pipeline-trigger",
+    "description": "Pipeline trigger for Spinnaker utilizing SNS",
+    "imageUrl": "https://opengraph.githubassets.com/bd8eff22e7edbce7e92431b77bb9632102fbddd749c58a677a8dc119d40a1c14/ExpediaGroup/spinnaker-pipeline-trigger",
+    "repoUrl": "https://github.com/ExpediaGroup/spinnaker-pipeline-trigger",
     "featured": false
   },
   {
