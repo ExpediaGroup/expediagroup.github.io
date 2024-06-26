@@ -1,5 +1,68 @@
 [
   {
+    "name": "bull",
+    "description": "BULL - Bean Utils Light Library",
+    "imageUrl": "https://repository-images.githubusercontent.com/166023376/9632dcfb-86af-4a78-b520-53fd7c360648",
+    "repoUrl": "https://github.com/ExpediaGroup/bull",
+    "featured": true
+  },
+  {
+    "name": "expediagroup.github.io",
+    "description": "The Expedia Group Open Source portal, a website for discovering EG open source projects.",
+    "imageUrl": "https://opengraph.githubassets.com/77c0a4c214516acbf4e04f7cacac3b7cb558f1b78aa128cc1c925e68e21c28c3/ExpediaGroup/expediagroup.github.io",
+    "repoUrl": "https://github.com/ExpediaGroup/expediagroup.github.io",
+    "featured": true
+  },
+  {
+    "name": "flyte",
+    "description": "Flyte binds together the tools you use into easily defined, automated workflows",
+    "imageUrl": "https://repository-images.githubusercontent.com/129653023/73858c80-9216-11eb-8c14-f87c97aa8bad",
+    "repoUrl": "https://github.com/ExpediaGroup/flyte",
+    "featured": true
+  },
+  {
+    "name": "graphql-component",
+    "description": "Composeable graphql components",
+    "imageUrl": "https://repository-images.githubusercontent.com/161377145/4b19c280-d400-11eb-9db6-7575ab55ce5c",
+    "repoUrl": "https://github.com/ExpediaGroup/graphql-component",
+    "featured": true
+  },
+  {
+    "name": "graphql-kotlin",
+    "description": "Libraries for running GraphQL in Kotlin",
+    "imageUrl": "https://repository-images.githubusercontent.com/148706161/542afb00-3ebf-11ea-9aec-6bc282c8bd3a",
+    "repoUrl": "https://github.com/ExpediaGroup/graphql-kotlin",
+    "featured": true
+  },
+  {
+    "name": "jarviz",
+    "description": "Jarviz is dependency analysis and visualization tool designed for Java applications",
+    "imageUrl": "https://repository-images.githubusercontent.com/244941906/9d8a7f00-9215-11eb-81f8-138cad4ac705",
+    "repoUrl": "https://github.com/ExpediaGroup/jarviz",
+    "featured": true
+  },
+  {
+    "name": "jenkins-spock",
+    "description": "Unit-test Jenkins pipeline code with Spock",
+    "imageUrl": "https://repository-images.githubusercontent.com/148189558/52069d33-fb78-4fc9-a524-0c064ab16a62",
+    "repoUrl": "https://github.com/ExpediaGroup/jenkins-spock",
+    "featured": true
+  },
+  {
+    "name": "mittens",
+    "description": "Warm-up routine for http applications over REST and gRPC",
+    "imageUrl": "https://repository-images.githubusercontent.com/211941853/89da5a00-19cd-11ea-979e-6285d41b0a6f",
+    "repoUrl": "https://github.com/ExpediaGroup/mittens",
+    "featured": true
+  },
+  {
+    "name": "stream-registry",
+    "description": "Stream Discovery and Stream Orchestration",
+    "imageUrl": "https://repository-images.githubusercontent.com/159537834/eca8ed80-65c4-11e9-9920-6734cb2355c8",
+    "repoUrl": "https://github.com/ExpediaGroup/stream-registry",
+    "featured": true
+  },
+  {
     "name": "catalyst-render",
     "description": "[DEPRECATED] A hapi js plugin that works with catalyst-server to provide server-side rendering with react inside a handlebars template",
     "imageUrl": "https://opengraph.githubassets.com/7f638ca60087df212dc62b5a44307ffe13de1150df3e1e639ecd6170499d548e/ExpediaGroup/catalyst-render",
