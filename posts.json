@@ -1,5 +1,12 @@
 [
   {
+    "title": "Enhancing Expedia Group’s intraday marketing decisions",
+    "creator": "Blake Whatley",
+    "link": "https://medium.com/expedia-group-tech/enhancing-expedia-groups-intraday-marketing-decisions-ce76639ef18c?source=rss----38998a53046f---4",
+    "date": "Jul 2, 2024",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*0vy4yVggtO0TbN8X"
+  },
+  {
     "title": "Downtime-Free Shift: Transitioning from Instance to IP-Based NLB amid live traffic",
     "creator": "Isha Batra",
     "link": "https://medium.com/expedia-group-tech/downtime-free-shift-transitioning-from-instance-to-ip-based-nlb-amid-live-traffic-8268253d266b?source=rss----38998a53046f---4",
@@ -61,12 +68,5 @@
     "link": "https://medium.com/expedia-group-tech/takeaways-from-react-india-2023-26f7d3dbe52c?source=rss----38998a53046f---4",
     "date": "Feb 27, 2024",
     "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*PtZxzaOznr3fIWMb"
-  },
-  {
-    "title": "Powering ML Platform Orchestration and Experimentation",
-    "creator": "Andrew Campen",
-    "link": "https://medium.com/expedia-group-tech/powering-ml-platform-orchestration-and-experimentation-a0574b97af30?source=rss----38998a53046f---4",
-    "date": "Feb 13, 2024",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*R0XXmR6E0bWshEmx"
   }
 ]
