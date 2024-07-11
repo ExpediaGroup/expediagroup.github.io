@@ -1,5 +1,12 @@
 [
   {
+    "title": "The Perils of Deprecating a Legacy Microservice",
+    "creator": "Shashank Jha",
+    "link": "https://medium.com/expedia-group-tech/the-perils-of-deprecating-a-legacy-microservice-febfa3e9f6cc?source=rss----38998a53046f---4",
+    "date": "Jul 10, 2024",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*viFiVwILa2kcNOkk"
+  },
+  {
     "title": "Enhancing Expedia Group’s Intraday Marketing Decisions",
     "creator": "Blake Whatley",
     "link": "https://medium.com/expedia-group-tech/enhancing-expedia-groups-intraday-marketing-decisions-ce76639ef18c?source=rss----38998a53046f---4",
@@ -61,12 +68,5 @@
     "link": "https://medium.com/expedia-group-tech/head-in-the-cloud-a-force-for-good-d7544a4478a6?source=rss----38998a53046f---4",
     "date": "Mar 12, 2024",
     "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*6PFJ9-iLdziKM9PN"
-  },
-  {
-    "title": "Takeaways From React India 2023",
-    "creator": "Heena Gupta",
-    "link": "https://medium.com/expedia-group-tech/takeaways-from-react-india-2023-26f7d3dbe52c?source=rss----38998a53046f---4",
-    "date": "Feb 27, 2024",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*PtZxzaOznr3fIWMb"
   }
 ]
