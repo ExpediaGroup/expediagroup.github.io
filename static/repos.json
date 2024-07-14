@@ -9,7 +9,7 @@
   {
     "name": "expediagroup.github.io",
     "description": "The Expedia Group Open Source portal, a website for discovering EG open source projects.",
-    "imageUrl": "https://opengraph.githubassets.com/81112826afdf68717cd24cd7beb20613b6370ec0b7e0c121ff7a6d93d9ffdbb5/ExpediaGroup/expediagroup.github.io",
+    "imageUrl": "https://opengraph.githubassets.com/e13028d3458195d198481a1f18831747675483c3acc701105674cdcc60a85394/ExpediaGroup/expediagroup.github.io",
     "repoUrl": "https://github.com/ExpediaGroup/expediagroup.github.io",
     "featured": true
   },
@@ -114,14 +114,14 @@
   {
     "name": "github-helpers",
     "description": "A collection of Github Actions that simplify and standardize common CI/CD workflow tasks.",
-    "imageUrl": "https://opengraph.githubassets.com/e829285690472ab360a72373b4c146c11da046b77452ee1472acae2514ff2776/ExpediaGroup/github-helpers",
+    "imageUrl": "https://opengraph.githubassets.com/f7435fe7987d628e32a7c09b846f51aaf3a47116c831bfa9ab6321eb60a4b08a/ExpediaGroup/github-helpers",
     "repoUrl": "https://github.com/ExpediaGroup/github-helpers",
     "featured": false
   },
   {
     "name": "github-webhook-proxy",
     "description": "Request forwarder for GitHub webhooks from github.com to internal enterprise destinations, designed for use in Github Enterprise Cloud.",
-    "imageUrl": "https://opengraph.githubassets.com/c65165da424b8fa3e939ec23ea996cc190b189824219aa6e76cb1c4e0e082157/ExpediaGroup/github-webhook-proxy",
+    "imageUrl": "https://opengraph.githubassets.com/30f899cc7a85d101ff11f7ff6eb90db740aa67897b435769a16d2c72c886a6e4/ExpediaGroup/github-webhook-proxy",
     "repoUrl": "https://github.com/ExpediaGroup/github-webhook-proxy",
     "featured": false
   },
