@@ -1,5 +1,12 @@
 [
   {
+    "title": "Learning To Rank at Expedia Group: How to adapt the Property Search Result Page based on …",
+    "creator": "Anne Morvan",
+    "link": "https://medium.com/expedia-group-tech/learning-to-rank-at-expedia-group-how-to-adapt-the-property-search-result-page-based-on-f4ebef78c94b?source=rss----38998a53046f---4",
+    "date": "Jul 23, 2024",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*lmoFmDt_CQa5gkMd1EN1lg.jpeg"
+  },
+  {
     "title": "The Perils of Deprecating a Legacy Microservice",
     "creator": "Shashank Jha",
     "link": "https://medium.com/expedia-group-tech/the-perils-of-deprecating-a-legacy-microservice-febfa3e9f6cc?source=rss----38998a53046f---4",
@@ -61,12 +68,5 @@
     "link": "https://medium.com/expedia-group-tech/chaos-engineering-for-aws-resources-a-custom-approach-2dbd604d5df8?source=rss----38998a53046f---4",
     "date": "Mar 26, 2024",
     "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*WakcYSGJGFF5L6so"
-  },
-  {
-    "title": "Head in the Clouds",
-    "creator": "Nidhi",
-    "link": "https://medium.com/expedia-group-tech/head-in-the-cloud-a-force-for-good-d7544a4478a6?source=rss----38998a53046f---4",
-    "date": "Mar 12, 2024",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*6PFJ9-iLdziKM9PN"
   }
 ]
