@@ -9,7 +9,7 @@
   {
     "name": "expediagroup.github.io",
     "description": "The Expedia Group Open Source portal, a website for discovering EG open source projects.",
-    "imageUrl": "https://opengraph.githubassets.com/a4435804a87e8f850c0a5325fee8e0707ef2945b8aab644165fcf4070c586dac/ExpediaGroup/expediagroup.github.io",
+    "imageUrl": "https://opengraph.githubassets.com/b521d1863dcb6befd4b179255a878a36ee291c04efdf4f9b3b0d6b3948e18cb4/ExpediaGroup/expediagroup.github.io",
     "repoUrl": "https://github.com/ExpediaGroup/expediagroup.github.io",
     "featured": true
   },
@@ -79,7 +79,7 @@
   {
     "name": "cypress-codegen",
     "description": "A Cypress plugin which automatically adds and enables IntelliSense for your custom commands!",
-    "imageUrl": "https://opengraph.githubassets.com/32218536354dc36d12cd9ebc7516eea47a759ec4236f6c87e0a79b28d15b1df3/ExpediaGroup/cypress-codegen",
+    "imageUrl": "https://opengraph.githubassets.com/bdd7605f661e5759c72d2d47b2dd9a5e06976730632a4854fa16cd6bb2316fe3/ExpediaGroup/cypress-codegen",
     "repoUrl": "https://github.com/ExpediaGroup/cypress-codegen",
     "featured": false
   },
@@ -114,14 +114,14 @@
   {
     "name": "github-helpers",
     "description": "A collection of Github Actions that simplify and standardize common CI/CD workflow tasks.",
-    "imageUrl": "https://opengraph.githubassets.com/65de04a38dcde7489acaf5099565312e9142553736968169eba990ce8c077121/ExpediaGroup/github-helpers",
+    "imageUrl": "https://opengraph.githubassets.com/0ec08f56fcc73d690acd1f5e3ddfa4c488e29ef08cbd01a0099bbc04dd3475cb/ExpediaGroup/github-helpers",
     "repoUrl": "https://github.com/ExpediaGroup/github-helpers",
     "featured": false
   },
   {
     "name": "github-webhook-proxy",
     "description": "Request forwarder for GitHub webhooks from github.com to internal enterprise destinations, designed for use in Github Enterprise Cloud.",
-    "imageUrl": "https://opengraph.githubassets.com/13c038ccbeb0730c45320453795ed335a8393598d77b2a545b193ff0656beac9/ExpediaGroup/github-webhook-proxy",
+    "imageUrl": "https://opengraph.githubassets.com/ff51b2109294f1dd2258498a966499280206d07c119979862b583048a70eca51/ExpediaGroup/github-webhook-proxy",
     "repoUrl": "https://github.com/ExpediaGroup/github-webhook-proxy",
     "featured": false
   },
@@ -135,7 +135,7 @@
   {
     "name": "kubernetes-sidecar-injector",
     "description": "Kuberbetes mutating webhook that injects a sidecar container to a pod",
-    "imageUrl": "https://opengraph.githubassets.com/063d57b66dfd56455fa4075118dfbed927dd4afda34ec757fed8cd3167a4f436/ExpediaGroup/kubernetes-sidecar-injector",
+    "imageUrl": "https://opengraph.githubassets.com/6ed022034769e398f97284932ea2e03647d19a33021d49512ded8017bc5294b9/ExpediaGroup/kubernetes-sidecar-injector",
     "repoUrl": "https://github.com/ExpediaGroup/kubernetes-sidecar-injector",
     "featured": false
   },
@@ -149,7 +149,7 @@
   {
     "name": "package-json-validator",
     "description": "A Github Action for validating package.json conventions.",
-    "imageUrl": "https://opengraph.githubassets.com/a6b0c17afae82fce85a3e73ed609ae0fdbf96e247b8d7c22a17dc68aa417ad59/ExpediaGroup/package-json-validator",
+    "imageUrl": "https://opengraph.githubassets.com/e6d1a69cf2df09943c608124837dfe8091db63a016c11e40a81606773add62be/ExpediaGroup/package-json-validator",
     "repoUrl": "https://github.com/ExpediaGroup/package-json-validator",
     "featured": false
   },
@@ -191,7 +191,7 @@
   {
     "name": "waggle-dance",
     "description": "Hive federation service. Enables disparate tables to be concurrently accessed across multiple Hive deployments.",
-    "imageUrl": "https://opengraph.githubassets.com/7776a8b050340f5cf384b9aa7f15bdd5b74ae3861fbcfd1c12644d503da7dc7c/ExpediaGroup/waggle-dance",
+    "imageUrl": "https://opengraph.githubassets.com/6a90fcd4c40c74e8dad1249c4959b282fa9ed0f93603bc11d75a813aa5adcfad/ExpediaGroup/waggle-dance",
     "repoUrl": "https://github.com/ExpediaGroup/waggle-dance",
     "featured": false
   }
