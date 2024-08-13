@@ -1,6 +1,13 @@
 [
   {
-    "title": "Learning To Rank at Expedia Group: How to adapt the Property Search Result Page based on …",
+    "title": "Quantifying Stress for Customer Service Agents at Expedia Group",
+    "creator": "Courtney Crosby, PhD",
+    "link": "https://medium.com/expedia-group-tech/quantifying-stress-for-customer-service-agents-at-expedia-group-6d70d8db0c50?source=rss----38998a53046f---4",
+    "date": "Aug 6, 2024",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*cdfngOs9cDF217WJ"
+  },
+  {
+    "title": "Channel-Smart Property Search: How Expedia Tailors Rankings for You",
     "creator": "Anne Morvan",
     "link": "https://medium.com/expedia-group-tech/learning-to-rank-at-expedia-group-how-to-adapt-the-property-search-result-page-based-on-f4ebef78c94b?source=rss----38998a53046f---4",
     "date": "Jul 23, 2024",
@@ -61,12 +68,5 @@
     "link": "https://medium.com/expedia-group-tech/introducing-container-startup-autoscaler-for-kubernetes-9f15a981b69e?source=rss----38998a53046f---4",
     "date": "Apr 9, 2024",
     "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*dADh-EUAe9QNag4g"
-  },
-  {
-    "title": "Chaos Engineering for AWS Resources: A Custom Approach",
-    "creator": "Asmita Bharti",
-    "link": "https://medium.com/expedia-group-tech/chaos-engineering-for-aws-resources-a-custom-approach-2dbd604d5df8?source=rss----38998a53046f---4",
-    "date": "Mar 26, 2024",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*WakcYSGJGFF5L6so"
   }
 ]
