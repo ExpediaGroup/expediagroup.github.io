@@ -9,7 +9,7 @@
   {
     "name": "expediagroup.github.io",
     "description": "The Expedia Group Open Source portal, a website for discovering EG open source projects.",
-    "imageUrl": "https://opengraph.githubassets.com/148a20b68025bc1f6a3175e278aba93b265152ae04dcdc36d0a20b5db5179d3e/ExpediaGroup/expediagroup.github.io",
+    "imageUrl": "https://opengraph.githubassets.com/e29de68547e6e06ab92f22b8eefd627954330edde386ce52825df90ae9d688e7/ExpediaGroup/expediagroup.github.io",
     "repoUrl": "https://github.com/ExpediaGroup/expediagroup.github.io",
     "featured": true
   },
@@ -191,7 +191,7 @@
   {
     "name": "waggle-dance",
     "description": "Hive federation service. Enables disparate tables to be concurrently accessed across multiple Hive deployments.",
-    "imageUrl": "https://opengraph.githubassets.com/80cf8582c12ae2a0953b3b2512516fa32f533588cd7c616077b9b6a5ef2bcb7f/ExpediaGroup/waggle-dance",
+    "imageUrl": "https://opengraph.githubassets.com/2f9480f30667ba2dcb9defe95e3468ea48e4a2b94a250fe64073e45f6e0a1855/ExpediaGroup/waggle-dance",
     "repoUrl": "https://github.com/ExpediaGroup/waggle-dance",
     "featured": false
   }
