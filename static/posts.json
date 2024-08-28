@@ -1,5 +1,12 @@
 [
   {
+    "title": "Enabling Core Machine Learning Platform Capabilities",
+    "creator": "Anna Kelecsényi",
+    "link": "https://medium.com/expedia-group-tech/enabling-core-machine-learning-platform-capabilities-ff42ff814292?source=rss----38998a53046f---4",
+    "date": "Aug 27, 2024",
+    "imageUrl": "https://cdn-images-1.medium.com/max/975/1*nzjPKWl9nG5cwxAVfWwqdg.png"
+  },
+  {
     "title": "Quantifying Stress for Customer Service Agents at Expedia Group",
     "creator": "Courtney Crosby, PhD",
     "link": "https://medium.com/expedia-group-tech/quantifying-stress-for-customer-service-agents-at-expedia-group-6d70d8db0c50?source=rss----38998a53046f---4",
@@ -61,12 +68,5 @@
     "link": "https://medium.com/expedia-group-tech/unveiling-the-essence-of-code-level-extensibility-in-system-design-e5e74067cbfa?source=rss----38998a53046f---4",
     "date": "Apr 23, 2024",
     "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*uS5lZY7hCPfaKB1M"
-  },
-  {
-    "title": "Introducing container-startup-autoscaler for Kubernetes",
-    "creator": "Will Tomlin",
-    "link": "https://medium.com/expedia-group-tech/introducing-container-startup-autoscaler-for-kubernetes-9f15a981b69e?source=rss----38998a53046f---4",
-    "date": "Apr 9, 2024",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*dADh-EUAe9QNag4g"
   }
 ]
