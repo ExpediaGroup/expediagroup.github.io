@@ -1,5 +1,12 @@
 [
   {
+    "title": "Inside Expedia’s Migration to ScyllaDB for Change Data Capture",
+    "creator": "Jean Carlo",
+    "link": "https://medium.com/expedia-group-tech/inside-expedias-migration-to-scylladb-for-change-data-capture-706365c8e2cf?source=rss----38998a53046f---4",
+    "date": "Sep 10, 2024",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*ZbahYwKu9HgQ8YsF"
+  },
+  {
     "title": "Enabling Core Machine Learning Platform Capabilities",
     "creator": "Anna Kelecsényi",
     "link": "https://medium.com/expedia-group-tech/enabling-core-machine-learning-platform-capabilities-ff42ff814292?source=rss----38998a53046f---4",
@@ -61,12 +68,5 @@
     "link": "https://medium.com/expedia-group-tech/measuring-marketing-success-the-power-of-incrementality-and-geo-testing-1acd4291545d?source=rss----38998a53046f---4",
     "date": "May 14, 2024",
     "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*Wo_HJu1Snhz_4S2x"
-  },
-  {
-    "title": "Unveiling the Essence of Code-Level Extensibility in System Design",
-    "creator": "Keshavpeswani",
-    "link": "https://medium.com/expedia-group-tech/unveiling-the-essence-of-code-level-extensibility-in-system-design-e5e74067cbfa?source=rss----38998a53046f---4",
-    "date": "Apr 23, 2024",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*uS5lZY7hCPfaKB1M"
   }
 ]
