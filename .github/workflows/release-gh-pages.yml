@@ -1,11 +1,11 @@
 name: Build and release site to GitHub Pages
 
 on:
-  push:
-    branches: [main]
   schedule:
     # daily build
     - cron:  '0 0 * * *'
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
 
 jobs:
   gh-pages-release:
