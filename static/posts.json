@@ -1,5 +1,12 @@
 [
   {
+    "title": "Optics: A Real-time Data Analytics Solution",
+    "creator": "Shubham Pandey",
+    "link": "https://medium.com/expedia-group-tech/optics-a-real-time-data-analytics-solution-fa3a414219aa?source=rss----38998a53046f---4",
+    "date": "Sep 24, 2024",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*FMCU4of4UAWy53BH"
+  },
+  {
     "title": "Inside Expedia’s Migration to ScyllaDB for Change Data Capture",
     "creator": "Jean Carlo",
     "link": "https://medium.com/expedia-group-tech/inside-expedias-migration-to-scylladb-for-change-data-capture-706365c8e2cf?source=rss----38998a53046f---4",
@@ -61,12 +68,5 @@
     "link": "https://medium.com/expedia-group-tech/traveling-just-got-a-whole-lot-smarter-with-romie-dfb9b21c07c5?source=rss----38998a53046f---4",
     "date": "May 14, 2024",
     "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*BrW6M-nfWaRXtxhJ"
-  },
-  {
-    "title": "Measuring Marketing Success: The Power of Incrementality and Geo Testing",
-    "creator": "Nivedita Sharma",
-    "link": "https://medium.com/expedia-group-tech/measuring-marketing-success-the-power-of-incrementality-and-geo-testing-1acd4291545d?source=rss----38998a53046f---4",
-    "date": "May 14, 2024",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*Wo_HJu1Snhz_4S2x"
   }
 ]
