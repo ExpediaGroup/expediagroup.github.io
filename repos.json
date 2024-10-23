@@ -79,7 +79,7 @@
   {
     "name": "cypress-codegen",
     "description": "A Cypress plugin which automatically adds and enables IntelliSense for your custom commands!",
-    "imageUrl": "https://opengraph.githubassets.com/a4867ed2e4393f3cd1e8923b31c883a21c9dfb10e05a0206d01d5a6b3f5ee644/ExpediaGroup/cypress-codegen",
+    "imageUrl": "https://opengraph.githubassets.com/ee85826f12528dc9b7f6e6184334c2b7a69a179a4cffe889650b83c79f0cd8cc/ExpediaGroup/cypress-codegen",
     "repoUrl": "https://github.com/ExpediaGroup/cypress-codegen",
     "featured": false
   },
@@ -114,14 +114,14 @@
   {
     "name": "github-helpers",
     "description": "A collection of Github Actions that simplify and standardize common CI/CD workflow tasks.",
-    "imageUrl": "https://opengraph.githubassets.com/dfec842be1cde44e0ad1033b3d433df59e956ec00e35400decff5e820c96abd7/ExpediaGroup/github-helpers",
+    "imageUrl": "https://opengraph.githubassets.com/06a88eca5c09fe30c94a97da6152a3430b7594ac17234c2f49d58b973549158f/ExpediaGroup/github-helpers",
     "repoUrl": "https://github.com/ExpediaGroup/github-helpers",
     "featured": false
   },
   {
     "name": "github-webhook-proxy",
     "description": "Request forwarder for GitHub webhooks from github.com to internal enterprise destinations, designed for use in Github Enterprise Cloud.",
-    "imageUrl": "https://opengraph.githubassets.com/db3110a86d2e0239c92878ac5e880913ca7d0f4de536fbcf50b2e2eb4b573f77/ExpediaGroup/github-webhook-proxy",
+    "imageUrl": "https://opengraph.githubassets.com/d37aa4de5562b7b59854432316464738fd125316ac1b71efd333c37fd6c2c21c/ExpediaGroup/github-webhook-proxy",
     "repoUrl": "https://github.com/ExpediaGroup/github-webhook-proxy",
     "featured": false
   },
@@ -135,7 +135,7 @@
   {
     "name": "kubernetes-sidecar-injector",
     "description": "Kuberbetes mutating webhook that injects a sidecar container to a pod",
-    "imageUrl": "https://opengraph.githubassets.com/d3fbb89f0454ab94397050241afc11979ed292852be864fa92bda6900eedf29d/ExpediaGroup/kubernetes-sidecar-injector",
+    "imageUrl": "https://opengraph.githubassets.com/9762c31c62cb316381c8c9b829145e447a74133c9536a89d1123bbd1527aea42/ExpediaGroup/kubernetes-sidecar-injector",
     "repoUrl": "https://github.com/ExpediaGroup/kubernetes-sidecar-injector",
     "featured": false
   },
@@ -149,7 +149,7 @@
   {
     "name": "package-json-validator",
     "description": "A Github Action for validating package.json conventions.",
-    "imageUrl": "https://opengraph.githubassets.com/118cbbf965091f0e5c422657cd99d8c963145d21dc627eb42412988e0a55692d/ExpediaGroup/package-json-validator",
+    "imageUrl": "https://opengraph.githubassets.com/21c31f7f0b5ab5a7f857474f28c37e47ba20a37348742cdfda4acb21cdc0db0e/ExpediaGroup/package-json-validator",
     "repoUrl": "https://github.com/ExpediaGroup/package-json-validator",
     "featured": false
   },
