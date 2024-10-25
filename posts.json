@@ -1,5 +1,12 @@
 [
   {
+    "title": "Gateways, Guardrails, and GenAI Models",
+    "creator": "Manish Dewan",
+    "link": "https://medium.com/expedia-group-tech/gateways-guardrails-and-genai-models-aa606379164d?source=rss----38998a53046f---4",
+    "date": "Oct 24, 2024",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*HQlHge4hSBjFOEOL"
+  },
+  {
     "title": "Enhancing Data Reliability With An SLO Platform",
     "creator": "Abhishek Chawla",
     "link": "https://medium.com/expedia-group-tech/enhancing-data-reliability-with-an-slo-platform-de00249756f6?source=rss----38998a53046f---4",
@@ -61,12 +68,5 @@
     "link": "https://medium.com/expedia-group-tech/downtime-free-shift-transitioning-from-instance-to-ip-based-nlb-amid-live-traffic-8268253d266b?source=rss----38998a53046f---4",
     "date": "Jun 7, 2024",
     "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*lJzVrOGzybdg0i0C"
-  },
-  {
-    "title": "Choosing the Right Candidates for Lodging Ranking",
-    "creator": "Adam Woznica",
-    "link": "https://medium.com/expedia-group-tech/choosing-the-right-candidates-for-lodging-ranking-d0841bf40c0e?source=rss----38998a53046f---4",
-    "date": "May 21, 2024",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*7HAnE2f4EqFkxH1X"
   }
 ]
