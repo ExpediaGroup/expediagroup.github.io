@@ -1,5 +1,12 @@
 [
   {
+    "title": "Identifying Top-Scoring Arms in Ranking Bandits With Linear Payoffs in Real-Time",
+    "creator": "Ercument Ilhan",
+    "link": "https://medium.com/expedia-group-tech/identifying-top-scoring-arms-in-ranking-bandits-with-linear-payoffs-in-real-time-46b154ffa176?source=rss----38998a53046f---4",
+    "date": "Nov 5, 2024",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*iaQhRVIaT7mtcKW3"
+  },
+  {
     "title": "Gateways, Guardrails, and GenAI Models",
     "creator": "Manish Dewan",
     "link": "https://medium.com/expedia-group-tech/gateways-guardrails-and-genai-models-aa606379164d?source=rss----38998a53046f---4",
@@ -61,12 +68,5 @@
     "link": "https://medium.com/expedia-group-tech/enhancing-expedia-groups-intraday-marketing-decisions-ce76639ef18c?source=rss----38998a53046f---4",
     "date": "Jul 2, 2024",
     "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*0vy4yVggtO0TbN8X"
-  },
-  {
-    "title": "Downtime-Free Shift: Transitioning from Instance to IP-Based NLB amid live traffic",
-    "creator": "Isha Batra",
-    "link": "https://medium.com/expedia-group-tech/downtime-free-shift-transitioning-from-instance-to-ip-based-nlb-amid-live-traffic-8268253d266b?source=rss----38998a53046f---4",
-    "date": "Jun 7, 2024",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*lJzVrOGzybdg0i0C"
   }
 ]
