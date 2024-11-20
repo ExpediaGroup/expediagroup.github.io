@@ -1,5 +1,12 @@
 [
   {
+    "title": "Polymorphic Deserialization in Spring Data MongoDB: A Reactive approach",
+    "creator": "Ojasvi Shaklya",
+    "link": "https://medium.com/expedia-group-tech/polymorphic-deserialization-in-spring-data-mongodb-a-reactive-approach-14c5e1854f7b?source=rss----38998a53046f---4",
+    "date": "Nov 19, 2024",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*tDGaKpzEaSjmG7D-"
+  },
+  {
     "title": "Identifying Top-Scoring Arms in Ranking Bandits With Linear Payoffs in Real-Time",
     "creator": "Ercument Ilhan",
     "link": "https://medium.com/expedia-group-tech/identifying-top-scoring-arms-in-ranking-bandits-with-linear-payoffs-in-real-time-46b154ffa176?source=rss----38998a53046f---4",
@@ -61,12 +68,5 @@
     "link": "https://medium.com/expedia-group-tech/the-perils-of-deprecating-a-legacy-microservice-febfa3e9f6cc?source=rss----38998a53046f---4",
     "date": "Jul 10, 2024",
     "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*viFiVwILa2kcNOkk"
-  },
-  {
-    "title": "Enhancing Expedia Group’s Intraday Marketing Decisions",
-    "creator": "Blake Whatley",
-    "link": "https://medium.com/expedia-group-tech/enhancing-expedia-groups-intraday-marketing-decisions-ce76639ef18c?source=rss----38998a53046f---4",
-    "date": "Jul 2, 2024",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*0vy4yVggtO0TbN8X"
   }
 ]
