@@ -1,5 +1,12 @@
 [
   {
+    "title": "Turbocharge efficiency & slash costs: mastering Spark & Iceberg joins with Storage Partitioned Join",
+    "creator": "Samy Gharsouli",
+    "link": "https://medium.com/expedia-group-tech/turbocharge-efficiency-slash-costs-mastering-spark-iceberg-joins-with-storage-partitioned-join-03fdc1ff75c0?source=rss----38998a53046f---4",
+    "date": "Dec 3, 2024",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*-urE6bfLVZIS941a"
+  },
+  {
     "title": "Polymorphic Deserialization in Spring Data MongoDB: A Reactive approach",
     "creator": "Ojasvi Shaklya",
     "link": "https://medium.com/expedia-group-tech/polymorphic-deserialization-in-spring-data-mongodb-a-reactive-approach-14c5e1854f7b?source=rss----38998a53046f---4",
@@ -61,12 +68,5 @@
     "link": "https://medium.com/expedia-group-tech/learning-to-rank-at-expedia-group-how-to-adapt-the-property-search-result-page-based-on-f4ebef78c94b?source=rss----38998a53046f---4",
     "date": "Jul 23, 2024",
     "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*lmoFmDt_CQa5gkMd1EN1lg.jpeg"
-  },
-  {
-    "title": "The Perils of Deprecating a Legacy Microservice",
-    "creator": "Shashank Jha",
-    "link": "https://medium.com/expedia-group-tech/the-perils-of-deprecating-a-legacy-microservice-febfa3e9f6cc?source=rss----38998a53046f---4",
-    "date": "Jul 10, 2024",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*viFiVwILa2kcNOkk"
   }
 ]
