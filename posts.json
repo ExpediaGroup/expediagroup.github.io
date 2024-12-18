@@ -1,5 +1,12 @@
 [
   {
+    "title": "Elevating Travel Experiences with AI",
+    "creator": "Goli Cobbe",
+    "link": "https://medium.com/expedia-group-tech/elevating-travel-experiences-with-ai-acdb2cf2ec13?source=rss----38998a53046f---4",
+    "date": "Dec 17, 2024",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*78HQ0FrAWNHjW3aL"
+  },
+  {
     "title": "Turbocharge Efficiency & Slash Costs: Mastering Spark & Iceberg Joins with Storage Partitioned Join",
     "creator": "Samy Gharsouli",
     "link": "https://medium.com/expedia-group-tech/turbocharge-efficiency-slash-costs-mastering-spark-iceberg-joins-with-storage-partitioned-join-03fdc1ff75c0?source=rss----38998a53046f---4",
@@ -61,12 +68,5 @@
     "link": "https://medium.com/expedia-group-tech/quantifying-stress-for-customer-service-agents-at-expedia-group-6d70d8db0c50?source=rss----38998a53046f---4",
     "date": "Aug 6, 2024",
     "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*cdfngOs9cDF217WJ"
-  },
-  {
-    "title": "Channel-Smart Property Search: How Expedia Tailors Rankings for You",
-    "creator": "Anne Morvan",
-    "link": "https://medium.com/expedia-group-tech/learning-to-rank-at-expedia-group-how-to-adapt-the-property-search-result-page-based-on-f4ebef78c94b?source=rss----38998a53046f---4",
-    "date": "Jul 23, 2024",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*lmoFmDt_CQa5gkMd1EN1lg.jpeg"
   }
 ]
