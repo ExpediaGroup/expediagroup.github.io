@@ -79,7 +79,7 @@
   {
     "name": "cypress-codegen",
     "description": "A Cypress plugin which automatically adds and enables IntelliSense for your custom commands!",
-    "imageUrl": "https://opengraph.githubassets.com/094c8b2a6602bcc760630c54e8ac75f864de69fbdc65b10718506378c2c7d2c3/ExpediaGroup/cypress-codegen",
+    "imageUrl": "https://opengraph.githubassets.com/51356acdd47cfa5de95dae4b716e626528947b49bf69cef72fc3a222be6bcfbd/ExpediaGroup/cypress-codegen",
     "repoUrl": "https://github.com/ExpediaGroup/cypress-codegen",
     "featured": false
   },
@@ -114,14 +114,14 @@
   {
     "name": "github-helpers",
     "description": "A collection of Github Actions that simplify and standardize common CI/CD workflow tasks.",
-    "imageUrl": "https://opengraph.githubassets.com/9a16e2d82143700c77a434dca77768657bf4f14a09b6b5a9bf4be9d2a7f76324/ExpediaGroup/github-helpers",
+    "imageUrl": "https://opengraph.githubassets.com/812f20b09890cf27fe0257691ff1ac0b87a1051875b6b87d83ee2fc2984f2d95/ExpediaGroup/github-helpers",
     "repoUrl": "https://github.com/ExpediaGroup/github-helpers",
     "featured": false
   },
   {
     "name": "github-webhook-proxy",
     "description": "Request forwarder for GitHub webhooks from github.com to internal enterprise destinations, designed for use in Github Enterprise Cloud.",
-    "imageUrl": "https://opengraph.githubassets.com/9897653ddce064a11635c4729a51e1c93f9fbdfe74241d876285b87b4f57fc09/ExpediaGroup/github-webhook-proxy",
+    "imageUrl": "https://opengraph.githubassets.com/02513b08cb4fa289fef54d5d8664083e7e71c6423065ba15d2fc2f1d4bcd184b/ExpediaGroup/github-webhook-proxy",
     "repoUrl": "https://github.com/ExpediaGroup/github-webhook-proxy",
     "featured": false
   },
@@ -149,7 +149,7 @@
   {
     "name": "package-json-validator",
     "description": "A Github Action for validating package.json conventions.",
-    "imageUrl": "https://opengraph.githubassets.com/6be0b0a812632901c93c9912fc1178c0d3a54752a01ad25c546aa39c0e4f7452/ExpediaGroup/package-json-validator",
+    "imageUrl": "https://opengraph.githubassets.com/e223912caf0b529405e87ff5b773f4e9103bd7571a4f0df4fc08f2201de8d056/ExpediaGroup/package-json-validator",
     "repoUrl": "https://github.com/ExpediaGroup/package-json-validator",
     "featured": false
   },
