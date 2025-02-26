@@ -1,5 +1,12 @@
 [
   {
+    "title": "Protect the Base",
+    "creator": "Mayank Garg",
+    "link": "https://medium.com/expedia-group-tech/protect-the-base-8abbcc6c7ed9?source=rss----38998a53046f---4",
+    "date": "Feb 25, 2025",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*1eB7WnrQactdpNk2"
+  },
+  {
     "title": "Lessons from a Rollback Gameday",
     "creator": "Eric Yi",
     "link": "https://medium.com/expedia-group-tech/lessons-from-a-rollback-gameday-4d05cf1c9524?source=rss----38998a53046f---4",
@@ -61,12 +68,5 @@
     "link": "https://medium.com/expedia-group-tech/inside-expedias-migration-to-scylladb-for-change-data-capture-706365c8e2cf?source=rss----38998a53046f---4",
     "date": "Sep 10, 2024",
     "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*ZbahYwKu9HgQ8YsF"
-  },
-  {
-    "title": "Enabling Core Machine Learning Platform Capabilities",
-    "creator": "Anna Kelecsényi",
-    "link": "https://medium.com/expedia-group-tech/enabling-core-machine-learning-platform-capabilities-ff42ff814292?source=rss----38998a53046f---4",
-    "date": "Aug 27, 2024",
-    "imageUrl": "https://cdn-images-1.medium.com/max/975/1*nzjPKWl9nG5cwxAVfWwqdg.png"
   }
 ]
