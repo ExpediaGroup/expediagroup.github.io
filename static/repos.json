@@ -114,7 +114,7 @@
   {
     "name": "github-helpers",
     "description": "A collection of Github Actions that simplify and standardize common CI/CD workflow tasks.",
-    "imageUrl": "https://opengraph.githubassets.com/9cb536369feb1cb58f0ba7f640bb882369adf7222e9f9b52eb087745ad5044e3/ExpediaGroup/github-helpers",
+    "imageUrl": "https://opengraph.githubassets.com/eb766147ca7160e3ae139f6ce033e293eae02eb3ac08e2b06d225f1730819437/ExpediaGroup/github-helpers",
     "repoUrl": "https://github.com/ExpediaGroup/github-helpers",
     "featured": false
   },
