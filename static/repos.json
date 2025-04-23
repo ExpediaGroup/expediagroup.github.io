@@ -142,7 +142,7 @@
   {
     "name": "overwhelm",
     "description": "Operator for complex application deployment on Kubernetes",
-    "imageUrl": "https://opengraph.githubassets.com/55417058c057516af1f6951d1b1699767cb8a0cfcdfdb33d2a7fa8346464bb44/ExpediaGroup/overwhelm",
+    "imageUrl": "https://opengraph.githubassets.com/e654b437dfc591ccd3501f31f2c4b50ec02bf1c8181ecd0c07c1571a8d903f0e/ExpediaGroup/overwhelm",
     "repoUrl": "https://github.com/ExpediaGroup/overwhelm",
     "featured": false
   },
