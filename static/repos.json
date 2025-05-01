@@ -142,7 +142,7 @@
   {
     "name": "overwhelm",
     "description": "Operator for complex application deployment on Kubernetes",
-    "imageUrl": "https://opengraph.githubassets.com/805554e22e34a5cf6630ecd4285beffc6e2bc7c894230df79a4f51b6adbb67be/ExpediaGroup/overwhelm",
+    "imageUrl": "https://opengraph.githubassets.com/862504c2d4824344f3ecac80d6580b4efa114335dc47df3079848a35be4dd50b/ExpediaGroup/overwhelm",
     "repoUrl": "https://github.com/ExpediaGroup/overwhelm",
     "featured": false
   },
@@ -191,7 +191,7 @@
   {
     "name": "waggle-dance",
     "description": "Hive federation service. Enables disparate tables to be concurrently accessed across multiple Hive deployments.",
-    "imageUrl": "https://opengraph.githubassets.com/2dff31e396625a6073d441b0e05214f234bf566a0d31524a9c550b61ee6ec314/ExpediaGroup/waggle-dance",
+    "imageUrl": "https://opengraph.githubassets.com/8d37088567efc7ceabc65c573e041a092dd43bde05e21cc5aae3c8df814f14a0/ExpediaGroup/waggle-dance",
     "repoUrl": "https://github.com/ExpediaGroup/waggle-dance",
     "featured": false
   }
