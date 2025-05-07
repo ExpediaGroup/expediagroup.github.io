@@ -1,5 +1,12 @@
 [
   {
+    "title": "Does High Click-through Rate Lead to High Conversion Rate?",
+    "creator": "Lucy (Jingyu) Zou",
+    "link": "https://medium.com/expedia-group-tech/does-high-click-through-rate-lead-to-high-conversion-rate-890c6da28142?source=rss----38998a53046f---4",
+    "date": "May 6, 2025",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*2LKn1nlTcO7q5avj"
+  },
+  {
     "title": "Protect the Base",
     "creator": "Mayank Garg",
     "link": "https://medium.com/expedia-group-tech/protect-the-base-8abbcc6c7ed9?source=rss----38998a53046f---4",
@@ -61,12 +68,5 @@
     "link": "https://medium.com/expedia-group-tech/optics-a-real-time-data-analytics-solution-fa3a414219aa?source=rss----38998a53046f---4",
     "date": "Sep 24, 2024",
     "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*FMCU4of4UAWy53BH"
-  },
-  {
-    "title": "Inside Expedia’s Migration to ScyllaDB for Change Data Capture",
-    "creator": "Jean Carlo",
-    "link": "https://medium.com/expedia-group-tech/inside-expedias-migration-to-scylladb-for-change-data-capture-706365c8e2cf?source=rss----38998a53046f---4",
-    "date": "Sep 10, 2024",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*ZbahYwKu9HgQ8YsF"
   }
 ]
