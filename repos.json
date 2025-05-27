@@ -114,14 +114,14 @@
   {
     "name": "github-helpers",
     "description": "A collection of Github Actions that simplify and standardize common CI/CD workflow tasks.",
-    "imageUrl": "https://opengraph.githubassets.com/8e46d04654d9773a2e09ae4fe8ea80e15719d313dfaaee2c2cee6a06a39dba03/ExpediaGroup/github-helpers",
+    "imageUrl": "https://opengraph.githubassets.com/a78ca3ec34da2b1637a2d5eb6b0a93cd496a10cb4bc47e035e8d6280d825143e/ExpediaGroup/github-helpers",
     "repoUrl": "https://github.com/ExpediaGroup/github-helpers",
     "featured": false
   },
   {
     "name": "github-webhook-proxy",
     "description": "Request forwarder for GitHub webhooks from github.com to internal enterprise destinations, designed for use in Github Enterprise Cloud.",
-    "imageUrl": "https://opengraph.githubassets.com/8e1d6021b9d9c830b10cf6c788acfe943446a4094367218932c9ceac92c26ef2/ExpediaGroup/github-webhook-proxy",
+    "imageUrl": "https://opengraph.githubassets.com/8e97f6ed77a36aa79b4c7a7eca1697def702939b1985ec5d182f513baea948d3/ExpediaGroup/github-webhook-proxy",
     "repoUrl": "https://github.com/ExpediaGroup/github-webhook-proxy",
     "featured": false
   },
@@ -149,7 +149,7 @@
   {
     "name": "package-json-validator",
     "description": "A Github Action for validating package.json conventions.",
-    "imageUrl": "https://opengraph.githubassets.com/f0172eac98c7c33d7f5c37f7c77209cd68cf543a6666768e1e8dc28122827e9b/ExpediaGroup/package-json-validator",
+    "imageUrl": "https://opengraph.githubassets.com/0044cecd46202357843c5a25590167bed0d1dfff6975556f5c4ebbaf67e087b5/ExpediaGroup/package-json-validator",
     "repoUrl": "https://github.com/ExpediaGroup/package-json-validator",
     "featured": false
   },
