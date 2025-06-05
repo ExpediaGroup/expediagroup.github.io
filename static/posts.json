@@ -1,5 +1,12 @@
 [
   {
+    "title": "Preventing Revenue Loss With Real-Time A/B Test Monitoring",
+    "creator": "Lukasz Krawiec",
+    "link": "https://medium.com/expedia-group-tech/preventing-revenue-loss-with-real-time-a-b-test-monitoring-605698817457?source=rss----38998a53046f---4",
+    "date": "Jun 3, 2025",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*KQia3pGL9PaSoAWk"
+  },
+  {
     "title": "Does High Click-through Rate Lead to High Conversion Rate?",
     "creator": "Lucy (Jingyu) Zou",
     "link": "https://medium.com/expedia-group-tech/does-high-click-through-rate-lead-to-high-conversion-rate-890c6da28142?source=rss----38998a53046f---4",
@@ -61,12 +68,5 @@
     "link": "https://medium.com/expedia-group-tech/enhancing-data-reliability-with-an-slo-platform-de00249756f6?source=rss----38998a53046f---4",
     "date": "Oct 8, 2024",
     "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*CIkdqI5Ue4Wz06ic"
-  },
-  {
-    "title": "Optics: A Real-time Data Analytics Solution",
-    "creator": "Shubham Pandey",
-    "link": "https://medium.com/expedia-group-tech/optics-a-real-time-data-analytics-solution-fa3a414219aa?source=rss----38998a53046f---4",
-    "date": "Sep 24, 2024",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*FMCU4of4UAWy53BH"
   }
 ]
