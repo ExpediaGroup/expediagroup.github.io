@@ -1,5 +1,12 @@
 [
   {
+    "title": "Contextual Property Embeddings for Corse-grained Personalization",
+    "creator": "Ioannis Partalas",
+    "link": "https://medium.com/expedia-group-tech/contextual-property-embeddings-for-corse-grained-personalization-c56e9cda44a5?source=rss----38998a53046f---4",
+    "date": "Jul 8, 2025",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*6y3xAIsFxfo1XFN3"
+  },
+  {
     "title": "Preventing Revenue Loss With Real-Time A/B Test Monitoring",
     "creator": "Lukasz Krawiec",
     "link": "https://medium.com/expedia-group-tech/preventing-revenue-loss-with-real-time-a-b-test-monitoring-605698817457?source=rss----38998a53046f---4",
@@ -61,12 +68,5 @@
     "link": "https://medium.com/expedia-group-tech/gateways-guardrails-and-genai-models-aa606379164d?source=rss----38998a53046f---4",
     "date": "Oct 24, 2024",
     "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*HQlHge4hSBjFOEOL"
-  },
-  {
-    "title": "Enhancing Data Reliability With An SLO Platform",
-    "creator": "Abhishek Chawla",
-    "link": "https://medium.com/expedia-group-tech/enhancing-data-reliability-with-an-slo-platform-de00249756f6?source=rss----38998a53046f---4",
-    "date": "Oct 8, 2024",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*CIkdqI5Ue4Wz06ic"
   }
 ]
