@@ -79,7 +79,7 @@
   {
     "name": "cypress-codegen",
     "description": "A Cypress plugin which automatically adds and enables IntelliSense for your custom commands!",
-    "imageUrl": "https://opengraph.githubassets.com/94dbcbc2249f28f78160e039e2d1151321718614f828e1797822d0a8e5320097/ExpediaGroup/cypress-codegen",
+    "imageUrl": "https://opengraph.githubassets.com/8582ea40076d1eb714cdc0dea9697ac0578cb60a712291eace5c680a86059506/ExpediaGroup/cypress-codegen",
     "repoUrl": "https://github.com/ExpediaGroup/cypress-codegen",
     "featured": false
   },
@@ -121,7 +121,7 @@
   {
     "name": "github-webhook-proxy",
     "description": "Request forwarder for GitHub webhooks from github.com to internal enterprise destinations, designed for use in Github Enterprise Cloud.",
-    "imageUrl": "https://opengraph.githubassets.com/9917bb601cb39a98fe58bd268f0bb58362870ffd465eb6b783decea072edd7f1/ExpediaGroup/github-webhook-proxy",
+    "imageUrl": "https://opengraph.githubassets.com/7dc2355302b3bfcc3922423ecf55886e3aae64aa2059c3dbde3038877f451bda/ExpediaGroup/github-webhook-proxy",
     "repoUrl": "https://github.com/ExpediaGroup/github-webhook-proxy",
     "featured": false
   },
