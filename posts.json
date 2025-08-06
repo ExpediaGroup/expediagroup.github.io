@@ -1,5 +1,12 @@
 [
   {
+    "title": "Beyond the Handoff: Boosting ML Outcomes Through Integrated Scientist and Engineer Collaboration",
+    "creator": "Vincenzo Randazzo",
+    "link": "https://medium.com/expedia-group-tech/beyond-the-handoff-why-mls-mle-collaboration-is-essential-for-scalable-production-ready-ml-43edf393f2bf?source=rss----38998a53046f---4",
+    "date": "Aug 5, 2025",
+    "imageUrl": "https://cdn-images-1.medium.com/max/930/1*4ndCuKhO_hbQLsxOpcb4Xg.jpeg"
+  },
+  {
     "title": "Contextual Property Embeddings for Corse-grained Personalization",
     "creator": "Ioannis Partalas",
     "link": "https://medium.com/expedia-group-tech/contextual-property-embeddings-for-corse-grained-personalization-c56e9cda44a5?source=rss----38998a53046f---4",
@@ -61,12 +68,5 @@
     "link": "https://medium.com/expedia-group-tech/identifying-top-scoring-arms-in-ranking-bandits-with-linear-payoffs-in-real-time-46b154ffa176?source=rss----38998a53046f---4",
     "date": "Nov 5, 2024",
     "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*iaQhRVIaT7mtcKW3"
-  },
-  {
-    "title": "Gateways, Guardrails, and GenAI Models",
-    "creator": "Manish Dewan",
-    "link": "https://medium.com/expedia-group-tech/gateways-guardrails-and-genai-models-aa606379164d?source=rss----38998a53046f---4",
-    "date": "Oct 24, 2024",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*HQlHge4hSBjFOEOL"
   }
 ]
