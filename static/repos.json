@@ -114,7 +114,7 @@
   {
     "name": "github-helpers",
     "description": "A collection of Github Actions that simplify and standardize common CI/CD workflow tasks.",
-    "imageUrl": "https://opengraph.githubassets.com/8b19146b2324bbed78cd509622545ba31c450c63250147f71e2d1f11c79edac6/ExpediaGroup/github-helpers",
+    "imageUrl": "https://opengraph.githubassets.com/164a79251833e5123f6855b258426fbaf51cc79eecce971065834318257222d4/ExpediaGroup/github-helpers",
     "repoUrl": "https://github.com/ExpediaGroup/github-helpers",
     "featured": false
   },
@@ -191,7 +191,7 @@
   {
     "name": "waggle-dance",
     "description": "Hive federation service. Enables disparate tables to be concurrently accessed across multiple Hive deployments.",
-    "imageUrl": "https://opengraph.githubassets.com/a0501185adc0820af56a2837244cd7f6eddca4011c19073a70346cdf65e87f0e/ExpediaGroup/waggle-dance",
+    "imageUrl": "https://opengraph.githubassets.com/9436ff4a83dd9d58bdd891284c2d5f91d0661c72152424e7470fba2296a676fd/ExpediaGroup/waggle-dance",
     "repoUrl": "https://github.com/ExpediaGroup/waggle-dance",
     "featured": false
   }
