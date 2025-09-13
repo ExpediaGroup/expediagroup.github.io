@@ -112,13 +112,6 @@
     "featured": false
   },
   {
-    "name": "github-helpers",
-    "description": "A collection of Github Actions that simplify and standardize common CI/CD workflow tasks.",
-    "imageUrl": "https://opengraph.githubassets.com/34160b73b74c205ab6c22f04d81346fa9007f6740526e017751718094af861ab/ExpediaGroup/github-helpers",
-    "repoUrl": "https://github.com/ExpediaGroup/github-helpers",
-    "featured": false
-  },
-  {
     "name": "github-webhook-proxy",
     "description": "Request forwarder for GitHub webhooks from github.com to internal enterprise destinations, designed for use in Github Enterprise Cloud.",
     "imageUrl": "https://opengraph.githubassets.com/9b8e2af1a425f1a39a1e39c535a5e623d6024d666a97071d5b3a41667eebabad/ExpediaGroup/github-webhook-proxy",
@@ -126,31 +119,10 @@
     "featured": false
   },
   {
-    "name": "insights-explorer",
-    "description": "Insights Explorer is a tool to catalogue and present analytical & research work.",
-    "imageUrl": "https://repository-images.githubusercontent.com/433406345/4af5dcd0-2696-4477-a488-797d097c488f",
-    "repoUrl": "https://github.com/ExpediaGroup/insights-explorer",
-    "featured": false
-  },
-  {
     "name": "kubernetes-sidecar-injector",
     "description": "Kuberbetes mutating webhook that injects a sidecar container to a pod",
     "imageUrl": "https://opengraph.githubassets.com/2cc90b914867ba9c693ff67337be46c38ece08fe93482abb4a7da0bc7f4620bf/ExpediaGroup/kubernetes-sidecar-injector",
     "repoUrl": "https://github.com/ExpediaGroup/kubernetes-sidecar-injector",
-    "featured": false
-  },
-  {
-    "name": "overwhelm",
-    "description": "Operator for complex application deployment on Kubernetes",
-    "imageUrl": "https://opengraph.githubassets.com/862504c2d4824344f3ecac80d6580b4efa114335dc47df3079848a35be4dd50b/ExpediaGroup/overwhelm",
-    "repoUrl": "https://github.com/ExpediaGroup/overwhelm",
-    "featured": false
-  },
-  {
-    "name": "package-json-validator",
-    "description": "A Github Action for validating package.json conventions.",
-    "imageUrl": "https://opengraph.githubassets.com/a26c184ca4086c2c20dcb7f4bbebe049bb6c41af3548fcf8b54d7ab3bd50435b/ExpediaGroup/package-json-validator",
-    "repoUrl": "https://github.com/ExpediaGroup/package-json-validator",
     "featured": false
   },
   {
