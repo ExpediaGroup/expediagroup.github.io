@@ -1,5 +1,12 @@
 [
   {
+    "title": "Why You Should Prefer MERGE INTO Over INSERT OVERWRITE in Apache Iceberg",
+    "creator": "Vincent DANIEL",
+    "link": "https://medium.com/expedia-group-tech/why-you-should-prefer-merge-into-over-insert-overwrite-in-apache-iceberg-b6b130cc27d2?source=rss----38998a53046f---4",
+    "date": "Sep 30, 2025",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*hHlu4wpqXNZky6Sl"
+  },
+  {
     "title": "Chill Your Data with Iceberg Write Audit Publish",
     "creator": "Vincent DANIEL",
     "link": "https://medium.com/expedia-group-tech/chill-your-data-with-iceberg-write-audit-publish-746c9eb3db48?source=rss----38998a53046f---4",
@@ -61,12 +68,5 @@
     "link": "https://medium.com/expedia-group-tech/turbocharge-efficiency-slash-costs-mastering-spark-iceberg-joins-with-storage-partitioned-join-03fdc1ff75c0?source=rss----38998a53046f---4",
     "date": "Dec 3, 2024",
     "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*-urE6bfLVZIS941a"
-  },
-  {
-    "title": "Polymorphic Deserialization in Spring Data MongoDB: A Reactive approach",
-    "creator": "Ojasvi Shaklya",
-    "link": "https://medium.com/expedia-group-tech/polymorphic-deserialization-in-spring-data-mongodb-a-reactive-approach-14c5e1854f7b?source=rss----38998a53046f---4",
-    "date": "Nov 19, 2024",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*tDGaKpzEaSjmG7D-"
   }
 ]
