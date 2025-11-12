@@ -1,5 +1,12 @@
 [
   {
+    "title": "Colocating Input Partitions with Kafka Streams When Consuming Multiple Topics: Sub-Topology Matters!",
+    "creator": "Vishal Sharma",
+    "link": "https://medium.com/expedia-group-tech/colocating-input-partitions-with-kafka-streams-when-consuming-multiple-topics-sub-topology-matters-f92da955c905?source=rss----38998a53046f---4",
+    "date": "Nov 11, 2025",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*20bkJ7XymFm1wmnd"
+  },
+  {
     "title": "Reimagining Software Engineering: LLMs, MCP, and the Dawn of a New Programming Paradigm",
     "creator": "Rafael Torres",
     "link": "https://medium.com/expedia-group-tech/reimagining-software-engineering-llms-mcp-and-the-dawn-of-a-new-programming-paradigm-75c97b28663f?source=rss----38998a53046f---4",
@@ -61,12 +68,5 @@
     "link": "https://medium.com/expedia-group-tech/lessons-from-a-rollback-gameday-4d05cf1c9524?source=rss----38998a53046f---4",
     "date": "Jan 9, 2025",
     "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*jasSeg6NC0NbyR8J"
-  },
-  {
-    "title": "Elevating Travel Experiences with AI",
-    "creator": "Goli Cobbe",
-    "link": "https://medium.com/expedia-group-tech/elevating-travel-experiences-with-ai-acdb2cf2ec13?source=rss----38998a53046f---4",
-    "date": "Dec 17, 2024",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*78HQ0FrAWNHjW3aL"
   }
 ]
