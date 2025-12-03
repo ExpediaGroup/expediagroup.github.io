@@ -1,5 +1,12 @@
 [
   {
+    "title": "A Functional Programming Alternative to the Strategy Pattern",
+    "creator": "Rafael Torres",
+    "link": "https://medium.com/expedia-group-tech/a-functional-programming-alternative-to-the-strategy-pattern-73268b68868a?source=rss----38998a53046f---4",
+    "date": "Dec 2, 2025",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*LQEcswaxSq8xy0eP"
+  },
+  {
     "title": "Colocating Input Partitions with Kafka Streams When Consuming Multiple Topics: Sub-Topology Matters!",
     "creator": "Vishal Sharma",
     "link": "https://medium.com/expedia-group-tech/colocating-input-partitions-with-kafka-streams-when-consuming-multiple-topics-sub-topology-matters-f92da955c905?source=rss----38998a53046f---4",
@@ -61,12 +68,5 @@
     "link": "https://medium.com/expedia-group-tech/protect-the-base-8abbcc6c7ed9?source=rss----38998a53046f---4",
     "date": "Feb 25, 2025",
     "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*1eB7WnrQactdpNk2"
-  },
-  {
-    "title": "Lessons from a Rollback Gameday",
-    "creator": "Eric Yi",
-    "link": "https://medium.com/expedia-group-tech/lessons-from-a-rollback-gameday-4d05cf1c9524?source=rss----38998a53046f---4",
-    "date": "Jan 9, 2025",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*jasSeg6NC0NbyR8J"
   }
 ]
