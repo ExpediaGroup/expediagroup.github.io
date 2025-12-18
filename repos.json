@@ -79,7 +79,7 @@
   {
     "name": "cypress-codegen",
     "description": "A Cypress plugin which automatically adds and enables IntelliSense for your custom commands!",
-    "imageUrl": "https://opengraph.githubassets.com/9b203cb73faf94e2e6e988228d7b77bd245c7c0ef754687030f1fb7cbef3ede5/ExpediaGroup/cypress-codegen",
+    "imageUrl": "https://opengraph.githubassets.com/ce82f87fa108895c9bc4b4200ee0b2cd9d64770cd910cbef91f1dacb27d6ae41/ExpediaGroup/cypress-codegen",
     "repoUrl": "https://github.com/ExpediaGroup/cypress-codegen",
     "featured": false
   },
