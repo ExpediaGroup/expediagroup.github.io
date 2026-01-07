@@ -1,5 +1,12 @@
 [
   {
+    "title": "Powering Vector Embedding Capabilities",
+    "creator": "Manisha Sudhir",
+    "link": "https://medium.com/expedia-group-tech/powering-vector-embedding-capabilities-12e8e1480f43?source=rss----38998a53046f---4",
+    "date": "Jan 6, 2026",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*yGEIjmeegBuRoYI_"
+  },
+  {
     "title": "A Functional Programming Alternative to the Strategy Pattern",
     "creator": "Rafael Torres",
     "link": "https://medium.com/expedia-group-tech/a-functional-programming-alternative-to-the-strategy-pattern-73268b68868a?source=rss----38998a53046f---4",
@@ -61,12 +68,5 @@
     "link": "https://medium.com/expedia-group-tech/does-high-click-through-rate-lead-to-high-conversion-rate-890c6da28142?source=rss----38998a53046f---4",
     "date": "May 6, 2025",
     "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*2LKn1nlTcO7q5avj"
-  },
-  {
-    "title": "Protect the Base",
-    "creator": "Mayank Garg",
-    "link": "https://medium.com/expedia-group-tech/protect-the-base-8abbcc6c7ed9?source=rss----38998a53046f---4",
-    "date": "Feb 25, 2025",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*1eB7WnrQactdpNk2"
   }
 ]
