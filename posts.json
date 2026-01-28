@@ -1,5 +1,12 @@
 [
   {
+    "title": "The Quant Crossroads: UX Research or Data Science",
+    "creator": "Alyssa White, PhD",
+    "link": "https://medium.com/expedia-group-tech/the-quant-crossroads-ux-research-or-data-science-e07807b19d26?source=rss----38998a53046f---4",
+    "date": "Jan 27, 2026",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*VHkx_19Z9GTlzxQz"
+  },
+  {
     "title": "Powering Vector Embedding Capabilities",
     "creator": "Manisha Sudhir",
     "link": "https://medium.com/expedia-group-tech/powering-vector-embedding-capabilities-12e8e1480f43?source=rss----38998a53046f---4",
@@ -61,12 +68,5 @@
     "link": "https://medium.com/expedia-group-tech/preventing-revenue-loss-with-real-time-a-b-test-monitoring-605698817457?source=rss----38998a53046f---4",
     "date": "Jun 3, 2025",
     "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*KQia3pGL9PaSoAWk"
-  },
-  {
-    "title": "Does High Click-through Rate Lead to High Conversion Rate?",
-    "creator": "Lucy (Jingyu) Zou",
-    "link": "https://medium.com/expedia-group-tech/does-high-click-through-rate-lead-to-high-conversion-rate-890c6da28142?source=rss----38998a53046f---4",
-    "date": "May 6, 2025",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*2LKn1nlTcO7q5avj"
   }
 ]
