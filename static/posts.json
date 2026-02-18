@@ -1,5 +1,12 @@
 [
   {
+    "title": "Interleaving for Accelerated Testing",
+    "creator": "Benjamin Stieger",
+    "link": "https://medium.com/expedia-group-tech/interleaving-for-accelerated-testing-75adc644027b?source=rss----38998a53046f---4",
+    "date": "Feb 17, 2026",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*3qEshVn1c--mcfpj"
+  },
+  {
     "title": "The Quant Crossroads: UX Research or Data Science",
     "creator": "Alyssa White, PhD",
     "link": "https://medium.com/expedia-group-tech/the-quant-crossroads-ux-research-or-data-science-e07807b19d26?source=rss----38998a53046f---4",
@@ -61,12 +68,5 @@
     "link": "https://medium.com/expedia-group-tech/contextual-property-embeddings-for-corse-grained-personalization-c56e9cda44a5?source=rss----38998a53046f---4",
     "date": "Jul 8, 2025",
     "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*6y3xAIsFxfo1XFN3"
-  },
-  {
-    "title": "Preventing Revenue Loss With Real-Time A/B Test Monitoring",
-    "creator": "Lukasz Krawiec",
-    "link": "https://medium.com/expedia-group-tech/preventing-revenue-loss-with-real-time-a-b-test-monitoring-605698817457?source=rss----38998a53046f---4",
-    "date": "Jun 3, 2025",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*KQia3pGL9PaSoAWk"
   }
 ]
