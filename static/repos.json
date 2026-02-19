@@ -79,7 +79,7 @@
   {
     "name": "cypress-codegen",
     "description": "A Cypress plugin which automatically adds and enables IntelliSense for your custom commands!",
-    "imageUrl": "https://opengraph.githubassets.com/f10a27aafc25405f3fcfda9ef526764bdfee1bcadebee691cd50790b8568e4d0/ExpediaGroup/cypress-codegen",
+    "imageUrl": "https://opengraph.githubassets.com/3cd8ee07ce76b1877b76a1fd3334e0d9b9341d522dd7396573663ec463719cfd/ExpediaGroup/cypress-codegen",
     "repoUrl": "https://github.com/ExpediaGroup/cypress-codegen",
     "featured": false
   },
@@ -114,7 +114,7 @@
   {
     "name": "github-helpers",
     "description": "A collection of Github Actions that simplify and standardize common CI/CD workflow tasks.",
-    "imageUrl": "https://opengraph.githubassets.com/18cdda2b3dabc349fe4ce1bc7e7df4d561973b072d8589ce36d600ef43a8d2c7/ExpediaGroup/github-helpers",
+    "imageUrl": "https://opengraph.githubassets.com/08bf373777895bcbb94b25626e167b139224d2b0fc8747aaae89919d02951280/ExpediaGroup/github-helpers",
     "repoUrl": "https://github.com/ExpediaGroup/github-helpers",
     "featured": false
   },
@@ -149,7 +149,7 @@
   {
     "name": "package-json-validator",
     "description": "A Github Action for validating package.json conventions.",
-    "imageUrl": "https://opengraph.githubassets.com/d9ec74c67e816ac1da2e4557e4aa0639fe6332ab3b4fa67b3bd4968ba3fa782f/ExpediaGroup/package-json-validator",
+    "imageUrl": "https://opengraph.githubassets.com/c1499345645f4bd5499e9991916c6940965d379fdc2a303cf4d9f80cd804b2cc/ExpediaGroup/package-json-validator",
     "repoUrl": "https://github.com/ExpediaGroup/package-json-validator",
     "featured": false
   },
