@@ -79,7 +79,7 @@
   {
     "name": "cypress-codegen",
     "description": "A Cypress plugin which automatically adds and enables IntelliSense for your custom commands!",
-    "imageUrl": "https://opengraph.githubassets.com/3cd8ee07ce76b1877b76a1fd3334e0d9b9341d522dd7396573663ec463719cfd/ExpediaGroup/cypress-codegen",
+    "imageUrl": "https://opengraph.githubassets.com/39fe575053b242eb45878dc874874bfe6323afa1e736828190ec8b036c1957f5/ExpediaGroup/cypress-codegen",
     "repoUrl": "https://github.com/ExpediaGroup/cypress-codegen",
     "featured": false
   },
@@ -191,7 +191,7 @@
   {
     "name": "waggle-dance",
     "description": "Hive federation service. Enables disparate tables to be concurrently accessed across multiple Hive deployments.",
-    "imageUrl": "https://opengraph.githubassets.com/c77821e1d698a6185ea290f5ddfb96a68b3479544bae97d5735b2656671fa4ad/ExpediaGroup/waggle-dance",
+    "imageUrl": "https://opengraph.githubassets.com/c7ef6e6126f9dd42c4072931e3a252ca3b2886e243bd8172d214b64fa02a9797/ExpediaGroup/waggle-dance",
     "repoUrl": "https://github.com/ExpediaGroup/waggle-dance",
     "featured": false
   }
