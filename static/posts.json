@@ -1,5 +1,12 @@
 [
   {
+    "title": "Managing Technical Debt: Building Habits for Long-Term Agility",
+    "creator": "Rafael Torres",
+    "link": "https://medium.com/expedia-group-tech/managing-technical-debt-building-habits-for-long-term-agility-718aa84831e0?source=rss----38998a53046f---4",
+    "date": "Mar 3, 2026",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*JWWRMix-8BFify5s"
+  },
+  {
     "title": "Interleaving for Accelerated Testing",
     "creator": "Benjamin Stieger",
     "link": "https://medium.com/expedia-group-tech/interleaving-for-accelerated-testing-75adc644027b?source=rss----38998a53046f---4",
@@ -61,12 +68,5 @@
     "link": "https://medium.com/expedia-group-tech/beyond-the-handoff-why-mls-mle-collaboration-is-essential-for-scalable-production-ready-ml-43edf393f2bf?source=rss----38998a53046f---4",
     "date": "Aug 5, 2025",
     "imageUrl": "https://cdn-images-1.medium.com/max/930/1*4ndCuKhO_hbQLsxOpcb4Xg.jpeg"
-  },
-  {
-    "title": "Contextual Property Embeddings for Corse-grained Personalization",
-    "creator": "Ioannis Partalas",
-    "link": "https://medium.com/expedia-group-tech/contextual-property-embeddings-for-corse-grained-personalization-c56e9cda44a5?source=rss----38998a53046f---4",
-    "date": "Jul 8, 2025",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*6y3xAIsFxfo1XFN3"
   }
 ]
