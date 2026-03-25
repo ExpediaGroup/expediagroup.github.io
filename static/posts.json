@@ -1,5 +1,12 @@
 [
   {
+    "title": "Operating Trino at Scale With Trino Gateway",
+    "creator": "Prakhar Sapre",
+    "link": "https://medium.com/expedia-group-tech/operating-trino-at-scale-with-trino-gateway-41824af788de?source=rss----38998a53046f---4",
+    "date": "Mar 24, 2026",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*Aijgjabcwogaoqxo"
+  },
+  {
     "title": "Managing Technical Debt: Building Habits for Long-Term Agility",
     "creator": "Rafael Torres",
     "link": "https://medium.com/expedia-group-tech/managing-technical-debt-building-habits-for-long-term-agility-718aa84831e0?source=rss----38998a53046f---4",
@@ -61,12 +68,5 @@
     "link": "https://medium.com/expedia-group-tech/chill-your-data-with-iceberg-write-audit-publish-746c9eb3db48?source=rss----38998a53046f---4",
     "date": "Sep 2, 2025",
     "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*iE2enMFwR2FLl72L"
-  },
-  {
-    "title": "Beyond the Handoff: Boosting ML Outcomes Through Integrated Scientist and Engineer Collaboration",
-    "creator": "Vincenzo Randazzo",
-    "link": "https://medium.com/expedia-group-tech/beyond-the-handoff-why-mls-mle-collaboration-is-essential-for-scalable-production-ready-ml-43edf393f2bf?source=rss----38998a53046f---4",
-    "date": "Aug 5, 2025",
-    "imageUrl": "https://cdn-images-1.medium.com/max/930/1*4ndCuKhO_hbQLsxOpcb4Xg.jpeg"
   }
 ]
