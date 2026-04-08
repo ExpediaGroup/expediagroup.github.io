@@ -1,5 +1,12 @@
 [
   {
+    "title": "Reimagining Platform Engineering for an Agentic Future",
+    "creator": "Rick Fast",
+    "link": "https://medium.com/expedia-group-tech/reimagining-platform-engineering-for-an-agentic-future-03e3f378a190?source=rss----38998a53046f---4",
+    "date": "Apr 7, 2026",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*l3aHcuQMPu6Pc8W3"
+  },
+  {
     "title": "Operating Trino at Scale With Trino Gateway",
     "creator": "Prakhar Sapre",
     "link": "https://medium.com/expedia-group-tech/operating-trino-at-scale-with-trino-gateway-41824af788de?source=rss----38998a53046f---4",
@@ -61,12 +68,5 @@
     "link": "https://medium.com/expedia-group-tech/why-you-should-prefer-merge-into-over-insert-overwrite-in-apache-iceberg-b6b130cc27d2?source=rss----38998a53046f---4",
     "date": "Sep 30, 2025",
     "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*hHlu4wpqXNZky6Sl"
-  },
-  {
-    "title": "Chill Your Data with Iceberg Write Audit Publish",
-    "creator": "Vincent DANIEL",
-    "link": "https://medium.com/expedia-group-tech/chill-your-data-with-iceberg-write-audit-publish-746c9eb3db48?source=rss----38998a53046f---4",
-    "date": "Sep 2, 2025",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*iE2enMFwR2FLl72L"
   }
 ]
