@@ -114,14 +114,14 @@
   {
     "name": "github-helpers",
     "description": "A collection of Github Actions that simplify and standardize common CI/CD workflow tasks.",
-    "imageUrl": "https://opengraph.githubassets.com/8740c2c4a7942df8d45982f0aa276495c015c11452c0bf0849ad72fded08f28b/ExpediaGroup/github-helpers",
+    "imageUrl": "https://opengraph.githubassets.com/2ba8ae353412a0ac0fb9a6f1a79035b25733919a071d434f41ad3761e57d5183/ExpediaGroup/github-helpers",
     "repoUrl": "https://github.com/ExpediaGroup/github-helpers",
     "featured": false
   },
   {
     "name": "github-webhook-proxy",
     "description": "Request forwarder for GitHub webhooks from github.com to internal enterprise destinations, designed for use in Github Enterprise Cloud.",
-    "imageUrl": "https://opengraph.githubassets.com/51636f97823d68bbfd698684639457d22dd49cd2e0ce184711984b935b0c8e51/ExpediaGroup/github-webhook-proxy",
+    "imageUrl": "https://opengraph.githubassets.com/5f52f749265110e7befa04fa80c86822e8102eca80418b39acd0e3bb144dbd52/ExpediaGroup/github-webhook-proxy",
     "repoUrl": "https://github.com/ExpediaGroup/github-webhook-proxy",
     "featured": false
   },
@@ -149,7 +149,7 @@
   {
     "name": "package-json-validator",
     "description": "A Github Action for validating package.json conventions.",
-    "imageUrl": "https://opengraph.githubassets.com/8e73ab2b69db13fbb46e6fd734b08d7f1060f7dcd157af0d1f48f8a23730b751/ExpediaGroup/package-json-validator",
+    "imageUrl": "https://opengraph.githubassets.com/5017f2ade93ad5b15aac815d1d95ccc08bb624538f3b38f42ff1e81d6a8ccd14/ExpediaGroup/package-json-validator",
     "repoUrl": "https://github.com/ExpediaGroup/package-json-validator",
     "featured": false
   },
@@ -170,7 +170,7 @@
   {
     "name": "spinnaker-pipeline-trigger",
     "description": "Pipeline trigger for Spinnaker utilizing SNS",
-    "imageUrl": "https://opengraph.githubassets.com/f0d702b81a1303665017213539eec5321293b77ff2f74bb6c6d020e8a254fc89/ExpediaGroup/spinnaker-pipeline-trigger",
+    "imageUrl": "https://opengraph.githubassets.com/7fb30e569304d122e0e5299f50ecda59839f6d4073cb863636897c1740809565/ExpediaGroup/spinnaker-pipeline-trigger",
     "repoUrl": "https://github.com/ExpediaGroup/spinnaker-pipeline-trigger",
     "featured": false
   },
