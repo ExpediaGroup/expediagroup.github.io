@@ -1,5 +1,12 @@
 [
   {
+    "title": "Expedia’s Service Telemetry Analyzer",
+    "creator": "Nikos Katirtzis",
+    "link": "https://medium.com/expedia-group-tech/expedias-service-telemetry-analyzer-60f2f96c5351?source=rss----38998a53046f---4",
+    "date": "Apr 28, 2026",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*SIfYhK_UBv-1Hpf5f9WCNQ.jpeg"
+  },
+  {
     "title": "Reimagining Platform Engineering for an Agentic Future",
     "creator": "Rick Fast",
     "link": "https://medium.com/expedia-group-tech/reimagining-platform-engineering-for-an-agentic-future-03e3f378a190?source=rss----38998a53046f---4",
@@ -61,12 +68,5 @@
     "link": "https://medium.com/expedia-group-tech/reimagining-software-engineering-llms-mcp-and-the-dawn-of-a-new-programming-paradigm-75c97b28663f?source=rss----38998a53046f---4",
     "date": "Oct 24, 2025",
     "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*c0MEEWnnJZUMqOpDdUlp4w@2x.jpeg"
-  },
-  {
-    "title": "Why You Should Prefer MERGE INTO Over INSERT OVERWRITE in Apache Iceberg",
-    "creator": "Vincent DANIEL",
-    "link": "https://medium.com/expedia-group-tech/why-you-should-prefer-merge-into-over-insert-overwrite-in-apache-iceberg-b6b130cc27d2?source=rss----38998a53046f---4",
-    "date": "Sep 30, 2025",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*hHlu4wpqXNZky6Sl"
   }
 ]
