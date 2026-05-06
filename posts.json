@@ -1,5 +1,12 @@
 [
   {
+    "title": "Just Because We Can Build It, Should We?",
+    "creator": "Rick Fast",
+    "link": "https://medium.com/expedia-group-tech/just-because-we-can-build-it-should-we-a292fbdd22ce?source=rss----38998a53046f---4",
+    "date": "May 5, 2026",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*H8MhgBKBcrZGZZEc"
+  },
+  {
     "title": "Expedia’s Service Telemetry Analyzer",
     "creator": "Nikos Katirtzis",
     "link": "https://medium.com/expedia-group-tech/expedias-service-telemetry-analyzer-60f2f96c5351?source=rss----38998a53046f---4",
@@ -61,12 +68,5 @@
     "link": "https://medium.com/expedia-group-tech/colocating-input-partitions-with-kafka-streams-when-consuming-multiple-topics-sub-topology-matters-f92da955c905?source=rss----38998a53046f---4",
     "date": "Nov 11, 2025",
     "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*20bkJ7XymFm1wmnd"
-  },
-  {
-    "title": "Reimagining Software Engineering: LLMs, MCP, and the Dawn of a New Programming Paradigm",
-    "creator": "Rafael Torres",
-    "link": "https://medium.com/expedia-group-tech/reimagining-software-engineering-llms-mcp-and-the-dawn-of-a-new-programming-paradigm-75c97b28663f?source=rss----38998a53046f---4",
-    "date": "Oct 24, 2025",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*c0MEEWnnJZUMqOpDdUlp4w@2x.jpeg"
   }
 ]
