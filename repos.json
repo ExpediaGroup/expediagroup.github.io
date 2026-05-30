@@ -114,7 +114,7 @@
   {
     "name": "github-helpers",
     "description": "A collection of Github Actions that simplify and standardize common CI/CD workflow tasks.",
-    "imageUrl": "https://opengraph.githubassets.com/3e14ed4c600edc301784784c92b4feb0d4e2dd6fc3a332b01b9265e9a4d6f549/ExpediaGroup/github-helpers",
+    "imageUrl": "https://opengraph.githubassets.com/d20b16920ce6dc56b3d441c9ee5757127c418aa89a4cf4697fbb593a54ae6521/ExpediaGroup/github-helpers",
     "repoUrl": "https://github.com/ExpediaGroup/github-helpers",
     "featured": false
   },
@@ -184,7 +184,7 @@
   {
     "name": "styx",
     "description": "Programmable, asynchronous, event-based reverse proxy for JVM.",
-    "imageUrl": "https://opengraph.githubassets.com/5289d0f1348d429c6266d8f7e98f5a072acf0d93ef80eea8448d693ea8e21809/ExpediaGroup/styx",
+    "imageUrl": "https://opengraph.githubassets.com/5e0ff8b37dfd216a3752ee4b8928919b2613f7afa6ea3b09ff0ffed7e4493391/ExpediaGroup/styx",
     "repoUrl": "https://github.com/ExpediaGroup/styx",
     "featured": false
   },
