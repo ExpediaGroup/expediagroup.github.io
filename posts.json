@@ -1,5 +1,12 @@
 [
   {
+    "title": "The Most Expensive Milliseconds Are Unmeasured",
+    "creator": "Divya Gupta Arora",
+    "link": "https://medium.com/expedia-group-tech/the-most-expensive-milliseconds-are-unmeasured-d6cfaaca881d?source=rss----38998a53046f---4",
+    "date": "Jun 3, 2026",
+    "imageUrl": ""
+  },
+  {
     "title": "Just Because We Can Build It, Should We?",
     "creator": "Rick Fast",
     "link": "https://medium.com/expedia-group-tech/just-because-we-can-build-it-should-we-a292fbdd22ce?source=rss----38998a53046f---4",
@@ -61,12 +68,5 @@
     "link": "https://medium.com/expedia-group-tech/a-functional-programming-alternative-to-the-strategy-pattern-73268b68868a?source=rss----38998a53046f---4",
     "date": "Dec 2, 2025",
     "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*LQEcswaxSq8xy0eP"
-  },
-  {
-    "title": "Colocating Input Partitions with Kafka Streams When Consuming Multiple Topics: Sub-Topology Matters!",
-    "creator": "Vishal Sharma",
-    "link": "https://medium.com/expedia-group-tech/colocating-input-partitions-with-kafka-streams-when-consuming-multiple-topics-sub-topology-matters-f92da955c905?source=rss----38998a53046f---4",
-    "date": "Nov 11, 2025",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*20bkJ7XymFm1wmnd"
   }
 ]
