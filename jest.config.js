@@ -21,7 +21,23 @@ const config = {
         "\\.[jt]sx?$": "babel-jest",
         ".+\\.(css|styl|less|sass|scss)$": "jest-css-modules-transform"
     },
-    transformIgnorePatterns: ["/node_modules/(?!(@babel/runtime)/)"]
+    transformIgnorePatterns: ["/node_modules/(?!(@babel/runtime)/)"],
+
+    collectCoverage: true,
+    coverageThreshold: {
+        global: {
+            branches: 80,
+            functions: 80,
+            lines: 80,
+            statements: 80
+        }
+    },
+    collectCoverageFrom: [
+        "src/**/*.{js,jsx,ts,tsx}", 
+        "!src/**/*.test.{js,jsx,ts,tsx}",
+        "!src/**/__tests__/**" 
+    ],
+    coverageDirectory: "./coverage"
 };
 
 module.exports = config;

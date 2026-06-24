@@ -12,7 +12,7 @@
     "deploy": "docusaurus deploy",
     "serve": "docusaurus serve",
     "clear": "docusaurus clear",
-    "test": "jest"
+    "test": "jest --coverage"
   },
   "dependencies": {
     "@apollo/client": "^3.5.8",
