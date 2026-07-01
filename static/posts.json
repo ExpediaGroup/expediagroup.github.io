@@ -1,5 +1,12 @@
 [
   {
+    "title": "Using LLMs to Analyze Spark SQL Plans: A Practical Approach to Debugging Long-Running Jobs",
+    "creator": "Sagibhuvana",
+    "link": "https://medium.com/expedia-group-tech/using-llms-to-analyze-spark-sql-plans-a-practical-approach-to-debugging-long-running-jobs-35eace7eeec4?source=rss----38998a53046f---4",
+    "date": "Jun 30, 2026",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*mI08ZnXv1LyQDEzzemLJrA.jpeg"
+  },
+  {
     "title": "The Most Expensive Milliseconds Are Unmeasured",
     "creator": "Divya Gupta Arora",
     "link": "https://medium.com/expedia-group-tech/the-most-expensive-milliseconds-are-unmeasured-d6cfaaca881d?source=rss----38998a53046f---4",
@@ -61,12 +68,5 @@
     "link": "https://medium.com/expedia-group-tech/powering-vector-embedding-capabilities-12e8e1480f43?source=rss----38998a53046f---4",
     "date": "Jan 6, 2026",
     "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*yGEIjmeegBuRoYI_"
-  },
-  {
-    "title": "A Functional Programming Alternative to the Strategy Pattern",
-    "creator": "Rafael Torres",
-    "link": "https://medium.com/expedia-group-tech/a-functional-programming-alternative-to-the-strategy-pattern-73268b68868a?source=rss----38998a53046f---4",
-    "date": "Dec 2, 2025",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*LQEcswaxSq8xy0eP"
   }
 ]
