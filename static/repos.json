@@ -149,7 +149,7 @@
   {
     "name": "package-json-validator",
     "description": "A Github Action for validating package.json conventions.",
-    "imageUrl": "https://opengraph.githubassets.com/d72f0458b122c9f3cf9a6b26c317da2a3971fb448147e54b666e75e7fbf8a082/ExpediaGroup/package-json-validator",
+    "imageUrl": "https://opengraph.githubassets.com/c154f302bdd1b148b4dc21dd5822e3bccf941d2d9742360b98153e485380df7e/ExpediaGroup/package-json-validator",
     "repoUrl": "https://github.com/ExpediaGroup/package-json-validator",
     "featured": false
   },
