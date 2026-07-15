@@ -1,5 +1,12 @@
 [
   {
+    "title": "How Expedia Group Builds AI That Lasts at Scale",
+    "creator": "Xavier Amatriain",
+    "link": "https://medium.com/expedia-group-tech/how-expedia-group-builds-ai-that-lasts-at-scale-434677770fe9?source=rss----38998a53046f---4",
+    "date": "Jul 14, 2026",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*TMheBxvHKcnhWDLq"
+  },
+  {
     "title": "Using LLMs to Analyze Spark SQL Plans: A Practical Approach to Debugging Long-Running Jobs",
     "creator": "Sagibhuvana",
     "link": "https://medium.com/expedia-group-tech/using-llms-to-analyze-spark-sql-plans-a-practical-approach-to-debugging-long-running-jobs-35eace7eeec4?source=rss----38998a53046f---4",
@@ -61,12 +68,5 @@
     "link": "https://medium.com/expedia-group-tech/the-quant-crossroads-ux-research-or-data-science-e07807b19d26?source=rss----38998a53046f---4",
     "date": "Jan 27, 2026",
     "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*VHkx_19Z9GTlzxQz"
-  },
-  {
-    "title": "Powering Vector Embedding Capabilities",
-    "creator": "Manisha Sudhir",
-    "link": "https://medium.com/expedia-group-tech/powering-vector-embedding-capabilities-12e8e1480f43?source=rss----38998a53046f---4",
-    "date": "Jan 6, 2026",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*yGEIjmeegBuRoYI_"
   }
 ]
