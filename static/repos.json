@@ -2,63 +2,63 @@
   {
     "name": "bull",
     "description": "BULL - Bean Utils Light Library",
-    "imageUrl": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/166023376/9632dcfb-86af-4a78-b520-53fd7c360648?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260803%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260803T015353Z&X-Amz-Expires=300&X-Amz-Signature=5163a32281fcfec3399bc2b2997337ab5724ad87b7c4e2c8d5812ceae394592d&X-Amz-SignedHeaders=host&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTcyMjMzMywibmJmIjoxNzg1NzIyMDMzLCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.GE1qlTgRzJesIh4NTeTSZxZcV2kaKP-7EZ-nljGiyOs",
+    "imageUrl": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/166023376/9632dcfb-86af-4a78-b520-53fd7c360648?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260804%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260804T012848Z&X-Amz-Expires=300&X-Amz-Signature=da90e24c353ec7ceb2b26be9dfff3195133f3ddb0186868d3aea811c22c22b1e&X-Amz-SignedHeaders=host&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTgwNzIyOCwibmJmIjoxNzg1ODA2OTI4LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.6IMGw8uAS3t2ZQ2s71sUB3iixlovMKMlJYx66LZQw9o",
     "repoUrl": "https://github.com/ExpediaGroup/bull",
     "featured": true
   },
   {
     "name": "expediagroup.github.io",
     "description": "The Expedia Group Open Source portal, a website for discovering EG open source projects.",
-    "imageUrl": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/347094132/4a66b310-79fb-4d17-bc9d-deebf5558760?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260803%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260803T015353Z&X-Amz-Expires=300&X-Amz-Signature=259c8d081307ed4dda1dc1a763c327a3fae83deebf57ba0de65dbd96fefd5fe0&X-Amz-SignedHeaders=host&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTcyMjMzMywibmJmIjoxNzg1NzIyMDMzLCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.GE1qlTgRzJesIh4NTeTSZxZcV2kaKP-7EZ-nljGiyOs",
+    "imageUrl": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/347094132/4a66b310-79fb-4d17-bc9d-deebf5558760?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260804%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260804T012848Z&X-Amz-Expires=300&X-Amz-Signature=c193356d735bfda7ca10aafa485008b0b608ac51506d96ba4fd8f1db64644b47&X-Amz-SignedHeaders=host&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTgwNzIyOCwibmJmIjoxNzg1ODA2OTI4LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.6IMGw8uAS3t2ZQ2s71sUB3iixlovMKMlJYx66LZQw9o",
     "repoUrl": "https://github.com/ExpediaGroup/expediagroup.github.io",
     "featured": true
   },
   {
     "name": "flyte",
     "description": "Flyte binds together the tools you use into easily defined, automated workflows",
-    "imageUrl": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/129653023/73858c80-9216-11eb-8c14-f87c97aa8bad?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260803%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260803T015353Z&X-Amz-Expires=300&X-Amz-Signature=9658235c581ae73728a3ff49b82a471248546cda2ad2357e3a25bdee4dd5fb29&X-Amz-SignedHeaders=host&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTcyMjMzMywibmJmIjoxNzg1NzIyMDMzLCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.GE1qlTgRzJesIh4NTeTSZxZcV2kaKP-7EZ-nljGiyOs",
+    "imageUrl": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/129653023/73858c80-9216-11eb-8c14-f87c97aa8bad?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260804%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260804T012848Z&X-Amz-Expires=300&X-Amz-Signature=882357c24c3fab652264d42514c11abe6c2f36ab1a7bb6e40e1fb2d2d30db63c&X-Amz-SignedHeaders=host&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTgwNzIyOCwibmJmIjoxNzg1ODA2OTI4LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.6IMGw8uAS3t2ZQ2s71sUB3iixlovMKMlJYx66LZQw9o",
     "repoUrl": "https://github.com/ExpediaGroup/flyte",
     "featured": true
   },
   {
     "name": "graphql-component",
     "description": "Composeable graphql components",
-    "imageUrl": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/161377145/4b19c280-d400-11eb-9db6-7575ab55ce5c?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260803%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260803T015353Z&X-Amz-Expires=300&X-Amz-Signature=effa25daf194afced9f075453d6ac282c6c948a48a70b466348c2d33571b5539&X-Amz-SignedHeaders=host&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTcyMjMzMywibmJmIjoxNzg1NzIyMDMzLCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.GE1qlTgRzJesIh4NTeTSZxZcV2kaKP-7EZ-nljGiyOs",
+    "imageUrl": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/161377145/4b19c280-d400-11eb-9db6-7575ab55ce5c?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260804%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260804T012848Z&X-Amz-Expires=300&X-Amz-Signature=7d6b851d1913b00f1e428101bd7099c7dba0a1b0eb56ca8c9f6fa6aa9e0c6d85&X-Amz-SignedHeaders=host&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTgwNzIyOCwibmJmIjoxNzg1ODA2OTI4LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.6IMGw8uAS3t2ZQ2s71sUB3iixlovMKMlJYx66LZQw9o",
     "repoUrl": "https://github.com/ExpediaGroup/graphql-component",
     "featured": true
   },
   {
     "name": "graphql-kotlin",
     "description": "Libraries for running GraphQL in Kotlin",
-    "imageUrl": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/148706161/542afb00-3ebf-11ea-9aec-6bc282c8bd3a?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260803%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260803T015353Z&X-Amz-Expires=300&X-Amz-Signature=5775b6a8ae899bb2be012934c309b5819e8f1c64668d6ffeb6bade07893385da&X-Amz-SignedHeaders=host&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTcyMjMzMywibmJmIjoxNzg1NzIyMDMzLCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.GE1qlTgRzJesIh4NTeTSZxZcV2kaKP-7EZ-nljGiyOs",
+    "imageUrl": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/148706161/542afb00-3ebf-11ea-9aec-6bc282c8bd3a?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260804%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260804T012848Z&X-Amz-Expires=300&X-Amz-Signature=49be4d673104de8c790d2d103b73b7eac0824cb55d3d52ecf6df7f9493318ed8&X-Amz-SignedHeaders=host&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTgwNzIyOCwibmJmIjoxNzg1ODA2OTI4LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.6IMGw8uAS3t2ZQ2s71sUB3iixlovMKMlJYx66LZQw9o",
     "repoUrl": "https://github.com/ExpediaGroup/graphql-kotlin",
     "featured": true
   },
   {
     "name": "jarviz",
     "description": "Jarviz is dependency analysis and visualization tool designed for Java applications",
-    "imageUrl": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/244941906/9d8a7f00-9215-11eb-81f8-138cad4ac705?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260803%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260803T015353Z&X-Amz-Expires=300&X-Amz-Signature=9c550b972d3a9ac0fe16513ffeb599d82bf76dd334cef0a897efc99b2d3734cc&X-Amz-SignedHeaders=host&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTcyMjMzMywibmJmIjoxNzg1NzIyMDMzLCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.GE1qlTgRzJesIh4NTeTSZxZcV2kaKP-7EZ-nljGiyOs",
+    "imageUrl": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/244941906/9d8a7f00-9215-11eb-81f8-138cad4ac705?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260804%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260804T012848Z&X-Amz-Expires=300&X-Amz-Signature=3a8ce3f112189fcfe36dab883cc574bb2bb4bbbfc5822e8403043783c033bf28&X-Amz-SignedHeaders=host&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTgwNzIyOCwibmJmIjoxNzg1ODA2OTI4LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.6IMGw8uAS3t2ZQ2s71sUB3iixlovMKMlJYx66LZQw9o",
     "repoUrl": "https://github.com/ExpediaGroup/jarviz",
     "featured": true
   },
   {
     "name": "jenkins-spock",
     "description": "Unit-test Jenkins pipeline code with Spock",
-    "imageUrl": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/148189558/52069d33-fb78-4fc9-a524-0c064ab16a62?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260803%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260803T015353Z&X-Amz-Expires=300&X-Amz-Signature=c472eacb1a1a2310f9eb66280fb6569cc17079a899bbacf3f88ef57e84ddf3e9&X-Amz-SignedHeaders=host&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTcyMjMzMywibmJmIjoxNzg1NzIyMDMzLCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.GE1qlTgRzJesIh4NTeTSZxZcV2kaKP-7EZ-nljGiyOs",
+    "imageUrl": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/148189558/52069d33-fb78-4fc9-a524-0c064ab16a62?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260804%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260804T012848Z&X-Amz-Expires=300&X-Amz-Signature=7a78a19b41f0f6e76a8a6cfef280abc6f03d4bea511779da4ff4980389597f8b&X-Amz-SignedHeaders=host&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTgwNzIyOCwibmJmIjoxNzg1ODA2OTI4LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.6IMGw8uAS3t2ZQ2s71sUB3iixlovMKMlJYx66LZQw9o",
     "repoUrl": "https://github.com/ExpediaGroup/jenkins-spock",
     "featured": true
   },
   {
     "name": "mittens",
     "description": "Warm-up routine for http applications over REST and gRPC",
-    "imageUrl": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/211941853/89da5a00-19cd-11ea-979e-6285d41b0a6f?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260803%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260803T015353Z&X-Amz-Expires=300&X-Amz-Signature=91ec340eaa62744ff90c2b1834721b5f2f2e88dcc6ae160c428dcd4334721efa&X-Amz-SignedHeaders=host&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTcyMjMzMywibmJmIjoxNzg1NzIyMDMzLCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.GE1qlTgRzJesIh4NTeTSZxZcV2kaKP-7EZ-nljGiyOs",
+    "imageUrl": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/211941853/89da5a00-19cd-11ea-979e-6285d41b0a6f?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260804%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260804T012848Z&X-Amz-Expires=300&X-Amz-Signature=f535fca7e0c3411b2d4f7641e52c7dd133026c5b16bb0e24af3e30b9cd1d721a&X-Amz-SignedHeaders=host&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTgwNzIyOCwibmJmIjoxNzg1ODA2OTI4LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.6IMGw8uAS3t2ZQ2s71sUB3iixlovMKMlJYx66LZQw9o",
     "repoUrl": "https://github.com/ExpediaGroup/mittens",
     "featured": true
   },
   {
     "name": "stream-registry",
     "description": "Stream Discovery and Stream Orchestration",
-    "imageUrl": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/159537834/eca8ed80-65c4-11e9-9920-6734cb2355c8?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260803%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260803T015353Z&X-Amz-Expires=300&X-Amz-Signature=498fc120d67c2d11f7e0b86f314a04c45657df5599a2d1532a20857963eaa8c2&X-Amz-SignedHeaders=host&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTcyMjMzMywibmJmIjoxNzg1NzIyMDMzLCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.GE1qlTgRzJesIh4NTeTSZxZcV2kaKP-7EZ-nljGiyOs",
+    "imageUrl": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/159537834/eca8ed80-65c4-11e9-9920-6734cb2355c8?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260804%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260804T012848Z&X-Amz-Expires=300&X-Amz-Signature=cffa44577b3bebf89190dfeb116fb7016ee751df0b571405f9a630a613678355&X-Amz-SignedHeaders=host&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTgwNzIyOCwibmJmIjoxNzg1ODA2OTI4LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.6IMGw8uAS3t2ZQ2s71sUB3iixlovMKMlJYx66LZQw9o",
     "repoUrl": "https://github.com/ExpediaGroup/stream-registry",
     "featured": true
   },
@@ -79,7 +79,7 @@
   {
     "name": "cypress-codegen",
     "description": "A Cypress plugin which automatically adds and enables IntelliSense for your custom commands!",
-    "imageUrl": "https://opengraph.githubassets.com/6dca96659312553bef382f6d6f6c0afda6e305574a8edcc6123808ff12d6e0e6/ExpediaGroup/cypress-codegen",
+    "imageUrl": "https://opengraph.githubassets.com/f92c1eb0be453fd2d604e32aa45d490f23480c1e626fcf32bf38dfe5bc31c0c7/ExpediaGroup/cypress-codegen",
     "repoUrl": "https://github.com/ExpediaGroup/cypress-codegen",
     "featured": false
   },
@@ -93,28 +93,28 @@
   {
     "name": "flyte-client",
     "description": "A Go library designed to make the writing of flyte packs simple",
-    "imageUrl": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/129653291/a4fe5800-9216-11eb-8053-e810dec939a6?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260803%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260803T015354Z&X-Amz-Expires=300&X-Amz-Signature=b97bafb24c58e97ce8c76eb95397580a35567fd7131815a76c3262c616ba98f3&X-Amz-SignedHeaders=host&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTcyMjMzNCwibmJmIjoxNzg1NzIyMDM0LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.17hKmWCNq3PQ91VHG8Q8EfnHmjMGn-2mkW4LuT2-72I",
+    "imageUrl": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/129653291/a4fe5800-9216-11eb-8053-e810dec939a6?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260804%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260804T012849Z&X-Amz-Expires=300&X-Amz-Signature=1f2087eaf620e1654adfeef088ecc8aa8994b5f7b0de0df448a86bcb5635183d&X-Amz-SignedHeaders=host&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTgwNzIyOSwibmJmIjoxNzg1ODA2OTI5LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.ojMxUm-8LBsiK5S2qH-LTMjVc5CNCxPOgAE2S2z1BQc",
     "repoUrl": "https://github.com/ExpediaGroup/flyte-client",
     "featured": false
   },
   {
     "name": "flyte-jira",
     "description": "An Atlassian Jira integration pack for Flyte",
-    "imageUrl": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/129654053/87c98980-9216-11eb-816f-13e803a34c05?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260803%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260803T015354Z&X-Amz-Expires=300&X-Amz-Signature=e9ccc79c62b338419ef3c663ae286d968a556223518afa3daa546704408c964f&X-Amz-SignedHeaders=host&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTcyMjMzNCwibmJmIjoxNzg1NzIyMDM0LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.17hKmWCNq3PQ91VHG8Q8EfnHmjMGn-2mkW4LuT2-72I",
+    "imageUrl": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/129654053/87c98980-9216-11eb-816f-13e803a34c05?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260804%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260804T012849Z&X-Amz-Expires=300&X-Amz-Signature=d95a1e0d9040c99f43cbe2b8c1979b89f7e97d32fa53961745622530086e1e0a&X-Amz-SignedHeaders=host&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTgwNzIyOSwibmJmIjoxNzg1ODA2OTI5LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.ojMxUm-8LBsiK5S2qH-LTMjVc5CNCxPOgAE2S2z1BQc",
     "repoUrl": "https://github.com/ExpediaGroup/flyte-jira",
     "featured": false
   },
   {
     "name": "flyte-slack",
     "description": "A Slack integration pack for Flyte",
-    "imageUrl": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/129653515/7b453100-9216-11eb-9389-96243f667af9?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260803%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260803T015354Z&X-Amz-Expires=300&X-Amz-Signature=c0706269440d8137e4210027b2c31cd17aa380bf786f510ccb5d8abc2670e5f6&X-Amz-SignedHeaders=host&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTcyMjMzNCwibmJmIjoxNzg1NzIyMDM0LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.17hKmWCNq3PQ91VHG8Q8EfnHmjMGn-2mkW4LuT2-72I",
+    "imageUrl": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/129653515/7b453100-9216-11eb-9389-96243f667af9?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260804%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260804T012849Z&X-Amz-Expires=300&X-Amz-Signature=7c85af9d38b795cd24b96e82382cafe44983c4fea9a00e8312f9766ada7bb31e&X-Amz-SignedHeaders=host&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTgwNzIyOSwibmJmIjoxNzg1ODA2OTI5LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.ojMxUm-8LBsiK5S2qH-LTMjVc5CNCxPOgAE2S2z1BQc",
     "repoUrl": "https://github.com/ExpediaGroup/flyte-slack",
     "featured": false
   },
   {
     "name": "github-helpers",
     "description": "A collection of Github Actions that simplify and standardize common CI/CD workflow tasks.",
-    "imageUrl": "https://opengraph.githubassets.com/2a90d9737c581c0fb595c146136c84225823e3b50754b0605b9154f7dddc3c7b/ExpediaGroup/github-helpers",
+    "imageUrl": "https://opengraph.githubassets.com/f5e2dfe703b481be6ade978b91a82fae8298bef94b1e828b8e71158ac0614ea3/ExpediaGroup/github-helpers",
     "repoUrl": "https://github.com/ExpediaGroup/github-helpers",
     "featured": false
   },
@@ -128,7 +128,7 @@
   {
     "name": "insights-explorer",
     "description": "Insights Explorer is a tool to catalogue and present analytical & research work.",
-    "imageUrl": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/433406345/4af5dcd0-2696-4477-a488-797d097c488f?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260803%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260803T015354Z&X-Amz-Expires=300&X-Amz-Signature=3096bed6c46c22fa2dadf115ff647a2124e05400f3570d2fa41baab109fea954&X-Amz-SignedHeaders=host&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTcyMjMzNCwibmJmIjoxNzg1NzIyMDM0LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.17hKmWCNq3PQ91VHG8Q8EfnHmjMGn-2mkW4LuT2-72I",
+    "imageUrl": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/433406345/4af5dcd0-2696-4477-a488-797d097c488f?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260804%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260804T012849Z&X-Amz-Expires=300&X-Amz-Signature=f91edbf2975688090a6e6b3444395dffd66c0e8bc51ba33531449a9c28c23054&X-Amz-SignedHeaders=host&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTgwNzIyOSwibmJmIjoxNzg1ODA2OTI5LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.ojMxUm-8LBsiK5S2qH-LTMjVc5CNCxPOgAE2S2z1BQc",
     "repoUrl": "https://github.com/ExpediaGroup/insights-explorer",
     "featured": false
   },
@@ -163,7 +163,7 @@
   {
     "name": "pitchfork",
     "description": "Convert tracing data between Zipkin and Haystack formats",
-    "imageUrl": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/153086272/a8143080-6ea7-11e9-9205-99177e5c524a?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260803%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260803T015354Z&X-Amz-Expires=300&X-Amz-Signature=095b3a70fa011145978ba1ce96bba4def11153d917f16452b4808cdb8ed1afe3&X-Amz-SignedHeaders=host&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTcyMjMzNCwibmJmIjoxNzg1NzIyMDM0LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.17hKmWCNq3PQ91VHG8Q8EfnHmjMGn-2mkW4LuT2-72I",
+    "imageUrl": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/153086272/a8143080-6ea7-11e9-9205-99177e5c524a?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260804%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260804T012849Z&X-Amz-Expires=300&X-Amz-Signature=da51089434d1ceac541c01ab6a489fbb847cd8a4667eb000ee86ddb73d1fc545&X-Amz-SignedHeaders=host&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTgwNzIyOSwibmJmIjoxNzg1ODA2OTI5LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.ojMxUm-8LBsiK5S2qH-LTMjVc5CNCxPOgAE2S2z1BQc",
     "repoUrl": "https://github.com/ExpediaGroup/pitchfork",
     "featured": false
   },
@@ -191,7 +191,7 @@
   {
     "name": "waggle-dance",
     "description": "Hive federation service. Enables disparate tables to be concurrently accessed across multiple Hive deployments.",
-    "imageUrl": "https://opengraph.githubassets.com/c8e642964a49dfcde3cd4fc2e7d226bbdc7762f88fcb6f85d474d49be0305907/ExpediaGroup/waggle-dance",
+    "imageUrl": "https://opengraph.githubassets.com/22b2b65cf280cdcab01c41e770428794e7bae4288b71a124b93c6b3e3298c82f/ExpediaGroup/waggle-dance",
     "repoUrl": "https://github.com/ExpediaGroup/waggle-dance",
     "featured": false
   }
