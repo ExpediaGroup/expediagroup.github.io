@@ -1,5 +1,12 @@
 [
   {
+    "title": "How Keras 3 Helped Modernise Expedia Group’s Lodging Ranking Stack",
+    "creator": "Conor Worthington",
+    "link": "https://medium.com/expedia-group-tech/how-keras-3-helped-modernise-expedia-groups-lodging-ranking-stack-7fec96f052fd?source=rss----38998a53046f---4",
+    "date": "Aug 11, 2026",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*1RVgqmkJXoRIs0BTHPuTiA.png"
+  },
+  {
     "title": "Focus on the Feature, Not the Fixture: GenAI powered GraphQL mocks",
     "creator": "Samuel Vazquez",
     "link": "https://medium.com/expedia-group-tech/focus-on-the-feature-not-the-fixture-genai-powered-graphql-mocks-ea069670af02?source=rss----38998a53046f---4",
@@ -61,12 +68,5 @@
     "link": "https://medium.com/expedia-group-tech/managing-technical-debt-building-habits-for-long-term-agility-718aa84831e0?source=rss----38998a53046f---4",
     "date": "Mar 3, 2026",
     "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*JWWRMix-8BFify5s"
-  },
-  {
-    "title": "Interleaving for Accelerated Testing",
-    "creator": "Benjamin Stieger",
-    "link": "https://medium.com/expedia-group-tech/interleaving-for-accelerated-testing-75adc644027b?source=rss----38998a53046f---4",
-    "date": "Feb 17, 2026",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*3qEshVn1c--mcfpj"
   }
 ]
