@@ -1,5 +1,12 @@
 [
   {
+    "title": "The Quiet Tax on Machine Learning Teams",
+    "creator": "Gianpi Colonna",
+    "link": "https://medium.com/expedia-group-tech/the-quiet-tax-on-machine-learning-teams-43d71bd539c7?source=rss----38998a53046f---4",
+    "date": "Oct 20, 2026",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*ScbZRH1fx7fb0vXySfsyhg.jpeg"
+  },
+  {
     "title": "Building the Operating Model for Agentic AI at Expedia Group",
     "creator": "Xavier Amatriain",
     "link": "https://medium.com/expedia-group-tech/building-the-operating-model-for-agentic-ai-at-expedia-group-f7555fcce506?source=rss----38998a53046f---4",
@@ -61,12 +68,5 @@
     "link": "https://medium.com/expedia-group-tech/expedias-service-telemetry-analyzer-60f2f96c5351?source=rss----38998a53046f---4",
     "date": "Apr 28, 2026",
     "imageUrl": "https://cdn-images-1.medium.com/max/1024/1*SIfYhK_UBv-1Hpf5f9WCNQ.jpeg"
-  },
-  {
-    "title": "Reimagining Platform Engineering for an Agentic Future",
-    "creator": "Rick Fast",
-    "link": "https://medium.com/expedia-group-tech/reimagining-platform-engineering-for-an-agentic-future-03e3f378a190?source=rss----38998a53046f---4",
-    "date": "Apr 7, 2026",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*l3aHcuQMPu6Pc8W3"
   }
 ]
