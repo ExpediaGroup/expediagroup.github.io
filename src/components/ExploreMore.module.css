@@ -21,6 +21,7 @@ limitations under the License.
     --ifm-button-background-color: white !important;
     --ifm-button-border-radius: 15% 0 / 100% 0;
     margin-bottom: 20px;
+    transition: 0.5s;
 }
 
 .exploreMore:hover {
