@@ -114,7 +114,7 @@
   {
     "name": "github-helpers",
     "description": "A collection of Github Actions that simplify and standardize common CI/CD workflow tasks.",
-    "imageUrl": "https://opengraph.githubassets.com/e797d1a9702d4bc483df0e088926b701612db26c4aabb8b7350c44cbe8983724/ExpediaGroup/github-helpers",
+    "imageUrl": "https://opengraph.githubassets.com/806ffd54be0f22d7a2c182908dc981e6941b895b1cd0a015ff9d5b12113b2784/ExpediaGroup/github-helpers",
     "repoUrl": "https://github.com/ExpediaGroup/github-helpers",
     "featured": false
   },
@@ -135,7 +135,7 @@
   {
     "name": "kubernetes-sidecar-injector",
     "description": "Kuberbetes mutating webhook that injects a sidecar container to a pod",
-    "imageUrl": "https://opengraph.githubassets.com/21c22f4c815ea0006d25bcb45d8dd9dfded71f9102613c8387311b306cda7211/ExpediaGroup/kubernetes-sidecar-injector",
+    "imageUrl": "https://opengraph.githubassets.com/052cd8dc7468b06dcb5255780430f7b23d8aed4550b05f013d9b31d33407e010/ExpediaGroup/kubernetes-sidecar-injector",
     "repoUrl": "https://github.com/ExpediaGroup/kubernetes-sidecar-injector",
     "featured": false
   },
@@ -191,7 +191,7 @@
   {
     "name": "waggle-dance",
     "description": "Hive federation service. Enables disparate tables to be concurrently accessed across multiple Hive deployments.",
-    "imageUrl": "https://opengraph.githubassets.com/aebd7495de52958f3289d2aec4155942f801757fa7e05192cd1d160542b2d454/ExpediaGroup/waggle-dance",
+    "imageUrl": "https://opengraph.githubassets.com/c3692474f497bf757ffbc9baf007f17eb89b65e1441616383b5bd48177c50a8f/ExpediaGroup/waggle-dance",
     "repoUrl": "https://github.com/ExpediaGroup/waggle-dance",
     "featured": false
   }
