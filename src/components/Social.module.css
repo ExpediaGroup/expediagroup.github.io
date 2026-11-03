@@ -24,9 +24,13 @@ limitations under the License.
 }
 
 .social .socialColumn {
-    margin-bottom: 1rem;
+    margin-bottom: 1rem; 
+    transition: transform 0.3s; 
 }
 
+.social .socialColumn:hover {
+    transform: scale(1.02); 
+}
 .socialHeaderAndBody {
     --social-border-color: rgb(126, 220, 186);
     --social-border-size: 5px;

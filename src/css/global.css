@@ -62,8 +62,12 @@ limitations under the License.
 }
 .navbar__toggle {
   color: var(--ifm-navbar-link-color);
+  transition: 0.15s;
 }
 
+.navbar__toggle:hover{
+  color: var( --anchor-hover-color);
+}
 /**
  * Menu side bar
  */
