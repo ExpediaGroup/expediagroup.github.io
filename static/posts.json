@@ -1,5 +1,12 @@
 [
   {
+    "title": "How I Taught an AI to Read My Logs",
+    "creator": "Vincent DANIEL",
+    "link": "https://medium.com/expedia-group-tech/how-i-taught-an-ai-to-read-my-logs-9c04f1cfa750?source=rss----38998a53046f---4",
+    "date": "Nov 10, 2026",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*_5DV4iBoB3hVucxE"
+  },
+  {
     "title": "Beyond the Prompt: Engineering the Loop for Software Change at Scale",
     "creator": "Karthik Bedre",
     "link": "https://medium.com/expedia-group-tech/beyond-the-prompt-engineering-the-loop-for-software-change-at-scale-9ac26e3b2706?source=rss----38998a53046f---4",
@@ -61,12 +68,5 @@
     "link": "https://medium.com/expedia-group-tech/the-most-expensive-milliseconds-are-unmeasured-d6cfaaca881d?source=rss----38998a53046f---4",
     "date": "Jun 3, 2026",
     "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*2C2DF8u6MlbkeuC5"
-  },
-  {
-    "title": "Just Because We Can Build It, Should We?",
-    "creator": "Rick Fast",
-    "link": "https://medium.com/expedia-group-tech/just-because-we-can-build-it-should-we-a292fbdd22ce?source=rss----38998a53046f---4",
-    "date": "May 5, 2026",
-    "imageUrl": "https://cdn-images-1.medium.com/max/1024/0*H8MhgBKBcrZGZZEc"
   }
 ]
